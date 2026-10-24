@@ -1,0 +1,73 @@
+// Use a preinstalled Playwright through NODE_PATH; no server or persistent browser.
+const {chromium} = require('playwright');
+const assert = require('node:assert/strict');
+const path = require('node:path');
+const fs = require('node:fs');
+const {pathToFileURL} = require('node:url');
+
+(async()=>{
+  const root=path.resolve(__dirname,'..');
+  const url=process.argv[2] || pathToFileURL(path.join(root,'_site/index.html')).href;
+  const server=await chromium.launchServer({channel:'msedge',headless:true,timeout:20000});
+  const processInfo={pid:server.process().pid,started:new Date().toISOString(),purpose:'GitHub Pages browser verification',owner:'this task'};
+  console.log(JSON.stringify(processInfo));
+  let browser;
+  try {
+    browser=await chromium.connect(server.wsEndpoint());
+    const page=await browser.newPage({viewport:{width:1440,height:1000},reducedMotion:'reduce'});
+    page.setDefaultTimeout(10000);
+    const errors=[];page.on('pageerror',e=>errors.push(e.message));
+    await page.goto(url+'#R01');
+    await page.locator('[data-node="R01"] circle').waitFor();
+    assert.equal(await page.locator('#nodes .graph-node').count(),34);
+    assert.match(await page.locator('#detail-meta').innerText(),/R01/);
+    assert.match(await page.locator('#detail-meta').innerText(),/未確認|条件付き/);
+    await page.locator('[data-node="R02"] circle').click();
+    await page.waitForFunction(()=>location.hash==='#R02');
+    assert.match(await page.locator('#detail-meta').innerText(),/R02/);
+    await page.goBack();
+    assert.match(await page.locator('#detail-meta').innerText(),/R01/);
+    assert.ok(await page.locator('#detail-content a[href*="page=23"]').count());
+    await page.locator('#detail-scope').click();
+    assert.equal(await page.locator('#nodes .graph-node').count(),43);
+    await page.locator('[data-note="W01"]').click();
+    assert.match(await page.locator('#detail-meta').innerText(),/まだ証拠|未獲得|供述候補/);
+    assert.match(await page.locator('.relation-section').innerText(),/将来|現在は/);
+    await page.locator('#main-scope').click();
+    assert.equal(await page.locator('#nodes .graph-node').count(),34);
+    await page.locator('#search').fill('zzzz-not-found');
+    assert.equal(await page.locator('#nodes .graph-node').count(),0);
+    assert.equal(await page.locator('#empty').isVisible(),true);
+    await page.locator('#search').fill('眼鏡');
+    assert.ok(await page.locator('#note-list a').count()>0);
+    await page.locator('#search').fill('');
+    await page.locator('#side').selectOption('弁護');
+    assert.equal(await page.locator('#nodes .graph-node').count(),9);
+    await page.locator('#side').selectOption('');
+    await page.locator('#zoom-in').click();
+    assert.match(await page.locator('#camera').getAttribute('transform'),/scale\(1.25\)/);
+    await page.locator('#reset-graph').click();
+    const images=path.join(root,'作成用/構造化確認');fs.mkdirSync(images,{recursive:true});
+    await page.screenshot({path:path.join(images,'Pages_PC.png'),fullPage:true});
+    await page.locator('.header-links a').first().click();
+    assert.match(await page.locator('#detail-content').innerText(),/Obsidianを初めて/);
+    await page.locator('#document-picker').selectOption('docs/03_証拠と利用範囲.md');
+    assert.match(await page.locator('#detail-content').innerText(),/採否留保/);
+    await page.goto(url+'?scope=detail#W01');
+    assert.equal(await page.locator('#nodes .graph-node').count(),43);
+    await page.setViewportSize({width:390,height:844});
+    await page.goto(url+'#R01');
+    assert.ok(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth));
+    await page.screenshot({path:path.join(images,'Pages_スマホ.png'),fullPage:true});
+    await page.locator('#detail-scope').click();
+    await page.locator('[data-note="W01"]').click();
+    assert.match(await page.locator('#detail-meta').innerText(),/W01/);
+    assert.ok(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth));
+    assert.deepEqual(errors,[]);
+    console.log('PASS: desktop/mobile graph, note body, source page links, search, filters, history, documents, zoom, deep links; no browser errors');
+  } finally {
+    if(browser)await browser.close();
+    await server.close();
+    console.log('Task-owned browser closed: '+processInfo.pid);
+  }
+})().catch(error=>{console.error(error);process.exitCode=1;});

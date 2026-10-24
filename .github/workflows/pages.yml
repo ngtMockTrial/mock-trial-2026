@@ -1,0 +1,46 @@
+name: GitHub Pages
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: pages-${{ github.ref }}
+  cancel-in-progress: true
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          path: 模擬裁判_検察官準備_20261020
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python -m pip install -r requirements.txt
+        working-directory: 模擬裁判_検察官準備_20261020
+      - run: python 作成用/verify_repository.py
+        working-directory: 模擬裁判_検察官準備_20261020
+        env:
+          PYTHONUTF8: '1'
+      - run: python 作成用/build_pages.py
+        working-directory: 模擬裁判_検察官準備_20261020
+      - uses: actions/upload-pages-artifact@v4
+        with:
+          path: 模擬裁判_検察官準備_20261020/_site
+  deploy:
+    if: github.event_name != 'pull_request' && github.ref == 'refs/heads/main'
+    needs: build
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/configure-pages@v5
+      - uses: actions/deploy-pages@v4
+        id: deployment

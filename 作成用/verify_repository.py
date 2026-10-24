@@ -78,6 +78,9 @@ def run_checks(root=ROOT):
     result = subprocess.run([sys.executable, str(root / '作成用/test_collaboration.py')], cwd=root)
     if result.returncode:
         raise ValueError('共同編集ツールのテストに失敗しました')
+    result = subprocess.run([sys.executable, str(root / '作成用/test_pages.py')], cwd=root)
+    if result.returncode:
+        raise ValueError('GitHub Pagesのテストに失敗しました')
     # A hold is an expected content state. It is deliberately not CI failure.
     blockers = graph.gate(notes, 'T00')
     print(f'OK: {len(notes)} notes; {originals} originals; {documents} documents')
