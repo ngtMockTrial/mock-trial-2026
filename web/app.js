@@ -28,7 +28,8 @@
   let width = 600, height = 800, zoom = 1, panX = 0, panY = 0;
   let dragging = null, moved = false;
   let simulation = null, simulationNodes = [], hovered = null, emphasized = null, userPaused = false;
-  let fitScale = 1, worldCenter = {x:0,y:0}, plotCenterY=400, automaticFit = true, startedAt = 0;
+  let fitScale = 1, worldCenter = {x:0,y:0}, plotCenterY=400, automaticFit = true, startedAt = 0, settleUntil = 0;
+  const MIN_SETTLING_MS=3000, MAX_SETTLING_MS=8000;
   const pointCache = new Map();
   const reduceMotion = matchMedia('(prefers-reduced-motion:reduce)');
   const ns = 'http://www.w3.org/2000/svg';
@@ -160,13 +161,19 @@
     $('pause-layout').setAttribute('aria-pressed',!value);
   }
 
-  function stopSimulation() {if(simulation)simulation.stop();setRunning(false);}
+  function stopSimulation() {if(simulation)simulation.stop().alphaTarget(0);setRunning(false);}
+
+  function finishSimulation() {stopSimulation();if(automaticFit)fitWorld();paint();}
 
   function restartSimulation(alpha=.35) {
     if (!simulation || userPaused || document.hidden) return;
     startedAt=performance.now();
-    if(reduceMotion.matches){simulation.stop().alpha(alpha).alphaTarget(0).tick(160);if(automaticFit)fitWorld();paint();setRunning(false);}
-    else{simulation.alpha(Math.max(alpha,simulation.alpha())).restart();setRunning(true);}
+    settleUntil=startedAt+MIN_SETTLING_MS;
+    $('graph').dataset.settlingStarted=String(startedAt);
+    // Keep computing for a minimum real-time settling interval before cooling.
+    // Reduced motion suppresses animated painting, not the solver itself.
+    simulation.alpha(Math.max(alpha,simulation.alpha())).alphaTarget(.12).restart();
+    setRunning(true);
   }
 
   function applyForces() {
@@ -201,8 +208,13 @@
     simulation=d3.forceSimulation(simulationNodes).stop().alphaDecay(.055).velocityDecay(.4);
     applyForces();
     simulation.tick(90);fitWorld();automaticFit=true;
-    simulation.on('tick',()=>{paint();if(performance.now()-startedAt>3500&&!dragging)stopSimulation();});
-    simulation.on('end',()=>{if(automaticFit)fitWorld();paint();setRunning(false);});
+    simulation.on('tick',()=>{
+      const now=performance.now();
+      if(!reduceMotion.matches||dragging?.id)paint();
+      if(now>=settleUntil&&!dragging)simulation.alphaTarget(0);
+      if(now-startedAt>=MAX_SETTLING_MS&&!dragging)finishSimulation();
+    });
+    simulation.on('end',finishSimulation);
     $('graph').dataset.engine='d3-force';
     $('graph-count').textContent=`${ids.length}点・${edges.length}接続`;
     $('edges').replaceChildren();$('nodes').replaceChildren();
@@ -267,7 +279,7 @@
   $('graph').addEventListener('keydown',e=>{if(['+','=','-','ArrowLeft','ArrowRight','ArrowUp','ArrowDown'].includes(e.key)){e.preventDefault();if(e.key==='+'||e.key==='=')scaleBy(1.25);else if(e.key==='-')scaleBy(.8);else{automaticFit=false;const amount=e.shiftKey?60:20;panX+=e.key==='ArrowLeft'?amount:e.key==='ArrowRight'?-amount:0;panY+=e.key==='ArrowUp'?amount:e.key==='ArrowDown'?-amount:0;paint();}}});
   $('zoom-in').addEventListener('click',()=>scaleBy(1.25));$('zoom-out').addEventListener('click',()=>scaleBy(.8));
   $('reset-graph').addEventListener('click',()=>{fitWorld();resetView();emphasized=hovered=null;highlightGraph();});
-  $('pause-layout').addEventListener('click',()=>{if($('graph').dataset.running==='true'){userPaused=true;stopSimulation();}else{userPaused=false;restartSimulation();}});
+  $('pause-layout').addEventListener('click',()=>{if($('graph').dataset.running==='true'){userPaused=true;stopSimulation();paint();}else{userPaused=false;restartSimulation();}});
   $('note-list').addEventListener('click',e=>{const link=e.target.closest('[data-note]');if(link){emphasized=link.dataset.note;highlightGraph();}});
   document.addEventListener('keydown',e=>{if(e.key==='Escape'){emphasized=hovered=null;highlightGraph();}});
   function showSettings(){for(const input of document.querySelectorAll('[data-setting]')){if(input.type==='checkbox')input.checked=settings[input.dataset.setting];else{input.value=settings[input.dataset.setting];input.previousElementSibling.value=String(settings[input.dataset.setting]);}}}
