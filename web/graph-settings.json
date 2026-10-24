@@ -1,0 +1,52 @@
+{
+  "version": 1,
+  "source": ".obsidian/graph.json",
+  "source_saved_at": "2026-10-21T13:23:52.295000+00:00",
+  "settings_hash": "be48166bf985da681363870ccc76b68ce34adcdce330e7d83fcc04421fc4237d",
+  "options": {
+    "centerStrength": 0.4,
+    "repelStrength": 16,
+    "linkStrength": 0.85,
+    "linkDistance": 280,
+    "textFadeMultiplier": -2.5,
+    "nodeSizeMultiplier": 0.8,
+    "lineSizeMultiplier": 1,
+    "scale": 0.17219455704292844,
+    "showArrow": true,
+    "showTags": false,
+    "showAttachments": false,
+    "hideUnresolved": true,
+    "showOrphans": true,
+    "search": "path:\"検討/グラフ表示/命題\" [graph_scope:本筋]",
+    "colorGroups": [
+      {
+        "query": "[graph_id:T00]",
+        "color": {
+          "a": 1,
+          "rgb": 7387135
+        }
+      },
+      {
+        "query": "[side:検察]",
+        "color": {
+          "a": 1,
+          "rgb": 3766455
+        }
+      },
+      {
+        "query": "[side:弁護]",
+        "color": {
+          "a": 1,
+          "rgb": 12473188
+        }
+      },
+      {
+        "query": "[side:共通]",
+        "color": {
+          "a": 1,
+          "rgb": 7438731
+        }
+      }
+    ]
+  }
+}
