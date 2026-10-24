@@ -357,7 +357,7 @@ def connection_view(notes):
             side=meta['side'], status=meta['status'], review=meta['review'],
             state=state, availability=label, summary=summary, body=note['body'],
             file=quote('ノート/'+note['path'].name),
-            obsidian='obsidian://open?vault='+quote(str(ROOT), safe='')+'&file='+quote(relative, safe=''),
+            obsidian='obsidian://open?vault='+quote(ROOT.name, safe='')+'&file='+quote(relative, safe=''),
             **{field: refs(note, field) for field in
                ['inputs', 'challenges', 'checks', 'preparation', 'potential_supports']})
     # HTMLのscript終端や本文中のHTMLをデータとして保持する。

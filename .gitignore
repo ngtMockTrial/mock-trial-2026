@@ -21,3 +21,6 @@ Thumbs.db
 
 # One-generation local backup; historical evidence and exports stay available.
 作成用/構造化確認/Canvas前回/
+
+# GitHub Pages is built from the canonical Markdown; never edit the output.
+_site/

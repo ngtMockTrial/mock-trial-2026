@@ -2,9 +2,68 @@
 
 木村忠太被告事件について、証拠と争点を確認し、検察官の論告・弁護人の最終弁論を作るための作業用資料です。2026年10月20日時点の教材集、ルールブック、追加写真12枚を整理しました。現在の整理は検討の出発点であり、有罪・無罪の結論を確定するものではありません。
 
+## ブラウザで読む
+
+**[グラフと本文を開く — GitHub Pages](https://ngtMockTrial.github.io/mock-trial-2026/)**
+
+Obsidianをインストールせず、グラフの点を押して本文・出典・前提・反論・確認事項を読めます。「論証の本筋」は34点、「準備・確認も」は全43点。検索はID・命題・本文が対象です。選択したノートのURLを共有でき、スマートフォンにも対応します。
+
+青＝検察、赤＝弁護、灰＝共通。最大の点T00「被告人は有罪である」は検察側の立証目標で、認定済みを意味しません。線の意味は本文の接続欄で確認してください。準備資料・未獲得の供述候補は現在の証拠ではありません。
+
+## Obsidianを初めて使う方へ
+
+### 1. 手元に資料を用意する
+
+[Git](https://git-scm.com/downloads)、[Python](https://www.python.org/downloads/)（3.12以上）、[Obsidian](https://obsidian.md/download)を用意し、ターミナルで次を実行します。Windowsの例です。
+
+```powershell
+git clone https://github.com/ngtMockTrial/mock-trial-2026.git 模擬裁判_検察官準備_20261020
+cd 模擬裁判_検察官準備_20261020
+python -m venv .venv
+.venv/Scripts/python.exe -m pip install -r requirements.txt
+.venv/Scripts/python.exe 作成用/setup_collaborator.py
+.venv/Scripts/python.exe 作成用/verify_repository.py
+```
+
+macOS/Linuxでは`.venv/Scripts/python.exe`を`.venv/bin/python`へ読み替えます。以下の`python`もこの仮想環境のPythonを使ってください。保管庫名を使ったリンクがあるため、clone先のフォルダ名は上の名前に揃えます。親フォルダは自由です。
+
+### 2. 保管庫として開く
+
+Obsidianの「保管庫としてフォルダを開く」で、cloneしたルートフォルダを選びます。`検討/`だけを開かないでください。`検討/00_はじめに.md`が検討の入口です。Windowsでは「Obsidianで検討を開く.cmd」も使えます。
+
+初期設定スクリプトは不足する設定だけを補い、既存の個人設定を上書きしません。Extended Graphは各自のObsidianでコミュニティプラグインから導入します。共有設定は2.7.6で確認済みです。異なる版では点の大きさ・色・表示を確認してください。詳しくは[スキル・プラグイン・CLIの導入](docs/19_新しいAIとObsidianスキルの導入.md)へ。
+
+### 3. グラフから根拠をたどる
+
+左のブックマークから「模擬裁判・構造グラフ」→「01 論証の本筋」を開きます。確認・準備も読む場合は「02 詳細・準備と確認を含む」へ。点を押すと表示用ノートが開くので、末尾の「正本」リンクから編集用ノートへ進みます。
+
+本文や人のコメントを編集する場所は`検討/ノート/*.md`です。`検討/グラフ表示/`や`検討/レビュー一覧.md`は自動生成されるので、そこへ追記しないでください。`検討/論証一覧.base`では立場・種類で絞り込めます。全体Canvasは一枚で、人の配置や手描きを保持します。
+
+変更後は「検討を更新.cmd」、または次のコマンドで派生表示を更新します。CLIが使えない場合もファイルの更新・検査はできます。
+
+```powershell
+.venv/Scripts/python.exe 作成用/reasoning_graph.py
+.venv/Scripts/python.exe 作成用/verify_repository.py
+```
+
+## 共同編集とPagesへの同期
+
+**Obsidianで編集 → 派生表示の更新・検査 → 作業ブランチをpush → PR → mainへマージ → Pages自動更新**の順です。Pagesはmainの閲覧用コピーです。Obsidianで保存しただけの変更やPR内の変更は、公開画面にはまだ反映されません。各参加者の手元にはpullで取り込みます。
+
+作業前は未保存・未コミットの変更を確認し、次の順で開始します。
+
+```powershell
+git status
+git switch main
+git pull --ff-only origin main
+git switch -c discussion/作業の識別名
+```
+
+変更をcommitし、`git push -u origin 作業ブランチ名`の後にPRを作ってください。既存の作業ブランチを続けるときは、そのブランチをpullしたうえで最新の`origin/main`を取り込みます。mainへの直接push、強制push、他人の作業を消すresetはしません。詳しくは[共同編集の手順](docs/18_GitHub共同編集.md)と[Pages・同期の説明](docs/20_GitHubPagesと同期.md)へ。
+
 ## 最初に読む
 
-**共同編集を始める方へ（2026-10-22）**：[GitHubでの参加・編集手順](docs/18_GitHub共同編集.md)と[新しいAI・Obsidianスキルの導入](docs/19_新しいAIとObsidianスキルの導入.md)を用意しました。現在の仕組みは維持し、[前提を外した比較や双方の反論を深める手順](docs/17_検討の仕組みの評価と深め方.md)を追加しました。共有は非公開から始め、配布資料を共有できる範囲を確認してください。
+**共同編集を始める方へ**：[GitHubでの参加・編集手順](docs/18_GitHub共同編集.md)と[新しいAI・Obsidianスキルの導入](docs/19_新しいAIとObsidianスキルの導入.md)を用意しました。現在の仕組みは維持し、[前提を外した比較や双方の反論を深める手順](docs/17_検討の仕組みの評価と深め方.md)を追加しました。2026-10-24の依頼に基づき、指定組織で公開リポジトリとして共有します。
 
 初回はPython環境を用意し、`requirements.txt`の導入→`python 作成用/setup_collaborator.py`→`python 作成用/verify_repository.py`の順に進みます。Obsidianの個人設定はGit対象外で、既存設定を上書きしません。詳しくは共同編集の手順を参照してください。
 
@@ -44,6 +103,8 @@
 | `output/` | 以前作成された検察側の準備資料。今回の中立整理とは別の検討案 |
 | `図解/` | 以前作成された図・編集データ |
 | `作成用/` | 既存の生成コード、確認画像、今回の写真一覧画像 |
+| `web/` | GitHub Pagesの画面・デザイン。ノート本文は正本から生成 |
+| `_site/` | Pagesの生成結果（Git対象外）。直接編集しない |
 
 ## 次に進めること
 

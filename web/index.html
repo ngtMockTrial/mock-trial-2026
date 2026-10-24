@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#15202b">
+  <meta name="description" content="模擬裁判の証拠・推認・反論をグラフでたどり、根拠と未確認事項を読むための共有資料。">
+  <title>模擬裁判｜論証をたどる</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="data.js" defer></script>
+  <script src="app.js" defer></script>
+</head>
+<body>
+<a class="skip" href="#detail">本文へ移動</a>
+<header class="masthead">
+  <div class="brand"><span class="brand-mark" aria-hidden="true">◈</span><div><span class="eyebrow">ngtMockTrial</span><h1>論証をたどる</h1></div></div>
+  <p class="header-description">証拠から、推論へ。反論から、もう一度。</p>
+  <nav class="header-links" aria-label="関連ページ"><a href="#doc=README.md">使い方・資料</a><a id="repository" href="https://github.com/ngtMockTrial/mock-trial-2026">GitHub ↗</a></nav>
+</header>
+<div class="notice"><span class="notice-dot" aria-hidden="true"></span>検討案・未認定<span>｜</span>図の大きさや接続数は証拠力を表しません。留保・未確認の条件は本文で確認してください。</div>
+<main class="workspace">
+  <aside class="index-panel" aria-label="ノートの検索と一覧">
+    <label class="search-label" for="search">ノートを探す</label>
+    <div class="search-wrap"><span aria-hidden="true">⌕</span><input type="search" id="search" name="search" autocomplete="off" placeholder="ID・命題・本文を検索…"></div>
+    <div class="scope-switch" role="group" aria-label="表示範囲"><button id="main-scope" aria-pressed="true">論証の本筋</button><button id="detail-scope" aria-pressed="false">準備・確認も</button></div>
+    <label class="filter-label" for="side">立場</label><select id="side" name="side"><option value="">すべての立場</option>検察</option><option>弁護</option><option>共通</option></select>
+    <div class="list-heading"><h2>命題一覧</h2><span id="count" aria-live="polite"></span></div>
+    <nav id="note-list" aria-label="命題"></nav>
+    <p id="empty" hidden>一致するノートがありません。検索語や表示範囲を変えてください。</p>
+    <footer class="sidebar-footer">編集はObsidianの正本へ。<br>mainへのマージ後、この画面も自動更新されます。</footer>
+  </aside>
+  <section class="graph-panel" aria-label="論証の関係グラフ">
+    <div class="graph-heading"><div><span class="graph-kicker">関係を見渡す</span><h2 id="graph-title">論証の本筋</h2></div><span id="graph-count"></span></div>
+    <div class="graph-legend"><span><i class="dot prosecution"></i>検察</span><span><i class="dot defense"></i>弁護</span><span><i class="dot common"></i>共通</span></div>
+    <svg id="graph" aria-label="点を選ぶと本文を表示。線の種類は選択後の接続欄で確認できます。" role="group"><defs><marker id="arrow" viewBox="0 0 8 8" refX="22" refY="4" markerWidth="5" markerHeight="5" orient="auto"><path d="M0 0L8 4L0 8" fill="context-stroke"/></marker></defs><g id="camera"><g id="edges"></g><g id="nodes"></g></g></svg>
+    <div class="graph-tools" role="group" aria-label="グラフの拡大縮小"><button id="zoom-out" aria-label="グラフを縮小">−</button><button id="reset-graph">全体を見る</button><button id="zoom-in" aria-label="グラフを拡大">＋</button></div>
+    <p class="graph-hint">点を押して読む · 背景をドラッグして移動<br>実線：支持・反論 ／ 破線：確認・準備・将来候補</p>
+  </section>
+  <section id="detail" class="detail-panel" tabindex="-1" aria-label="選択したノートの本文">
+    <div id="detail-meta"></div><div id="detail-content"><h2>ノートを読み込み中…</h2></div>
+  </section>
+</main>
+<noscript><p class="noscript">グラフ表示にはJavaScriptが必要です。<a href="https://github.com/ngtMockTrial/mock-trial-2026/tree/main/検討/ノート">GitHubでノートを読む</a>こともできます。</p></noscript>
+</body>
+</html>
