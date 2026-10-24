@@ -2,12 +2,12 @@
   "version": 1,
   "source": ".obsidian/graph.json",
   "source_saved_at": "2026-10-21T13:23:52.295000+00:00",
-  "settings_hash": "be48166bf985da681363870ccc76b68ce34adcdce330e7d83fcc04421fc4237d",
+  "settings_hash": "b546e569abccd1656cd8c26d69a22399a76b5642502b46191b986997422d5766",
   "options": {
-    "centerStrength": 0.4,
-    "repelStrength": 16,
-    "linkStrength": 0.85,
-    "linkDistance": 280,
+    "centerStrength": 0.28,
+    "repelStrength": 36.5,
+    "linkStrength": 0.88,
+    "linkDistance": 295,
     "textFadeMultiplier": -2.5,
     "nodeSizeMultiplier": 0.8,
     "lineSizeMultiplier": 1,
@@ -48,5 +48,16 @@
         }
       }
     ]
+  },
+  "source_label": "共有設定（2026/10/24 ユーザー指定）",
+  "overrides": {
+    "source": "ユーザー提示画像",
+    "specified_on": "2026-10-24",
+    "fields": {
+      "centerStrength": 0.28,
+      "repelStrength": 36.5,
+      "linkStrength": 0.88,
+      "linkDistance": 295
+    }
   }
 }
