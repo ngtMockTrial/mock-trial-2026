@@ -13,6 +13,7 @@ from urllib.parse import quote, unquote, urlsplit
 
 import markdown
 import reasoning_graph as graph
+from export_graph_settings import validate_settings
 
 ROOT = Path(__file__).resolve().parents[1]
 REPOSITORY = 'https://github.com/ngtMockTrial/mock-trial-2026'
@@ -136,8 +137,10 @@ def make_payload(root=ROOT):
         title = re.search(r'^# (.+)', body, re.M)
         docs[relative] = dict(title=title[1] if title else path.stem, path=relative,
             html=render_body(body, path, root, paths, documents, assets))
-    digest = hashlib.sha256(json.dumps(dict(notes=exported, edges=edges, documents=docs), ensure_ascii=False, sort_keys=True).encode()).hexdigest()
-    return dict(notes=exported, edges=edges, documents=docs, repository=REPOSITORY, content_hash=digest), assets
+    shared_settings = json.loads((root / 'web/graph-settings.json').read_text(encoding='utf-8'))
+    validate_settings(shared_settings['options'])
+    digest = hashlib.sha256(json.dumps(dict(notes=exported, edges=edges, documents=docs, graph_settings=shared_settings), ensure_ascii=False, sort_keys=True).encode()).hexdigest()
+    return dict(notes=exported, edges=edges, documents=docs, graph_settings=shared_settings, repository=REPOSITORY, content_hash=digest), assets
 
 
 def build(root=ROOT, destination=None):
@@ -146,6 +149,15 @@ def build(root=ROOT, destination=None):
     payload, assets = make_payload(root)
     for name in ('index.html', 'styles.css', 'app.js'):
         shutil.copyfile(root / 'web' / name, destination / name)
+    vendor = destination / 'vendor'
+    vendor.mkdir(exist_ok=True)
+    manifest = json.loads((root / 'web/vendor/manifest.json').read_text(encoding='utf-8'))
+    for item in manifest:
+        script = root / 'web/vendor' / (item['name'] + '.min.js')
+        if hashlib.sha256(script.read_bytes()).hexdigest() != item['sha256']:
+            raise ValueError('ライブラリのハッシュが一致しません: ' + item['name'])
+        for suffix in ('.min.js', '.LICENSE'):
+            shutil.copyfile(root / 'web/vendor' / (item['name'] + suffix), vendor / (item['name'] + suffix))
     serialized = json.dumps(payload, ensure_ascii=False, separators=(',', ':')).replace('<', '\\u003c').replace('>', '\\u003e').replace('&', '\\u0026')
     (destination / 'data.js').write_text('window.TRIAL_GRAPH=' + serialized + ';\n', encoding='utf-8')
     (destination / '.nojekyll').write_text('', encoding='utf-8')

@@ -8,6 +8,10 @@
   <title>模擬裁判｜論証をたどる</title>
   <link rel="stylesheet" href="styles.css">
   <script src="data.js" defer></script>
+  <script src="vendor/d3-dispatch.min.js" defer></script>
+  <script src="vendor/d3-quadtree.min.js" defer></script>
+  <script src="vendor/d3-timer.min.js" defer></script>
+  <script src="vendor/d3-force.min.js" defer></script>
   <script src="app.js" defer></script>
 </head>
 <body>
@@ -32,8 +36,28 @@
   <section class="graph-panel" aria-label="論証の関係グラフ">
     <div class="graph-heading"><div><span class="graph-kicker">関係を見渡す</span><h2 id="graph-title">論証の本筋</h2></div><span id="graph-count"></span></div>
     <div class="graph-legend"><span><i class="dot prosecution"></i>検察</span><span><i class="dot defense"></i>弁護</span><span><i class="dot common"></i>共通</span></div>
+    <div class="graph-options">
+      <div class="graph-mode" role="group" aria-label="グラフの広さ"><button id="global-graph" aria-pressed="true">全体</button><button id="local-graph" aria-pressed="false">周辺</button></div>
+      <details id="graph-settings"><summary>力・表示</summary><div class="settings-body">
+        <p id="settings-origin"></p>
+        <fieldset><legend>力</legend>
+          <label>中心力 <output for="center-strength"></output><input id="center-strength" type="range" min="0" max="1" step="0.01" data-setting="centerStrength"></label>
+          <label>反発力 <output for="repel-strength"></output><input id="repel-strength" type="range" min="0" max="64" step="0.5" data-setting="repelStrength"></label>
+          <label>リンクの力 <output for="link-strength"></output><input id="link-strength" type="range" min="0" max="1" step="0.01" data-setting="linkStrength"></label>
+          <label>リンクの距離 <output for="link-distance"></output><input id="link-distance" type="range" min="1" max="1000" step="1" data-setting="linkDistance"></label>
+        </fieldset>
+        <fieldset><legend>表示</legend>
+          <label>文字の表示しきい値 <output for="text-fade"></output><input id="text-fade" type="range" min="-5" max="5" step="0.1" data-setting="textFadeMultiplier"></label>
+          <label>点のサイズ <output for="node-size"></output><input id="node-size" type="range" min="0.1" max="5" step="0.1" data-setting="nodeSizeMultiplier"></label>
+          <label>線の太さ <output for="line-size"></output><input id="line-size" type="range" min="0.1" max="5" step="0.1" data-setting="lineSizeMultiplier"></label>
+          <label class="checkbox"><input id="show-arrows" type="checkbox" data-setting="showArrow">矢印を表示</label>
+        </fieldset>
+        <p>変更はこのブラウザに保存。力と文字の値は別エンジン向けに換算します。</p>
+        <button id="restore-settings">Obsidianの共有設定に戻す</button>
+      </div></details>
+    </div>
     <svg id="graph" aria-label="点を選ぶと本文を表示。線の種類は選択後の接続欄で確認できます。" role="group"><defs><marker id="arrow" viewBox="0 0 8 8" refX="22" refY="4" markerWidth="5" markerHeight="5" orient="auto"><path d="M0 0L8 4L0 8" fill="context-stroke"/></marker></defs><g id="camera"><g id="edges"></g><g id="nodes"></g></g></svg>
-    <div class="graph-tools" role="group" aria-label="グラフの拡大縮小"><button id="zoom-out" aria-label="グラフを縮小">−</button><button id="reset-graph">全体を見る</button><button id="zoom-in" aria-label="グラフを拡大">＋</button></div>
+    <div class="graph-tools" role="group" aria-label="グラフの操作"><button id="zoom-out" aria-label="グラフを縮小">−</button><button id="reset-graph">画面に収める</button><button id="pause-layout" aria-pressed="false">配置を止める</button><button id="zoom-in" aria-label="グラフを拡大">＋</button></div>
     <p class="graph-hint">点を押して読む · 背景をドラッグして移動<br>実線：支持・反論 ／ 破線：確認・準備・将来候補</p>
   </section>
   <section id="detail" class="detail-panel" tabindex="-1" aria-label="選択したノートの本文">

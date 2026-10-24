@@ -53,11 +53,37 @@ class PagesTests(unittest.TestCase):
             pages.build(destination=destination)
             self.assertTrue((destination / 'index.html').is_file())
             self.assertTrue((destination / 'data.js').is_file())
+            self.assertTrue((destination / 'vendor/d3-force.min.js').is_file())
+            self.assertTrue((destination / 'vendor/d3-force.LICENSE').is_file())
             self.assertFalse((destination / '.obsidian').exists())
             self.assertFalse((destination / '.git').exists())
             for relative in self.assets:
                 self.assertEqual((destination / 'files' / relative).read_bytes(), (pages.ROOT / relative).read_bytes())
         self.assertEqual(originals, {p: hashlib.sha256(p.read_bytes()).digest() for p in originals})
+
+    def test_graph_settings_are_shared_from_a_validated_snapshot(self):
+        import json
+        from export_graph_settings import validate_settings
+        snapshot = json.loads((pages.ROOT / 'web/graph-settings.json').read_text(encoding='utf-8'))
+        self.assertEqual(self.payload['graph_settings'], snapshot)
+        invalid = {**snapshot['options'], 'centerStrength': float('nan')}
+        with self.assertRaises(ValueError):
+            validate_settings(invalid)
+
+    def test_settings_capture_does_not_write_personal_config_or_pins(self):
+        import json
+        from export_graph_settings import capture
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            config = root / '.obsidian/graph.json'
+            config.parent.mkdir()
+            options = {**self.payload['graph_settings']['options'], 'centerStrength': .23, 'pinNodes': {'private': {'x':1}}}
+            config.write_text(json.dumps(options), encoding='utf-8')
+            before = config.read_bytes()
+            snapshot = capture(root)
+            self.assertEqual(config.read_bytes(), before)
+            self.assertEqual(snapshot['options']['centerStrength'], .23)
+            self.assertNotIn('pinNodes', snapshot['options'])
 
 
 if __name__ == '__main__':
