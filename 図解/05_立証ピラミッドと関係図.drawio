@@ -1,0 +1,1392 @@
+<?xml version='1.0' encoding='utf-8'?>
+<mxfile host="app.diagrams.net" type="device" pages="15">
+  <diagram id="diagram-01" name="01 図の読み方と推論の段階">
+    <mxGraphModel dx="1600" dy="1130" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="1130" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title" value="01  図の読み方と推論の段階" style="text;html=0;align=left;verticalAlign=top;whiteSpace=wrap;overflow=hidden;fontFamily=Meiryo;fontSize=31;fontColor=#17283b;" vertex="1" parent="1">
+          <mxGeometry x="35" y="25" width="1530" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="subtitle" value="下の証拠から上の要証事実へ読む。各矢印の説明を確認する。" style="text;html=0;align=left;verticalAlign=top;whiteSpace=wrap;overflow=hidden;fontFamily=Meiryo;fontSize=19;fontColor=#17283b;" vertex="1" parent="1">
+          <mxGeometry x="35" y="77" width="1530" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="Y" value="&lt;div style=&quot;font-family:Meiryo;font-size:14px;&quot;&gt;Y　要証事実又は検討対象&lt;/div&gt;&lt;div style=&quot;font-family:Meiryo;font-size:21px;line-height:1.32;font-weight:bold;&quot;&gt;要証事実の例&lt;br&gt;木村が岸井を刺したという犯人性&lt;/div&gt;&lt;div style=&quot;font-family:Meiryo;font-size:13.5px;margin-top:4px;&quot;&gt;検察側が証明する主張の例：起訴状 教材p.1&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#203f59;strokeColor=#203f59;strokeWidth=2;fontColor=#ffffff;fontFamily=Meiryo;align=left;verticalAlign=middle;spacing=14;overflow=hidden;" vertex="1" parent="1" classification="goal" sourceReference="検察側が証明する主張の例：起訴状 教材p.1">
+          <mxGeometry x="480" y="125" width="640" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="I1" value="&lt;div style=&quot;font-family:Meiryo;font-size:14px;&quot;&gt;I1　検察側の推認&lt;/div&gt;&lt;div style=&quot;font-family:Meiryo;font-size:20px;line-height:1.32;&quot;&gt;眼鏡の所有・血液・発見場所から&lt;br&gt;現場との接点を評価&lt;/div&gt;&lt;div style=&quot;font-family:Meiryo;font-size:13.5px;margin-top:4px;&quot;&gt;詳細 図04&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#edf7ef;strokeColor=#4e805a;strokeWidth=2;fontColor=#17283b;fontFamily=Meiryo;align=left;verticalAlign=middle;spacing=14;overflow=hidden;" vertex="1" parent="1" classification="infer" sourceReference="詳細 図04">
+          <mxGeometry x="45" y="405" width="430" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="I2" value="&lt;div style=&quot;font-family:Meiryo;font-size:14px;&quot;&gt;I2　検察側の推認&lt;/div&gt;&lt;div style=&quot;font-family:Meiryo;font-size:20px;line-height:1.32;&quot;&gt;清掃状況と落下時刻の説明から&lt;br&gt;昼の落下という説明を評価&lt;/div&gt;&lt;div style=&quot;font-family:Meiryo;font-size:13.5px;margin-top:4px;&quot;&gt;詳細 図05&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#edf7ef;strokeColor=#4e805a;strokeWidth=2;fontColor=#17283b;fontFamily=Meiryo;align=left;verticalAlign=middle;spacing=14;overflow=hidden;" vertex="1" parent="1" classification="infer" sourceReference="詳細 図05">
+          <mxGeometry x="585" y="405" width="430" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="I3" value="&lt;div style=&quot;font-family:Meiryo;font-size:14px;&quot;&gt;I3　検察側の推認&lt;/div&gt;&lt;div style=&quot;font-family:Meiryo;font-size:20px;line-height:1.32;&quot;&gt;自転車・映像・動機を&lt;br&gt;犯人性の補助事情として評価&lt;/div&gt;&lt;div style=&quot;font-family:Meiryo;font-size:13.5px;margin-top:4px;&quot;&gt;詳細 図06-08&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#edf7ef;strokeColor=#4e805a;strokeWidth=2;fontColor=#17283b;fontFamily=Meiryo;align=left;verticalAlign=middle;spacing=14;overflow=hidden;" vertex="1" parent="1" classification="infer" sourceReference="詳細 図06-08">
+          <mxGeometry x="1125" y="405" width="430" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="E" value="&lt;div style=&quot;font-family:Meiryo;font-size:14px;&quot;&gt;E　証拠資料&lt;/div&gt;&lt;div style=&quot;font-family:Meiryo;font-size:20px;line-height:1.32;&quot;&gt;証拠資料&lt;br&gt;甲1・甲2・乙1など&lt;/div&gt;&lt;div style=&quot;font-family:Meiryo;font-size:13.5px;margin-top:4px;&quot;&gt;採用の範囲：教材p.2&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f4f5f7;strokeColor=#7f8a96;strokeWidth=2;fontColor=#17283b;fontFamily=Meiryo;align=left;verticalAlign=middle;spacing=14;overflow=hidden;" vertex="1" parent="1" classification="evidence" sourceReference="採用の範囲：教材p.2">
+          <mxGeometry x="35" y="780" width="330" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="F" value="&lt;div style=&quot;font-family:Meiryo;font-size:14px;&quot;&gt;F　認定する事実&lt;/div&gt;&lt;div style=&quot;font-family:Meiryo;font-size:20px;line-height:1.32;&quot;&gt;間接事実&lt;br&gt;眼鏡の所在や血液の由来&lt;/div&gt;&lt;div style=&quot;font-family:Meiryo;font-size:13.5px;margin-top:4px;&quot;&gt;証拠が支える範囲を区別&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#eef5fc;strokeColor=#4577a5;strokeWidth=2;fontColor=#17283b;fontFamily=Meiryo;align=left;verticalAlign=middle;spacing=14;overflow=hidden;" vertex="1" parent="1" classification="fact" sourceReference="証拠が支える範囲を区別">
+          <mxGeometry x="435" y="780" width="330" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="P" value="&lt;div style=&quot;font-family:Meiryo;font-size:14px;&quot;&gt;P　主張又は要確認&lt;/div&gt;&lt;div style=&quot;font-family:Meiryo;font-size:20px;line-height:1.32;&quot;&gt;実演で要確認&lt;br&gt;甲3・乙2の準備内容&lt;/div&gt;&lt;div style=&quot;font-family:Meiryo;font-size:13.5px;margin-top:4px;&quot;&gt;調書自体は採否留保&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff6e3;strokeColor=#b17b1a;strokeWidth=2;fontColor=#49350c;fontFamily=Meiryo;align=left;verticalAlign=middle;spacing=14;overflow=hidden;dashed=1;" vertex="1" parent="1" classification="pending" sourceReference="調書自体は採否留保">
+          <mxGeometry x="835" y="780" width="330" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="C" value="&lt;div style=&quot;font-family:Meiryo;font-size:14px;&quot;&gt;C　反対事情又は限界&lt;/div&gt;&lt;div style=&quot;font-family:Meiryo;font-size:20px;line-height:1.32;&quot;&gt;反対事情・別の説明&lt;br&gt;見落としや第三者の使用&lt;/div&gt;&lt;div style=&quot;font-family:Meiryo;font-size:13.5px;margin-top:4px;&quot;&gt;採用済み事実と主張を区別&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff0ef;strokeColor=#af554c;strokeWidth=2;fontColor=#662e29;fontFamily=Meiryo;align=left;verticalAlign=middle;spacing=14;overflow=hidden;" vertex="1" parent="1" classification="counter" sourceReference="採用済み事実と主張を区別">
+          <mxGeometry x="1235" y="780" width="330" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="L01" value="認定　例示：証拠から事実を認定" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;jumpStyle=arc;jumpSize=8;html=0;strokeWidth=2;strokeColor=#4577a5;fontColor=#4577a5;fontSize=16;fontFamily=Meiryo;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="E" target="F">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="200" y="715" />
+              <mxPoint x="600" y="715" />
+            </Array>
+            <mxPoint x="0.0" y="-15.0" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L02" value="推認　事実から推認" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;jumpStyle=arc;jumpSize=8;html=0;strokeWidth=2;strokeColor=#4e805a;fontColor=#4e805a;fontSize=16;fontFamily=Meiryo;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.65;entryY=1;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="F" target="I1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="600.0" y="657.5" />
+              <mxPoint x="324.5" y="657.5" />
+            </Array>
+            <mxPoint x="182.75" y="-2.5" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L03" value="条件　証言の実際の内容を確認" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;jumpStyle=arc;jumpSize=8;html=0;strokeWidth=2;strokeColor=#a87512;fontColor=#a87512;fontSize=16;fontFamily=Meiryo;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.65;entryY=1;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="P" target="I2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1000.0" y="657.5" />
+              <mxPoint x="864.5" y="657.5" />
+            </Array>
+            <mxPoint x="57.75" y="-7.5" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L04" value="反対　推論の強さを検討" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;jumpStyle=arc;jumpSize=8;html=0;strokeWidth=2;strokeColor=#ad5148;fontColor=#ad5148;fontSize=16;fontFamily=Meiryo;labelBackgroundColor=#ffffff;endArrow=tee;endFill=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="C" target="I3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1400.0" y="657.5" />
+              <mxPoint x="1340.0" y="657.5" />
+            </Array>
+            <mxPoint x="0.0" y="-7.5" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L05" value="推認　組み合わせて判断" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;jumpStyle=arc;jumpSize=8;html=0;strokeWidth=2;strokeColor=#4e805a;fontColor=#4e805a;fontSize=16;fontFamily=Meiryo;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.15;entryY=1;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="I1" target="Y">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="260.0" y="335.0" />
+              <mxPoint x="576.0" y="335.0" />
+            </Array>
+            <mxPoint x="0.0" y="-18.0" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L06" value="推認　組み合わせて判断" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;jumpStyle=arc;jumpSize=8;html=0;strokeWidth=2;strokeColor=#4e805a;fontColor=#4e805a;fontSize=16;fontFamily=Meiryo;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="I2" target="Y">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="0.0" y="-18.0" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L07" value="推認　組み合わせて判断" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;jumpStyle=arc;jumpSize=8;html=0;strokeWidth=2;strokeColor=#4e805a;fontColor=#4e805a;fontSize=16;fontFamily=Meiryo;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.85;entryY=1;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="I3" target="Y">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1340.0" y="335.0" />
+              <mxPoint x="1024.0" y="335.0" />
+            </Array>
+            <mxPoint x="0.0" y="-18.0" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="notes" value="青の実線は証拠による認定、緑の破線は推認。色と線だけでなく、文字でも関係を示す。&#10;要証事実の箱は検察側が証明すべき主張を示す。箱があるだけで証明済みを意味しない。&#10;教材p.は紙面下部の通し番号。PDF表示ページは教材p.+2。図番号はdraw.ioのタブと一致。" style="text;html=0;align=left;verticalAlign=top;whiteSpace=wrap;overflow=hidden;fontFamily=Meiryo;fontSize=16;fontColor=#17283b;" vertex="1" parent="1">
+          <mxGeometry x="35" y="1016" width="1530" height="100" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="diagram-02" name="02 事件全体の立証ピラミッド">
+    <mxGraphModel dx="1600" dy="1130" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="1130" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title" value="02  事件全体の立証ピラミッド" style="text;html=0;align=left;verticalAlign=top;whiteSpace=wrap;overflow=hidden;fontFamily=Meiryo;fontSize=31;fontColor=#17283b;" vertex="1" parent="1">
+          <mxGeometry x="35" y="25" width="1530" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="subtitle" value="要証事実を犯人性・殺意・死亡との因果関係に分ける。" style="text;html=0;align=left;verticalAlign=top;whiteSpace=wrap;overflow=hidden;fontFamily=Meiryo;fontSize=19;fontColor=#17283b;" vertex="1" parent="1">
+          <mxGeometry x="35" y="77" width="1530" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="Y" value="&lt;div style=&quot;font-family:Meiryo;font-size:14px;&quot;&gt;Y　要証事実又は検討対象&lt;/div&gt;&lt;div style=&quot;font-family:Meiryo;font-size:21px;line-height:1.32;font-weight:bold;&quot;&gt;木村による殺人という検察側の主張&lt;br&gt;犯人性・殺意・行為と死亡との関係を立証する&lt;/div&gt;&lt;div style=&quot;font-family:Meiryo;font-size:13.5px;margin-top:4px;&quot;&gt;起訴状 教材p.1　証明済みの意味ではない&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#203f59;strokeColor=#203f59;strokeWidth=2;fontColor=#ffffff;fontFamily=Meiryo;align=left;verticalAlign=middle;spacing=14;overflow=hidden;" vertex="1" parent="1" classification="goal" sourceReference="起訴状 教材p.1　証明済みの意味ではない">
+          <mxGeometry x="430" y="120" width="740" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="P" value="&lt;div style=&quot;font-family:Meiryo;font-size:14px;&quot;&gt;P　検察側の推認&lt;/div&gt;&lt;div style=&quot;font-family:Meiryo;font-size:20px;line-height:1.32;&quot;&gt;犯人性&lt;br&gt;岸井を刺したのが木村である&lt;/div&gt;&lt;div style=&quot;font-family:Meiryo;font-size:13.5px;margin-top:4px;&quot;&gt;主争点。詳細 図03&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#edf7ef;strokeColor=#4e805a;strokeWidth=2;fontColor=#17283b;fontFamily=Meiryo;align=left;verticalAlign=middle;spacing=14;overflow=hidden;" vertex="1" parent="1" classification="infer" sourceReference="主争点。詳細 図03">
+          <mxGeometry x="45" y="385" width="430" height="145" as="geometry" />
+        </mxCell>
+        <mxCell id="M" value="&lt;div style=&quot;font-family:Meiryo;font-size:14px;&quot;&gt;M　検察側の推認&lt;/div&gt;&lt;div style=&quot;font-family:Meiryo;font-size:20px;line-height:1.32;&quot;&gt;殺意&lt;br&gt;死亡の危険を認識して刺した&lt;/div&gt;&lt;div style=&quot;font-family:Meiryo;font-size:13.5px;margin-top:4px;&quot;&gt;推認の根拠と限界は図11&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#edf7ef;strokeColor=#4e805a;strokeWidth=2;fontColor=#17283b;fontFamily=Meiryo;align=left;verticalAlign=middle;spacing=14;overflow=hidden;" vertex="1" parent="1" classification="infer" sourceReference="推認の根拠と限界は図11">
+          <mxGeometry x="585" y="385" width="430" height="145" as="geometry" />
+        </mxCell>
+        <mxCell id="D" value="&lt;div style=&quot;font-family:Meiryo;font-size:14px;&quot;&gt;D　認定する事実&lt;/div&gt;&lt;div style=&quot;font-family:Meiryo;font-size:20px;line-height:1.32;&quot;&gt;因果関係&lt;br&gt;刺創による出血性ショックで死亡&lt;/div&gt;&lt;div style=&quot;font-family:Meiryo;font-size:13.5px;margin-top:4px;&quot;&gt;傷と死因の関係は図10&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#eef5fc;strokeColor=#4577a5;strokeWidth=2;fontColor=#17283b;fontFamily=Meiryo;align=left;verticalAlign=middle;spacing=14;overflow=hidden;" vertex="1" parent="1" classification="fact" sourceReference="傷と死因の関係は図10">
+          <mxGeometry x="1125" y="385" width="430" height="145" as="geometry" />
+        </mxCell>
+        <mxCell id="G" value="&lt;div style=&quot;font-family:Meiryo;font-size:14px;&quot;&gt;G　認定する事実&lt;/div&gt;&lt;div style=&quot;font-family:Meiryo;font-size:20px;line-height:1.32;&quot;&gt;現場に木村の眼鏡&lt;br&gt;岸井の血液が付着&lt;/div&gt;&lt;div style=&quot;font-family:Meiryo;font-size:13.5px;margin-top:4px;&quot;&gt;甲1 教材p.3-4・7／図04&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#eef5fc;strokeColor=#4577a5;strokeWidth=2;fontColor=#17283b;fontFamily=Meiryo;align=left;verticalAlign=middle;spacing=14;overflow=hidden;" vertex="1" parent="1" classification="fact" sourceReference="甲1 教材p.3-4・7／図04">
+          <mxGeometry x="35" y="780" width="330" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="B" value="&lt;div style=&quot;font-family:Meiryo;font-size:14px;&quot;&gt;B　認定する事実&lt;/div&gt;&lt;div style=&quot;font-family:Meiryo;font-size:20px;line-height:1.32;&quot;&gt;共用自転車の血液&lt;br&gt;映像・清掃の検討&lt;/div&gt;&lt;div style=&quot;font-family:Meiryo;font-size:13.5px;margin-top:4px;&quot;&gt;甲1 p.4-6／図05-07&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#eef5fc;strokeColor=#4577a5;strokeWidth=2;fontColor=#17283b;fontFamily=Meiryo;align=left;verticalAlign=middle;spacing=14;overflow=hidden;" vertex="1" parent="1" classification="fact" sourceReference="甲1 p.4-6／図05-07">
+          <mxGeometry x="435" y="780" width="330" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="L" value="&lt;div style=&quot;font-family:Meiryo;font-size:14px;&quot;&gt;L　認定する事実&lt;/div&gt;&lt;div style=&quot;font-family:Meiryo;font-size:20px;line-height:1.32;&quot;&gt;岸井への怒り&lt;br&gt;駐車場の認識&lt;/div&gt;&lt;div style=&quot;font-family:Meiryo;font-size:13.5px;margin-top:4px;&quot;&gt;甲2 p.16-19／図08&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#eef5fc;strokeColor=#4577a5;strokeWidth=2;fontColor=#17283b;fontFamily=Meiryo;align=left;verticalAlign=middle;spacing=14;overflow=hidden;" vertex="1" parent="1" classification="fact" sourceReference="甲2 p.16-19／図08">
+          <mxGeometry x="835" y="780" width="330" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="W" value="&lt;div style=&quot;font-family:Meiryo;font-size:14px;&quot;&gt;W　証拠資料&lt;/div&gt;&lt;div style=&quot;font-family:Meiryo;font-size:20px;line-height:1.32;&quot;&gt;検案結果&lt;br&gt;胸腹部等の複数の刺創&lt;/div&gt;&lt;div style=&quot;font-family:Meiryo;font-size:13.5px;margin-top:4px;&quot;&gt;甲1 p.3／図10-11&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f4f5f7;strokeColor=#7f8a96;strokeWidth=2;fontColor=#17283b;fontFamily=Meiryo;align=left;verticalAlign=middle;spacing=14;overflow=hidden;" vertex="1" parent="1" classification="evidence" sourceReference="甲1 p.3／図10-11">
+          <mxGeometry x="1235" y="780" width="330" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="L01" value="推認　行為者の特定" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;jumpStyle=arc;jumpSize=8;html=0;strokeWidth=2;strokeColor=#4e805a;fontColor=#4e805a;fontSize=16;fontFamily=Meiryo;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.16;entryY=1;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="P" target="Y">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="260.0" y="312.5" />
+              <mxPoint x="548.4" y="312.5" />
+            </Array>
+            <mxPoint x="0.0" y="-18.0" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L02" value="推認　故意の認定" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;jumpStyle=arc;jumpSize=8;html=0;strokeWidth=2;strokeColor=#4e805a;fontColor=#4e805a;fontSize=16;fontFamily=Meiryo;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="M" target="Y">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="0.0" y="-18.0" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L03" value="認定　死亡との関係" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;jumpStyle=arc;jumpSize=8;html=0;strokeWidth=2;strokeColor=#4577a5;fontColor=#4577a5;fontSize=16;fontFamily=Meiryo;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.84;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="D" target="Y">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1340.0" y="312.5" />
+              <mxPoint x="1051.6" y="312.5" />
+            </Array>
+            <mxPoint x="0.0" y="-18.0" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L04" value="推認　現場との接点" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;jumpStyle=arc;jumpSize=8;html=0;strokeWidth=2;strokeColor=#4e805a;fontColor=#4e805a;fontSize=16;fontFamily=Meiryo;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.2;entryY=1;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="G" target="P">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="200.0" y="655.0" />
+              <mxPoint x="131.0" y="655.0" />
+            </Array>
+            <mxPoint x="0.0" y="-18.0" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L05" value="推認　使用者等の限界を含め評価" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;jumpStyle=arc;jumpSize=8;html=0;strokeWidth=2;strokeColor=#4e805a;fontColor=#4e805a;fontSize=16;fontFamily=Meiryo;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.8;entryY=1;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="B" target="P">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="600.0" y="655.0" />
+              <mxPoint x="389.0" y="655.0" />
+            </Array>
+            <mxPoint x="155.5" y="-1.0" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L06" value="推認　動機の補助事情" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;jumpStyle=arc;jumpSize=8;html=0;strokeWidth=2;strokeColor=#4e805a;fontColor=#4e805a;fontSize=16;fontFamily=Meiryo;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.95;entryY=1;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="L" target="P">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1000" y="655" />
+              <mxPoint x="460" y="655" />
+            </Array>
+            <mxPoint x="265.08444295509867" y="37.0" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L07" value="推認　胸腹部への複数の刺突" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;jumpStyle=arc;jumpSize=8;html=0;strokeWidth=2;strokeColor=#4e805a;fontColor=#4e805a;fontSize=16;fontFamily=Meiryo;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.85;entryY=1;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="W" target="M">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1400" y="615" />
+              <mxPoint x="950" y="615" />
+            </Array>
+            <mxPoint x="-39.99926471224285" y="-19.0" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L08" value="認定　検案結果が死因を示す" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;jumpStyle=arc;jumpSize=8;html=0;strokeWidth=2;strokeColor=#4577a5;fontColor=#4577a5;fontSize=16;fontFamily=Meiryo;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="W" target="D">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1400.0" y="655.0" />
+              <mxPoint x="1340.0" y="655.0" />
+            </Array>
+            <mxPoint x="30.0" y="35.0" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="notes" value="犯人性の根拠と、傷から死亡したことの根拠を混同しない。&#10;起訴状の20時30分頃という時刻は主張。独立した時刻鑑定として扱わない。&#10;甲3・乙2は採否留保。実演の発言を確認した箇所だけ、供述を使った評価に進む。" style="text;html=0;align=left;verticalAlign=top;whiteSpace=wrap;overflow=hidden;fontFamily=Meiryo;fontSize=16;fontColor=#17283b;" vertex="1" parent="1">
+          <mxGeometry x="35" y="1016" width="1530" height="100" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="diagram-03" name="03 犯人性の総合ピラミッド">
+    <mxGraphModel dx="1600" dy="1130" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="1130" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title" value="03  犯人性の総合ピラミッド" style="text;html=0;align=left;verticalAlign=top;whiteSpace=wrap;overflow=hidden;fontFamily=Meiryo;fontSize=31;fontColor=#17283b;" vertex="1" parent="1">
+          <mxGeometry x="35" y="25" width="1530" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="subtitle" value="中心は眼鏡。清掃・自転車・映像・動機の意味と限界を重ねる。" style="text;html=0;align=left;verticalAlign=top;whiteSpace=wrap;overflow=hidden;fontFamily=Meiryo;fontSize=19;fontColor=#17283b;" vertex="1" parent="1">
+          <mxGeometry x="35" y="77" width="1530" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="P" value="&lt;div style=&quot;font-family:Meiryo;font-size:14px;&quot;&gt;P　要証事実又は検討対象&lt;/div&gt;&lt;div style=&quot;font-family:Meiryo;font-size:18px;line-height:1.32;font-weight:bold;&quot;&gt;要証事実&lt;br&gt;岸井を刺した人物は木村である&lt;/div&gt;&lt;div style=&quot;font-family:Meiryo;font-size:13.5px;margin-top:4px;&quot;&gt;検察側が立証する中心争点&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#203f59;strokeColor=#203f59;strokeWidth=2;fontColor=#ffffff;fontFamily=Meiryo;align=left;verticalAlign=middle;spacing=14;overflow=hidden;" vertex="1" parent="1" classification="goal" sourceReference="検察側が立証する中心争点">
+          <mxGeometry x="520" y="120" width="560" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="I1" value="&lt;div style=&quot;font-family:Meiryo;font-size:14px;&quot;&gt;I1　検察側の推認&lt;/div&gt;&lt;div style=&quot;font-family:Meiryo;font-size:20px;line-height:1.32;&quot;&gt;犯行時の現場との接点&lt;br&gt;眼鏡の所在・血液と落下時刻を評価&lt;/div&gt;&lt;div style=&quot;font-family:Meiryo;font-size:13.5px;margin-top:4px;&quot;&gt;詳細 図04-05&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#edf7ef;strokeColor=#4e805a;strokeWidth=2;fontColor=#17283b;fontFamily=Meiryo;align=left;verticalAlign=middle;spacing=14;overflow=hidden;" vertex="1" parent="1" classification="infer" sourceReference="詳細 図04-05">
+          <mxGeometry x="45" y="380" width="430" height="145" as="geometry" />
+        </mxCell>
+        <mxCell id="I2" value="&lt;div style=&quot;font-family:Meiryo;font-size:14px;&quot;&gt;I2　検察側の推認&lt;/div&gt;&lt;div style=&quot;font-family:Meiryo;font-size:20px;line-height:1.32;&quot;&gt;自転車利用の可能性&lt;br&gt;血液・通常利用・移動方向を評価&lt;/div&gt;&lt;div style=&quot;font-family:Meiryo;font-size:13.5px;margin-top:4px;&quot;&gt;詳細 図06-07&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#edf7ef;strokeColor=#4e805a;strokeWidth=2;fontColor=#17283b;fontFamily=Meiryo;align=left;verticalAlign=middle;spacing=14;overflow=hidden;" vertex="1" parent="1" classification="infer" sourceReference="詳細 図06-07">
+          <mxGeometry x="585" y="380" width="430" height="145" as="geometry" />
+        </mxCell>
+        <mxCell id="I3" value="&lt;div style=&quot;font-family:Meiryo;font-size:14px;&quot;&gt;I3　検察側の推認&lt;/div&gt;&lt;div style=&quot;font-family:Meiryo;font-size:20px;line-height:1.32;&quot;&gt;被害者を対象とする背景&lt;br&gt;怒りと駐車場の認識を評価&lt;/div&gt;&lt;div style=&quot;font-family:Meiryo;font-size:13.5px;margin-top:4px;&quot;&gt;詳細 図08&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#edf7ef;strokeColor=#4e805a;strokeWidth=2;fontColor=#17283b;fontFamily=Meiryo;align=left;verticalAlign=middle;spacing=14;overflow=hidden;" vertex="1" parent="1" classification="infer" sourceReference="詳細 図08">
+          <mxGeometry x="1125" y="380" width="430" height="145" as="geometry" />
+        </mxCell>
+        <mxCell id="E2" value="&lt;div style=&quot;font-family:Meiryo;font-size:14px;&quot;&gt;E2　証拠資料&lt;/div&gt;&lt;div style=&quot;font-family:Meiryo;font-size:20px;line-height:1.32;&quot;&gt;木村の眼鏡が現場にあり&lt;br&gt;岸井の血液が付いていた&lt;/div&gt;&lt;div style=&quot;font-family:Meiryo;font-size:13.5px;margin-top:4px;&quot;&gt;甲1 p.3-4・7&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f4f5f7;strokeColor=#7f8a96;strokeWidth=2;fontColor=#17283b;fontFamily=Meiryo;align=left;verticalAlign=middle;spacing=14;overflow=hidden;" vertex="1" parent="1" classification="evidence" sourceReference="甲1 p.3-4・7">
+          <mxGeometry x="35" y="780" width="330" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="E10" value="&lt;div style=&quot;font-family:Meiryo;font-size:14px;&quot;&gt;E10　主張又は要確認&lt;/div&gt;&lt;div style=&quot;font-family:Meiryo;font-size:20px;line-height:1.32;&quot;&gt;18時頃の清掃と&lt;br&gt;眼鏡を見なかったとの説明&lt;/div&gt;&lt;div style=&quot;font-family:Meiryo;font-size:13.5px;margin-top:4px;&quot;&gt;甲3 p.22。実演で要確認&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff6e3;strokeColor=#b17b1a;strokeWidth=2;fontColor=#49350c;fontFamily=Meiryo;align=left;verticalAlign=middle;spacing=14;overflow=hidden;dashed=1;" vertex="1" parent="1" classification="pending" sourceReference="甲3 p.22。実演で要確認">
+          <mxGeometry x="435" y="780" width="330" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="E4" value="&lt;div style=&quot;font-family:Meiryo;font-size:14px;&quot;&gt;E4　証拠資料&lt;/div&gt;&lt;div style=&quot;font-family:Meiryo;font-size:20px;line-height:1.32;&quot;&gt;共用自転車の岸井の血液&lt;br&gt;木村も普段利用&lt;/div&gt;&lt;div style=&quot;font-family:Meiryo;font-size:13.5px;margin-top:4px;&quot;&gt;甲1 p.4-5・8、乙1 p.25&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f4f5f7;strokeColor=#7f8a96;strokeWidth=2;fontColor=#17283b;fontFamily=Meiryo;align=left;verticalAlign=middle;spacing=14;overflow=hidden;" vertex="1" parent="1" classification="evidence" sourceReference="甲1 p.4-5・8、乙1 p.25">
+          <mxGeometry x="835" y="780" width="330" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="E8" value="&lt;div style=&quot;font-family:Meiryo;font-size:14px;&quot;&gt;E8　証拠資料&lt;/div&gt;&lt;div style=&quot;font-family:Meiryo;font-size:20px;line-height:1.32;&quot;&gt;12月24日のLINE&lt;br&gt;岸井を許さない・駐車場で見る&lt;/div&gt;&lt;div style=&quot;font-family:Meiryo;font-size:13.5px;margin-top:4px;&quot;&gt;甲2 p.19&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f4f5f7;strokeColor=#7f8a96;strokeWidth=2;fontColor=#17283b;fontFamily=Meiryo;align=left;verticalAlign=middle;spacing=14;overflow=hidden;" vertex="1" parent="1" classification="evidence" sourceReference="甲2 p.19">
+          <mxGeometry x="1235" y="780" width="330" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="L01" value="推認　総合して犯人性を推認" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;jumpStyle=arc;jumpSize=8;html=0;strokeWidth=2;strokeColor=#4e805a;fontColor=#4e805a;fontSize=16;fontFamily=Meiryo;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.12;entryY=1;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="I1" target="P">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="260.0" y="305.0" />
+              <mxPoint x="587.2" y="305.0" />
+            </Array>
+            <mxPoint x="0.0" y="-18.0" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L02" value="推認　総合して犯人性を推認" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;jumpStyle=arc;jumpSize=8;html=0;strokeWidth=2;strokeColor=#4e805a;fontColor=#4e805a;fontSize=16;fontFamily=Meiryo;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="I2" target="P">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="0.0" y="-18.0" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L03" value="推認　総合して犯人性を推認" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;jumpStyle=arc;jumpSize=8;html=0;strokeWidth=2;strokeColor=#4e805a;fontColor=#4e805a;fontSize=16;fontFamily=Meiryo;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.88;entryY=1;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="I3" target="P">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1340.0" y="305.0" />
+              <mxPoint x="1012.8" y="305.0" />
+            </Array>
+            <mxPoint x="0.0" y="-18.0" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L04" value="推認　所在と血液から接点" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;jumpStyle=arc;jumpSize=8;html=0;strokeWidth=2;strokeColor=#4e805a;fontColor=#4e805a;fontSize=16;fontFamily=Meiryo;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.22;entryY=1;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="E2" target="I1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="200.0" y="652.5" />
+              <mxPoint x="139.6" y="652.5" />
+            </Array>
+            <mxPoint x="0.0" y="-18.0" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L05" value="条件　昼の落下説明を検討" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;jumpStyle=arc;jumpSize=8;html=0;strokeWidth=2;strokeColor=#a87512;fontColor=#a87512;fontSize=16;fontFamily=Meiryo;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.8;entryY=1;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="E10" target="I1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="600.0" y="652.5" />
+              <mxPoint x="389.0" y="652.5" />
+            </Array>
+            <mxPoint x="105.5" y="7.5" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L06" value="推認　共用性を含め評価" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;jumpStyle=arc;jumpSize=8;html=0;strokeWidth=2;strokeColor=#4e805a;fontColor=#4e805a;fontSize=16;fontFamily=Meiryo;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="E4" target="I2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1000.0" y="652.5" />
+              <mxPoint x="800.0" y="652.5" />
+            </Array>
+            <mxPoint x="80.0" y="9.5" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L07" value="推認　動機・場所の認識" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;jumpStyle=arc;jumpSize=8;html=0;strokeWidth=2;strokeColor=#4e805a;fontColor=#4e805a;fontSize=16;fontFamily=Meiryo;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="E8" target="I3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1400.0" y="652.5" />
+              <mxPoint x="1340.0" y="652.5" />
+            </Array>
+            <mxPoint x="0.0" y="-18.0" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="notes" value="各事情を一つの経過として評価する。同じ眼鏡の血液・指紋・皮膚片を独立証拠の数として足さない。&#10;共用自転車と顔の分からない映像だけでは木村を特定できない。&#10;昼に落とした眼鏡に後から血が付いた説明を、清掃の実際の観察条件と照合する。" style="text;html=0;align=left;verticalAlign=top;whiteSpace=wrap;overflow=hidden;fontFamily=Meiryo;fontSize=16;fontColor=#17283b;" vertex="1" parent="1">
+          <mxGeometry x="35" y="1016" width="1530" height="100" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="diagram-04" name="04 眼鏡の証拠から現場との接点へ">
+    <mxGraphModel dx="1600" dy="1130" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="1130" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title" value="04  眼鏡の証拠から現場との接点へ" style="text;html=0;align=left;verticalAlign=top;whiteSpace=wrap;overflow=hidden;fontFamily=Meiryo;fontSize=31;fontColor=#17283b;" vertex="1" parent="1">
+          <mxGeometry x="35" y="25" width="1530" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="subtitle" value="所有者の認定と、犯行時に装着していたという推認を区別する。" style="text;html=0;align=left;verticalAlign=top;whiteSpace=wrap;overflow=hidden;fontFamily=Meiryo;fontSize=19;fontColor=#17283b;" vertex="1" parent="1">
+          <mxGeometry x="35" y="77" width="1530" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="I" value="&lt;div style=&quot;font-family:Meiryo;font-size:14px;&quot;&gt;I　要証事実又は検討対象&lt;/div&gt;&lt;div style=&quot;font-family:Meiryo;font-size:18px;line-height:1.32;font-weight:bold;&quot;&gt;検察側の推認&lt;br&gt;木村と犯行時の現場との接点がある&lt;/div&gt;&lt;div style=&quot;font-family:Meiryo;font-size:13.5px;margin-top:4px;&quot;&gt;この接点だけで刺突者が確定するわけではない&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#203f59;strokeColor=#203f59;strokeWidth=2;fontColor=#ffffff;fontFamily=Meiryo;align=left;verticalAlign=middle;spacing=14;overflow=hidden;" vertex="1" parent="1" classification="goal" sourceReference="この接点だけで刺突者が確定するわけではない">
+          <mxGeometry x="450" y="115" width="700" height="115" as="geometry" />
+        </mxCell>
+        <mxCell id="F1" value="&lt;div style=&quot;font-family:Meiryo;font-size:14px;&quot;&gt;F1　認定する事実&lt;/div&gt;&lt;div style=&quot;font-family:Meiryo;font-size:20px;line-height:1.32;&quot;&gt;発見された眼鏡は木村の物&lt;/div&gt;&lt;div style=&quot;font-family:Meiryo;font-size:13.5px;margin-top:4px;&quot;&gt;甲1 p.4&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#eef5fc;strokeColor=#4577a5;strokeWidth=2;fontColor=#17283b;fontFamily=Meiryo;align=left;verticalAlign=middle;spacing=14;overflow=hidden;" vertex="1" parent="1" classification="fact" sourceReference="甲1 p.4">
+          <mxGeometry x="45" y="375" width="430" height="135" as="geometry" />
+        </mxCell>
+        <mxCell id="F2" value="&lt;div style=&quot;font-family:Meiryo;font-size:14px;&quot;&gt;F2　認定する事実&lt;/div&gt;&lt;div style=&quot;font-family:Meiryo;font-size:20px;line-height:1.32;&quot;&gt;眼鏡に岸井由来の血液が付着&lt;/div&gt;&lt;div style=&quot;font-family:Meiryo;font-size:13.5px;margin-top:4px;&quot;&gt;甲1 p.4&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#eef5fc;strokeColor=#4577a5;strokeWidth=2;fontColor=#17283b;fontFamily=Meiryo;align=left;verticalAlign=middle;spacing=14;overflow=hidden;" vertex="1" parent="1" classification="fact" sourceReference="甲1 p.4">
+          <mxGeometry x="585" y="375" width="430" height="135" as="geometry" />
+        </mxCell>
+        <mxCell id="F3" value="&lt;div style=&quot;font-family:Meiryo;font-size:14px;&quot;&gt;F3　認定する事実&lt;/div&gt;&lt;div style=&quot;font-family:Meiryo;font-size:20px;line-height:1.32;&quot;&gt;眼鏡は被害者近辺のB地点で発見&lt;/div&gt;&lt;div style=&quot;font-family:Meiryo;font-size:13.5px;margin-top:4px;&quot;&gt;甲1 p.3・6・11・14&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#eef5fc;strokeColor=#4577a5;strokeWidth=2;fontColor=#17283b;fontFamily=Meiryo;align=left;verticalAlign=middle;spacing=14;overflow=hidden;" vertex="1" parent="1" classification="fact" sourceReference="甲1 p.3・6・11・14">
+          <mxGeometry x="1125" y="375" width="430" height="135" as="geometry" />
+        </mxCell>
+        <mxCell id="E3" value="&lt;div style=&quot;font-family:Meiryo;font-size:14px;&quot;&gt;E3　証拠資料&lt;/div&gt;&lt;div style=&quot;font-family:Meiryo;font-size:20px;line-height:1.32;&quot;&gt;本人が所有を認めた&lt;br&gt;指紋・皮膚片が一致&lt;/div&gt;&lt;div style=&quot;font-family:Meiryo;font-size:13.5px;margin-top:4px;&quot;&gt;甲1 p.4&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f4f5f7;strokeColor=#7f8a96;strokeWidth=2;fontColor=#17283b;fontFamily=Meiryo;align=left;verticalAlign=middle;spacing=14;overflow=hidden;" vertex="1" parent="1" classification="evidence" sourceReference="甲1 p.4">
+          <mxGeometry x="35" y="780" width="330" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="EB" value="&lt;div style=&quot;font-family:Meiryo;font-size:14px;&quot;&gt;EB　証拠資料&lt;/div&gt;&lt;div style=&quot;font-family:Meiryo;font-size:20px;line-height:1.32;&quot;&gt;血液のDNA型が&lt;br&gt;岸井と一致&lt;/div&gt;&lt;div style=&quot;font-family:Meiryo;font-size:13.5px;margin-top:4px;&quot;&gt;甲1 p.4&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f4f5f7;strokeColor=#7f8a96;strokeWidth=2;fontColor=#17283b;fontFamily=Meiryo;align=left;verticalAlign=middle;spacing=14;overflow=hidden;" vertex="1" parent="1" classification="evidence" sourceReference="甲1 p.4">
+          <mxGeometry x="435" y="780" width="330" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="EP" value="&lt;div style=&quot;font-family:Meiryo;font-size:14px;&quot;&gt;EP　証拠資料&lt;/div&gt;&lt;div style=&quot;font-family:Meiryo;font-size:20px;line-height:1.32;&quot;&gt;警察官による発見状況&lt;br&gt;見取図と現場写真&lt;/div&gt;&lt;div style=&quot;font-family:Meiryo;font-size:13.5px;margin-top:4px;&quot;&gt;甲1 p.3・6・11・14&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f4f5f7;strokeColor=#7f8a96;strokeWidth=2;fontColor=#17283b;fontFamily=Meiryo;align=left;verticalAlign=middle;spacing=14;overflow=hidden;" vertex="1" parent="1" classification="evidence" sourceReference="甲1 p.3・6・11・14">
+          <mxGeometry x="835" y="780" width="330" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="R" value="&lt;div style=&quot;font-family:Meiryo;font-size:14px;&quot;&gt;R　反対事情又は限界&lt;/div&gt;&lt;div style=&quot;font-family:Meiryo;font-size:20px;line-height:1.32;&quot;&gt;昼に落とした後で&lt;br&gt;別人の犯行により血が付いた&lt;/div&gt;&lt;div style=&quot;font-family:Meiryo;font-size:13.5px;margin-top:4px;&quot;&gt;弁護側の説明 p.34&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff0ef;strokeColor=#af554c;strokeWidth=2;fontColor=#662e29;fontFamily=Meiryo;align=left;verticalAlign=middle;spacing=14;overflow=hidden;" vertex="1" parent="1" classification="counter" sourceReference="弁護側の説明 p.34">
+          <mxGeometry x="1235" y="780" width="330" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="L01" value="認定　所有を認定" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;jumpStyle=arc;jumpSize=8;html=0;strokeWidth=2;strokeColor=#4577a5;fontColor=#4577a5;fontSize=16;fontFamily=Meiryo;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="E3" target="F1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="200.0" y="645.0" />
+              <mxPoint x="260.0" y="645.0" />
+            </Array>
+            <mxPoint x="0.0" y="-18.0" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L02" value="認定　血液の由来を認定" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;jumpStyle=arc;jumpSize=8;html=0;strokeWidth=2;strokeColor=#4577a5;fontColor=#4577a5;fontSize=16;fontFamily=Meiryo;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.4;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="EB" target="F2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="600.0" y="645.0" />
+              <mxPoint x="757.0" y="645.0" />
+            </Array>
+            <mxPoint x="-48.5" y="5.0" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L03" value="認定　現場での所在を認定" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;jumpStyle=arc;jumpSize=8;html=0;strokeWidth=2;strokeColor=#4577a5;fontColor=#4577a5;fontSize=16;fontFamily=Meiryo;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.3;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="EP" target="F3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1000.0" y="645.0" />
+              <mxPoint x="1254.0" y="645.0" />
+            </Array>
+            <mxPoint x="-7.0" y="0.0" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L04" value="推認　持ち主を結ぶ" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;jumpStyle=arc;jumpSize=8;html=0;strokeWidth=2;strokeColor=#4e805a;fontColor=#4e805a;fontSize=16;fontFamily=Meiryo;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.14;entryY=1;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="F1" target="I">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="260.0" y="302.5" />
+              <mxPoint x="548.0" y="302.5" />
+            </Array>
+            <mxPoint x="0.0" y="-18.0" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L05" value="推認　被害者を結ぶ" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;jumpStyle=arc;jumpSize=8;html=0;strokeWidth=2;strokeColor=#4e805a;fontColor=#4e805a;fontSize=16;fontFamily=Meiryo;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="F2" target="I">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="0.0" y="-18.0" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L06" value="推認　現場を結ぶ" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;jumpStyle=arc;jumpSize=8;html=0;strokeWidth=2;strokeColor=#4e805a;fontColor=#4e805a;fontSize=16;fontFamily=Meiryo;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.86;entryY=1;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="F3" target="I">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1340.0" y="302.5" />
+              <mxPoint x="1052.0" y="302.5" />
+            </Array>
+            <mxPoint x="0.0" y="-18.0" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L07" value="反対　付着時刻・落下時刻に疑い" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;jumpStyle=arc;jumpSize=8;html=0;strokeWidth=2;strokeColor=#ad5148;fontColor=#ad5148;fontSize=16;fontFamily=Meiryo;labelBackgroundColor=#ffffff;endArrow=tee;endFill=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="R" target="I">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1578" y="850" />
+              <mxPoint x="1578" y="168" />
+            </Array>
+            <mxPoint x="-141.0" y="-65.28817205584176" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="notes" value="眼鏡の所有・発見位置・血液の由来は甲1が支える。付着時刻や装着中かどうかは未確定。&#10;血の模様から刺突時の装着や飛沫方向を科学的に断定する鑑定はない。&#10;昼の落下説明と清掃証言の関係は図05。論告では実演結果に合わせて推認の強さを調整する。" style="text;html=0;align=left;verticalAlign=top;whiteSpace=wrap;overflow=hidden;fontFamily=Meiryo;fontSize=16;fontColor=#17283b;" vertex="1" parent="1">
+          <mxGeometry x="35" y="1016" width="1530" height="100" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="diagram-05" name="05 清掃から眼鏡の落下時刻を考える">
+    <mxGraphModel dx="1600" dy="1130" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="1130" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title" value="05  清掃から眼鏡の落下時刻を考える" style="text;html=0;align=left;verticalAlign=top;whiteSpace=wrap;overflow=hidden;fontFamily=Meiryo;fontSize=31;fontColor=#17283b;" vertex="1" parent="1">
+          <mxGeometry x="35" y="25" width="1530" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="subtitle" value="見なかったことから存在しなかったと推認するには、発見できる条件が必要。" style="text;html=0;align=left;verticalAlign=top;whiteSpace=wrap;overflow=hidden;fontFamily=Meiryo;fontSize=19;fontColor=#17283b;" vertex="1" parent="1">
+          <mxGeometry x="35" y="77" width="1530" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="I" value="&lt;div style=&quot;font-family:Meiryo;font-size:14px;&quot;&gt;I　要証事実又は検討対象&lt;/div&gt;&lt;div style=&quot;font-family:Meiryo;font-size:21px;line-height:1.32;font-weight:bold;&quot;&gt;条件付きの推認&lt;br&gt;昼からB地点に眼鏡が残っていたとの説明は採りにくい&lt;/div&gt;&lt;div style=&quot;font-family:Meiryo;font-size:13.5px;margin-top:4px;&quot;&gt;見落とし・移動の可能性も含めて判断&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#203f59;strokeColor=#203f59;strokeWidth=2;fontColor=#ffffff;fontFamily=Meiryo;align=left;verticalAlign=middle;spacing=14;overflow=hidden;" vertex="1" parent="1" classification="goal" sourceReference="見落とし・移動の可能性も含めて判断">
+          <mxGeometry x="410" y="115" width="780" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="P1" value="&lt;div style=&quot;font-family:Meiryo;font-size:14px;&quot;&gt;P1　主張又は要確認&lt;/div&gt;&lt;div style=&quot;font-family:Meiryo;font-size:20px;line-height:1.32;&quot;&gt;18時頃の清掃で&lt;br&gt;眼鏡を見なかったとの証言&lt;/div&gt;&lt;div style=&quot;font-family:Meiryo;font-size:13.5px;margin-top:4px;&quot;&gt;準備：甲3 p.22&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff6e3;strokeColor=#b17b1a;strokeWidth=2;fontColor=#49350c;fontFamily=Meiryo;align=left;verticalAlign=middle;spacing=14;overflow=hidden;dashed=1;" vertex="1" parent="1" classification="pending" sourceReference="準備：甲3 p.22">
+          <mxGeometry x="45" y="390" width="430" height="145" as="geometry" />
+        </mxCell>
+        <mxCell id="P2" value="&lt;div style=&quot;font-family:Meiryo;font-size:14px;&quot;&gt;P2　主張又は要確認&lt;/div&gt;&lt;div style=&quot;font-family:Meiryo;font-size:20px;line-height:1.32;&quot;&gt;B地点にあれば&lt;br&gt;発見できたといえる観察条件&lt;/div&gt;&lt;div style=&quot;font-family:Meiryo;font-size:13.5px;margin-top:4px;&quot;&gt;実演で具体的に確認する&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff6e3;strokeColor=#b17b1a;strokeWidth=2;fontColor=#49350c;fontFamily=Meiryo;align=left;verticalAlign=middle;spacing=14;overflow=hidden;dashed=1;" vertex="1" parent="1" classification="pending" sourceReference="実演で具体的に確認する">
+          <mxGeometry x="585" y="390" width="430" height="145" as="geometry" />
+        </mxCell>
+        <mxCell id="R" value="&lt;div style=&quot;font-family:Meiryo;font-size:14px;&quot;&gt;R　反対事情又は限界&lt;/div&gt;&lt;div style=&quot;font-family:Meiryo;font-size:20px;line-height:1.32;&quot;&gt;見落としの可能性&lt;br&gt;日没後・急ぎ・車や物の陰&lt;/div&gt;&lt;div style=&quot;font-family:Meiryo;font-size:13.5px;margin-top:4px;&quot;&gt;甲1 p.6、準備：甲3 p.21-22&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff0ef;strokeColor=#af554c;strokeWidth=2;fontColor=#662e29;fontFamily=Meiryo;align=left;verticalAlign=middle;spacing=14;overflow=hidden;" vertex="1" parent="1" classification="counter" sourceReference="甲1 p.6、準備：甲3 p.21-22">
+          <mxGeometry x="1125" y="390" width="430" height="145" as="geometry" />
+        </mxCell>
+        <mxCell id="S" value="&lt;div style=&quot;font-family:Meiryo;font-size:14px;&quot;&gt;S　主張又は要確認&lt;/div&gt;&lt;div style=&quot;font-family:Meiryo;font-size:20px;line-height:1.32;&quot;&gt;清掃の経路と向き&lt;br&gt;B地点への接近と確認範囲&lt;/div&gt;&lt;div style=&quot;font-family:Meiryo;font-size:13.5px;margin-top:4px;&quot;&gt;準備：甲3 p.22&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff6e3;strokeColor=#b17b1a;strokeWidth=2;fontColor=#49350c;fontFamily=Meiryo;align=left;verticalAlign=middle;spacing=14;overflow=hidden;dashed=1;" vertex="1" parent="1" classification="pending" sourceReference="準備：甲3 p.22">
+          <mxGeometry x="35" y="780" width="330" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="V" value="&lt;div style=&quot;font-family:Meiryo;font-size:14px;&quot;&gt;V　主張又は要確認&lt;/div&gt;&lt;div style=&quot;font-family:Meiryo;font-size:20px;line-height:1.32;&quot;&gt;照明と地面の見え方&lt;br&gt;視力1.0という説明&lt;/div&gt;&lt;div style=&quot;font-family:Meiryo;font-size:13.5px;margin-top:4px;&quot;&gt;甲1 p.6・12-14、甲3 p.22&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff6e3;strokeColor=#b17b1a;strokeWidth=2;fontColor=#49350c;fontFamily=Meiryo;align=left;verticalAlign=middle;spacing=14;overflow=hidden;dashed=1;" vertex="1" parent="1" classification="pending" sourceReference="甲1 p.6・12-14、甲3 p.22">
+          <mxGeometry x="435" y="780" width="330" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="Q" value="&lt;div style=&quot;font-family:Meiryo;font-size:14px;&quot;&gt;Q　主張又は要確認&lt;/div&gt;&lt;div style=&quot;font-family:Meiryo;font-size:20px;line-height:1.32;&quot;&gt;故障対応で作業が遅れ&lt;br&gt;19時の家族の約束で急ぐ&lt;/div&gt;&lt;div style=&quot;font-family:Meiryo;font-size:13.5px;margin-top:4px;&quot;&gt;準備：甲3 p.21-22&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff6e3;strokeColor=#b17b1a;strokeWidth=2;fontColor=#49350c;fontFamily=Meiryo;align=left;verticalAlign=middle;spacing=14;overflow=hidden;dashed=1;" vertex="1" parent="1" classification="pending" sourceReference="準備：甲3 p.21-22">
+          <mxGeometry x="835" y="780" width="330" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="K" value="&lt;div style=&quot;font-family:Meiryo;font-size:14px;&quot;&gt;K　主張又は要確認&lt;/div&gt;&lt;div style=&quot;font-family:Meiryo;font-size:20px;line-height:1.32;&quot;&gt;木村の落下説明&lt;br&gt;記憶か、翌日の推測か&lt;/div&gt;&lt;div style=&quot;font-family:Meiryo;font-size:13.5px;margin-top:4px;&quot;&gt;準備：乙2 p.28-29&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff6e3;strokeColor=#b17b1a;strokeWidth=2;fontColor=#49350c;fontFamily=Meiryo;align=left;verticalAlign=middle;spacing=14;overflow=hidden;dashed=1;" vertex="1" parent="1" classification="pending" sourceReference="準備：乙2 p.28-29">
+          <mxGeometry x="1235" y="780" width="330" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="L01" value="条件　未発見という証言" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;jumpStyle=arc;jumpSize=8;html=0;strokeWidth=2;strokeColor=#a87512;fontColor=#a87512;fontSize=16;fontFamily=Meiryo;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.18;entryY=1;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="P1" target="I">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="260.0" y="312.5" />
+              <mxPoint x="550.4" y="312.5" />
+            </Array>
+            <mxPoint x="0.0" y="-18.0" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L02" value="条件　発見できる条件が必要" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;jumpStyle=arc;jumpSize=8;html=0;strokeWidth=2;strokeColor=#a87512;fontColor=#a87512;fontSize=16;fontFamily=Meiryo;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.53;entryY=1;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="P2" target="I">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="800.0" y="312.5" />
+              <mxPoint x="823.4000000000001" y="312.5" />
+            </Array>
+            <mxPoint x="0.0" y="-18.0" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L03" value="反対　推認を弱める" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;jumpStyle=arc;jumpSize=8;html=0;strokeWidth=2;strokeColor=#ad5148;fontColor=#ad5148;fontSize=16;fontFamily=Meiryo;labelBackgroundColor=#ffffff;endArrow=tee;endFill=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.88;entryY=1;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="R" target="I">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1340.0" y="312.5" />
+              <mxPoint x="1096.4" y="312.5" />
+            </Array>
+            <mxPoint x="0.0" y="-18.0" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L04" value="条件　範囲を確認" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;jumpStyle=arc;jumpSize=8;html=0;strokeWidth=2;strokeColor=#a87512;fontColor=#a87512;fontSize=16;fontFamily=Meiryo;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.15;entryY=1;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="S" target="P2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="200.0" y="657.5" />
+              <mxPoint x="649.5" y="657.5" />
+            </Array>
+            <mxPoint x="-74.75" y="2.5" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L05" value="条件　見え方を確認" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;jumpStyle=arc;jumpSize=8;html=0;strokeWidth=2;strokeColor=#a87512;fontColor=#a87512;fontSize=16;fontFamily=Meiryo;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.55;entryY=1;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="V" target="P2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="600.0" y="657.5" />
+              <mxPoint x="821.5" y="657.5" />
+            </Array>
+            <mxPoint x="-0.75" y="7.5" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L06" value="条件　注意の程度を検討" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;jumpStyle=arc;jumpSize=8;html=0;strokeWidth=2;strokeColor=#a87512;fontColor=#a87512;fontSize=16;fontFamily=Meiryo;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.45;entryY=1;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="Q" target="R">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1000.0" y="657.5" />
+              <mxPoint x="1318.5" y="657.5" />
+            </Array>
+            <mxPoint x="30.75" y="7.5" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L07" value="条件　落下説明との整合を検討" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;jumpStyle=arc;jumpSize=8;html=0;strokeWidth=2;strokeColor=#a87512;fontColor=#a87512;fontSize=16;fontFamily=Meiryo;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="K" target="I">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1578" y="850" />
+              <mxPoint x="1578" y="175" />
+            </Array>
+            <mxPoint x="-133.0" y="-82.5" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="notes" value="甲3は採否留保。以下の清掃内容は準備情報であり、実演で同内容の証言が得られた場合に評価する。&#10;18時50分の退勤記録は甲1 p.5。B地点の観察範囲・18時到着・滞在時間までは証明しない。&#10;観察範囲が曖昧なら「清掃後に落ちた」と断定せず、論告の清掃段落Bへ変更する。" style="text;html=0;align=left;verticalAlign=top;whiteSpace=wrap;overflow=hidden;fontFamily=Meiryo;fontSize=16;fontColor=#17283b;" vertex="1" parent="1">
+          <mxGeometry x="35" y="1016" width="1530" height="100" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="diagram-06" name="06 共用自転車と使用者の推認">
+    <mxGraphModel dx="1600" dy="1130" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="1130" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title" value="06  共用自転車と使用者の推認" style="text;html=0;align=left;verticalAlign=top;whiteSpace=wrap;overflow=hidden;fontFamily=Meiryo;fontSize=31;fontColor=#17283b;" vertex="1" parent="1">
+          <mxGeometry x="35" y="25" width="1530" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="subtitle" value="事件との接点を示す事実と、木村が当日使用したという推認を分ける。" style="text;html=0;align=left;verticalAlign=top;whiteSpace=wrap;overflow=hidden;fontFamily=Meiryo;fontSize=19;fontColor=#17283b;" vertex="1" parent="1">
+          <mxGeometry x="35" y="77" width="1530" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="I" value="&lt;div style=&quot;font-family:Meiryo;font-size:14px;&quot;&gt;I　要証事実又は検討対象&lt;/div&gt;&lt;div style=&quot;font-family:Meiryo;font-size:21px;line-height:1.32;font-weight:bold;&quot;&gt;検察側の推認の検討&lt;br&gt;木村が事件に関係して自転車を使った可能性&lt;/div&gt;&lt;div style=&quot;font-family:Meiryo;font-size:13.5px;margin-top:4px;&quot;&gt;当日の使用を断定できる証拠ではない&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#203f59;strokeColor=#203f59;strokeWidth=2;fontColor=#ffffff;fontFamily=Meiryo;align=left;verticalAlign=middle;spacing=14;overflow=hidden;" vertex="1" parent="1" classification="goal" sourceReference="当日の使用を断定できる証拠ではない">
+          <mxGeometry x="430" y="115" width="740" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="F1" value="&lt;div style=&quot;font-family:Meiryo;font-size:14px;&quot;&gt;F1　認定する事実&lt;/div&gt;&lt;div style=&quot;font-family:Meiryo;font-size:20px;line-height:1.32;&quot;&gt;自転車の右ハンドルに&lt;br&gt;岸井の血液が付いていた&lt;/div&gt;&lt;div style=&quot;font-family:Meiryo;font-size:13.5px;margin-top:4px;&quot;&gt;甲1 p.4-5・8&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#eef5fc;strokeColor=#4577a5;strokeWidth=2;fontColor=#17283b;fontFamily=Meiryo;align=left;verticalAlign=middle;spacing=14;overflow=hidden;" vertex="1" parent="1" classification="fact" sourceReference="甲1 p.4-5・8">
+          <mxGeometry x="45" y="385" width="430" height="145" as="geometry" />
+        </mxCell>
+        <mxCell id="F2" value="&lt;div style=&quot;font-family:Meiryo;font-size:14px;&quot;&gt;F2　認定する事実&lt;/div&gt;&lt;div style=&quot;font-family:Meiryo;font-size:20px;line-height:1.32;&quot;&gt;木村が普段使う自転車が&lt;br&gt;自宅の共同住宅の駐輪場にあった&lt;/div&gt;&lt;div style=&quot;font-family:Meiryo;font-size:13.5px;margin-top:4px;&quot;&gt;甲1 p.4-5、乙1 p.25&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#eef5fc;strokeColor=#4577a5;strokeWidth=2;fontColor=#17283b;fontFamily=Meiryo;align=left;verticalAlign=middle;spacing=14;overflow=hidden;" vertex="1" parent="1" classification="fact" sourceReference="甲1 p.4-5、乙1 p.25">
+          <mxGeometry x="585" y="385" width="430" height="145" as="geometry" />
+        </mxCell>
+        <mxCell id="F3" value="&lt;div style=&quot;font-family:Meiryo;font-size:14px;&quot;&gt;F3　反対事情又は限界&lt;/div&gt;&lt;div style=&quot;font-family:Meiryo;font-size:20px;line-height:1.32;&quot;&gt;住民が共同使用・無施錠&lt;br&gt;外部からも出入り可能&lt;/div&gt;&lt;div style=&quot;font-family:Meiryo;font-size:13.5px;margin-top:4px;&quot;&gt;甲1 p.4-5&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff0ef;strokeColor=#af554c;strokeWidth=2;fontColor=#662e29;fontFamily=Meiryo;align=left;verticalAlign=middle;spacing=14;overflow=hidden;" vertex="1" parent="1" classification="counter" sourceReference="甲1 p.4-5">
+          <mxGeometry x="1125" y="385" width="430" height="145" as="geometry" />
+        </mxCell>
+        <mxCell id="E4B" value="&lt;div style=&quot;font-family:Meiryo;font-size:14px;&quot;&gt;E4B　証拠資料&lt;/div&gt;&lt;div style=&quot;font-family:Meiryo;font-size:20px;line-height:1.32;&quot;&gt;自転車の血液の&lt;br&gt;DNA型が岸井と一致&lt;/div&gt;&lt;div style=&quot;font-family:Meiryo;font-size:13.5px;margin-top:4px;&quot;&gt;甲1 p.5&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f4f5f7;strokeColor=#7f8a96;strokeWidth=2;fontColor=#17283b;fontFamily=Meiryo;align=left;verticalAlign=middle;spacing=14;overflow=hidden;" vertex="1" parent="1" classification="evidence" sourceReference="甲1 p.5">
+          <mxGeometry x="35" y="780" width="330" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="E4F" value="&lt;div style=&quot;font-family:Meiryo;font-size:14px;&quot;&gt;E4F　証拠資料&lt;/div&gt;&lt;div style=&quot;font-family:Meiryo;font-size:20px;line-height:1.32;&quot;&gt;複数の指紋の一部が&lt;br&gt;木村と一致&lt;/div&gt;&lt;div style=&quot;font-family:Meiryo;font-size:13.5px;margin-top:4px;&quot;&gt;甲1 p.5&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f4f5f7;strokeColor=#7f8a96;strokeWidth=2;fontColor=#17283b;fontFamily=Meiryo;align=left;verticalAlign=middle;spacing=14;overflow=hidden;" vertex="1" parent="1" classification="evidence" sourceReference="甲1 p.5">
+          <mxGeometry x="435" y="780" width="330" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="E9" value="&lt;div style=&quot;font-family:Meiryo;font-size:14px;&quot;&gt;E9　証拠資料&lt;/div&gt;&lt;div style=&quot;font-family:Meiryo;font-size:20px;line-height:1.32;&quot;&gt;買い物などで&lt;br&gt;本件自転車を使うとの供述&lt;/div&gt;&lt;div style=&quot;font-family:Meiryo;font-size:13.5px;margin-top:4px;&quot;&gt;乙1 p.25。採用済み&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f4f5f7;strokeColor=#7f8a96;strokeWidth=2;fontColor=#17283b;fontFamily=Meiryo;align=left;verticalAlign=middle;spacing=14;overflow=hidden;" vertex="1" parent="1" classification="evidence" sourceReference="乙1 p.25。採用済み">
+          <mxGeometry x="835" y="780" width="330" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="E4O" value="&lt;div style=&quot;font-family:Meiryo;font-size:14px;&quot;&gt;E4O　証拠資料&lt;/div&gt;&lt;div style=&quot;font-family:Meiryo;font-size:20px;line-height:1.32;&quot;&gt;住民への聴き取り&lt;br&gt;他人の指紋は未特定&lt;/div&gt;&lt;div style=&quot;font-family:Meiryo;font-size:13.5px;margin-top:4px;&quot;&gt;甲1 p.4-5&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f4f5f7;strokeColor=#7f8a96;strokeWidth=2;fontColor=#17283b;fontFamily=Meiryo;align=left;verticalAlign=middle;spacing=14;overflow=hidden;" vertex="1" parent="1" classification="evidence" sourceReference="甲1 p.4-5">
+          <mxGeometry x="1235" y="780" width="330" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="L01" value="認定　血液の由来を認定" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;jumpStyle=arc;jumpSize=8;html=0;strokeWidth=2;strokeColor=#4577a5;fontColor=#4577a5;fontSize=16;fontFamily=Meiryo;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="E4B" target="F1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="200.0" y="655.0" />
+              <mxPoint x="260.0" y="655.0" />
+            </Array>
+            <mxPoint x="0.0" y="-18.0" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L02" value="認定　木村との接点" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;jumpStyle=arc;jumpSize=8;html=0;strokeWidth=2;strokeColor=#4577a5;fontColor=#4577a5;fontSize=16;fontFamily=Meiryo;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="E4F" target="F2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="600.0" y="655.0" />
+              <mxPoint x="692.5" y="655.0" />
+            </Array>
+            <mxPoint x="-1.25" y="5.0" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L03" value="認定　通常利用を認定" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;jumpStyle=arc;jumpSize=8;html=0;strokeWidth=2;strokeColor=#4577a5;fontColor=#4577a5;fontSize=16;fontFamily=Meiryo;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.8;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="E9" target="F2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1000.0" y="655.0" />
+              <mxPoint x="929.0" y="655.0" />
+            </Array>
+            <mxPoint x="35.5" y="5.0" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L04" value="認定　第三者も使える" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;jumpStyle=arc;jumpSize=8;html=0;strokeWidth=2;strokeColor=#4577a5;fontColor=#4577a5;fontSize=16;fontFamily=Meiryo;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="E4O" target="F3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1400.0" y="655.0" />
+              <mxPoint x="1340.0" y="655.0" />
+            </Array>
+            <mxPoint x="0.0" y="-18.0" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L05" value="推認　事件との接点" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;jumpStyle=arc;jumpSize=8;html=0;strokeWidth=2;strokeColor=#4e805a;fontColor=#4e805a;fontSize=16;fontFamily=Meiryo;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.15;entryY=1;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="F1" target="I">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="260.0" y="310.0" />
+              <mxPoint x="541.0" y="310.0" />
+            </Array>
+            <mxPoint x="0.0" y="-18.0" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L06" value="推認　木村との接点" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;jumpStyle=arc;jumpSize=8;html=0;strokeWidth=2;strokeColor=#4e805a;fontColor=#4e805a;fontSize=16;fontFamily=Meiryo;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="F2" target="I">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="0.0" y="-18.0" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L07" value="反対　使用者を一人に絞れない" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;jumpStyle=arc;jumpSize=8;html=0;strokeWidth=2;strokeColor=#ad5148;fontColor=#ad5148;fontSize=16;fontFamily=Meiryo;labelBackgroundColor=#ffffff;endArrow=tee;endFill=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.85;entryY=1;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="F3" target="I">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1340.0" y="310.0" />
+              <mxPoint x="1059.0" y="310.0" />
+            </Array>
+            <mxPoint x="0.0" y="-18.0" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="notes" value="血液の付着時刻・経緯や、犯行当日の使用者は特定されていない。&#10;指紋は通常の利用でも付く。他人の指紋があることを無視して「木村専用」と扱わない。&#10;映像の自転車との同一性は未確定。図07の時刻・方向は補助事情として関連付ける。" style="text;html=0;align=left;verticalAlign=top;whiteSpace=wrap;overflow=hidden;fontFamily=Meiryo;fontSize=16;fontColor=#17283b;" vertex="1" parent="1">
+          <mxGeometry x="35" y="1016" width="1530" height="100" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="diagram-07" name="07 防犯映像と移動の関係">
+    <mxGraphModel dx="1600" dy="1130" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="1130" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title" value="07  防犯映像と移動の関係" style="text;html=0;align=left;verticalAlign=top;whiteSpace=wrap;overflow=hidden;fontFamily=Meiryo;fontSize=31;fontColor=#17283b;" vertex="1" parent="1">
+          <mxGeometry x="35" y="25" width="1530" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="subtitle" value="映像は本人確認ではなく、時刻と進行方向の整合を考える補助事情。" style="text;html=0;align=left;verticalAlign=top;whiteSpace=wrap;overflow=hidden;fontFamily=Meiryo;fontSize=19;fontColor=#17283b;" vertex="1" parent="1">
+          <mxGeometry x="35" y="77" width="1530" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="I" value="&lt;div style=&quot;font-family:Meiryo;font-size:14px;&quot;&gt;I　要証事実又は検討対象&lt;/div&gt;&lt;div style=&quot;font-family:Meiryo;font-size:18px;line-height:1.32;font-weight:bold;&quot;&gt;補助的な評価&lt;br&gt;検察側が想定する移動の時刻・方向と整合する&lt;/div&gt;&lt;div style=&quot;font-family:Meiryo;font-size:13.5px;margin-top:4px;&quot;&gt;映像の人物が木村だという要証事実は証明しない&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#203f59;strokeColor=#203f59;strokeWidth=2;fontColor=#ffffff;fontFamily=Meiryo;align=left;verticalAlign=middle;spacing=14;overflow=hidden;" vertex="1" parent="1" classification="goal" sourceReference="映像の人物が木村だという要証事実は証明しない">
+          <mxGeometry x="425" y="115" width="750" height="115" as="geometry" />
+        </mxCell>
+        <mxCell id="F1" value="&lt;div style=&quot;font-family:Meiryo;font-size:14px;&quot;&gt;F1　認定する事実&lt;/div&gt;&lt;div style=&quot;font-family:Meiryo;font-size:20px;line-height:1.32;&quot;&gt;20時32分頃&lt;br&gt;男性が自転車で北から南へ進む&lt;/div&gt;&lt;div style=&quot;font-family:Meiryo;font-size:13.5px;margin-top:4px;&quot;&gt;甲1 p.5・10&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#eef5fc;strokeColor=#4577a5;strokeWidth=2;fontColor=#17283b;fontFamily=Meiryo;align=left;verticalAlign=middle;spacing=14;overflow=hidden;" vertex="1" parent="1" classification="fact" sourceReference="甲1 p.5・10">
+          <mxGeometry x="45" y="395" width="430" height="145" as="geometry" />
+        </mxCell>
+        <mxCell id="F2" value="&lt;div style=&quot;font-family:Meiryo;font-size:14px;&quot;&gt;F2　認定する事実&lt;/div&gt;&lt;div style=&quot;font-family:Meiryo;font-size:20px;line-height:1.32;&quot;&gt;駐車場の南約200mにコンビニ&lt;br&gt;木村宅は駐車場の南約400m&lt;/div&gt;&lt;div style=&quot;font-family:Meiryo;font-size:13.5px;margin-top:4px;&quot;&gt;甲1 p.6・13&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#eef5fc;strokeColor=#4577a5;strokeWidth=2;fontColor=#17283b;fontFamily=Meiryo;align=left;verticalAlign=middle;spacing=14;overflow=hidden;" vertex="1" parent="1" classification="fact" sourceReference="甲1 p.6・13">
+          <mxGeometry x="585" y="395" width="430" height="145" as="geometry" />
+        </mxCell>
+        <mxCell id="R" value="&lt;div style=&quot;font-family:Meiryo;font-size:14px;&quot;&gt;R　反対事情又は限界&lt;/div&gt;&lt;div style=&quot;font-family:Meiryo;font-size:20px;line-height:1.32;&quot;&gt;顔が判別できない&lt;br&gt;押収自転車との同一性も未確定&lt;/div&gt;&lt;div style=&quot;font-family:Meiryo;font-size:13.5px;margin-top:4px;&quot;&gt;甲1 p.5。特定を示す記載なし&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff0ef;strokeColor=#af554c;strokeWidth=2;fontColor=#662e29;fontFamily=Meiryo;align=left;verticalAlign=middle;spacing=14;overflow=hidden;" vertex="1" parent="1" classification="counter" sourceReference="甲1 p.5。特定を示す記載なし">
+          <mxGeometry x="1125" y="395" width="430" height="145" as="geometry" />
+        </mxCell>
+        <mxCell id="E5" value="&lt;div style=&quot;font-family:Meiryo;font-size:14px;&quot;&gt;E5　証拠資料&lt;/div&gt;&lt;div style=&quot;font-family:Meiryo;font-size:20px;line-height:1.32;&quot;&gt;防犯カメラ映像と写真④&lt;/div&gt;&lt;div style=&quot;font-family:Meiryo;font-size:13.5px;margin-top:4px;&quot;&gt;甲1 p.5・10&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f4f5f7;strokeColor=#7f8a96;strokeWidth=2;fontColor=#17283b;fontFamily=Meiryo;align=left;verticalAlign=middle;spacing=14;overflow=hidden;" vertex="1" parent="1" classification="evidence" sourceReference="甲1 p.5・10">
+          <mxGeometry x="45" y="790" width="430" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="E7" value="&lt;div style=&quot;font-family:Meiryo;font-size:14px;&quot;&gt;E7　証拠資料&lt;/div&gt;&lt;div style=&quot;font-family:Meiryo;font-size:20px;line-height:1.32;&quot;&gt;現場見取図1と距離の報告&lt;/div&gt;&lt;div style=&quot;font-family:Meiryo;font-size:13.5px;margin-top:4px;&quot;&gt;甲1 p.6・13&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f4f5f7;strokeColor=#7f8a96;strokeWidth=2;fontColor=#17283b;fontFamily=Meiryo;align=left;verticalAlign=middle;spacing=14;overflow=hidden;" vertex="1" parent="1" classification="evidence" sourceReference="甲1 p.6・13">
+          <mxGeometry x="585" y="790" width="430" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="YTIME" value="&lt;div style=&quot;font-family:Meiryo;font-size:14px;&quot;&gt;YTIME　主張又は要確認&lt;/div&gt;&lt;div style=&quot;font-family:Meiryo;font-size:20px;line-height:1.32;&quot;&gt;犯行は20時30分頃&lt;br&gt;という起訴事実の主張&lt;/div&gt;&lt;div style=&quot;font-family:Meiryo;font-size:13.5px;margin-top:4px;&quot;&gt;起訴状p.1。独立した時刻鑑定ではない&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff6e3;strokeColor=#b17b1a;strokeWidth=2;fontColor=#49350c;fontFamily=Meiryo;align=left;verticalAlign=middle;spacing=14;overflow=hidden;dashed=1;" vertex="1" parent="1" classification="pending" sourceReference="起訴状p.1。独立した時刻鑑定ではない">
+          <mxGeometry x="1125" y="790" width="430" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="L01" value="認定　時刻と走行方向" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;jumpStyle=arc;jumpSize=8;html=0;strokeWidth=2;strokeColor=#4577a5;fontColor=#4577a5;fontSize=16;fontFamily=Meiryo;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="E5" target="F1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="0.0" y="-18.0" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L02" value="認定　南北の位置関係" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;jumpStyle=arc;jumpSize=8;html=0;strokeWidth=2;strokeColor=#4577a5;fontColor=#4577a5;fontSize=16;fontFamily=Meiryo;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="E7" target="F2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="0.0" y="-18.0" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L03" value="条件　主張時刻との比較" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;jumpStyle=arc;jumpSize=8;html=0;strokeWidth=2;strokeColor=#a87512;fontColor=#a87512;fontSize=16;fontFamily=Meiryo;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="YTIME" target="I">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1578" y="855" />
+              <mxPoint x="1578" y="170" />
+            </Array>
+            <mxPoint x="-109.0" y="-84.26472516202466" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L04" value="推認　時刻・進行方向を照合" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;jumpStyle=arc;jumpSize=8;html=0;strokeWidth=2;strokeColor=#4e805a;fontColor=#4e805a;fontSize=16;fontFamily=Meiryo;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.15;entryY=1;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="F1" target="I">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="260.0" y="312.5" />
+              <mxPoint x="537.5" y="312.5" />
+            </Array>
+            <mxPoint x="0.0" y="-18.0" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L05" value="推認　自宅方向との整合" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;jumpStyle=arc;jumpSize=8;html=0;strokeWidth=2;strokeColor=#4e805a;fontColor=#4e805a;fontSize=16;fontFamily=Meiryo;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="F2" target="I">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="0.0" y="-18.0" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L06" value="反対　本人特定には使えない" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;jumpStyle=arc;jumpSize=8;html=0;strokeWidth=2;strokeColor=#ad5148;fontColor=#ad5148;fontSize=16;fontFamily=Meiryo;labelBackgroundColor=#ffffff;endArrow=tee;endFill=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.85;entryY=1;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="R" target="I">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1340.0" y="312.5" />
+              <mxPoint x="1062.5" y="312.5" />
+            </Array>
+            <mxPoint x="0.0" y="-18.0" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="notes" value="写真③は逮捕直後の木村の服装。事件当日の服装を示す証拠として用いない。&#10;起訴状の20時30分頃は検察の主張であり、映像から刺突時刻が判明したわけではない。&#10;道路上の位置関係と映像の走行方向が整合しても、現場から木村宅へ帰ったことまでは確認できない。" style="text;html=0;align=left;verticalAlign=top;whiteSpace=wrap;overflow=hidden;fontFamily=Meiryo;fontSize=16;fontColor=#17283b;" vertex="1" parent="1">
+          <mxGeometry x="35" y="1016" width="1530" height="100" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="diagram-08" name="08 LINEから動機と所在の認識へ">
+    <mxGraphModel dx="1600" dy="1130" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="1130" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title" value="08  LINEから動機と所在の認識へ" style="text;html=0;align=left;verticalAlign=top;whiteSpace=wrap;overflow=hidden;fontFamily=Meiryo;fontSize=31;fontColor=#17283b;" vertex="1" parent="1">
+          <mxGeometry x="35" y="25" width="1530" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="subtitle" value="メッセージの存在、感情の推認、実際の殺害行為を分ける。" style="text;html=0;align=left;verticalAlign=top;whiteSpace=wrap;overflow=hidden;fontFamily=Meiryo;fontSize=19;fontColor=#17283b;" vertex="1" parent="1">
+          <mxGeometry x="35" y="77" width="1530" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="I" value="&lt;div style=&quot;font-family:Meiryo;font-size:14px;&quot;&gt;I　要証事実又は検討対象&lt;/div&gt;&lt;div style=&quot;font-family:Meiryo;font-size:21px;line-height:1.32;font-weight:bold;&quot;&gt;動機と場所の認識の推認&lt;br&gt;岸井への怒りと、駐車場で会えるという認識&lt;/div&gt;&lt;div style=&quot;font-family:Meiryo;font-size:13.5px;margin-top:4px;&quot;&gt;犯人性を補助する事情。殺害の実行は別に立証&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#203f59;strokeColor=#203f59;strokeWidth=2;fontColor=#ffffff;fontFamily=Meiryo;align=left;verticalAlign=middle;spacing=14;overflow=hidden;" vertex="1" parent="1" classification="goal" sourceReference="犯人性を補助する事情。殺害の実行は別に立証">
+          <mxGeometry x="430" y="115" width="740" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="F1" value="&lt;div style=&quot;font-family:Meiryo;font-size:14px;&quot;&gt;F1　認定する事実&lt;/div&gt;&lt;div style=&quot;font-family:Meiryo;font-size:20px;line-height:1.32;&quot;&gt;交際解消後に&lt;br&gt;復縁を求める送信が続いた&lt;/div&gt;&lt;div style=&quot;font-family:Meiryo;font-size:13.5px;margin-top:4px;&quot;&gt;甲2 p.17-19&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#eef5fc;strokeColor=#4577a5;strokeWidth=2;fontColor=#17283b;fontFamily=Meiryo;align=left;verticalAlign=middle;spacing=14;overflow=hidden;" vertex="1" parent="1" classification="fact" sourceReference="甲2 p.17-19">
+          <mxGeometry x="45" y="395" width="430" height="145" as="geometry" />
+        </mxCell>
+        <mxCell id="F2" value="&lt;div style=&quot;font-family:Meiryo;font-size:14px;&quot;&gt;F2　認定する事実&lt;/div&gt;&lt;div style=&quot;font-family:Meiryo;font-size:20px;line-height:1.32;&quot;&gt;12月24日に岸井を&lt;br&gt;許さない趣旨のメッセージ&lt;/div&gt;&lt;div style=&quot;font-family:Meiryo;font-size:13.5px;margin-top:4px;&quot;&gt;甲2 p.19&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#eef5fc;strokeColor=#4577a5;strokeWidth=2;fontColor=#17283b;fontFamily=Meiryo;align=left;verticalAlign=middle;spacing=14;overflow=hidden;" vertex="1" parent="1" classification="fact" sourceReference="甲2 p.19">
+          <mxGeometry x="585" y="395" width="430" height="145" as="geometry" />
+        </mxCell>
+        <mxCell id="F3" value="&lt;div style=&quot;font-family:Meiryo;font-size:14px;&quot;&gt;F3　認定する事実&lt;/div&gt;&lt;div style=&quot;font-family:Meiryo;font-size:20px;line-height:1.32;&quot;&gt;岸井を自宅近くの駐車場で&lt;br&gt;よく見ると送信した&lt;/div&gt;&lt;div style=&quot;font-family:Meiryo;font-size:13.5px;margin-top:4px;&quot;&gt;甲2 p.19&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#eef5fc;strokeColor=#4577a5;strokeWidth=2;fontColor=#17283b;fontFamily=Meiryo;align=left;verticalAlign=middle;spacing=14;overflow=hidden;" vertex="1" parent="1" classification="fact" sourceReference="甲2 p.19">
+          <mxGeometry x="1125" y="395" width="430" height="145" as="geometry" />
+        </mxCell>
+        <mxCell id="E81" value="&lt;div style=&quot;font-family:Meiryo;font-size:14px;&quot;&gt;E81　証拠資料&lt;/div&gt;&lt;div style=&quot;font-family:Meiryo;font-size:20px;line-height:1.32;&quot;&gt;10月25日の別れの通告と&lt;br&gt;10月26日以降のLINE履歴&lt;/div&gt;&lt;div style=&quot;font-family:Meiryo;font-size:13.5px;margin-top:4px;&quot;&gt;甲2 p.17-19&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f4f5f7;strokeColor=#7f8a96;strokeWidth=2;fontColor=#17283b;fontFamily=Meiryo;align=left;verticalAlign=middle;spacing=14;overflow=hidden;" vertex="1" parent="1" classification="evidence" sourceReference="甲2 p.17-19">
+          <mxGeometry x="45" y="790" width="430" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="E82" value="&lt;div style=&quot;font-family:Meiryo;font-size:14px;&quot;&gt;E82　証拠資料&lt;/div&gt;&lt;div style=&quot;font-family:Meiryo;font-size:20px;line-height:1.32;&quot;&gt;12月24日18時台のLINE&lt;br&gt;岸井に対する怒りの表現&lt;/div&gt;&lt;div style=&quot;font-family:Meiryo;font-size:13.5px;margin-top:4px;&quot;&gt;甲2 p.19&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f4f5f7;strokeColor=#7f8a96;strokeWidth=2;fontColor=#17283b;fontFamily=Meiryo;align=left;verticalAlign=middle;spacing=14;overflow=hidden;" vertex="1" parent="1" classification="evidence" sourceReference="甲2 p.19">
+          <mxGeometry x="585" y="790" width="430" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="E83" value="&lt;div style=&quot;font-family:Meiryo;font-size:14px;&quot;&gt;E83　証拠資料&lt;/div&gt;&lt;div style=&quot;font-family:Meiryo;font-size:20px;line-height:1.32;&quot;&gt;12月24日18時14分のLINE&lt;br&gt;駐車場でよく見るとの記載&lt;/div&gt;&lt;div style=&quot;font-family:Meiryo;font-size:13.5px;margin-top:4px;&quot;&gt;甲2 p.19&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f4f5f7;strokeColor=#7f8a96;strokeWidth=2;fontColor=#17283b;fontFamily=Meiryo;align=left;verticalAlign=middle;spacing=14;overflow=hidden;" vertex="1" parent="1" classification="evidence" sourceReference="甲2 p.19">
+          <mxGeometry x="1125" y="790" width="430" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="L01" value="認定　送信の内容を認定" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;jumpStyle=arc;jumpSize=8;html=0;strokeWidth=2;strokeColor=#4577a5;fontColor=#4577a5;fontSize=16;fontFamily=Meiryo;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="E81" target="F1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="0.0" y="-18.0" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L02" value="認定　怒りの表現を認定" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;jumpStyle=arc;jumpSize=8;html=0;strokeWidth=2;strokeColor=#4577a5;fontColor=#4577a5;fontSize=16;fontFamily=Meiryo;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="E82" target="F2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="0.0" y="-18.0" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L03" value="認定　記載内容を認定" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;jumpStyle=arc;jumpSize=8;html=0;strokeWidth=2;strokeColor=#4577a5;fontColor=#4577a5;fontSize=16;fontFamily=Meiryo;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="E83" target="F3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="0.0" y="-18.0" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L04" value="推認　未練という背景" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;jumpStyle=arc;jumpSize=8;html=0;strokeWidth=2;strokeColor=#4e805a;fontColor=#4e805a;fontSize=16;fontFamily=Meiryo;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.15;entryY=1;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="F1" target="I">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="260.0" y="315.0" />
+              <mxPoint x="541.0" y="315.0" />
+            </Array>
+            <mxPoint x="0.0" y="-18.0" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L05" value="推認　岸井への感情" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;jumpStyle=arc;jumpSize=8;html=0;strokeWidth=2;strokeColor=#4e805a;fontColor=#4e805a;fontSize=16;fontFamily=Meiryo;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="F2" target="I">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="0.0" y="-18.0" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L06" value="推認　場所の認識" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;jumpStyle=arc;jumpSize=8;html=0;strokeWidth=2;strokeColor=#4e805a;fontColor=#4e805a;fontSize=16;fontFamily=Meiryo;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.85;entryY=1;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="F3" target="I">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1340.0" y="315.0" />
+              <mxPoint x="1059.0" y="315.0" />
+            </Array>
+            <mxPoint x="0.0" y="-18.0" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="notes" value="岸井と本所の実際の交際をLINEだけで確定せず、木村がどう受け止めていたかを評価する。&#10;10月の復縁要求が、犯行日まで同じ強さで続いたと自動的に決めない。&#10;怒りや未練は犯行そのものの証明ではなく、物的接点を検討する補助事情。" style="text;html=0;align=left;verticalAlign=top;whiteSpace=wrap;overflow=hidden;fontFamily=Meiryo;fontSize=16;fontColor=#17283b;" vertex="1" parent="1">
+          <mxGeometry x="35" y="1016" width="1530" height="100" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="diagram-09" name="09 人物と駐車場の関係">
+    <mxGraphModel dx="1600" dy="1130" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="1130" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title" value="09  人物と駐車場の関係" style="text;html=0;align=left;verticalAlign=top;whiteSpace=wrap;overflow=hidden;fontFamily=Meiryo;fontSize=31;fontColor=#17283b;" vertex="1" parent="1">
+          <mxGeometry x="35" y="25" width="1530" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="subtitle" value="人物間の関係と、現場を知る立場を示す。各線は犯行の証明を意味しない。" style="text;html=0;align=left;verticalAlign=top;whiteSpace=wrap;overflow=hidden;fontFamily=Meiryo;fontSize=19;fontColor=#17283b;" vertex="1" parent="1">
+          <mxGeometry x="35" y="77" width="1530" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="H" value="&lt;div style=&quot;font-family:Meiryo;font-size:14px;&quot;&gt;H　人物又は場所&lt;/div&gt;&lt;div style=&quot;font-family:Meiryo;font-size:20px;line-height:1.32;&quot;&gt;本所マサミ&lt;br&gt;木村のLINEの相手&lt;/div&gt;&lt;div style=&quot;font-family:Meiryo;font-size:13.5px;margin-top:4px;&quot;&gt;甲2 教材p.15-19&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f2eff8;strokeColor=#806b9c;strokeWidth=2;fontColor=#342947;fontFamily=Meiryo;align=left;verticalAlign=middle;spacing=14;overflow=hidden;" vertex="1" parent="1" classification="person" sourceReference="甲2 教材p.15-19">
+          <mxGeometry x="585" y="125" width="430" height="125" as="geometry" />
+        </mxCell>
+        <mxCell id="K" value="&lt;div style=&quot;font-family:Meiryo;font-size:14px;&quot;&gt;K　人物又は場所&lt;/div&gt;&lt;div style=&quot;font-family:Meiryo;font-size:20px;line-height:1.32;&quot;&gt;木村忠太&lt;br&gt;被告人・眼鏡の持ち主&lt;/div&gt;&lt;div style=&quot;font-family:Meiryo;font-size:13.5px;margin-top:4px;&quot;&gt;甲1 p.4、甲2 p.19&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f2eff8;strokeColor=#806b9c;strokeWidth=2;fontColor=#342947;fontFamily=Meiryo;align=left;verticalAlign=middle;spacing=14;overflow=hidden;" vertex="1" parent="1" classification="person" sourceReference="甲1 p.4、甲2 p.19">
+          <mxGeometry x="45" y="405" width="430" height="125" as="geometry" />
+        </mxCell>
+        <mxCell id="S" value="&lt;div style=&quot;font-family:Meiryo;font-size:14px;&quot;&gt;S　人物又は場所&lt;/div&gt;&lt;div style=&quot;font-family:Meiryo;font-size:20px;line-height:1.32;&quot;&gt;岸井新之助&lt;br&gt;被害者・駐車場の契約者&lt;/div&gt;&lt;div style=&quot;font-family:Meiryo;font-size:13.5px;margin-top:4px;&quot;&gt;甲1 p.3・6&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f2eff8;strokeColor=#806b9c;strokeWidth=2;fontColor=#342947;fontFamily=Meiryo;align=left;verticalAlign=middle;spacing=14;overflow=hidden;" vertex="1" parent="1" classification="person" sourceReference="甲1 p.3・6">
+          <mxGeometry x="1125" y="405" width="430" height="125" as="geometry" />
+        </mxCell>
+        <mxCell id="O" value="&lt;div style=&quot;font-family:Meiryo;font-size:14px;&quot;&gt;O　主張又は要確認&lt;/div&gt;&lt;div style=&quot;font-family:Meiryo;font-size:20px;line-height:1.32;&quot;&gt;大滝悟郎&lt;br&gt;清掃状況を説明する証人&lt;/div&gt;&lt;div style=&quot;font-family:Meiryo;font-size:13.5px;margin-top:4px;&quot;&gt;準備：甲3 p.20-22&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff6e3;strokeColor=#b17b1a;strokeWidth=2;fontColor=#49350c;fontFamily=Meiryo;align=left;verticalAlign=middle;spacing=14;overflow=hidden;dashed=1;" vertex="1" parent="1" classification="pending" sourceReference="準備：甲3 p.20-22">
+          <mxGeometry x="45" y="805" width="430" height="145" as="geometry" />
+        </mxCell>
+        <mxCell id="P" value="&lt;div style=&quot;font-family:Meiryo;font-size:14px;&quot;&gt;P　人物又は場所&lt;/div&gt;&lt;div style=&quot;font-family:Meiryo;font-size:20px;line-height:1.32;&quot;&gt;本件駐車場&lt;br&gt;Aは被害者、Bは眼鏡の発見地点&lt;/div&gt;&lt;div style=&quot;font-family:Meiryo;font-size:13.5px;margin-top:4px;&quot;&gt;甲1 p.3・6・11・14&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f2eff8;strokeColor=#806b9c;strokeWidth=2;fontColor=#342947;fontFamily=Meiryo;align=left;verticalAlign=middle;spacing=14;overflow=hidden;" vertex="1" parent="1" classification="person" sourceReference="甲1 p.3・6・11・14">
+          <mxGeometry x="585" y="805" width="430" height="145" as="geometry" />
+        </mxCell>
+        <mxCell id="B" value="&lt;div style=&quot;font-family:Meiryo;font-size:14px;&quot;&gt;B　人物又は場所&lt;/div&gt;&lt;div style=&quot;font-family:Meiryo;font-size:20px;line-height:1.32;&quot;&gt;大林銀弥&lt;br&gt;被害者を発見し110番&lt;/div&gt;&lt;div style=&quot;font-family:Meiryo;font-size:13.5px;margin-top:4px;&quot;&gt;甲1 p.3&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f2eff8;strokeColor=#806b9c;strokeWidth=2;fontColor=#342947;fontFamily=Meiryo;align=left;verticalAlign=middle;spacing=14;overflow=hidden;" vertex="1" parent="1" classification="person" sourceReference="甲1 p.3">
+          <mxGeometry x="1125" y="805" width="430" height="145" as="geometry" />
+        </mxCell>
+        <mxCell id="L01" value="関係　交際解消後も復縁を求め送信" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;jumpStyle=arc;jumpSize=8;html=0;strokeWidth=2;strokeColor=#806b9c;fontColor=#806b9c;fontSize=16;fontFamily=Meiryo;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.2;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="K" target="H">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="260.0" y="327.5" />
+              <mxPoint x="671.0" y="327.5" />
+            </Array>
+            <mxPoint x="-105.5" y="-2.5" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L02" value="関係　10月25日に別れを告げる" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;jumpStyle=arc;jumpSize=8;html=0;strokeWidth=2;strokeColor=#806b9c;fontColor=#806b9c;fontSize=16;fontFamily=Meiryo;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.2;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="H" target="K">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="20" y="187" />
+              <mxPoint x="20" y="350" />
+              <mxPoint x="131" y="350" />
+            </Array>
+            <mxPoint x="164.4999355862231" y="73.1455751642356" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L03" value="関係　12月24日のLINEで怒りを表す" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;jumpStyle=arc;jumpSize=8;html=0;strokeWidth=2;strokeColor=#806b9c;fontColor=#806b9c;fontSize=16;fontFamily=Meiryo;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="K" target="S">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="0.0" y="-17.5" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L04" value="推認　本所と交際中だと木村が認識" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;jumpStyle=arc;jumpSize=8;html=0;strokeWidth=2;strokeColor=#4e805a;fontColor=#4e805a;fontSize=16;fontFamily=Meiryo;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.8;entryY=1;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="S" target="H">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1340.0" y="327.5" />
+              <mxPoint x="929.0" y="327.5" />
+            </Array>
+            <mxPoint x="70.5" y="-2.5" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L05" value="関係　岸井をよく見ると送信" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;jumpStyle=arc;jumpSize=8;html=0;strokeWidth=2;strokeColor=#806b9c;fontColor=#806b9c;fontSize=16;fontFamily=Meiryo;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="K" target="P">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="260.0" y="667.5" />
+              <mxPoint x="800.0" y="667.5" />
+            </Array>
+            <mxPoint x="-10.0" y="-12.5" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L06" value="関係　駐車区画を契約" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;jumpStyle=arc;jumpSize=8;html=0;strokeWidth=2;strokeColor=#806b9c;fontColor=#806b9c;fontSize=16;fontFamily=Meiryo;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.8;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="S" target="P">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1340.0" y="667.5" />
+              <mxPoint x="929.0" y="667.5" />
+            </Array>
+            <mxPoint x="-54.5" y="-12.5" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L07" value="条件　担当し清掃したとの説明" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;jumpStyle=arc;jumpSize=8;html=0;strokeWidth=2;strokeColor=#a87512;fontColor=#a87512;fontSize=16;fontFamily=Meiryo;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="O" target="P">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="260" y="750" />
+              <mxPoint x="692.5" y="750" />
+            </Array>
+            <mxPoint x="23.75" y="-15.0" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L08" value="関係　20時45分頃に発見" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;jumpStyle=arc;jumpSize=8;html=0;strokeWidth=2;strokeColor=#806b9c;fontColor=#806b9c;fontSize=16;fontFamily=Meiryo;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="B" target="P">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1340" y="750" />
+              <mxPoint x="907.5" y="750" />
+            </Array>
+            <mxPoint x="6.25" y="-15.0" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="notes" value="木村と岸井が高校の同級生という準備情報は乙2 p.30。実演で確認する。&#10;本所と岸井の実際の交際は、木村のLINEだけでは確定しない。矢印は木村の認識を示す。&#10;大滝は清掃担当、大林は発見・通報者。二人の役割と証言対象を混同しない。" style="text;html=0;align=left;verticalAlign=top;whiteSpace=wrap;overflow=hidden;fontFamily=Meiryo;fontSize=16;fontColor=#17283b;" vertex="1" parent="1">
+          <mxGeometry x="35" y="1016" width="1530" height="100" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="diagram-10" name="10 刺創から死亡に至る因果関係">
+    <mxGraphModel dx="1600" dy="1130" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="1130" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title" value="10  刺創から死亡に至る因果関係" style="text;html=0;align=left;verticalAlign=top;whiteSpace=wrap;overflow=hidden;fontFamily=Meiryo;fontSize=31;fontColor=#17283b;" vertex="1" parent="1">
+          <mxGeometry x="35" y="25" width="1530" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="subtitle" value="傷・死因・死亡をつなぐ。行為者が木村であることは図03で別に立証する。" style="text;html=0;align=left;verticalAlign=top;whiteSpace=wrap;overflow=hidden;fontFamily=Meiryo;fontSize=19;fontColor=#17283b;" vertex="1" parent="1">
+          <mxGeometry x="35" y="77" width="1530" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="D" value="&lt;div style=&quot;font-family:Meiryo;font-size:14px;&quot;&gt;D　要証事実又は検討対象&lt;/div&gt;&lt;div style=&quot;font-family:Meiryo;font-size:18px;line-height:1.32;font-weight:bold;&quot;&gt;要証事実&lt;br&gt;岸井の刺創が死亡を引き起こした&lt;/div&gt;&lt;div style=&quot;font-family:Meiryo;font-size:13.5px;margin-top:4px;&quot;&gt;甲1 教材p.3の検案・死亡確認が根拠&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#203f59;strokeColor=#203f59;strokeWidth=2;fontColor=#ffffff;fontFamily=Meiryo;align=left;verticalAlign=middle;spacing=14;overflow=hidden;" vertex="1" parent="1" classification="goal" sourceReference="甲1 教材p.3の検案・死亡確認が根拠">
+          <mxGeometry x="480" y="115" width="640" height="115" as="geometry" />
+        </mxCell>
+        <mxCell id="W" value="&lt;div style=&quot;font-family:Meiryo;font-size:14px;&quot;&gt;W　認定する事実&lt;/div&gt;&lt;div style=&quot;font-family:Meiryo;font-size:20px;line-height:1.32;&quot;&gt;胸腹部・腕・右大腿部に&lt;br&gt;複数の刺創があった&lt;/div&gt;&lt;div style=&quot;font-family:Meiryo;font-size:13.5px;margin-top:4px;&quot;&gt;甲1 p.3&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#eef5fc;strokeColor=#4577a5;strokeWidth=2;fontColor=#17283b;fontFamily=Meiryo;align=left;verticalAlign=middle;spacing=14;overflow=hidden;" vertex="1" parent="1" classification="fact" sourceReference="甲1 p.3">
+          <mxGeometry x="45" y="405" width="430" height="145" as="geometry" />
+        </mxCell>
+        <mxCell id="B" value="&lt;div style=&quot;font-family:Meiryo;font-size:14px;&quot;&gt;B　認定する事実&lt;/div&gt;&lt;div style=&quot;font-family:Meiryo;font-size:20px;line-height:1.32;&quot;&gt;これらの傷による&lt;br&gt;出血性ショックが死因&lt;/div&gt;&lt;div style=&quot;font-family:Meiryo;font-size:13.5px;margin-top:4px;&quot;&gt;甲1 p.3&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#eef5fc;strokeColor=#4577a5;strokeWidth=2;fontColor=#17283b;fontFamily=Meiryo;align=left;verticalAlign=middle;spacing=14;overflow=hidden;" vertex="1" parent="1" classification="fact" sourceReference="甲1 p.3">
+          <mxGeometry x="585" y="405" width="430" height="145" as="geometry" />
+        </mxCell>
+        <mxCell id="T" value="&lt;div style=&quot;font-family:Meiryo;font-size:14px;&quot;&gt;T　認定する事実&lt;/div&gt;&lt;div style=&quot;font-family:Meiryo;font-size:20px;line-height:1.32;&quot;&gt;搬送先で同日21時55分&lt;br&gt;岸井の死亡を確認&lt;/div&gt;&lt;div style=&quot;font-family:Meiryo;font-size:13.5px;margin-top:4px;&quot;&gt;甲1 p.3&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#eef5fc;strokeColor=#4577a5;strokeWidth=2;fontColor=#17283b;fontFamily=Meiryo;align=left;verticalAlign=middle;spacing=14;overflow=hidden;" vertex="1" parent="1" classification="fact" sourceReference="甲1 p.3">
+          <mxGeometry x="1125" y="405" width="430" height="145" as="geometry" />
+        </mxCell>
+        <mxCell id="E1A" value="&lt;div style=&quot;font-family:Meiryo;font-size:14px;&quot;&gt;E1A　証拠資料&lt;/div&gt;&lt;div style=&quot;font-family:Meiryo;font-size:20px;line-height:1.32;&quot;&gt;検案結果の創傷の記載&lt;br&gt;左胸2・右上腹1・両腕複数・右大腿1&lt;/div&gt;&lt;div style=&quot;font-family:Meiryo;font-size:13.5px;margin-top:4px;&quot;&gt;甲1 p.3 第2の2①&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f4f5f7;strokeColor=#7f8a96;strokeWidth=2;fontColor=#17283b;fontFamily=Meiryo;align=left;verticalAlign=middle;spacing=14;overflow=hidden;" vertex="1" parent="1" classification="evidence" sourceReference="甲1 p.3 第2の2①">
+          <mxGeometry x="45" y="800" width="430" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="E1B" value="&lt;div style=&quot;font-family:Meiryo;font-size:14px;&quot;&gt;E1B　証拠資料&lt;/div&gt;&lt;div style=&quot;font-family:Meiryo;font-size:20px;line-height:1.32;&quot;&gt;検案結果の死因の記載&lt;br&gt;上記の傷による出血性ショック&lt;/div&gt;&lt;div style=&quot;font-family:Meiryo;font-size:13.5px;margin-top:4px;&quot;&gt;甲1 p.3 第2の2③&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f4f5f7;strokeColor=#7f8a96;strokeWidth=2;fontColor=#17283b;fontFamily=Meiryo;align=left;verticalAlign=middle;spacing=14;overflow=hidden;" vertex="1" parent="1" classification="evidence" sourceReference="甲1 p.3 第2の2③">
+          <mxGeometry x="585" y="800" width="430" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="E1C" value="&lt;div style=&quot;font-family:Meiryo;font-size:14px;&quot;&gt;E1C　証拠資料&lt;/div&gt;&lt;div style=&quot;font-family:Meiryo;font-size:20px;line-height:1.32;&quot;&gt;搬送と死亡確認の記載&lt;br&gt;五哲大学病院で21時55分&lt;/div&gt;&lt;div style=&quot;font-family:Meiryo;font-size:13.5px;margin-top:4px;&quot;&gt;甲1 p.3 第2の1&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f4f5f7;strokeColor=#7f8a96;strokeWidth=2;fontColor=#17283b;fontFamily=Meiryo;align=left;verticalAlign=middle;spacing=14;overflow=hidden;" vertex="1" parent="1" classification="evidence" sourceReference="甲1 p.3 第2の1">
+          <mxGeometry x="1125" y="800" width="430" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="L01" value="認定　創傷の存在を認定" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;jumpStyle=arc;jumpSize=8;html=0;strokeWidth=2;strokeColor=#4577a5;fontColor=#4577a5;fontSize=16;fontFamily=Meiryo;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="E1A" target="W">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="0.0" y="-18.0" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L02" value="認定　医学的死因を認定" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;jumpStyle=arc;jumpSize=8;html=0;strokeWidth=2;strokeColor=#4577a5;fontColor=#4577a5;fontSize=16;fontFamily=Meiryo;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="E1B" target="B">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="0.0" y="-18.0" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L03" value="認定　死亡の結果を認定" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;jumpStyle=arc;jumpSize=8;html=0;strokeWidth=2;strokeColor=#4577a5;fontColor=#4577a5;fontSize=16;fontFamily=Meiryo;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="E1C" target="T">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="0.0" y="-18.0" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L04" value="認定　行為の結果としての傷" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;jumpStyle=arc;jumpSize=8;html=0;strokeWidth=2;strokeColor=#4577a5;fontColor=#4577a5;fontSize=16;fontFamily=Meiryo;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.15;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="W" target="D">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="260.0" y="317.5" />
+              <mxPoint x="576.0" y="317.5" />
+            </Array>
+            <mxPoint x="0.0" y="-18.0" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L05" value="認定　傷による死因" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;jumpStyle=arc;jumpSize=8;html=0;strokeWidth=2;strokeColor=#4577a5;fontColor=#4577a5;fontSize=16;fontFamily=Meiryo;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="B" target="D">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="0.0" y="-18.0" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L06" value="認定　死亡という結果" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;jumpStyle=arc;jumpSize=8;html=0;strokeWidth=2;strokeColor=#4577a5;fontColor=#4577a5;fontSize=16;fontFamily=Meiryo;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.85;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="T" target="D">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1340.0" y="317.5" />
+              <mxPoint x="1024.0" y="317.5" />
+            </Array>
+            <mxPoint x="0.0" y="-18.0" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="notes" value="甲1の検案結果が、刺創による出血性ショックを死因としている。&#10;傷の順番、深さ、凶器の具体的な型、医療過誤等を示す資料はない。教材にない経過を追加しない。&#10;下段の3箱は同じ甲1の検案・死亡確認の記載を整理したもの。独立した3件の鑑定ではない。" style="text;html=0;align=left;verticalAlign=top;whiteSpace=wrap;overflow=hidden;fontFamily=Meiryo;fontSize=16;fontColor=#17283b;" vertex="1" parent="1">
+          <mxGeometry x="35" y="1016" width="1530" height="100" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="diagram-11" name="11 刺突行為から殺意を推認する">
+    <mxGraphModel dx="1600" dy="1130" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="1130" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title" value="11  刺突行為から殺意を推認する" style="text;html=0;align=left;verticalAlign=top;whiteSpace=wrap;overflow=hidden;fontFamily=Meiryo;fontSize=31;fontColor=#17283b;" vertex="1" parent="1">
+          <mxGeometry x="35" y="25" width="1530" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="subtitle" value="殺意の推認を、犯人性の立証から分けて整理する。" style="text;html=0;align=left;verticalAlign=top;whiteSpace=wrap;overflow=hidden;fontFamily=Meiryo;fontSize=19;fontColor=#17283b;" vertex="1" parent="1">
+          <mxGeometry x="35" y="77" width="1530" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="M" value="&lt;div style=&quot;font-family:Meiryo;font-size:14px;&quot;&gt;M　要証事実又は検討対象&lt;/div&gt;&lt;div style=&quot;font-family:Meiryo;font-size:18px;line-height:1.32;font-weight:bold;&quot;&gt;要証事実&lt;br&gt;死亡の危険を認識し、容認して刺したという殺意&lt;/div&gt;&lt;div style=&quot;font-family:Meiryo;font-size:13.5px;margin-top:4px;&quot;&gt;検察側の推認。犯人性は別に立証する&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#203f59;strokeColor=#203f59;strokeWidth=2;fontColor=#ffffff;fontFamily=Meiryo;align=left;verticalAlign=middle;spacing=14;overflow=hidden;" vertex="1" parent="1" classification="goal" sourceReference="検察側の推認。犯人性は別に立証する">
+          <mxGeometry x="430" y="115" width="740" height="115" as="geometry" />
+        </mxCell>
+        <mxCell id="I1" value="&lt;div style=&quot;font-family:Meiryo;font-size:14px;&quot;&gt;I1　検察側の推認&lt;/div&gt;&lt;div style=&quot;font-family:Meiryo;font-size:20px;line-height:1.32;&quot;&gt;生命に関わる胸腹部への刺突&lt;br&gt;死亡の危険を理解し得る行為と評価&lt;/div&gt;&lt;div style=&quot;font-family:Meiryo;font-size:13.5px;margin-top:4px;&quot;&gt;甲1 p.3からの検察側の評価&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#edf7ef;strokeColor=#4e805a;strokeWidth=2;fontColor=#17283b;fontFamily=Meiryo;align=left;verticalAlign=middle;spacing=14;overflow=hidden;" vertex="1" parent="1" classification="infer" sourceReference="甲1 p.3からの検察側の評価">
+          <mxGeometry x="45" y="395" width="430" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="I2" value="&lt;div style=&quot;font-family:Meiryo;font-size:14px;&quot;&gt;I2　認定する事実&lt;/div&gt;&lt;div style=&quot;font-family:Meiryo;font-size:20px;line-height:1.32;&quot;&gt;複数の部位に刺創&lt;br&gt;一度の軽い接触とは異なる傷の状況&lt;/div&gt;&lt;div style=&quot;font-family:Meiryo;font-size:13.5px;margin-top:4px;&quot;&gt;甲1 p.3&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#eef5fc;strokeColor=#4577a5;strokeWidth=2;fontColor=#17283b;fontFamily=Meiryo;align=left;verticalAlign=middle;spacing=14;overflow=hidden;" vertex="1" parent="1" classification="fact" sourceReference="甲1 p.3">
+          <mxGeometry x="585" y="395" width="430" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="R" value="&lt;div style=&quot;font-family:Meiryo;font-size:14px;&quot;&gt;R　反対事情又は限界&lt;/div&gt;&lt;div style=&quot;font-family:Meiryo;font-size:20px;line-height:1.32;&quot;&gt;凶器・創の深さ・刺突順序は不明&lt;br&gt;具体的な刺し方を作って補わない&lt;/div&gt;&lt;div style=&quot;font-family:Meiryo;font-size:13.5px;margin-top:4px;&quot;&gt;甲1 p.3及び記載の範囲&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff0ef;strokeColor=#af554c;strokeWidth=2;fontColor=#662e29;fontFamily=Meiryo;align=left;verticalAlign=middle;spacing=14;overflow=hidden;" vertex="1" parent="1" classification="counter" sourceReference="甲1 p.3及び記載の範囲">
+          <mxGeometry x="1125" y="395" width="430" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="E1X" value="&lt;div style=&quot;font-family:Meiryo;font-size:14px;&quot;&gt;E1X　証拠資料&lt;/div&gt;&lt;div style=&quot;font-family:Meiryo;font-size:20px;line-height:1.32;&quot;&gt;検案結果&lt;br&gt;左胸2か所・右上腹1か所の刺創&lt;/div&gt;&lt;div style=&quot;font-family:Meiryo;font-size:13.5px;margin-top:4px;&quot;&gt;甲1 p.3 第2の2①&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f4f5f7;strokeColor=#7f8a96;strokeWidth=2;fontColor=#17283b;fontFamily=Meiryo;align=left;verticalAlign=middle;spacing=14;overflow=hidden;" vertex="1" parent="1" classification="evidence" sourceReference="甲1 p.3 第2の2①">
+          <mxGeometry x="45" y="800" width="430" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="E1Y" value="&lt;div style=&quot;font-family:Meiryo;font-size:14px;&quot;&gt;E1Y　証拠資料&lt;/div&gt;&lt;div style=&quot;font-family:Meiryo;font-size:20px;line-height:1.32;&quot;&gt;検案結果&lt;br&gt;両腕複数・右大腿1か所の刺創&lt;/div&gt;&lt;div style=&quot;font-family:Meiryo;font-size:13.5px;margin-top:4px;&quot;&gt;甲1 p.3 第2の2①&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f4f5f7;strokeColor=#7f8a96;strokeWidth=2;fontColor=#17283b;fontFamily=Meiryo;align=left;verticalAlign=middle;spacing=14;overflow=hidden;" vertex="1" parent="1" classification="evidence" sourceReference="甲1 p.3 第2の2①">
+          <mxGeometry x="585" y="800" width="430" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="E1Z" value="&lt;div style=&quot;font-family:Meiryo;font-size:14px;&quot;&gt;E1Z　証拠資料&lt;/div&gt;&lt;div style=&quot;font-family:Meiryo;font-size:20px;line-height:1.32;&quot;&gt;検案結果&lt;br&gt;凶器は刃物と考えられるが未発見&lt;/div&gt;&lt;div style=&quot;font-family:Meiryo;font-size:13.5px;margin-top:4px;&quot;&gt;甲1 p.3 第2の2②・3&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f4f5f7;strokeColor=#7f8a96;strokeWidth=2;fontColor=#17283b;fontFamily=Meiryo;align=left;verticalAlign=middle;spacing=14;overflow=hidden;" vertex="1" parent="1" classification="evidence" sourceReference="甲1 p.3 第2の2②・3">
+          <mxGeometry x="1125" y="800" width="430" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="L01" value="推認　部位を踏まえ評価" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;jumpStyle=arc;jumpSize=8;html=0;strokeWidth=2;strokeColor=#4e805a;fontColor=#4e805a;fontSize=16;fontFamily=Meiryo;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="E1X" target="I1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="0.0" y="-18.0" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L02" value="認定　刺創の複数性を認定" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;jumpStyle=arc;jumpSize=8;html=0;strokeWidth=2;strokeColor=#4577a5;fontColor=#4577a5;fontSize=16;fontFamily=Meiryo;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="E1Y" target="I2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="0.0" y="-18.0" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L03" value="認定　資料から分かる範囲" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;jumpStyle=arc;jumpSize=8;html=0;strokeWidth=2;strokeColor=#4577a5;fontColor=#4577a5;fontSize=16;fontFamily=Meiryo;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="E1Z" target="R">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="0.0" y="-18.0" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L04" value="推認　行為の危険性から意思を推認" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;jumpStyle=arc;jumpSize=8;html=0;strokeWidth=2;strokeColor=#4e805a;fontColor=#4e805a;fontSize=16;fontFamily=Meiryo;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.15;entryY=1;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="I1" target="M">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="260.0" y="312.5" />
+              <mxPoint x="541.0" y="312.5" />
+            </Array>
+            <mxPoint x="0.0" y="-18.0" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L05" value="推認　行為の反復性を併せ評価" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;jumpStyle=arc;jumpSize=8;html=0;strokeWidth=2;strokeColor=#4e805a;fontColor=#4e805a;fontSize=16;fontFamily=Meiryo;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="I2" target="M">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="0.0" y="-18.0" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L06" value="反対　推認の限界" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;jumpStyle=arc;jumpSize=8;html=0;strokeWidth=2;strokeColor=#ad5148;fontColor=#ad5148;fontSize=16;fontFamily=Meiryo;labelBackgroundColor=#ffffff;endArrow=tee;endFill=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.85;entryY=1;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="R" target="M">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1340.0" y="312.5" />
+              <mxPoint x="1059.0" y="312.5" />
+            </Array>
+            <mxPoint x="0.0" y="-18.0" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="notes" value="ここで示すのは刺した者の意思の推認。木村が刺したことを、傷の存在だけで証明できるわけではない。&#10;凶器未発見。刃渡り・傷の深さ・力の強さ・刺突の順番を具体的に認定する資料はない。&#10;両腕の刺創を防御創と断定したり、全ての傷が同じ深さだったと仮定したりしない。" style="text;html=0;align=left;verticalAlign=top;whiteSpace=wrap;overflow=hidden;fontFamily=Meiryo;fontSize=16;fontColor=#17283b;" vertex="1" parent="1">
+          <mxGeometry x="35" y="1016" width="1530" height="100" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="diagram-12" name="12 弁護側の説明と検察側の確認課題">
+    <mxGraphModel dx="1600" dy="1130" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="1130" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title" value="12  弁護側の説明と検察側の確認課題" style="text;html=0;align=left;verticalAlign=top;whiteSpace=wrap;overflow=hidden;fontFamily=Meiryo;fontSize=31;fontColor=#17283b;" vertex="1" parent="1">
+          <mxGeometry x="35" y="25" width="1530" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="subtitle" value="反対事情が、どの推論に影響するかを示す。" style="text;html=0;align=left;verticalAlign=top;whiteSpace=wrap;overflow=hidden;fontFamily=Meiryo;fontSize=19;fontColor=#17283b;" vertex="1" parent="1">
+          <mxGeometry x="35" y="77" width="1530" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="Q" value="&lt;div style=&quot;font-family:Meiryo;font-size:14px;&quot;&gt;Q　要証事実又は検討対象&lt;/div&gt;&lt;div style=&quot;font-family:Meiryo;font-size:18px;line-height:1.32;font-weight:bold;&quot;&gt;最終的な検討対象&lt;br&gt;木村の犯人性に合理的な疑いが残るか&lt;/div&gt;&lt;div style=&quot;font-family:Meiryo;font-size:13.5px;margin-top:4px;&quot;&gt;立証責任は検察官。詳細は既存資料01&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#203f59;strokeColor=#203f59;strokeWidth=2;fontColor=#ffffff;fontFamily=Meiryo;align=left;verticalAlign=middle;spacing=14;overflow=hidden;" vertex="1" parent="1" classification="goal" sourceReference="立証責任は検察官。詳細は既存資料01">
+          <mxGeometry x="450" y="115" width="700" height="115" as="geometry" />
+        </mxCell>
+        <mxCell id="R1" value="&lt;div style=&quot;font-family:Meiryo;font-size:14px;&quot;&gt;R1　反対事情又は限界&lt;/div&gt;&lt;div style=&quot;font-family:Meiryo;font-size:20px;line-height:1.32;&quot;&gt;昼に眼鏡を落とし&lt;br&gt;別人の犯行時に血が付いたとの説明&lt;/div&gt;&lt;div style=&quot;font-family:Meiryo;font-size:13.5px;margin-top:4px;&quot;&gt;弁護冒頭陳述 p.34&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff0ef;strokeColor=#af554c;strokeWidth=2;fontColor=#662e29;fontFamily=Meiryo;align=left;verticalAlign=middle;spacing=14;overflow=hidden;" vertex="1" parent="1" classification="counter" sourceReference="弁護冒頭陳述 p.34">
+          <mxGeometry x="45" y="385" width="430" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="R2" value="&lt;div style=&quot;font-family:Meiryo;font-size:14px;&quot;&gt;R2　反対事情又は限界&lt;/div&gt;&lt;div style=&quot;font-family:Meiryo;font-size:20px;line-height:1.32;&quot;&gt;大滝が清掃で&lt;br&gt;眼鏡を見落とした可能性&lt;/div&gt;&lt;div style=&quot;font-family:Meiryo;font-size:13.5px;margin-top:4px;&quot;&gt;準備：甲3 p.21-22&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff0ef;strokeColor=#af554c;strokeWidth=2;fontColor=#662e29;fontFamily=Meiryo;align=left;verticalAlign=middle;spacing=14;overflow=hidden;" vertex="1" parent="1" classification="counter" sourceReference="準備：甲3 p.21-22">
+          <mxGeometry x="585" y="385" width="430" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="R3" value="&lt;div style=&quot;font-family:Meiryo;font-size:14px;&quot;&gt;R3　反対事情又は限界&lt;/div&gt;&lt;div style=&quot;font-family:Meiryo;font-size:20px;line-height:1.32;&quot;&gt;共用自転車を別人が使用&lt;br&gt;映像も木村と特定できない&lt;/div&gt;&lt;div style=&quot;font-family:Meiryo;font-size:13.5px;margin-top:4px;&quot;&gt;甲1 p.4-5、弁護主張 p.34&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff0ef;strokeColor=#af554c;strokeWidth=2;fontColor=#662e29;fontFamily=Meiryo;align=left;verticalAlign=middle;spacing=14;overflow=hidden;" vertex="1" parent="1" classification="counter" sourceReference="甲1 p.4-5、弁護主張 p.34">
+          <mxGeometry x="1125" y="385" width="430" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="C1" value="&lt;div style=&quot;font-family:Meiryo;font-size:14px;&quot;&gt;C1　主張又は要確認&lt;/div&gt;&lt;div style=&quot;font-family:Meiryo;font-size:20px;line-height:1.32;&quot;&gt;落下の記憶と推測を分ける&lt;br&gt;具体的な場所を実演で確認&lt;/div&gt;&lt;div style=&quot;font-family:Meiryo;font-size:13.5px;margin-top:4px;&quot;&gt;準備：乙2 p.28-29&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff6e3;strokeColor=#b17b1a;strokeWidth=2;fontColor=#49350c;fontFamily=Meiryo;align=left;verticalAlign=middle;spacing=14;overflow=hidden;dashed=1;" vertex="1" parent="1" classification="pending" sourceReference="準備：乙2 p.28-29">
+          <mxGeometry x="45" y="800" width="430" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="C2" value="&lt;div style=&quot;font-family:Meiryo;font-size:14px;&quot;&gt;C2　主張又は要確認&lt;/div&gt;&lt;div style=&quot;font-family:Meiryo;font-size:20px;line-height:1.32;&quot;&gt;B地点の経路・向き・見え方&lt;br&gt;急ぎによる作業の変化を確認&lt;/div&gt;&lt;div style=&quot;font-family:Meiryo;font-size:13.5px;margin-top:4px;&quot;&gt;準備：甲3 p.21-22&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff6e3;strokeColor=#b17b1a;strokeWidth=2;fontColor=#49350c;fontFamily=Meiryo;align=left;verticalAlign=middle;spacing=14;overflow=hidden;dashed=1;" vertex="1" parent="1" classification="pending" sourceReference="準備：甲3 p.21-22">
+          <mxGeometry x="585" y="800" width="430" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="C3" value="&lt;div style=&quot;font-family:Meiryo;font-size:14px;&quot;&gt;C3　認定する事実&lt;/div&gt;&lt;div style=&quot;font-family:Meiryo;font-size:20px;line-height:1.32;&quot;&gt;他人の指紋・無施錠・開放駐輪場&lt;br&gt;映像の顔が判別不能&lt;/div&gt;&lt;div style=&quot;font-family:Meiryo;font-size:13.5px;margin-top:4px;&quot;&gt;甲1 p.4-5&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#eef5fc;strokeColor=#4577a5;strokeWidth=2;fontColor=#17283b;fontFamily=Meiryo;align=left;verticalAlign=middle;spacing=14;overflow=hidden;" vertex="1" parent="1" classification="fact" sourceReference="甲1 p.4-5">
+          <mxGeometry x="1125" y="800" width="430" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="L01" value="条件　説明の確かさを検討" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;jumpStyle=arc;jumpSize=8;html=0;strokeWidth=2;strokeColor=#a87512;fontColor=#a87512;fontSize=16;fontFamily=Meiryo;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="C1" target="R1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="0.0" y="-18.0" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L02" value="条件　見落としの程度を検討" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;jumpStyle=arc;jumpSize=8;html=0;strokeWidth=2;strokeColor=#a87512;fontColor=#a87512;fontSize=16;fontFamily=Meiryo;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="C2" target="R2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="0.0" y="-18.0" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L03" value="認定　別人説に関わる客観事情" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;jumpStyle=arc;jumpSize=8;html=0;strokeWidth=2;strokeColor=#4577a5;fontColor=#4577a5;fontSize=16;fontFamily=Meiryo;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="C3" target="R3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="0.0" y="-18.0" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L04" value="反対　現場との接点の評価に影響" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;jumpStyle=arc;jumpSize=8;html=0;strokeWidth=2;strokeColor=#ad5148;fontColor=#ad5148;fontSize=16;fontFamily=Meiryo;labelBackgroundColor=#ffffff;endArrow=tee;endFill=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.15;entryY=1;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="R1" target="Q">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="260.0" y="307.5" />
+              <mxPoint x="555.0" y="307.5" />
+            </Array>
+            <mxPoint x="0.0" y="-18.0" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L05" value="反対　清掃後の落下推認に影響" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;jumpStyle=arc;jumpSize=8;html=0;strokeWidth=2;strokeColor=#ad5148;fontColor=#ad5148;fontSize=16;fontFamily=Meiryo;labelBackgroundColor=#ffffff;endArrow=tee;endFill=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="R2" target="Q">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="0.0" y="-18.0" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L06" value="反対　使用者・本人特定に影響" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;jumpStyle=arc;jumpSize=8;html=0;strokeWidth=2;strokeColor=#ad5148;fontColor=#ad5148;fontSize=16;fontFamily=Meiryo;labelBackgroundColor=#ffffff;endArrow=tee;endFill=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.85;entryY=1;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="R3" target="Q">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1340.0" y="307.5" />
+              <mxPoint x="1045.0" y="307.5" />
+            </Array>
+            <mxPoint x="0.0" y="-18.0" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="notes" value="弁護側の説明は教材p.34-35と乙2 p.27-31を参照。乙2の細部は実演で確認する。&#10;被告人に無実や別人の犯行の証明を求めない。証拠全体から残る合理的な疑いを検討する。&#10;清掃証言が具体的に裏付けられなければ、眼鏡の落下時刻の推認を弱め、結びも再検討する。" style="text;html=0;align=left;verticalAlign=top;whiteSpace=wrap;overflow=hidden;fontFamily=Meiryo;fontSize=16;fontColor=#17283b;" vertex="1" parent="1">
+          <mxGeometry x="35" y="1016" width="1530" height="100" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="diagram-13" name="13 事件当日の時系列と確かさ">
+    <mxGraphModel dx="1600" dy="1130" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="1130" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title" value="13  事件当日の時系列と確かさ" style="text;html=0;align=left;verticalAlign=top;whiteSpace=wrap;overflow=hidden;fontFamily=Meiryo;fontSize=31;fontColor=#17283b;" vertex="1" parent="1">
+          <mxGeometry x="35" y="25" width="1530" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="subtitle" value="前後関係を示す図。矢印は因果関係や同一人物の行動連続性を意味しない。" style="text;html=0;align=left;verticalAlign=top;whiteSpace=wrap;overflow=hidden;fontFamily=Meiryo;fontSize=19;fontColor=#17283b;" vertex="1" parent="1">
+          <mxGeometry x="35" y="77" width="1530" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="T1" value="&lt;div style=&quot;font-family:Meiryo;font-size:14px;&quot;&gt;T1　認定する事実&lt;/div&gt;&lt;div style=&quot;font-family:Meiryo;font-size:20px;line-height:1.32;&quot;&gt;14時頃&lt;br&gt;木村がお好み焼き店にいた&lt;/div&gt;&lt;div style=&quot;font-family:Meiryo;font-size:13.5px;margin-top:4px;&quot;&gt;甲1 p.6&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#eef5fc;strokeColor=#4577a5;strokeWidth=2;fontColor=#17283b;fontFamily=Meiryo;align=left;verticalAlign=middle;spacing=14;overflow=hidden;" vertex="1" parent="1" classification="fact" sourceReference="甲1 p.6">
+          <mxGeometry x="45" y="180" width="305" height="155" as="geometry" />
+        </mxCell>
+        <mxCell id="T2" value="&lt;div style=&quot;font-family:Meiryo;font-size:14px;&quot;&gt;T2　主張又は要確認&lt;/div&gt;&lt;div style=&quot;font-family:Meiryo;font-size:20px;line-height:1.32;&quot;&gt;14時15分頃&lt;br&gt;駐車場付近で転倒したとの説&lt;br&gt;明&lt;/div&gt;&lt;div style=&quot;font-family:Meiryo;font-size:13.5px;margin-top:4px;&quot;&gt;準備：乙2 p.27-29&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff6e3;strokeColor=#b17b1a;strokeWidth=2;fontColor=#49350c;fontFamily=Meiryo;align=left;verticalAlign=middle;spacing=14;overflow=hidden;dashed=1;" vertex="1" parent="1" classification="pending" sourceReference="準備：乙2 p.27-29">
+          <mxGeometry x="445" y="180" width="305" height="155" as="geometry" />
+        </mxCell>
+        <mxCell id="T3" value="&lt;div style=&quot;font-family:Meiryo;font-size:14px;&quot;&gt;T3　認定する事実&lt;/div&gt;&lt;div style=&quot;font-family:Meiryo;font-size:20px;line-height:1.32;&quot;&gt;17時04分&lt;br&gt;日没&lt;/div&gt;&lt;div style=&quot;font-family:Meiryo;font-size:13.5px;margin-top:4px;&quot;&gt;甲1 p.6&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#eef5fc;strokeColor=#4577a5;strokeWidth=2;fontColor=#17283b;fontFamily=Meiryo;align=left;verticalAlign=middle;spacing=14;overflow=hidden;" vertex="1" parent="1" classification="fact" sourceReference="甲1 p.6">
+          <mxGeometry x="845" y="180" width="305" height="155" as="geometry" />
+        </mxCell>
+        <mxCell id="T4" value="&lt;div style=&quot;font-family:Meiryo;font-size:14px;&quot;&gt;T4　主張又は要確認&lt;/div&gt;&lt;div style=&quot;font-family:Meiryo;font-size:20px;line-height:1.32;&quot;&gt;18時頃&lt;br&gt;大滝が清掃したとの説明&lt;/div&gt;&lt;div style=&quot;font-family:Meiryo;font-size:13.5px;margin-top:4px;&quot;&gt;準備：甲3 p.22&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff6e3;strokeColor=#b17b1a;strokeWidth=2;fontColor=#49350c;fontFamily=Meiryo;align=left;verticalAlign=middle;spacing=14;overflow=hidden;dashed=1;" vertex="1" parent="1" classification="pending" sourceReference="準備：甲3 p.22">
+          <mxGeometry x="1245" y="180" width="305" height="155" as="geometry" />
+        </mxCell>
+        <mxCell id="T5" value="&lt;div style=&quot;font-family:Meiryo;font-size:14px;&quot;&gt;T5　認定する事実&lt;/div&gt;&lt;div style=&quot;font-family:Meiryo;font-size:20px;line-height:1.32;&quot;&gt;18時50分&lt;br&gt;大滝が退勤&lt;/div&gt;&lt;div style=&quot;font-family:Meiryo;font-size:13.5px;margin-top:4px;&quot;&gt;甲1 p.5&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#eef5fc;strokeColor=#4577a5;strokeWidth=2;fontColor=#17283b;fontFamily=Meiryo;align=left;verticalAlign=middle;spacing=14;overflow=hidden;" vertex="1" parent="1" classification="fact" sourceReference="甲1 p.5">
+          <mxGeometry x="1245" y="455" width="305" height="155" as="geometry" />
+        </mxCell>
+        <mxCell id="T6" value="&lt;div style=&quot;font-family:Meiryo;font-size:14px;&quot;&gt;T6　主張又は要確認&lt;/div&gt;&lt;div style=&quot;font-family:Meiryo;font-size:20px;line-height:1.32;&quot;&gt;20時30分頃&lt;br&gt;検察側が主張する犯行時刻&lt;/div&gt;&lt;div style=&quot;font-family:Meiryo;font-size:13.5px;margin-top:4px;&quot;&gt;起訴状 p.1&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff6e3;strokeColor=#b17b1a;strokeWidth=2;fontColor=#49350c;fontFamily=Meiryo;align=left;verticalAlign=middle;spacing=14;overflow=hidden;dashed=1;" vertex="1" parent="1" classification="pending" sourceReference="起訴状 p.1">
+          <mxGeometry x="845" y="455" width="305" height="155" as="geometry" />
+        </mxCell>
+        <mxCell id="T7" value="&lt;div style=&quot;font-family:Meiryo;font-size:14px;&quot;&gt;T7　認定する事実&lt;/div&gt;&lt;div style=&quot;font-family:Meiryo;font-size:20px;line-height:1.32;&quot;&gt;20時32分頃&lt;br&gt;男性の自転車が南向きに走行&lt;/div&gt;&lt;div style=&quot;font-family:Meiryo;font-size:13.5px;margin-top:4px;&quot;&gt;甲1 p.5・10&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#eef5fc;strokeColor=#4577a5;strokeWidth=2;fontColor=#17283b;fontFamily=Meiryo;align=left;verticalAlign=middle;spacing=14;overflow=hidden;" vertex="1" parent="1" classification="fact" sourceReference="甲1 p.5・10">
+          <mxGeometry x="445" y="455" width="305" height="155" as="geometry" />
+        </mxCell>
+        <mxCell id="T8" value="&lt;div style=&quot;font-family:Meiryo;font-size:14px;&quot;&gt;T8　認定する事実&lt;/div&gt;&lt;div style=&quot;font-family:Meiryo;font-size:20px;line-height:1.32;&quot;&gt;20時45分頃&lt;br&gt;大林が被害者を発見し通報&lt;/div&gt;&lt;div style=&quot;font-family:Meiryo;font-size:13.5px;margin-top:4px;&quot;&gt;甲1 p.3&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#eef5fc;strokeColor=#4577a5;strokeWidth=2;fontColor=#17283b;fontFamily=Meiryo;align=left;verticalAlign=middle;spacing=14;overflow=hidden;" vertex="1" parent="1" classification="fact" sourceReference="甲1 p.3">
+          <mxGeometry x="45" y="455" width="305" height="155" as="geometry" />
+        </mxCell>
+        <mxCell id="T9" value="&lt;div style=&quot;font-family:Meiryo;font-size:14px;&quot;&gt;T9　認定する事実&lt;/div&gt;&lt;div style=&quot;font-family:Meiryo;font-size:20px;line-height:1.32;&quot;&gt;20時50分頃&lt;br&gt;警察官が臨場。呼吸あり&lt;/div&gt;&lt;div style=&quot;font-family:Meiryo;font-size:13.5px;margin-top:4px;&quot;&gt;甲1 p.3&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#eef5fc;strokeColor=#4577a5;strokeWidth=2;fontColor=#17283b;fontFamily=Meiryo;align=left;verticalAlign=middle;spacing=14;overflow=hidden;" vertex="1" parent="1" classification="fact" sourceReference="甲1 p.3">
+          <mxGeometry x="45" y="755" width="305" height="155" as="geometry" />
+        </mxCell>
+        <mxCell id="T10" value="&lt;div style=&quot;font-family:Meiryo;font-size:14px;&quot;&gt;T10　認定する事実&lt;/div&gt;&lt;div style=&quot;font-family:Meiryo;font-size:20px;line-height:1.32;&quot;&gt;21時頃&lt;br&gt;警察官が眼鏡を発見&lt;/div&gt;&lt;div style=&quot;font-family:Meiryo;font-size:13.5px;margin-top:4px;&quot;&gt;甲1 p.3-4&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#eef5fc;strokeColor=#4577a5;strokeWidth=2;fontColor=#17283b;fontFamily=Meiryo;align=left;verticalAlign=middle;spacing=14;overflow=hidden;" vertex="1" parent="1" classification="fact" sourceReference="甲1 p.3-4">
+          <mxGeometry x="445" y="755" width="305" height="155" as="geometry" />
+        </mxCell>
+        <mxCell id="T11" value="&lt;div style=&quot;font-family:Meiryo;font-size:14px;&quot;&gt;T11　認定する事実&lt;/div&gt;&lt;div style=&quot;font-family:Meiryo;font-size:20px;line-height:1.32;&quot;&gt;21時55分&lt;br&gt;搬送先で死亡確認&lt;/div&gt;&lt;div style=&quot;font-family:Meiryo;font-size:13.5px;margin-top:4px;&quot;&gt;甲1 p.3&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#eef5fc;strokeColor=#4577a5;strokeWidth=2;fontColor=#17283b;fontFamily=Meiryo;align=left;verticalAlign=middle;spacing=14;overflow=hidden;" vertex="1" parent="1" classification="fact" sourceReference="甲1 p.3">
+          <mxGeometry x="845" y="755" width="305" height="155" as="geometry" />
+        </mxCell>
+        <mxCell id="L01" value="時系列　次" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;jumpStyle=arc;jumpSize=8;html=0;strokeWidth=2;strokeColor=#536b7a;fontColor=#536b7a;fontSize=14;fontFamily=Meiryo;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="T1" target="T2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="0.0" y="-7.5" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L02" value="時系列　次" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;jumpStyle=arc;jumpSize=8;html=0;strokeWidth=2;strokeColor=#536b7a;fontColor=#536b7a;fontSize=14;fontFamily=Meiryo;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="T2" target="T3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="0.0" y="-7.5" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L03" value="時系列　次" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;jumpStyle=arc;jumpSize=8;html=0;strokeWidth=2;strokeColor=#536b7a;fontColor=#536b7a;fontSize=14;fontFamily=Meiryo;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="T3" target="T4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="0.0" y="-7.5" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L04" value="時系列　次" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;jumpStyle=arc;jumpSize=8;html=0;strokeWidth=2;strokeColor=#536b7a;fontColor=#536b7a;fontSize=14;fontFamily=Meiryo;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="T4" target="T5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-0.5" y="2.0" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L05" value="時系列　次" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;jumpStyle=arc;jumpSize=8;html=0;strokeWidth=2;strokeColor=#536b7a;fontColor=#536b7a;fontSize=14;fontFamily=Meiryo;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="T5" target="T6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="0.0" y="-7.5" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L06" value="時系列　次" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;jumpStyle=arc;jumpSize=8;html=0;strokeWidth=2;strokeColor=#536b7a;fontColor=#536b7a;fontSize=14;fontFamily=Meiryo;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="T6" target="T7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="0.0" y="-7.5" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L07" value="時系列　次" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;jumpStyle=arc;jumpSize=8;html=0;strokeWidth=2;strokeColor=#536b7a;fontColor=#536b7a;fontSize=14;fontFamily=Meiryo;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="T7" target="T8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="0.0" y="-7.5" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L08" value="時系列　次" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;jumpStyle=arc;jumpSize=8;html=0;strokeWidth=2;strokeColor=#536b7a;fontColor=#536b7a;fontSize=14;fontFamily=Meiryo;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="T8" target="T9">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-0.5" y="-10.5" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L09" value="時系列　次" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;jumpStyle=arc;jumpSize=8;html=0;strokeWidth=2;strokeColor=#536b7a;fontColor=#536b7a;fontSize=14;fontFamily=Meiryo;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="T9" target="T10">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="0.0" y="-7.5" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L10" value="時系列　次" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;jumpStyle=arc;jumpSize=8;html=0;strokeWidth=2;strokeColor=#536b7a;fontColor=#536b7a;fontSize=14;fontFamily=Meiryo;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="T10" target="T11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="0.0" y="-7.5" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="notes" value="14時15分頃の転倒・眼鏡落下は本人の説明の準備情報。18時頃の清掃も実演で確認する。&#10;20時30分頃は起訴状の犯行時刻の主張。独立の時刻鑑定として扱わない。&#10;夜間写真は2026年1月6日撮影で、事件当夜の写真ではない。甲1 p.6・12。" style="text;html=0;align=left;verticalAlign=top;whiteSpace=wrap;overflow=hidden;fontFamily=Meiryo;fontSize=16;fontColor=#17283b;" vertex="1" parent="1">
+          <mxGeometry x="35" y="1016" width="1530" height="100" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="diagram-14" name="14 証拠の採否と論告に至る経路">
+    <mxGraphModel dx="1600" dy="1130" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="1130" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title" value="14  証拠の採否と論告に至る経路" style="text;html=0;align=left;verticalAlign=top;whiteSpace=wrap;overflow=hidden;fontFamily=Meiryo;fontSize=31;fontColor=#17283b;" vertex="1" parent="1">
+          <mxGeometry x="35" y="25" width="1530" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="subtitle" value="書証の採用と、法廷で実際に述べた供述を区別する。" style="text;html=0;align=left;verticalAlign=top;whiteSpace=wrap;overflow=hidden;fontFamily=Meiryo;fontSize=19;fontColor=#17283b;" vertex="1" parent="1">
+          <mxGeometry x="35" y="77" width="1530" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="U" value="&lt;div style=&quot;font-family:Meiryo;font-size:14px;&quot;&gt;U　要証事実又は検討対象&lt;/div&gt;&lt;div style=&quot;font-family:Meiryo;font-size:18px;line-height:1.32;font-weight:bold;&quot;&gt;論告で根拠として使う事実と推認&lt;br&gt;採用済み証拠と、実演で確認した供述に基づく&lt;/div&gt;&lt;div style=&quot;font-family:Meiryo;font-size:13.5px;margin-top:4px;&quot;&gt;証拠の採否：教材p.2&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#203f59;strokeColor=#203f59;strokeWidth=2;fontColor=#ffffff;fontFamily=Meiryo;align=left;verticalAlign=middle;spacing=14;overflow=hidden;" vertex="1" parent="1" classification="goal" sourceReference="証拠の採否：教材p.2">
+          <mxGeometry x="400" y="115" width="800" height="115" as="geometry" />
+        </mxCell>
+        <mxCell id="A" value="&lt;div style=&quot;font-family:Meiryo;font-size:14px;&quot;&gt;A　認定する事実&lt;/div&gt;&lt;div style=&quot;font-family:Meiryo;font-size:20px;line-height:1.32;&quot;&gt;採用された書証&lt;br&gt;内容が支える範囲で事実を認定&lt;/div&gt;&lt;div style=&quot;font-family:Meiryo;font-size:13.5px;margin-top:4px;&quot;&gt;甲1・甲2・乙1&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#eef5fc;strokeColor=#4577a5;strokeWidth=2;fontColor=#17283b;fontFamily=Meiryo;align=left;verticalAlign=middle;spacing=14;overflow=hidden;" vertex="1" parent="1" classification="fact" sourceReference="甲1・甲2・乙1">
+          <mxGeometry x="45" y="395" width="430" height="145" as="geometry" />
+        </mxCell>
+        <mxCell id="P" value="&lt;div style=&quot;font-family:Meiryo;font-size:14px;&quot;&gt;P　主張又は要確認&lt;/div&gt;&lt;div style=&quot;font-family:Meiryo;font-size:20px;line-height:1.32;&quot;&gt;大滝の実際の法廷証言&lt;br&gt;B地点の観察状況を記録&lt;/div&gt;&lt;div style=&quot;font-family:Meiryo;font-size:13.5px;margin-top:4px;&quot;&gt;証人として採用。実際の発言を確認&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff6e3;strokeColor=#b17b1a;strokeWidth=2;fontColor=#49350c;fontFamily=Meiryo;align=left;verticalAlign=middle;spacing=14;overflow=hidden;dashed=1;" vertex="1" parent="1" classification="pending" sourceReference="証人として採用。実際の発言を確認">
+          <mxGeometry x="585" y="395" width="430" height="145" as="geometry" />
+        </mxCell>
+        <mxCell id="Q" value="&lt;div style=&quot;font-family:Meiryo;font-size:14px;&quot;&gt;Q　主張又は要確認&lt;/div&gt;&lt;div style=&quot;font-family:Meiryo;font-size:20px;line-height:1.32;&quot;&gt;木村の実際の法廷供述&lt;br&gt;落下・所在・利用の説明を記録&lt;/div&gt;&lt;div style=&quot;font-family:Meiryo;font-size:13.5px;margin-top:4px;&quot;&gt;被告人質問で実際の発言を確認&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff6e3;strokeColor=#b17b1a;strokeWidth=2;fontColor=#49350c;fontFamily=Meiryo;align=left;verticalAlign=middle;spacing=14;overflow=hidden;dashed=1;" vertex="1" parent="1" classification="pending" sourceReference="被告人質問で実際の発言を確認">
+          <mxGeometry x="1125" y="395" width="430" height="145" as="geometry" />
+        </mxCell>
+        <mxCell id="EA" value="&lt;div style=&quot;font-family:Meiryo;font-size:14px;&quot;&gt;EA　証拠資料&lt;/div&gt;&lt;div style=&quot;font-family:Meiryo;font-size:20px;line-height:1.32;&quot;&gt;甲1・甲2・乙1&lt;br&gt;同意・採用&lt;/div&gt;&lt;div style=&quot;font-family:Meiryo;font-size:13.5px;margin-top:4px;&quot;&gt;教材p.2&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f4f5f7;strokeColor=#7f8a96;strokeWidth=2;fontColor=#17283b;fontFamily=Meiryo;align=left;verticalAlign=middle;spacing=14;overflow=hidden;" vertex="1" parent="1" classification="evidence" sourceReference="教材p.2">
+          <mxGeometry x="35" y="780" width="330" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="EP" value="&lt;div style=&quot;font-family:Meiryo;font-size:14px;&quot;&gt;EP　主張又は要確認&lt;/div&gt;&lt;div style=&quot;font-family:Meiryo;font-size:20px;line-height:1.32;&quot;&gt;甲3 大滝の調書&lt;br&gt;不同意・採否留保&lt;/div&gt;&lt;div style=&quot;font-family:Meiryo;font-size:13.5px;margin-top:4px;&quot;&gt;教材p.20-23&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff6e3;strokeColor=#b17b1a;strokeWidth=2;fontColor=#49350c;fontFamily=Meiryo;align=left;verticalAlign=middle;spacing=14;overflow=hidden;dashed=1;" vertex="1" parent="1" classification="pending" sourceReference="教材p.20-23">
+          <mxGeometry x="435" y="780" width="330" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="EQ" value="&lt;div style=&quot;font-family:Meiryo;font-size:14px;&quot;&gt;EQ　主張又は要確認&lt;/div&gt;&lt;div style=&quot;font-family:Meiryo;font-size:20px;line-height:1.32;&quot;&gt;乙2 木村の調書&lt;br&gt;不同意・採否留保&lt;/div&gt;&lt;div style=&quot;font-family:Meiryo;font-size:13.5px;margin-top:4px;&quot;&gt;教材p.27-31&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff6e3;strokeColor=#b17b1a;strokeWidth=2;fontColor=#49350c;fontFamily=Meiryo;align=left;verticalAlign=middle;spacing=14;overflow=hidden;dashed=1;" vertex="1" parent="1" classification="pending" sourceReference="教材p.27-31">
+          <mxGeometry x="835" y="780" width="330" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="M" value="&lt;div style=&quot;font-family:Meiryo;font-size:14px;&quot;&gt;M　反対事情又は限界&lt;/div&gt;&lt;div style=&quot;font-family:Meiryo;font-size:20px;line-height:1.32;&quot;&gt;起訴状・冒頭陳述&lt;br&gt;立証予定の主張&lt;/div&gt;&lt;div style=&quot;font-family:Meiryo;font-size:13.5px;margin-top:4px;&quot;&gt;教材p.1・32-35&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff0ef;strokeColor=#af554c;strokeWidth=2;fontColor=#662e29;fontFamily=Meiryo;align=left;verticalAlign=middle;spacing=14;overflow=hidden;" vertex="1" parent="1" classification="counter" sourceReference="教材p.1・32-35">
+          <mxGeometry x="1235" y="780" width="330" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="L01" value="認定　書証として使用" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;jumpStyle=arc;jumpSize=8;html=0;strokeWidth=2;strokeColor=#4577a5;fontColor=#4577a5;fontSize=16;fontFamily=Meiryo;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.4;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="EA" target="A">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="200.0" y="660.0" />
+              <mxPoint x="217.0" y="660.0" />
+            </Array>
+            <mxPoint x="0.0" y="-18.0" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L02" value="条件　質問の準備に使う" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;jumpStyle=arc;jumpSize=8;html=0;strokeWidth=2;strokeColor=#a87512;fontColor=#a87512;fontSize=16;fontFamily=Meiryo;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="EP" target="P">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="600.0" y="660.0" />
+              <mxPoint x="800.0" y="660.0" />
+            </Array>
+            <mxPoint x="-30.0" y="0.0" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L03" value="条件　質問の準備に使う" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;jumpStyle=arc;jumpSize=8;html=0;strokeWidth=2;strokeColor=#a87512;fontColor=#a87512;fontSize=16;fontFamily=Meiryo;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="EQ" target="Q">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1000.0" y="660.0" />
+              <mxPoint x="1340.0" y="660.0" />
+            </Array>
+            <mxPoint x="0.0" y="0.0" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L04" value="認定　資料の内容に基づく" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;jumpStyle=arc;jumpSize=8;html=0;strokeWidth=2;strokeColor=#4577a5;fontColor=#4577a5;fontSize=16;fontFamily=Meiryo;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.15;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="A" target="U">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="260.0" y="312.5" />
+              <mxPoint x="520.0" y="312.5" />
+            </Array>
+            <mxPoint x="0.0" y="-18.0" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L05" value="条件　実演の発言を確認して使用" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;jumpStyle=arc;jumpSize=8;html=0;strokeWidth=2;strokeColor=#a87512;fontColor=#a87512;fontSize=16;fontFamily=Meiryo;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="P" target="U">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="0.0" y="-18.0" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L06" value="条件　実演の発言を確認して使用" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;jumpStyle=arc;jumpSize=8;html=0;strokeWidth=2;strokeColor=#a87512;fontColor=#a87512;fontSize=16;fontFamily=Meiryo;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.85;entryY=1;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="Q" target="U">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1340.0" y="312.5" />
+              <mxPoint x="1080.0" y="312.5" />
+            </Array>
+            <mxPoint x="0.0" y="-18.0" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L07" value="反対　主張だけでは証明にならない" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;jumpStyle=arc;jumpSize=8;html=0;strokeWidth=2;strokeColor=#ad5148;fontColor=#ad5148;fontSize=16;fontFamily=Meiryo;labelBackgroundColor=#ffffff;endArrow=tee;endFill=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="M" target="U">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1578" y="850" />
+              <mxPoint x="1578" y="172" />
+            </Array>
+            <mxPoint x="-189.0" y="-83.24983465615696" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="notes" value="根拠：教材p.2の証拠整理メモ。実演で採否や取調べについて説明があれば、その内容を記録する。&#10;冒頭陳述と起訴状は主張の範囲を示す。記載されているだけで事実の証明にはならない。&#10;甲3・乙2の調書を、確認なしに採用済み証拠へ変更しない。実演の発言を別途記録して使う。" style="text;html=0;align=left;verticalAlign=top;whiteSpace=wrap;overflow=hidden;fontFamily=Meiryo;fontSize=16;fontColor=#17283b;" vertex="1" parent="1">
+          <mxGeometry x="35" y="1016" width="1530" height="100" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="diagram-15" name="15 人物と物と場所の接点">
+    <mxGraphModel dx="1600" dy="1130" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="1130" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title" value="15  人物と物と場所の接点" style="text;html=0;align=left;verticalAlign=top;whiteSpace=wrap;overflow=hidden;fontFamily=Meiryo;fontSize=31;fontColor=#17283b;" vertex="1" parent="1">
+          <mxGeometry x="35" y="25" width="1530" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="subtitle" value="眼鏡・自転車・血液・指紋・発見場所が、誰をどう結ぶかを一覧にする。" style="text;html=0;align=left;verticalAlign=top;whiteSpace=wrap;overflow=hidden;fontFamily=Meiryo;fontSize=19;fontColor=#17283b;" vertex="1" parent="1">
+          <mxGeometry x="35" y="77" width="1530" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="K" value="&lt;div style=&quot;font-family:Meiryo;font-size:14px;&quot;&gt;K　人物又は場所&lt;/div&gt;&lt;div style=&quot;font-family:Meiryo;font-size:20px;line-height:1.32;&quot;&gt;木村忠太&lt;br&gt;眼鏡の持ち主・自転車の通常利用者&lt;/div&gt;&lt;div style=&quot;font-family:Meiryo;font-size:13.5px;margin-top:4px;&quot;&gt;甲1 p.4-5、乙1 p.25&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f2eff8;strokeColor=#806b9c;strokeWidth=2;fontColor=#342947;fontFamily=Meiryo;align=left;verticalAlign=middle;spacing=14;overflow=hidden;" vertex="1" parent="1" classification="person" sourceReference="甲1 p.4-5、乙1 p.25">
+          <mxGeometry x="45" y="145" width="430" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="S" value="&lt;div style=&quot;font-family:Meiryo;font-size:14px;&quot;&gt;S　人物又は場所&lt;/div&gt;&lt;div style=&quot;font-family:Meiryo;font-size:20px;line-height:1.32;&quot;&gt;岸井新之助&lt;br&gt;眼鏡と自転車に血液が付着&lt;/div&gt;&lt;div style=&quot;font-family:Meiryo;font-size:13.5px;margin-top:4px;&quot;&gt;甲1 p.4-5&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f2eff8;strokeColor=#806b9c;strokeWidth=2;fontColor=#342947;fontFamily=Meiryo;align=left;verticalAlign=middle;spacing=14;overflow=hidden;" vertex="1" parent="1" classification="person" sourceReference="甲1 p.4-5">
+          <mxGeometry x="1125" y="145" width="430" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="G" value="&lt;div style=&quot;font-family:Meiryo;font-size:14px;&quot;&gt;G　認定する事実&lt;/div&gt;&lt;div style=&quot;font-family:Meiryo;font-size:20px;line-height:1.32;&quot;&gt;血痕付き眼鏡&lt;br&gt;木村の指紋と皮膚片も確認&lt;/div&gt;&lt;div style=&quot;font-family:Meiryo;font-size:13.5px;margin-top:4px;&quot;&gt;甲1 p.4&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#eef5fc;strokeColor=#4577a5;strokeWidth=2;fontColor=#17283b;fontFamily=Meiryo;align=left;verticalAlign=middle;spacing=14;overflow=hidden;" vertex="1" parent="1" classification="fact" sourceReference="甲1 p.4">
+          <mxGeometry x="45" y="540" width="430" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="Y" value="&lt;div style=&quot;font-family:Meiryo;font-size:14px;&quot;&gt;Y　人物又は場所&lt;/div&gt;&lt;div style=&quot;font-family:Meiryo;font-size:20px;line-height:1.32;&quot;&gt;矢野天彦&lt;br&gt;自転車の登録名義人&lt;/div&gt;&lt;div style=&quot;font-family:Meiryo;font-size:13.5px;margin-top:4px;&quot;&gt;甲1 p.5。2012年以降県外転出&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f2eff8;strokeColor=#806b9c;strokeWidth=2;fontColor=#342947;fontFamily=Meiryo;align=left;verticalAlign=middle;spacing=14;overflow=hidden;" vertex="1" parent="1" classification="person" sourceReference="甲1 p.5。2012年以降県外転出">
+          <mxGeometry x="585" y="540" width="430" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="B" value="&lt;div style=&quot;font-family:Meiryo;font-size:14px;&quot;&gt;B　認定する事実&lt;/div&gt;&lt;div style=&quot;font-family:Meiryo;font-size:20px;line-height:1.32;&quot;&gt;血痕付き共用自転車&lt;br&gt;木村を含む複数人の指紋&lt;/div&gt;&lt;div style=&quot;font-family:Meiryo;font-size:13.5px;margin-top:4px;&quot;&gt;甲1 p.4-5・8&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#eef5fc;strokeColor=#4577a5;strokeWidth=2;fontColor=#17283b;fontFamily=Meiryo;align=left;verticalAlign=middle;spacing=14;overflow=hidden;" vertex="1" parent="1" classification="fact" sourceReference="甲1 p.4-5・8">
+          <mxGeometry x="1125" y="540" width="430" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="P" value="&lt;div style=&quot;font-family:Meiryo;font-size:14px;&quot;&gt;P　人物又は場所&lt;/div&gt;&lt;div style=&quot;font-family:Meiryo;font-size:20px;line-height:1.32;&quot;&gt;本件駐車場&lt;br&gt;岸井の近辺のB地点で眼鏡を発見&lt;/div&gt;&lt;div style=&quot;font-family:Meiryo;font-size:13.5px;margin-top:4px;&quot;&gt;甲1 p.3・6・11・14&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f2eff8;strokeColor=#806b9c;strokeWidth=2;fontColor=#342947;fontFamily=Meiryo;align=left;verticalAlign=middle;spacing=14;overflow=hidden;" vertex="1" parent="1" classification="person" sourceReference="甲1 p.3・6・11・14">
+          <mxGeometry x="45" y="820" width="430" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="H" value="&lt;div style=&quot;font-family:Meiryo;font-size:14px;&quot;&gt;H　人物又は場所&lt;/div&gt;&lt;div style=&quot;font-family:Meiryo;font-size:20px;line-height:1.32;&quot;&gt;ハイツ京極の駐輪場&lt;br&gt;1月5日に自転車を発見&lt;/div&gt;&lt;div style=&quot;font-family:Meiryo;font-size:13.5px;margin-top:4px;&quot;&gt;甲1 p.4-5。外部からも出入り可能&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f2eff8;strokeColor=#806b9c;strokeWidth=2;fontColor=#342947;fontFamily=Meiryo;align=left;verticalAlign=middle;spacing=14;overflow=hidden;" vertex="1" parent="1" classification="person" sourceReference="甲1 p.4-5。外部からも出入り可能">
+          <mxGeometry x="1125" y="820" width="430" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="L01" value="関係　所有・指紋・皮膚片" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;jumpStyle=arc;jumpSize=8;html=0;strokeWidth=2;strokeColor=#806b9c;fontColor=#806b9c;fontSize=16;fontFamily=Meiryo;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="K" target="G">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="0.0" y="-27.5" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L02" value="関係　血液のDNA型が一致" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;jumpStyle=arc;jumpSize=8;html=0;strokeWidth=2;strokeColor=#806b9c;fontColor=#806b9c;fontSize=16;fontFamily=Meiryo;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="S" target="B">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="0.0" y="-7.5" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L03" value="関係　血液のDNA型が一致" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;jumpStyle=arc;jumpSize=8;html=0;strokeWidth=2;strokeColor=#806b9c;fontColor=#806b9c;fontSize=16;fontFamily=Meiryo;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.8;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="S" target="G">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="930" y="210" />
+              <mxPoint x="930" y="335" />
+              <mxPoint x="389" y="335" />
+            </Array>
+            <mxPoint x="-22.0" y="-18.0" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L04" value="関係　通常利用・指紋が一致" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;jumpStyle=arc;jumpSize=8;html=0;strokeWidth=2;strokeColor=#806b9c;fontColor=#806b9c;fontSize=16;fontFamily=Meiryo;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.2;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="K" target="B">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="670" y="210" />
+              <mxPoint x="670" y="450" />
+              <mxPoint x="1211" y="450" />
+            </Array>
+            <mxPoint x="162.0" y="-20.0" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L05" value="関係　登録名義。現使用者とは限ら&#10;ない" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;jumpStyle=arc;jumpSize=8;html=0;strokeWidth=2;strokeColor=#806b9c;fontColor=#806b9c;fontSize=16;fontFamily=Meiryo;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Y" target="B">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="800" y="730" />
+              <mxPoint x="1080" y="730" />
+              <mxPoint x="1080" y="610" />
+            </Array>
+            <mxPoint x="-67.5" y="-20.0" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L06" value="関係　現場で発見" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;jumpStyle=arc;jumpSize=8;html=0;strokeWidth=2;strokeColor=#806b9c;fontColor=#806b9c;fontSize=16;fontFamily=Meiryo;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="G" target="P">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="0.0" y="5.0" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L07" value="関係　住宅の駐輪場で発見" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;jumpStyle=arc;jumpSize=8;html=0;strokeWidth=2;strokeColor=#806b9c;fontColor=#806b9c;fontSize=16;fontFamily=Meiryo;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="B" target="H">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="0.0" y="5.0" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="notes" value="所有者、登録名義人、普段の利用者、犯行当日の利用者は別の問題。登録名義だけで使用者を決めない。&#10;岸井の血液が眼鏡・自転車に付着した事実と、木村が犯行時に使用したという推認を分ける。&#10;各線は物との接点を示す。血液の付着時刻や、木村による刺突の直接証拠を示す線ではない。" style="text;html=0;align=left;verticalAlign=top;whiteSpace=wrap;overflow=hidden;fontFamily=Meiryo;fontSize=16;fontColor=#17283b;" vertex="1" parent="1">
+          <mxGeometry x="35" y="1016" width="1530" height="100" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1130" viewBox="0 0 1600 1130" role="img"><title>人物と駐車場の関係</title><rect width="1600" height="1130" fill="white"/>
+<text x="35" y="54" font-family="Meiryo, sans-serif" font-size="31" fill="#17283b" font-weight="bold">09  人物と駐車場の関係</text>
+<text x="35" y="94" font-family="Meiryo, sans-serif" font-size="19" fill="#17283b">人物間の関係と、現場を知る立場を示す。各線は犯行の証明を意味しない。</text>
+<polyline points="260.0,405 260.0,327.5 671.0,327.5 671.0,250" fill="none" stroke="#806b9c" stroke-width="2"/>
+<polygon points="671.0,250 676.0,262.0 666.0,262.0" stroke="#806b9c" fill="#806b9c" stroke-width="2"/>
+<polyline points="585,187.5 20,187 20,350 131,350 131.0,405" fill="none" stroke="#806b9c" stroke-width="2"/>
+<polygon points="131.0,405 126.0,393.0 136.0,393.0" stroke="#806b9c" fill="#806b9c" stroke-width="2"/>
+<polyline points="475,467.5 1125,467.5" fill="none" stroke="#806b9c" stroke-width="2"/>
+<polygon points="1125,467.5 1113.0,472.5 1113.0,462.5" stroke="#806b9c" fill="#806b9c" stroke-width="2"/>
+<polyline points="1340.0,405 1340.0,327.5 929.0,327.5 929.0,250" fill="none" stroke="#4e805a" stroke-width="2" stroke-dasharray="8 6"/>
+<polygon points="929.0,250 934.0,262.0 924.0,262.0" stroke="#4e805a" fill="#4e805a" stroke-width="2"/>
+<polyline points="260.0,530 260.0,667.5 800.0,667.5 800.0,805" fill="none" stroke="#806b9c" stroke-width="2"/>
+<polygon points="800.0,805 795.0,793.0 805.0,793.0" stroke="#806b9c" fill="#806b9c" stroke-width="2"/>
+<polyline points="1340.0,530 1340.0,667.5 929.0,667.5 929.0,805" fill="none" stroke="#806b9c" stroke-width="2"/>
+<polygon points="929.0,805 924.0,793.0 934.0,793.0" stroke="#806b9c" fill="#806b9c" stroke-width="2"/>
+<polyline points="260.0,805 260,750 692.5,750 692.5,805" fill="none" stroke="#a87512" stroke-width="2" stroke-dasharray="8 6"/>
+<polygon points="692.5,805 687.5,793.0 697.5,793.0" stroke="#a87512" fill="#a87512" stroke-width="2"/>
+<polyline points="1340.0,805 1340,750 907.5,750 907.5,805" fill="none" stroke="#806b9c" stroke-width="2"/>
+<polygon points="907.5,805 902.5,793.0 912.5,793.0" stroke="#806b9c" fill="#806b9c" stroke-width="2"/>
+<rect x="585" y="125" width="430" height="125" fill="#f2eff8" stroke="#806b9c" stroke-width="2"/>
+<text x="599" y="148" font-family="Meiryo, sans-serif" font-size="14" fill="#342947">H　人物又は場所</text>
+<text x="599" y="173.6" font-family="Meiryo, sans-serif" font-size="20" fill="#342947">本所マサミ</text>
+<text x="599" y="200.0" font-family="Meiryo, sans-serif" font-size="20" fill="#342947">木村のLINEの相手</text>
+<text x="599" y="238" font-family="Meiryo, sans-serif" font-size="13.5" fill="#342947">甲2 教材p.15-19</text>
+<rect x="45" y="405" width="430" height="125" fill="#f2eff8" stroke="#806b9c" stroke-width="2"/>
+<text x="59" y="428" font-family="Meiryo, sans-serif" font-size="14" fill="#342947">K　人物又は場所</text>
+<text x="59" y="453.6" font-family="Meiryo, sans-serif" font-size="20" fill="#342947">木村忠太</text>
+<text x="59" y="480.0" font-family="Meiryo, sans-serif" font-size="20" fill="#342947">被告人・眼鏡の持ち主</text>
+<text x="59" y="518" font-family="Meiryo, sans-serif" font-size="13.5" fill="#342947">甲1 p.4、甲2 p.19</text>
+<rect x="1125" y="405" width="430" height="125" fill="#f2eff8" stroke="#806b9c" stroke-width="2"/>
+<text x="1139" y="428" font-family="Meiryo, sans-serif" font-size="14" fill="#342947">S　人物又は場所</text>
+<text x="1139" y="453.6" font-family="Meiryo, sans-serif" font-size="20" fill="#342947">岸井新之助</text>
+<text x="1139" y="480.0" font-family="Meiryo, sans-serif" font-size="20" fill="#342947">被害者・駐車場の契約者</text>
+<text x="1139" y="518" font-family="Meiryo, sans-serif" font-size="13.5" fill="#342947">甲1 p.3・6</text>
+<rect x="45" y="805" width="430" height="145" fill="#fff6e3" stroke="#b17b1a" stroke-width="2"/>
+<text x="59" y="828" font-family="Meiryo, sans-serif" font-size="14" fill="#49350c">O　主張又は要確認</text>
+<text x="59" y="853.6" font-family="Meiryo, sans-serif" font-size="20" fill="#49350c">大滝悟郎</text>
+<text x="59" y="880.0" font-family="Meiryo, sans-serif" font-size="20" fill="#49350c">清掃状況を説明する証人</text>
+<text x="59" y="938" font-family="Meiryo, sans-serif" font-size="13.5" fill="#49350c">準備：甲3 p.20-22</text>
+<rect x="585" y="805" width="430" height="145" fill="#f2eff8" stroke="#806b9c" stroke-width="2"/>
+<text x="599" y="828" font-family="Meiryo, sans-serif" font-size="14" fill="#342947">P　人物又は場所</text>
+<text x="599" y="853.6" font-family="Meiryo, sans-serif" font-size="20" fill="#342947">本件駐車場</text>
+<text x="599" y="880.0" font-family="Meiryo, sans-serif" font-size="20" fill="#342947">Aは被害者、Bは眼鏡の発見地点</text>
+<text x="599" y="938" font-family="Meiryo, sans-serif" font-size="13.5" fill="#342947">甲1 p.3・6・11・14</text>
+<rect x="1125" y="805" width="430" height="145" fill="#f2eff8" stroke="#806b9c" stroke-width="2"/>
+<text x="1139" y="828" font-family="Meiryo, sans-serif" font-size="14" fill="#342947">B　人物又は場所</text>
+<text x="1139" y="853.6" font-family="Meiryo, sans-serif" font-size="20" fill="#342947">大林銀弥</text>
+<text x="1139" y="880.0" font-family="Meiryo, sans-serif" font-size="20" fill="#342947">被害者を発見し110番</text>
+<text x="1139" y="938" font-family="Meiryo, sans-serif" font-size="13.5" fill="#342947">甲1 p.3</text>
+<rect x="226.0" y="311.0" width="268.0" height="28" fill="#ffffff" stroke="none" stroke-width="0"/>
+<text x="232.0" y="330.0" font-family="Meiryo, sans-serif" font-size="16" fill="#806b9c">関係　交際解消後も復縁を求め送信</text>
+<rect x="180.625" y="246.25" width="243.75" height="28" fill="#ffffff" stroke="none" stroke-width="0"/>
+<text x="186.625" y="265.25" font-family="Meiryo, sans-serif" font-size="16" fill="#806b9c">関係　10月25日に別れを告げる</text>
+<rect x="659.57421875" y="436.0" width="280.8515625" height="28" fill="#ffffff" stroke="none" stroke-width="0"/>
+<text x="665.57421875" y="455.0" font-family="Meiryo, sans-serif" font-size="16" fill="#806b9c">関係　12月24日のLINEで怒りを表す</text>
+<rect x="1071.0" y="311.0" width="268.0" height="28" fill="#ffffff" stroke="none" stroke-width="0"/>
+<text x="1077.0" y="330.0" font-family="Meiryo, sans-serif" font-size="16" fill="#4e805a">推認　本所と交際中だと木村が認識</text>
+<rect x="410.0" y="641.0" width="220.0" height="28" fill="#ffffff" stroke="none" stroke-width="0"/>
+<text x="416.0" y="660.0" font-family="Meiryo, sans-serif" font-size="16" fill="#806b9c">関係　岸井をよく見ると送信</text>
+<rect x="994.0" y="641.0" width="172.0" height="28" fill="#ffffff" stroke="none" stroke-width="0"/>
+<text x="1000.0" y="660.0" font-family="Meiryo, sans-serif" font-size="16" fill="#806b9c">関係　駐車区画を契約</text>
+<rect x="382.0" y="721.0" width="236.0" height="28" fill="#ffffff" stroke="none" stroke-width="0"/>
+<text x="388.0" y="740.0" font-family="Meiryo, sans-serif" font-size="16" fill="#a87512">条件　担当し清掃したとの説明</text>
+<rect x="1032.125" y="721.0" width="195.75" height="28" fill="#ffffff" stroke="none" stroke-width="0"/>
+<text x="1038.125" y="740.0" font-family="Meiryo, sans-serif" font-size="16" fill="#806b9c">関係　20時45分頃に発見</text>
+<rect x="35" y="968" width="18" height="18" fill="#203f59" stroke="#203f59" stroke-width="1"/>
+<text x="61" y="985" font-family="Meiryo, sans-serif" font-size="15" fill="#17283b">検討対象</text>
+<rect x="245" y="968" width="18" height="18" fill="#eef5fc" stroke="#4577a5" stroke-width="1"/>
+<text x="271" y="985" font-family="Meiryo, sans-serif" font-size="15" fill="#17283b">認定する事実</text>
+<rect x="475" y="968" width="18" height="18" fill="#f4f5f7" stroke="#7f8a96" stroke-width="1"/>
+<text x="501" y="985" font-family="Meiryo, sans-serif" font-size="15" fill="#17283b">証拠資料</text>
+<rect x="690" y="968" width="18" height="18" fill="#edf7ef" stroke="#4e805a" stroke-width="1"/>
+<text x="716" y="985" font-family="Meiryo, sans-serif" font-size="15" fill="#17283b">推認</text>
+<rect x="900" y="968" width="18" height="18" fill="#fff6e3" stroke="#b17b1a" stroke-width="1"/>
+<text x="926" y="985" font-family="Meiryo, sans-serif" font-size="15" fill="#17283b">主張・要確認</text>
+<rect x="1120" y="968" width="18" height="18" fill="#fff0ef" stroke="#af554c" stroke-width="1"/>
+<text x="1146" y="985" font-family="Meiryo, sans-serif" font-size="15" fill="#17283b">反対事情・限界</text>
+<rect x="1380" y="968" width="18" height="18" fill="#f2eff8" stroke="#806b9c" stroke-width="1"/>
+<text x="1406" y="985" font-family="Meiryo, sans-serif" font-size="15" fill="#17283b">人物・場所</text>
+<text x="35" y="1033" font-family="Meiryo, sans-serif" font-size="15.5" fill="#17283b">木村と岸井が高校の同級生という準備情報は乙2 p.30。実演で確認する。</text>
+<text x="35" y="1058" font-family="Meiryo, sans-serif" font-size="15.5" fill="#17283b">本所と岸井の実際の交際は、木村のLINEだけでは確定しない。矢印は木村の認識を示す。</text>
+<text x="35" y="1083" font-family="Meiryo, sans-serif" font-size="15.5" fill="#17283b">大滝は清掃担当、大林は発見・通報者。二人の役割と証言対象を混同しない。</text>
+</svg>

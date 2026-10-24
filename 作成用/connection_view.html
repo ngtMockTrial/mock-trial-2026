@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="ja">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>つながりをたどる · 模擬裁判</title>
+<style>
+:root{--paper:#f4f6f8;--surface:#fff;--ink:#202e3b;--muted:#526170;--line:#cdd6de;--blue:#245e96;--red:#a73749;--gray:#526170;--green:#23603f;--yellow:#785713;--space:20px;--radius:8px}
+*{box-sizing:border-box}body{margin:0;color:var(--ink);background:var(--paper);font:16px/1.7 "Yu Gothic UI","Meiryo",sans-serif}button,input,select{font:inherit}button,a,input,select{touch-action:manipulation}button{cursor:pointer}a{color:var(--blue)}:focus-visible{outline:3px solid var(--blue);outline-offset:3px}header{background:var(--surface);border-bottom:1px solid var(--line);padding:20px 28px}h1{font-size:24px;margin:0}h2{font-size:20px;margin:0 0 12px}h3{font-size:17px;margin:0 0 12px}p{margin:8px 0}small,.muted{color:var(--muted);font-size:14px}.top{display:flex;align-items:center;justify-content:space-between;gap:20px}.legend{font-size:14px;color:var(--muted)}.layout{display:grid;grid-template-columns:260px minmax(0,1fr);min-height:calc(100vh - 105px)}aside{padding:22px 18px;background:var(--surface);border-right:1px solid var(--line)}label{display:block;font-size:14px;font-weight:600;margin-bottom:6px}input,select{width:100%;padding:9px;border:1px solid #8796a5;border-radius:5px;background:white;color:var(--ink);margin-bottom:12px;min-height:44px}#index{max-height:calc(100vh - 290px);overflow:auto;margin-top:8px}.index-item{display:block;width:100%;text-align:left;background:none;border:0;border-left:3px solid transparent;padding:10px 8px;color:var(--ink);font-size:14px;min-height:44px}.index-item[aria-current=true]{border-color:var(--blue);background:#e8f0f8;font-weight:700}.index-item:hover{background:#eef3f6}.id{font-variant-numeric:tabular-nums;font-weight:700;margin-right:6px}.workspace{padding:24px 28px;min-width:0;max-width:1600px;width:100%;margin:auto}.toolbar{display:flex;flex-wrap:wrap;align-items:center;gap:10px;margin-bottom:22px}.control{border:1px solid #8796a5;background:white;border-radius:5px;padding:8px 13px;color:var(--ink);min-height:44px}.control:disabled{opacity:.5;cursor:default}.intro{margin-bottom:22px}.focus-grid{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.35fr) minmax(0,1fr);gap:24px;align-items:start}.column{min-width:0}.direction{font-size:14px;line-height:1.5;color:var(--muted);min-height:44px;border-bottom:1px solid var(--line);padding-bottom:10px;margin-bottom:16px}.current{background:var(--surface);border:2px solid var(--blue);border-radius:var(--radius);padding:22px;box-shadow:0 4px 16px #202e3b0a}.current h2{font-size:23px;line-height:1.55}.eyebrow{font-size:13px;font-weight:700;color:var(--muted);margin:0 0 14px}.tag{display:inline-block;padding:2px 8px;border-radius:4px;background:#e9edf1;font-size:13px;margin:0 6px 6px 0}.availability{background:#edf1f4;color:var(--ink);padding:9px 12px;border-radius:5px;font-size:14px;margin:14px 0}.availability.available{background:#e7f2eb;color:var(--green)}.availability.pending,.availability.candidate,.availability.conditional{background:#fff2ce;color:var(--yellow)}.card{display:block;width:100%;text-align:left;border:1px solid var(--line);border-left:4px solid var(--gray);border-radius:5px;background:white;padding:13px 14px;margin-bottom:12px;color:var(--ink);overflow-wrap:anywhere}.card:hover{box-shadow:0 2px 10px #202e3b18;border-color:#8394a4}.card-title{display:block;font-weight:600;font-size:15px;line-height:1.6}.card-meta{display:block;font-size:12px;color:var(--muted);margin-bottom:5px}.card-state{display:block;font-size:12px;margin-top:8px;color:var(--yellow)}.relation{display:block;font-size:12px;margin-top:9px;color:var(--muted);border-top:1px solid #e4e9ed;padding-top:6px}.side-検察{border-left-color:var(--blue)}.side-弁護{border-left-color:var(--red)}.concerns{display:grid;grid-template-columns:1fr 1fr;gap:24px;margin-top:28px;padding-top:22px;border-top:1px solid var(--line)}.concerns h3{color:var(--red)}.concerns section:nth-child(2) h3{color:var(--yellow)}.empty{font-size:14px;color:var(--muted);padding:12px 0}.support-extra{margin-top:22px;padding:18px;background:#edf1f4;border-radius:var(--radius)}.support-extra h3{margin-top:16px}.support-extra h3:first-child{margin-top:0}.body-section{margin-top:26px;border-top:1px solid var(--line);padding-top:18px}.body-section summary{cursor:pointer;font-weight:600;min-height:44px}.body-text{white-space:pre-wrap;overflow-wrap:anywhere;font-size:15px;background:white;padding:20px;border:1px solid var(--line);border-radius:5px}.note-actions{display:flex;gap:14px;flex-wrap:wrap;margin-top:18px;font-size:14px}#selection-title:focus{outline:none}.skip{position:absolute;left:20px;top:-80px;background:white;padding:10px}.skip:focus{top:10px}.notice{margin-top:26px;font-size:13px;color:var(--muted);border-top:1px solid var(--line);padding-top:14px}
+@media(max-width:1100px){.layout{grid-template-columns:215px minmax(0,1fr)}.workspace{padding:20px}.focus-grid{grid-template-columns:1fr}.direction{min-height:0}.current-column{grid-row:1}.concerns{grid-template-columns:1fr}.top{align-items:start}.legend{max-width:300px}}
+@media(max-width:600px){header{padding:16px}.top{display:block}.legend{margin-top:8px}.layout{display:block}aside{border-right:0;border-bottom:1px solid var(--line);padding:16px}#index{max-height:180px}.workspace{padding:20px 16px}.current{padding:18px}h1{font-size:21px}.current h2{font-size:21px}}
+</style>
+<a class="skip" href="#workspace">選択中の主張へ</a>
+<header><div class="top"><div><h1>つながりをたどる</h1><div class="muted">模擬裁判 · 証拠から主張へ、主張から根拠へ</div></div><div class="legend">立場：青＝検察 ／ 赤＝弁護 ／ 灰＝共通<br>利用状態：緑＝採用済み資料 ／ 黄＝留保・未確認</div></div></header>
+<div class="layout">
+<aside aria-label="ノートを探す"><label for="search">主張・ID・本文を検索</label><input id="search" type="search" placeholder="例：眼鏡、R01" autocomplete="off"><label for="kind">種類で絞る</label><select id="kind"><option value="">すべての種類</option></select><div id="count" class="muted" aria-live="polite"></div><nav id="index" aria-label="全ノート"></nav></aside>
+<main class="workspace" id="workspace">
+<div class="toolbar"><button id="back" class="control" type="button">← 一つ前へ</button><button data-open="T01" class="control" type="button">犯人性から読む</button><button data-open="T00" class="control" type="button">最終立証目標へ</button></div>
+<div class="intro"><p><strong>カードを選ぶと、その前後だけを表示します。</strong></p><p class="muted">前提 → 選択中の主張 → 使われる先。下段で反論・確認事項を照合できます。矢印は検討上の接続で、証明済みを意味しません。</p></div>
+<div class="focus-grid">
+<section class="column"><h2>根拠・前提</h2><div id="input-direction" class="direction"></div><div id="inputs"></div></section>
+<section class="column current-column"><div class="direction">いま読んでいるカード</div><article id="current" class="current" aria-labelledby="selection-title"></article></section>
+<section class="column"><h2>使われる先</h2><div id="output-direction" class="direction"></div><div id="outputs"></div></section>
+</div>
+<div class="concerns"><section><h3>このカードに向けられた反論</h3><div id="objections"></div></section><section><h3>このカードについて確認すること</h3><div id="questions"></div></section></div>
+<section id="extras" class="support-extra" hidden aria-label="その他の関係"></section>
+<details class="body-section" id="body-details"><summary>出典・判断理由・人間のコメントを読む</summary><div class="muted">ノート本文の保存時点の表示です。編集はObsidianで行ってください。</div><div id="body" class="body-text"></div></details>
+<div class="notice">閲覧用の生成ファイルです。ノートを編集したら「検討を更新.cmd」を実行し、この画面を再読み込みしてください。人の「採用」と裁判所の証拠採用は別です。供述候補・準備資料は現在の認定根拠に数えません。カード数は証拠力を表しません。</div>
+</main></div>
+<script id="graph-data" type="application/json">__GRAPH_DATA__</script>
+<script>
+'use strict';
+const data=JSON.parse(document.getElementById('graph-data').textContent), notes=data.notes;
+const $=id=>document.getElementById(id);let selected='',trail=[];
+const escape=s=>String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const incoming=(id,field)=>Object.values(notes).filter(n=>n[field].includes(id)).map(n=>n.id);
+function card(id,relation){const n=notes[id];return `<button type="button" class="card side-${escape(n.side)}" data-open="${id}" aria-label="${escape(id+' '+n.title+'の接続を表示')}"><span class="card-meta">${escape(n.kind)} · ${escape(n.side)} ／ ${escape(n.status)}</span><span class="card-title"><span class="id">${id}</span>${escape(n.title)}</span>${['pending','candidate','conditional'].includes(n.state)?`<span class="card-state">${escape(n.availability)}</span>`:''}<span class="relation">${escape(relation)}　› 接続をたどる</span></button>`}
+function fill(target,ids,relation,empty){$(target).innerHTML=ids.length?ids.map(id=>card(id,typeof relation==='function'?relation(id):relation)).join(''):`<p class="empty">${escape(empty)}</p>`}
+function index(){const query=$('search').value.trim().toLocaleLowerCase(),kind=$('kind').value;
+ const found=Object.values(notes).filter(n=>(!kind||n.kind===kind)&&(!query||(n.id+' '+n.title+' '+n.body).toLocaleLowerCase().includes(query)));
+ $('count').textContent=found.length+' / '+Object.keys(notes).length+' 件';
+ $('index').innerHTML=found.length?found.map(n=>`<button class="index-item" type="button" data-open="${n.id}" aria-current="${n.id===selected}"><span class="id">${n.id}</span>${escape(n.title)}</button>`).join(''):'<p class="empty">該当するノートはありません。</p>';
+}
+function show(id,{record=true,focus=true}={}){if(!notes[id])id=notes.T01?'T01':Object.keys(notes)[0];if(record&&selected&&selected!==id)trail.push(selected);selected=id;const n=notes[id];
+ if(location.hash.slice(1)!==id)history.replaceState(null,'','#'+id);
+ $('back').disabled=!trail.length;
+ $('input-direction').textContent='前提のカード → '+id+'（支持・条件付き前提）';
+ $('output-direction').textContent=id+' → 次の主張（支持・条件付き前提）';
+ $('current').style.borderColor=({'検察':'var(--blue)','弁護':'var(--red)'})[n.side]||'var(--gray)';
+ $('current').innerHTML=`<p class="eyebrow">${id} ／ ${escape(n.kind)} ／ ${escape(n.side)}</p><h2 id="selection-title" tabindex="-1">${escape(n.title)}</h2><p>${escape(n.summary)}</p><div class="availability ${n.state}">${escape(n.availability)}</div><span class="tag">資料・命題：${escape(n.status)}</span><span class="tag">人の判断：${escape(n.review)}</span><div class="note-actions"><a href="${escape(n.obsidian)}">Obsidianで編集する ↗</a><a href="${escape(n.file)}">元ノートを開く</a></div>`;
+ fill('inputs',n.inputs,other=>other+' → '+id,'前提の接続はありません。本文・出典を確認してください。');
+ fill('outputs',incoming(id,'inputs'),other=>id+' → '+other,'このカードを前提に使う先は未設定です。');
+ fill('objections',incoming(id,'challenges'),other=>other+' が '+id+' に反論','接続された反論はありません。反論が成立しないという意味ではありません。');
+ fill('questions',incoming(id,'checks'),other=>other+' で '+id+' を確認','接続された確認課題はありません。確認済みという意味ではありません。');
+ const extras=[['このカードが反論する先',n.challenges,other=>id+' が '+other+' に反論'],['このカードで確認する対象',n.checks,other=>id+' で '+other+' を確認'],['供述獲得の準備資料 · 現在の証拠支持ではない',n.preparation,other=>other+' を '+id+' の準備に使う'],['この資料を使う供述獲得の準備',incoming(id,'preparation'),other=>id+' を '+other+' の準備に使う'],['供述獲得後の支持候補 · 現在は利用不可',n.potential_supports,other=>id+' → '+other+'（将来の候補）'],['将来支え得る供述候補 · 回答は未獲得',incoming(id,'potential_supports'),other=>other+' → '+id+'（将来の候補）']].filter(([,ids])=>ids.length);
+ $('extras').hidden=!extras.length;$('extras').innerHTML=extras.map(([label,ids,rel])=>`<h3>${escape(label)}</h3>${ids.map(other=>card(other,rel(other))).join('')}`).join('');
+ $('body').textContent=n.body;$('body-details').open=false;index();if(focus)$('selection-title').focus({preventScroll:true});
+}
+document.addEventListener('click',event=>{const b=event.target.closest('[data-open]');if(b){show(b.dataset.open);if(innerWidth<1100)$('workspace').scrollIntoView({block:'start'});}});
+$('back').addEventListener('click',()=>{if(trail.length)show(trail.pop(),{record:false});});
+$('search').addEventListener('input',index);$('kind').addEventListener('change',index);
+for(const kind of [...new Set(Object.values(notes).map(n=>n.kind))]){const option=document.createElement('option');option.value=kind;option.textContent=kind;$('kind').append(option);}
+addEventListener('hashchange',()=>show(location.hash.slice(1)));
+show(location.hash.slice(1),{focus:false});
+</script>
+</html>

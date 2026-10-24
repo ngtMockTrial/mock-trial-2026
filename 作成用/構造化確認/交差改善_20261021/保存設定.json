@@ -1,0 +1,11 @@
+{
+  "centerStrength": 0.22,
+  "repelStrength": 16,
+  "linkStrength": 0.85,
+  "linkDistance": 280,
+  "lineSizeMultiplier": 1,
+  "nodeSizeMultiplier": 0.8,
+  "textFadeMultiplier": -2.5,
+  "showArrow": true,
+  "scale": 0.17219455704292844
+}

@@ -1,0 +1,51 @@
+{
+  "collapse-filter": false,
+  "search": "path:\"検討/グラフ表示/命題\" [graph_scope:本筋]",
+  "showTags": false,
+  "showAttachments": false,
+  "hideUnresolved": true,
+  "showOrphans": true,
+  "collapse-color-groups": false,
+  "colorGroups": [
+    {
+      "query": "[graph_id:T00]",
+      "color": {
+        "a": 1,
+        "rgb": 7387135
+      }
+    },
+    {
+      "query": "[side:検察]",
+      "color": {
+        "a": 1,
+        "rgb": 3766455
+      }
+    },
+    {
+      "query": "[side:弁護]",
+      "color": {
+        "a": 1,
+        "rgb": 12473188
+      }
+    },
+    {
+      "query": "[side:共通]",
+      "color": {
+        "a": 1,
+        "rgb": 7438731
+      }
+    }
+  ],
+  "collapse-display": true,
+  "showArrow": true,
+  "textFadeMultiplier": -2.4,
+  "nodeSizeMultiplier": 0.66,
+  "lineSizeMultiplier": 1.79,
+  "collapse-forces": true,
+  "centerStrength": 0.54,
+  "repelStrength": 12.29,
+  "linkStrength": 1,
+  "linkDistance": 212,
+  "scale": 0.28622834128826036,
+  "close": true
+}

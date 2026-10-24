@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1130" viewBox="0 0 1600 1130" role="img"><title>人物と物と場所の接点</title><rect width="1600" height="1130" fill="white"/>
+<text x="35" y="54" font-family="Meiryo, sans-serif" font-size="31" fill="#17283b" font-weight="bold">15  人物と物と場所の接点</text>
+<text x="35" y="94" font-family="Meiryo, sans-serif" font-size="19" fill="#17283b">眼鏡・自転車・血液・指紋・発見場所が、誰をどう結ぶかを一覧にする。</text>
+<polyline points="260.0,275 260.0,540" fill="none" stroke="#806b9c" stroke-width="2"/>
+<polygon points="260.0,540 255.0,528.0 265.0,528.0" stroke="#806b9c" fill="#806b9c" stroke-width="2"/>
+<polyline points="1340.0,275 1340.0,540" fill="none" stroke="#806b9c" stroke-width="2"/>
+<polygon points="1340.0,540 1335.0,528.0 1345.0,528.0" stroke="#806b9c" fill="#806b9c" stroke-width="2"/>
+<polyline points="1125,210.0 930,210 930,335 389,335 389.0,540" fill="none" stroke="#806b9c" stroke-width="2"/>
+<polygon points="389.0,540 384.0,528.0 394.0,528.0" stroke="#806b9c" fill="#806b9c" stroke-width="2"/>
+<polyline points="475,210.0 670,210 670,450 1211,450 1211.0,540" fill="none" stroke="#806b9c" stroke-width="2"/>
+<polygon points="1211.0,540 1206.0,528.0 1216.0,528.0" stroke="#806b9c" fill="#806b9c" stroke-width="2"/>
+<polyline points="800.0,680 800,730 1080,730 1080,610 1125,610.0" fill="none" stroke="#806b9c" stroke-width="2"/>
+<polygon points="1125,610.0 1113.0,615.0 1113.0,605.0" stroke="#806b9c" fill="#806b9c" stroke-width="2"/>
+<polyline points="260.0,680 260.0,820" fill="none" stroke="#806b9c" stroke-width="2"/>
+<polygon points="260.0,820 255.0,808.0 265.0,808.0" stroke="#806b9c" fill="#806b9c" stroke-width="2"/>
+<polyline points="1340.0,680 1340.0,820" fill="none" stroke="#806b9c" stroke-width="2"/>
+<polygon points="1340.0,820 1335.0,808.0 1345.0,808.0" stroke="#806b9c" fill="#806b9c" stroke-width="2"/>
+<rect x="45" y="145" width="430" height="130" fill="#f2eff8" stroke="#806b9c" stroke-width="2"/>
+<text x="59" y="168" font-family="Meiryo, sans-serif" font-size="14" fill="#342947">K　人物又は場所</text>
+<text x="59" y="193.6" font-family="Meiryo, sans-serif" font-size="20" fill="#342947">木村忠太</text>
+<text x="59" y="220.0" font-family="Meiryo, sans-serif" font-size="20" fill="#342947">眼鏡の持ち主・自転車の通常利用者</text>
+<text x="59" y="263" font-family="Meiryo, sans-serif" font-size="13.5" fill="#342947">甲1 p.4-5、乙1 p.25</text>
+<rect x="1125" y="145" width="430" height="130" fill="#f2eff8" stroke="#806b9c" stroke-width="2"/>
+<text x="1139" y="168" font-family="Meiryo, sans-serif" font-size="14" fill="#342947">S　人物又は場所</text>
+<text x="1139" y="193.6" font-family="Meiryo, sans-serif" font-size="20" fill="#342947">岸井新之助</text>
+<text x="1139" y="220.0" font-family="Meiryo, sans-serif" font-size="20" fill="#342947">眼鏡と自転車に血液が付着</text>
+<text x="1139" y="263" font-family="Meiryo, sans-serif" font-size="13.5" fill="#342947">甲1 p.4-5</text>
+<rect x="45" y="540" width="430" height="140" fill="#eef5fc" stroke="#4577a5" stroke-width="2"/>
+<text x="59" y="563" font-family="Meiryo, sans-serif" font-size="14" fill="#17283b">G　認定する事実</text>
+<text x="59" y="588.6" font-family="Meiryo, sans-serif" font-size="20" fill="#17283b">血痕付き眼鏡</text>
+<text x="59" y="615.0" font-family="Meiryo, sans-serif" font-size="20" fill="#17283b">木村の指紋と皮膚片も確認</text>
+<text x="59" y="668" font-family="Meiryo, sans-serif" font-size="13.5" fill="#17283b">甲1 p.4</text>
+<rect x="585" y="540" width="430" height="140" fill="#f2eff8" stroke="#806b9c" stroke-width="2"/>
+<text x="599" y="563" font-family="Meiryo, sans-serif" font-size="14" fill="#342947">Y　人物又は場所</text>
+<text x="599" y="588.6" font-family="Meiryo, sans-serif" font-size="20" fill="#342947">矢野天彦</text>
+<text x="599" y="615.0" font-family="Meiryo, sans-serif" font-size="20" fill="#342947">自転車の登録名義人</text>
+<text x="599" y="668" font-family="Meiryo, sans-serif" font-size="13.5" fill="#342947">甲1 p.5。2012年以降県外転出</text>
+<rect x="1125" y="540" width="430" height="140" fill="#eef5fc" stroke="#4577a5" stroke-width="2"/>
+<text x="1139" y="563" font-family="Meiryo, sans-serif" font-size="14" fill="#17283b">B　認定する事実</text>
+<text x="1139" y="588.6" font-family="Meiryo, sans-serif" font-size="20" fill="#17283b">血痕付き共用自転車</text>
+<text x="1139" y="615.0" font-family="Meiryo, sans-serif" font-size="20" fill="#17283b">木村を含む複数人の指紋</text>
+<text x="1139" y="668" font-family="Meiryo, sans-serif" font-size="13.5" fill="#17283b">甲1 p.4-5・8</text>
+<rect x="45" y="820" width="430" height="140" fill="#f2eff8" stroke="#806b9c" stroke-width="2"/>
+<text x="59" y="843" font-family="Meiryo, sans-serif" font-size="14" fill="#342947">P　人物又は場所</text>
+<text x="59" y="868.6" font-family="Meiryo, sans-serif" font-size="20" fill="#342947">本件駐車場</text>
+<text x="59" y="895.0" font-family="Meiryo, sans-serif" font-size="20" fill="#342947">岸井の近辺のB地点で眼鏡を発見</text>
+<text x="59" y="948" font-family="Meiryo, sans-serif" font-size="13.5" fill="#342947">甲1 p.3・6・11・14</text>
+<rect x="1125" y="820" width="430" height="140" fill="#f2eff8" stroke="#806b9c" stroke-width="2"/>
+<text x="1139" y="843" font-family="Meiryo, sans-serif" font-size="14" fill="#342947">H　人物又は場所</text>
+<text x="1139" y="868.6" font-family="Meiryo, sans-serif" font-size="20" fill="#342947">ハイツ京極の駐輪場</text>
+<text x="1139" y="895.0" font-family="Meiryo, sans-serif" font-size="20" fill="#342947">1月5日に自転車を発見</text>
+<text x="1139" y="948" font-family="Meiryo, sans-serif" font-size="13.5" fill="#342947">甲1 p.4-5。外部からも出入り可能</text>
+<rect x="158.0" y="366.0" width="204.0" height="28" fill="#ffffff" stroke="none" stroke-width="0"/>
+<text x="164.0" y="385.0" font-family="Meiryo, sans-serif" font-size="16" fill="#806b9c">関係　所有・指紋・皮膚片</text>
+<rect x="1236.66015625" y="386.0" width="206.6796875" height="28" fill="#ffffff" stroke="none" stroke-width="0"/>
+<text x="1242.66015625" y="405.0" font-family="Meiryo, sans-serif" font-size="16" fill="#806b9c">関係　血液のDNA型が一致</text>
+<rect x="591.66015625" y="303.0" width="206.6796875" height="28" fill="#ffffff" stroke="none" stroke-width="0"/>
+<text x="597.66015625" y="322.0" font-family="Meiryo, sans-serif" font-size="16" fill="#806b9c">関係　血液のDNA型が一致</text>
+<rect x="820.0" y="416.0" width="220.0" height="28" fill="#ffffff" stroke="none" stroke-width="0"/>
+<text x="826.0" y="435.0" font-family="Meiryo, sans-serif" font-size="16" fill="#806b9c">関係　通常利用・指紋が一致</text>
+<rect x="796.0" y="685.0" width="268.0" height="50" fill="#ffffff" stroke="none" stroke-width="0"/>
+<text x="802.0" y="704.0" font-family="Meiryo, sans-serif" font-size="16" fill="#806b9c">関係　登録名義。現使用者とは限ら</text>
+<text x="914.0" y="726.0" font-family="Meiryo, sans-serif" font-size="16" fill="#806b9c">ない</text>
+<rect x="190.0" y="741.0" width="140.0" height="28" fill="#ffffff" stroke="none" stroke-width="0"/>
+<text x="196.0" y="760.0" font-family="Meiryo, sans-serif" font-size="16" fill="#806b9c">関係　現場で発見</text>
+<rect x="1238.0" y="741.0" width="204.0" height="28" fill="#ffffff" stroke="none" stroke-width="0"/>
+<text x="1244.0" y="760.0" font-family="Meiryo, sans-serif" font-size="16" fill="#806b9c">関係　住宅の駐輪場で発見</text>
+<rect x="35" y="968" width="18" height="18" fill="#203f59" stroke="#203f59" stroke-width="1"/>
+<text x="61" y="985" font-family="Meiryo, sans-serif" font-size="15" fill="#17283b">検討対象</text>
+<rect x="245" y="968" width="18" height="18" fill="#eef5fc" stroke="#4577a5" stroke-width="1"/>
+<text x="271" y="985" font-family="Meiryo, sans-serif" font-size="15" fill="#17283b">認定する事実</text>
+<rect x="475" y="968" width="18" height="18" fill="#f4f5f7" stroke="#7f8a96" stroke-width="1"/>
+<text x="501" y="985" font-family="Meiryo, sans-serif" font-size="15" fill="#17283b">証拠資料</text>
+<rect x="690" y="968" width="18" height="18" fill="#edf7ef" stroke="#4e805a" stroke-width="1"/>
+<text x="716" y="985" font-family="Meiryo, sans-serif" font-size="15" fill="#17283b">推認</text>
+<rect x="900" y="968" width="18" height="18" fill="#fff6e3" stroke="#b17b1a" stroke-width="1"/>
+<text x="926" y="985" font-family="Meiryo, sans-serif" font-size="15" fill="#17283b">主張・要確認</text>
+<rect x="1120" y="968" width="18" height="18" fill="#fff0ef" stroke="#af554c" stroke-width="1"/>
+<text x="1146" y="985" font-family="Meiryo, sans-serif" font-size="15" fill="#17283b">反対事情・限界</text>
+<rect x="1380" y="968" width="18" height="18" fill="#f2eff8" stroke="#806b9c" stroke-width="1"/>
+<text x="1406" y="985" font-family="Meiryo, sans-serif" font-size="15" fill="#17283b">人物・場所</text>
+<text x="35" y="1033" font-family="Meiryo, sans-serif" font-size="15.5" fill="#17283b">所有者、登録名義人、普段の利用者、犯行当日の利用者は別の問題。登録名義だけで使用者を決めない。</text>
+<text x="35" y="1058" font-family="Meiryo, sans-serif" font-size="15.5" fill="#17283b">岸井の血液が眼鏡・自転車に付着した事実と、木村が犯行時に使用したという推認を分ける。</text>
+<text x="35" y="1083" font-family="Meiryo, sans-serif" font-size="15.5" fill="#17283b">各線は物との接点を示す。血液の付着時刻や、木村による刺突の直接証拠を示す線ではない。</text>
+</svg>

@@ -1,0 +1,22 @@
+[
+  {
+    "file": "output\\pdf\\01_事件整理と立証戦略.pdf",
+    "planned_pages": 12,
+    "sha256": "7775704d02797d992e6cf2ca1b6276f78dbfd2cc611a7a7a9c404433d0a20504"
+  },
+  {
+    "file": "output\\pdf\\02_論告原稿と提出用要旨.pdf",
+    "planned_pages": 8,
+    "sha256": "cf684e53599f4050cb6c1f3d246a8ac580d4402e7711855acaa763254c7de699"
+  },
+  {
+    "file": "output\\pdf\\03_当日運用と記録シート.pdf",
+    "planned_pages": 5,
+    "sha256": "b7165141167633ba41cfc44e2e2ee14d1b07756e929575779f3e6f96c6cd1a39"
+  },
+  {
+    "file": "output\\pdf\\04_追加尋問の準備.pdf",
+    "planned_pages": 5,
+    "sha256": "eb8d7ae58bda38545f23f0d601263d5a315c429489058c2828c463acc2a99063"
+  }
+]

@@ -1,0 +1,30 @@
+.mock-trial-final-goal .inline-title,
+.mock-trial-final-goal.markdown-preview-view h1,
+.mock-trial-final-goal .markdown-preview-view h1,
+.mock-trial-final-goal .cm-header-1 {
+  font-size: clamp(28px, 3vw, 44px);
+  line-height: 1.4;
+  font-weight: 800;
+  color: #3978b7;
+}
+.mock-trial-final-goal .callout[data-callout="abstract"] {
+  --callout-color: 57, 120, 183;
+  border: 2px solid #3978b7;
+}
+.mock-trial-final-goal .callout[data-callout="abstract"] .callout-title {
+  font-size: 20px;
+  font-weight: 800;
+}
+.mock-trial-final-goal .callout[data-callout="abstract"] .callout-content p:first-child {
+  font-size: clamp(26px, 3vw, 40px);
+  line-height: 1.5;
+  font-weight: 800;
+}
+
+/* 点はExtended Graphで拡大。グラフの上に固定の疑似ゴールを描かない。 */
+.workspace-leaf-content[data-type="graph"] .view-content { position:relative; }
+.workspace-leaf-content[data-type="graph"] .view-content::after {
+ content:"青＝検察 ／ 赤＝弁護 ／ 灰＝共通 ｜ 最大の丸＝目標・六角＝要証事実・四角＝証拠・丸＝事実命題・菱形＝推認・三角＝反論 ｜ 大きさ＝表示重要度";
+ position:absolute; left:12px; bottom:8px; right:12px; padding:5px 8px; z-index:4;
+ font-size:12px; color:var(--text-muted); background:var(--background-primary); pointer-events:none;
+}

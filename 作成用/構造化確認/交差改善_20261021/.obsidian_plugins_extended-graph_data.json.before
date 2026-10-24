@@ -1,0 +1,560 @@
+{
+  "enableFeatures": {
+    "graph": {
+      "auto-enabled": true,
+      "tags": false,
+      "properties": false,
+      "property-key": false,
+      "links": false,
+      "linksSameColorAsNode": false,
+      "folders": false,
+      "imagesFromProperty": false,
+      "imagesFromEmbeds": false,
+      "imagesForAttachments": false,
+      "focus": false,
+      "shapes": true,
+      "elements-stats": true,
+      "names": true,
+      "icons": false,
+      "arrows": true,
+      "layers": false
+    },
+    "localgraph": {
+      "auto-enabled": false,
+      "tags": false,
+      "properties": false,
+      "property-key": false,
+      "links": false,
+      "linksSameColorAsNode": false,
+      "folders": false,
+      "imagesFromProperty": false,
+      "imagesFromEmbeds": false,
+      "imagesForAttachments": false,
+      "focus": false,
+      "shapes": false,
+      "elements-stats": false,
+      "names": false,
+      "icons": false,
+      "arrows": false,
+      "layers": false
+    }
+  },
+  "interactiveSettings": {
+    "tag": {
+      "colormap": "hsv",
+      "colors": [],
+      "unselected": [],
+      "excludeRegex": {
+        "regex": "",
+        "flags": ""
+      },
+      "noneType": "none",
+      "showOnGraph": true,
+      "enableByDefault": true
+    },
+    "link": {
+      "colormap": "rainbow",
+      "colors": [],
+      "unselected": [],
+      "excludeRegex": {
+        "regex": "",
+        "flags": ""
+      },
+      "noneType": "none",
+      "showOnGraph": true,
+      "enableByDefault": true
+    },
+    "folder": {
+      "colormap": "winter",
+      "colors": [],
+      "unselected": [],
+      "excludeRegex": {
+        "regex": "",
+        "flags": ""
+      },
+      "noneType": "/",
+      "showOnGraph": true,
+      "enableByDefault": false
+    },
+    "side": {
+      "colormap": "winter",
+      "colors": [],
+      "unselected": [],
+      "excludeRegex": {
+        "regex": "",
+        "flags": ""
+      },
+      "noneType": "未設定",
+      "showOnGraph": false,
+      "enableByDefault": true,
+      "useForNodeColor": false
+    },
+    "kind": {
+      "colormap": "winter",
+      "colors": [],
+      "unselected": [],
+      "excludeRegex": {
+        "regex": "",
+        "flags": ""
+      },
+      "noneType": "未設定",
+      "showOnGraph": false,
+      "enableByDefault": true,
+      "useForNodeColor": false
+    },
+    "availability": {
+      "colormap": "winter",
+      "colors": [],
+      "unselected": [],
+      "excludeRegex": {
+        "regex": "",
+        "flags": ""
+      },
+      "noneType": "未設定",
+      "showOnGraph": false,
+      "enableByDefault": true,
+      "useForNodeColor": false
+    }
+  },
+  "additionalProperties": {
+    "side": {
+      "graph": true,
+      "localgraph": false
+    },
+    "kind": {
+      "graph": true,
+      "localgraph": false
+    },
+    "availability": {
+      "graph": true,
+      "localgraph": false
+    }
+  },
+  "backupGraphOptions": {
+    "collapse-filter": false,
+    "search": "path:\"検討/グラフ表示/命題\" [graph_scope:本筋]",
+    "showTags": false,
+    "showAttachments": false,
+    "hideUnresolved": true,
+    "showOrphans": true,
+    "collapse-color-groups": false,
+    "colorGroups": [
+      {
+        "query": "[graph_id:T00]",
+        "color": {
+          "a": 1,
+          "rgb": 7387135
+        }
+      },
+      {
+        "query": "[side:検察]",
+        "color": {
+          "a": 1,
+          "rgb": 3766455
+        }
+      },
+      {
+        "query": "[side:弁護]",
+        "color": {
+          "a": 1,
+          "rgb": 12473188
+        }
+      },
+      {
+        "query": "[side:共通]",
+        "color": {
+          "a": 1,
+          "rgb": 7438731
+        }
+      }
+    ],
+    "collapse-display": true,
+    "showArrow": true,
+    "textFadeMultiplier": -2.4,
+    "nodeSizeMultiplier": 0.66,
+    "lineSizeMultiplier": 1.79,
+    "collapse-forces": true,
+    "centerStrength": 0.54,
+    "repelStrength": 12.29,
+    "linkStrength": 1,
+    "linkDistance": 212,
+    "scale": 0.28622834128826036,
+    "close": true
+  },
+  "openInNewTab": false,
+  "canonicalizePropertiesWithDataview": false,
+  "states": [
+    {
+      "id": "default-vault",
+      "name": "Default state",
+      "engineOptions": {
+        "colorGroups": [],
+        "search": "",
+        "hideUnresolved": false,
+        "showAttachments": false,
+        "showOrphans": true,
+        "showTags": false,
+        "localBacklinks": true,
+        "localForelinks": true,
+        "localInterlinks": false,
+        "localJumps": 1,
+        "lineSizeMultiplier": 1.79,
+        "nodeSizeMultiplier": 0.66,
+        "showArrow": true,
+        "textFadeMultiplier": -2.4,
+        "centerStrength": 0.54,
+        "linkDistance": 212,
+        "linkStrength": 1,
+        "repelStrength": 12.29
+      },
+      "toggleTypes": {},
+      "logicTypes": {},
+      "enableLayers": false,
+      "currentLayerLevel": 0
+    },
+    {
+      "id": "mock-trial-structure-v2",
+      "name": "模擬裁判｜論証の本筋",
+      "engineOptions": {
+        "collapse-filter": false,
+        "search": "path:\"検討/グラフ表示/命題\" [graph_scope:本筋]",
+        "showTags": false,
+        "showAttachments": false,
+        "hideUnresolved": true,
+        "showOrphans": true,
+        "collapse-color-groups": false,
+        "colorGroups": [
+          {
+            "query": "[graph_id:T00]",
+            "color": {
+              "a": 1,
+              "rgb": 7387135
+            }
+          },
+          {
+            "query": "[side:検察]",
+            "color": {
+              "a": 1,
+              "rgb": 3766455
+            }
+          },
+          {
+            "query": "[side:弁護]",
+            "color": {
+              "a": 1,
+              "rgb": 12473188
+            }
+          },
+          {
+            "query": "[side:共通]",
+            "color": {
+              "a": 1,
+              "rgb": 7438731
+            }
+          }
+        ],
+        "collapse-display": true,
+        "showArrow": true,
+        "textFadeMultiplier": -2.4,
+        "nodeSizeMultiplier": 0.66,
+        "lineSizeMultiplier": 1.79,
+        "collapse-forces": true,
+        "centerStrength": 0.54,
+        "repelStrength": 12.29,
+        "linkStrength": 1,
+        "linkDistance": 212,
+        "scale": 0.28622834128826036,
+        "close": true
+      },
+      "pinNodes": {},
+      "toggleTypes": {
+        "tag": [],
+        "link": [],
+        "folder": []
+      },
+      "logicTypes": {
+        "tag": "OR",
+        "link": "OR",
+        "folder": "OR"
+      },
+      "enableLayers": false,
+      "currentLayerLevel": 0,
+      "hiddenLegendRows": [],
+      "collapsedLegendRows": [
+        "side",
+        "kind",
+        "availability"
+      ]
+    }
+  ],
+  "startingStateID": "mock-trial-structure-v2",
+  "syncDefaultState": false,
+  "saveConfigsWithState": false,
+  "customColorMaps": {},
+  "imageProperties": [
+    "image"
+  ],
+  "borderFactor": 0.06,
+  "allowExternalImages": false,
+  "allowExternalLocalImages": false,
+  "nodesSizeProperties": [
+    "node_size"
+  ],
+  "nodesSizeFunction": "constant",
+  "nodesSizeRange": {
+    "min": 1,
+    "max": 1
+  },
+  "nodesColorColormap": "YlOrRd",
+  "nodesColorFunction": "default",
+  "graphStatsDirection": "normal",
+  "linksSizeFunction": "default",
+  "linksColorColormap": "YlOrRd",
+  "linksColorFunction": "default",
+  "recomputeStatsOnGraphChange": false,
+  "zoomFactor": 2,
+  "focusScaleFactor": 1.8,
+  "highlightOpenNodes": false,
+  "highlightSearchResults": false,
+  "maxNodes": 500,
+  "delay": 500,
+  "revertAction": false,
+  "enableCSS": false,
+  "cssSnippetFilename": "",
+  "shapeQueries": {
+    "circle": {
+      "combinationLogic": "OR",
+      "index": 0,
+      "rules": [
+        {
+          "source": "property",
+          "property": "kind",
+          "value": "間接事実",
+          "logic": "is"
+        },
+        {
+          "source": "property",
+          "property": "kind",
+          "value": "接続",
+          "logic": "is"
+        },
+        {
+          "source": "property",
+          "property": "kind",
+          "value": "最終結論",
+          "logic": "is"
+        }
+      ]
+    },
+    "square": {
+      "combinationLogic": "OR",
+      "index": 1,
+      "rules": [
+        {
+          "source": "property",
+          "property": "kind",
+          "value": "証拠",
+          "logic": "is"
+        }
+      ]
+    },
+    "triangle": {
+      "combinationLogic": "OR",
+      "index": 2,
+      "rules": [
+        {
+          "source": "property",
+          "property": "kind",
+          "value": "反論",
+          "logic": "is"
+        }
+      ]
+    },
+    "diamond": {
+      "combinationLogic": "OR",
+      "index": 3,
+      "rules": [
+        {
+          "source": "property",
+          "property": "kind",
+          "value": "推認",
+          "logic": "is"
+        }
+      ]
+    },
+    "pentagon": {
+      "combinationLogic": "OR",
+      "index": 4,
+      "rules": [
+        {
+          "source": "property",
+          "property": "kind",
+          "value": "確認課題",
+          "logic": "is"
+        }
+      ]
+    },
+    "hexagon": {
+      "combinationLogic": "OR",
+      "index": 5,
+      "rules": [
+        {
+          "source": "property",
+          "property": "kind",
+          "value": "要証事実",
+          "logic": "is"
+        }
+      ]
+    },
+    "octagon": {
+      "combinationLogic": "OR",
+      "index": 6,
+      "rules": [
+        {
+          "source": "property",
+          "property": "kind",
+          "value": "準備資料",
+          "logic": "is"
+        },
+        {
+          "source": "property",
+          "property": "kind",
+          "value": "供述獲得候補",
+          "logic": "is"
+        }
+      ]
+    },
+    "decagon": {
+      "combinationLogic": "OR",
+      "index": 7,
+      "rules": []
+    },
+    "star4": {
+      "combinationLogic": "OR",
+      "index": 8,
+      "rules": []
+    },
+    "star5": {
+      "combinationLogic": "OR",
+      "index": 9,
+      "rules": []
+    },
+    "star6": {
+      "combinationLogic": "OR",
+      "index": 10,
+      "rules": []
+    },
+    "star8": {
+      "combinationLogic": "OR",
+      "index": 11,
+      "rules": []
+    },
+    "star10": {
+      "combinationLogic": "OR",
+      "index": 12,
+      "rules": []
+    }
+  },
+  "colorBasedOnDepth": false,
+  "depthColormap": "rainbow",
+  "currentNode": {
+    "useColor": false,
+    "color": "#000000",
+    "size": 100,
+    "shape": "circle"
+  },
+  "fadeOnDisable": false,
+  "borderUnresolved": "",
+  "spreadArcs": false,
+  "weightArcs": false,
+  "animateDotsOnLinks": false,
+  "animationSpeedForDots": 1,
+  "interactivesBrightness": {
+    "light": 1,
+    "dark": 1
+  },
+  "fadeInElements": false,
+  "externalLinks": "none",
+  "externalLinksProperties": [
+    "url"
+  ],
+  "externalLinkOpenMode": "note",
+  "showPinIcon": false,
+  "allowMultipleLinkTypes": false,
+  "disableSource": false,
+  "disableTarget": false,
+  "excludedSourcesFolder": [],
+  "excludedTargetsFolder": [],
+  "curvedLinks": false,
+  "curvedFactor": 1,
+  "outlineLinks": false,
+  "displayLinkTypeLabel": false,
+  "colorLinkTypeLabel": false,
+  "noLineHighlight": false,
+  "folderShowFullPath": true,
+  "invertArrows": false,
+  "flatArrows": false,
+  "opaqueArrowsButKeepFading": false,
+  "alwaysOpaqueArrows": false,
+  "arrowScale": 1,
+  "arrowFixedSize": false,
+  "arrowColorBool": false,
+  "arrowColor": "",
+  "numberOfCharacters": 28,
+  "ellipsis": "…",
+  "showOnlyFileName": true,
+  "noExtension": true,
+  "usePropertiesForName": [
+    "graph_label"
+  ],
+  "addBackgroundToName": true,
+  "nameVerticalOffset": 4,
+  "dynamicVerticalOffset": true,
+  "showNamesWhenNeighborHighlighted": true,
+  "iconProperties": [
+    ""
+  ],
+  "usePluginForIcon": true,
+  "usePluginForIconColor": true,
+  "useParentIcon": false,
+  "backgroundOpacityWithIcon": 0,
+  "useIconColorForBackgroud": true,
+  "borderWidthWithIcon": 0,
+  "layerProperties": [
+    "layer"
+  ],
+  "numberOfActiveLayers": 4,
+  "layersOrder": "ASC",
+  "displayLabelsInUI": true,
+  "nodesWithoutLayerOpacity": 0,
+  "useLayerCustomOpacity": true,
+  "layersCustomOpacity": {},
+  "layersLevels": {},
+  "defaultLevelForLayers": 0,
+  "horizontalLegend": false,
+  "useRadialMenu": false,
+  "radialMenuModifier": "Shift",
+  "pinNodeModifier": "Alt",
+  "useLeftClickToSelect": true,
+  "selectNodeModifier": "Shift",
+  "filterAbstractFiles": [],
+  "ignoreInlineLinks": false,
+  "collapseState": true,
+  "collapseLegend": true,
+  "resetAfterChanges": false,
+  "collapsedSettings": {},
+  "selectionMode": "replace",
+  "exportSVGOptions": {
+    "asImage": true,
+    "onlyVisibleArea": false,
+    "showNodeNames": true,
+    "useCurvedLinks": false,
+    "useModifiedArrows": true,
+    "useNodesShapes": false,
+    "showArcs": false,
+    "showFolders": true,
+    "useModifiedNames": true,
+    "showIcons": false
+  },
+  "multipleNodesData": {}
+}

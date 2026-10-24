@@ -1,0 +1,117 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1130" viewBox="0 0 1600 1130" role="img"><title>事件当日の時系列と確かさ</title><rect width="1600" height="1130" fill="white"/>
+<text x="35" y="54" font-family="Meiryo, sans-serif" font-size="31" fill="#17283b" font-weight="bold">13  事件当日の時系列と確かさ</text>
+<text x="35" y="94" font-family="Meiryo, sans-serif" font-size="19" fill="#17283b">前後関係を示す図。矢印は因果関係や同一人物の行動連続性を意味しない。</text>
+<polyline points="350,257.5 445,257.5" fill="none" stroke="#536b7a" stroke-width="2"/>
+<polygon points="445,257.5 433.0,262.5 433.0,252.5" stroke="#536b7a" fill="#536b7a" stroke-width="2"/>
+<polyline points="750,257.5 845,257.5" fill="none" stroke="#536b7a" stroke-width="2"/>
+<polygon points="845,257.5 833.0,262.5 833.0,252.5" stroke="#536b7a" fill="#536b7a" stroke-width="2"/>
+<polyline points="1150,257.5 1245,257.5" fill="none" stroke="#536b7a" stroke-width="2"/>
+<polygon points="1245,257.5 1233.0,262.5 1233.0,252.5" stroke="#536b7a" fill="#536b7a" stroke-width="2"/>
+<polyline points="1397.5,335 1397.5,455" fill="none" stroke="#536b7a" stroke-width="2"/>
+<polygon points="1397.5,455 1392.5,443.0 1402.5,443.0" stroke="#536b7a" fill="#536b7a" stroke-width="2"/>
+<polyline points="1245,532.5 1150,532.5" fill="none" stroke="#536b7a" stroke-width="2"/>
+<polygon points="1150,532.5 1162.0,527.5 1162.0,537.5" stroke="#536b7a" fill="#536b7a" stroke-width="2"/>
+<polyline points="845,532.5 750,532.5" fill="none" stroke="#536b7a" stroke-width="2"/>
+<polygon points="750,532.5 762.0,527.5 762.0,537.5" stroke="#536b7a" fill="#536b7a" stroke-width="2"/>
+<polyline points="445,532.5 350,532.5" fill="none" stroke="#536b7a" stroke-width="2"/>
+<polygon points="350,532.5 362.0,527.5 362.0,537.5" stroke="#536b7a" fill="#536b7a" stroke-width="2"/>
+<polyline points="197.5,610 197.5,755" fill="none" stroke="#536b7a" stroke-width="2"/>
+<polygon points="197.5,755 192.5,743.0 202.5,743.0" stroke="#536b7a" fill="#536b7a" stroke-width="2"/>
+<polyline points="350,832.5 445,832.5" fill="none" stroke="#536b7a" stroke-width="2"/>
+<polygon points="445,832.5 433.0,837.5 433.0,827.5" stroke="#536b7a" fill="#536b7a" stroke-width="2"/>
+<polyline points="750,832.5 845,832.5" fill="none" stroke="#536b7a" stroke-width="2"/>
+<polygon points="845,832.5 833.0,837.5 833.0,827.5" stroke="#536b7a" fill="#536b7a" stroke-width="2"/>
+<rect x="45" y="180" width="305" height="155" fill="#eef5fc" stroke="#4577a5" stroke-width="2"/>
+<text x="59" y="203" font-family="Meiryo, sans-serif" font-size="14" fill="#17283b">T1　認定する事実</text>
+<text x="59" y="228.6" font-family="Meiryo, sans-serif" font-size="20" fill="#17283b">14時頃</text>
+<text x="59" y="255.0" font-family="Meiryo, sans-serif" font-size="20" fill="#17283b">木村がお好み焼き店にいた</text>
+<text x="59" y="323" font-family="Meiryo, sans-serif" font-size="13.5" fill="#17283b">甲1 p.6</text>
+<rect x="445" y="180" width="305" height="155" fill="#fff6e3" stroke="#b17b1a" stroke-width="2"/>
+<text x="459" y="203" font-family="Meiryo, sans-serif" font-size="14" fill="#49350c">T2　主張又は要確認</text>
+<text x="459" y="228.6" font-family="Meiryo, sans-serif" font-size="20" fill="#49350c">14時15分頃</text>
+<text x="459" y="255.0" font-family="Meiryo, sans-serif" font-size="20" fill="#49350c">駐車場付近で転倒したとの説</text>
+<text x="459" y="281.4" font-family="Meiryo, sans-serif" font-size="20" fill="#49350c">明</text>
+<text x="459" y="323" font-family="Meiryo, sans-serif" font-size="13.5" fill="#49350c">準備：乙2 p.27-29</text>
+<rect x="845" y="180" width="305" height="155" fill="#eef5fc" stroke="#4577a5" stroke-width="2"/>
+<text x="859" y="203" font-family="Meiryo, sans-serif" font-size="14" fill="#17283b">T3　認定する事実</text>
+<text x="859" y="228.6" font-family="Meiryo, sans-serif" font-size="20" fill="#17283b">17時04分</text>
+<text x="859" y="255.0" font-family="Meiryo, sans-serif" font-size="20" fill="#17283b">日没</text>
+<text x="859" y="323" font-family="Meiryo, sans-serif" font-size="13.5" fill="#17283b">甲1 p.6</text>
+<rect x="1245" y="180" width="305" height="155" fill="#fff6e3" stroke="#b17b1a" stroke-width="2"/>
+<text x="1259" y="203" font-family="Meiryo, sans-serif" font-size="14" fill="#49350c">T4　主張又は要確認</text>
+<text x="1259" y="228.6" font-family="Meiryo, sans-serif" font-size="20" fill="#49350c">18時頃</text>
+<text x="1259" y="255.0" font-family="Meiryo, sans-serif" font-size="20" fill="#49350c">大滝が清掃したとの説明</text>
+<text x="1259" y="323" font-family="Meiryo, sans-serif" font-size="13.5" fill="#49350c">準備：甲3 p.22</text>
+<rect x="1245" y="455" width="305" height="155" fill="#eef5fc" stroke="#4577a5" stroke-width="2"/>
+<text x="1259" y="478" font-family="Meiryo, sans-serif" font-size="14" fill="#17283b">T5　認定する事実</text>
+<text x="1259" y="503.6" font-family="Meiryo, sans-serif" font-size="20" fill="#17283b">18時50分</text>
+<text x="1259" y="530.0" font-family="Meiryo, sans-serif" font-size="20" fill="#17283b">大滝が退勤</text>
+<text x="1259" y="598" font-family="Meiryo, sans-serif" font-size="13.5" fill="#17283b">甲1 p.5</text>
+<rect x="845" y="455" width="305" height="155" fill="#fff6e3" stroke="#b17b1a" stroke-width="2"/>
+<text x="859" y="478" font-family="Meiryo, sans-serif" font-size="14" fill="#49350c">T6　主張又は要確認</text>
+<text x="859" y="503.6" font-family="Meiryo, sans-serif" font-size="20" fill="#49350c">20時30分頃</text>
+<text x="859" y="530.0" font-family="Meiryo, sans-serif" font-size="20" fill="#49350c">検察側が主張する犯行時刻</text>
+<text x="859" y="598" font-family="Meiryo, sans-serif" font-size="13.5" fill="#49350c">起訴状 p.1</text>
+<rect x="445" y="455" width="305" height="155" fill="#eef5fc" stroke="#4577a5" stroke-width="2"/>
+<text x="459" y="478" font-family="Meiryo, sans-serif" font-size="14" fill="#17283b">T7　認定する事実</text>
+<text x="459" y="503.6" font-family="Meiryo, sans-serif" font-size="20" fill="#17283b">20時32分頃</text>
+<text x="459" y="530.0" font-family="Meiryo, sans-serif" font-size="20" fill="#17283b">男性の自転車が南向きに走行</text>
+<text x="459" y="598" font-family="Meiryo, sans-serif" font-size="13.5" fill="#17283b">甲1 p.5・10</text>
+<rect x="45" y="455" width="305" height="155" fill="#eef5fc" stroke="#4577a5" stroke-width="2"/>
+<text x="59" y="478" font-family="Meiryo, sans-serif" font-size="14" fill="#17283b">T8　認定する事実</text>
+<text x="59" y="503.6" font-family="Meiryo, sans-serif" font-size="20" fill="#17283b">20時45分頃</text>
+<text x="59" y="530.0" font-family="Meiryo, sans-serif" font-size="20" fill="#17283b">大林が被害者を発見し通報</text>
+<text x="59" y="598" font-family="Meiryo, sans-serif" font-size="13.5" fill="#17283b">甲1 p.3</text>
+<rect x="45" y="755" width="305" height="155" fill="#eef5fc" stroke="#4577a5" stroke-width="2"/>
+<text x="59" y="778" font-family="Meiryo, sans-serif" font-size="14" fill="#17283b">T9　認定する事実</text>
+<text x="59" y="803.6" font-family="Meiryo, sans-serif" font-size="20" fill="#17283b">20時50分頃</text>
+<text x="59" y="830.0" font-family="Meiryo, sans-serif" font-size="20" fill="#17283b">警察官が臨場。呼吸あり</text>
+<text x="59" y="898" font-family="Meiryo, sans-serif" font-size="13.5" fill="#17283b">甲1 p.3</text>
+<rect x="445" y="755" width="305" height="155" fill="#eef5fc" stroke="#4577a5" stroke-width="2"/>
+<text x="459" y="778" font-family="Meiryo, sans-serif" font-size="14" fill="#17283b">T10　認定する事実</text>
+<text x="459" y="803.6" font-family="Meiryo, sans-serif" font-size="20" fill="#17283b">21時頃</text>
+<text x="459" y="830.0" font-family="Meiryo, sans-serif" font-size="20" fill="#17283b">警察官が眼鏡を発見</text>
+<text x="459" y="898" font-family="Meiryo, sans-serif" font-size="13.5" fill="#17283b">甲1 p.3-4</text>
+<rect x="845" y="755" width="305" height="155" fill="#eef5fc" stroke="#4577a5" stroke-width="2"/>
+<text x="859" y="778" font-family="Meiryo, sans-serif" font-size="14" fill="#17283b">T11　認定する事実</text>
+<text x="859" y="803.6" font-family="Meiryo, sans-serif" font-size="20" fill="#17283b">21時55分</text>
+<text x="859" y="830.0" font-family="Meiryo, sans-serif" font-size="20" fill="#17283b">搬送先で死亡確認</text>
+<text x="859" y="898" font-family="Meiryo, sans-serif" font-size="13.5" fill="#17283b">甲1 p.3</text>
+<rect x="356.5" y="236.0" width="82.0" height="28" fill="#ffffff" stroke="none" stroke-width="0"/>
+<text x="362.5" y="255.0" font-family="Meiryo, sans-serif" font-size="14" fill="#536b7a">時系列　次</text>
+<rect x="756.5" y="236.0" width="82.0" height="28" fill="#ffffff" stroke="none" stroke-width="0"/>
+<text x="762.5" y="255.0" font-family="Meiryo, sans-serif" font-size="14" fill="#536b7a">時系列　次</text>
+<rect x="1156.5" y="236.0" width="82.0" height="28" fill="#ffffff" stroke="none" stroke-width="0"/>
+<text x="1162.5" y="255.0" font-family="Meiryo, sans-serif" font-size="14" fill="#536b7a">時系列　次</text>
+<rect x="1356.0" y="383.0" width="82.0" height="28" fill="#ffffff" stroke="none" stroke-width="0"/>
+<text x="1362.0" y="402.0" font-family="Meiryo, sans-serif" font-size="14" fill="#536b7a">時系列　次</text>
+<rect x="1156.5" y="511.0" width="82.0" height="28" fill="#ffffff" stroke="none" stroke-width="0"/>
+<text x="1162.5" y="530.0" font-family="Meiryo, sans-serif" font-size="14" fill="#536b7a">時系列　次</text>
+<rect x="756.5" y="511.0" width="82.0" height="28" fill="#ffffff" stroke="none" stroke-width="0"/>
+<text x="762.5" y="530.0" font-family="Meiryo, sans-serif" font-size="14" fill="#536b7a">時系列　次</text>
+<rect x="356.5" y="511.0" width="82.0" height="28" fill="#ffffff" stroke="none" stroke-width="0"/>
+<text x="362.5" y="530.0" font-family="Meiryo, sans-serif" font-size="14" fill="#536b7a">時系列　次</text>
+<rect x="156.0" y="658.0" width="82.0" height="28" fill="#ffffff" stroke="none" stroke-width="0"/>
+<text x="162.0" y="677.0" font-family="Meiryo, sans-serif" font-size="14" fill="#536b7a">時系列　次</text>
+<rect x="356.5" y="811.0" width="82.0" height="28" fill="#ffffff" stroke="none" stroke-width="0"/>
+<text x="362.5" y="830.0" font-family="Meiryo, sans-serif" font-size="14" fill="#536b7a">時系列　次</text>
+<rect x="756.5" y="811.0" width="82.0" height="28" fill="#ffffff" stroke="none" stroke-width="0"/>
+<text x="762.5" y="830.0" font-family="Meiryo, sans-serif" font-size="14" fill="#536b7a">時系列　次</text>
+<rect x="35" y="968" width="18" height="18" fill="#203f59" stroke="#203f59" stroke-width="1"/>
+<text x="61" y="985" font-family="Meiryo, sans-serif" font-size="15" fill="#17283b">検討対象</text>
+<rect x="245" y="968" width="18" height="18" fill="#eef5fc" stroke="#4577a5" stroke-width="1"/>
+<text x="271" y="985" font-family="Meiryo, sans-serif" font-size="15" fill="#17283b">認定する事実</text>
+<rect x="475" y="968" width="18" height="18" fill="#f4f5f7" stroke="#7f8a96" stroke-width="1"/>
+<text x="501" y="985" font-family="Meiryo, sans-serif" font-size="15" fill="#17283b">証拠資料</text>
+<rect x="690" y="968" width="18" height="18" fill="#edf7ef" stroke="#4e805a" stroke-width="1"/>
+<text x="716" y="985" font-family="Meiryo, sans-serif" font-size="15" fill="#17283b">推認</text>
+<rect x="900" y="968" width="18" height="18" fill="#fff6e3" stroke="#b17b1a" stroke-width="1"/>
+<text x="926" y="985" font-family="Meiryo, sans-serif" font-size="15" fill="#17283b">主張・要確認</text>
+<rect x="1120" y="968" width="18" height="18" fill="#fff0ef" stroke="#af554c" stroke-width="1"/>
+<text x="1146" y="985" font-family="Meiryo, sans-serif" font-size="15" fill="#17283b">反対事情・限界</text>
+<rect x="1380" y="968" width="18" height="18" fill="#f2eff8" stroke="#806b9c" stroke-width="1"/>
+<text x="1406" y="985" font-family="Meiryo, sans-serif" font-size="15" fill="#17283b">人物・場所</text>
+<text x="35" y="1033" font-family="Meiryo, sans-serif" font-size="15.5" fill="#17283b">14時15分頃の転倒・眼鏡落下は本人の説明の準備情報。18時頃の清掃も実演で確認する。</text>
+<text x="35" y="1058" font-family="Meiryo, sans-serif" font-size="15.5" fill="#17283b">20時30分頃は起訴状の犯行時刻の主張。独立の時刻鑑定として扱わない。</text>
+<text x="35" y="1083" font-family="Meiryo, sans-serif" font-size="15.5" fill="#17283b">夜間写真は2026年1月6日撮影で、事件当夜の写真ではない。甲1 p.6・12。</text>
+</svg>

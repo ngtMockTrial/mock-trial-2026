@@ -1,0 +1,23 @@
+# Local runtime and credentials
+__pycache__/
+*.py[cod]
+.venv/
+.env
+.env.*
+!.env.example
+.DS_Store
+Thumbs.db
+.trash/
+
+# Each participant owns their Obsidian state; shared defaults live in 作成用/obsidian初期設定.
+.obsidian/**
+!.obsidian/snippets/
+!.obsidian/snippets/**
+
+# Agent installations and local settings are not project sources.
+.agents/
+.claude/
+.codex/
+
+# One-generation local backup; historical evidence and exports stay available.
+作成用/構造化確認/Canvas前回/

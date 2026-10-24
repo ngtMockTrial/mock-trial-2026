@@ -1,0 +1,232 @@
+{
+  "main": {
+    "id": "0ffee67f66bfa64f",
+    "type": "split",
+    "children": [
+      {
+        "id": "712abc7db2755a69",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c3dc9540bd6fa4ba",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "グラフビュー"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "b3348123b97ed812",
+    "type": "split",
+    "children": [
+      {
+        "id": "6f0c52ad5d548ba7",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "16d90a7a2efa8855",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-folder-closed",
+              "title": "ファイルエクスプローラ"
+            }
+          },
+          {
+            "id": "86eb9dcd0a6f04a2",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "検索"
+            }
+          },
+          {
+            "id": "5dc6029d7b8e9b10",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-bookmark",
+              "title": "ブックマーク"
+            }
+          }
+        ],
+        "currentTab": 2
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "c94f0051a06a9354",
+    "type": "split",
+    "children": [
+      {
+        "id": "a3d1ae655673ce01",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d6732bf7e8cfa2da",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "検討/テンプレート/新しい検討ノート.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "バックリンク"
+            }
+          },
+          {
+            "id": "ef12f5354e1ce657",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "検討/テンプレート/新しい検討ノート.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "アウトゴーイングリンク"
+            }
+          },
+          {
+            "id": "325e462186befb65",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "タグ"
+            }
+          },
+          {
+            "id": "66679f3114131dde",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "すべてのプロパティ"
+            }
+          },
+          {
+            "id": "6bdb3662a45cdaa6",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "検討/テンプレート/新しい検討ノート.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "アウトライン"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:クイックスイッチャーを開く": false,
+      "graph:グラフビューを開く": false,
+      "canvas:新規キャンバスを作成": false,
+      "templates:テンプレートを挿入": false,
+      "bases:新規ベースを作成": false
+    }
+  },
+  "active": "c3dc9540bd6fa4ba",
+  "lastOpenFiles": [
+    "検討/ノート/T00.md",
+    "docs/11_Obsidianグラフの使い方.md",
+    "検討/グラフ表示/接続/確認 Q01 → R01.md",
+    "検討/グラフ表示/接続/支持 E08 → Q01.md",
+    "検討/グラフ表示/接続/支持 E01 → F07.md",
+    "検討/グラフ表示/接続/支持 E06 → F06.md",
+    "検討/グラフ表示/接続/支持 E05 → F05.md",
+    "検討/グラフ表示/接続/支持 E04 → F04.md",
+    "検討/グラフ表示/接続/条件付き支持 E07 → F03.md",
+    "検討/グラフ表示/接続/支持 E03 → F02.md",
+    "検討/グラフ表示/接続/支持 E02 → F01.md",
+    "検討/グラフ表示/接続/反論 D09 → T00.md",
+    "検討/グラフ表示/接続/反論 D08 → T01.md",
+    "検討/グラフ表示/接続/反論 D07 → R06.md",
+    "検討/グラフ表示/接続/支持 E01 → D07.md",
+    "検討/グラフ表示/接続/反論 D06 → R05.md",
+    "検討/グラフ表示/接続/支持 E06 → D06.md",
+    "検討/グラフ表示/接続/反論 D05 → R04.md",
+    "検討/グラフ表示/接続/支持 E05 → D05.md",
+    "検討/グラフ表示/接続/反論 D04 → R03.md",
+    "検討/Canvas/00_全体ピラミッド.canvas",
+    "作成用/構造化確認/グラフ設定導入前/graph.json",
+    "作成用/構造化確認/グラフ設定導入前",
+    "検討/グラフ表示/命題/W01 【共通・供述獲得候補・未獲得】 大滝の法廷証言で清掃と観察条件を確認する.md",
+    "検討/グラフ表示/命題/W02 【共通・供述獲得候補・未獲得】 被告人質問で紛失と当日行動の説明を得る.md",
+    "検討/グラフ表示/命題/T03 【検察・要証事実・検討案】 刺突行為者に殺意があったか.md",
+    "検討/グラフ表示/命題/T00 【検察・最終結論・未確認前提あり】 被告人は有罪である.md",
+    "検討/グラフ表示/命題/T02 【検察・要証事実・検討案】 刺突と死亡が結び付くか.md",
+    "検討/グラフ表示/命題/T01 【検察・要証事実・未確認前提あり】 木村が岸井への刺突行為を行ったか.md",
+    "検討/グラフ表示/接続",
+    "検討/グラフ表示/命題",
+    "検討/グラフ表示",
+    "作成用/__pycache__/obsidian_graph.cpython-313.pyc",
+    "作成用/setup_obsidian_graph.py",
+    "作成用/obsidian_graph.py",
+    "無題のフォルダ",
+    "output/pdf/01_事件整理と立証戦略.pdf",
+    "作成用/図解確認用/page-1.png",
+    "作成用/構造化確認/Canvas前回/00_全体ピラミッド.canvas",
+    "検討/Canvas/01_眼鏡のピラミッド.canvas",
+    "検討/Canvas/04_双方の総合検討.canvas",
+    "検討/Canvas/03_動機と殺意と因果関係.canvas",
+    "検討/Canvas/02_自転車と映像.canvas"
+  ]
+}

@@ -1,0 +1,22 @@
+[
+  {
+    "file": "01_事件整理と立証戦略.pdf",
+    "pages": 12,
+    "expected": 12
+  },
+  {
+    "file": "02_論告原稿と提出用要旨.pdf",
+    "pages": 8,
+    "expected": 8
+  },
+  {
+    "file": "03_当日運用と記録シート.pdf",
+    "pages": 5,
+    "expected": 5
+  },
+  {
+    "file": "04_追加尋問の準備.pdf",
+    "pages": 5,
+    "expected": 5
+  }
+]

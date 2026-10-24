@@ -1,0 +1,21 @@
+{
+  "date": "2026-10-20",
+  "atomic_notes": 43,
+  "active_canvas_count": 1,
+  "obsolete_files_removed": 12,
+  "unit_tests": 14,
+  "source_hashes_unchanged": 15,
+  "local_links_checked": 205,
+  "broken_markdown_links": [],
+  "native_obsidian_ui_verified": true,
+  "side_colors": {
+    "検察": "青",
+    "弁護": "赤",
+    "共通": "灰"
+  },
+  "availability_badges": {
+    "採用済み資料": "緑",
+    "留保・未獲得・条件付き": "黄"
+  },
+  "candidate_testimony_is_existing_evidence": false
+}

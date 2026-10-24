@@ -1,0 +1,2 @@
+# Daily graph update/check only. Historical PDF/diagram exporters have separate dependencies.
+PyYAML==6.0.3

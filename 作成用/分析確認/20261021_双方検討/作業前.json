@@ -1,0 +1,2215 @@
+{
+  "sources": {
+    "00_元資料\\Photos-1-001.zip": "09531ac22f67b8eefbf10ab336d7ff047d789ad805bacd96a643268356dc320b",
+    "00_元資料\\ルールブック.pdf": "d0bb03b1ea14ca4c558b9041a85ff563ed4873fbe587afb5aad6046f21d0cde9",
+    "00_元資料\\教材集.pdf": "c99e1c33a304695cbf2f84ebde5f6ea404fd99bbf931c64ebd001651e5323a44",
+    "00_元資料\\追加写真\\IMG_4394.JPG": "1ec0ccfa962857995700e4dff31f742425a8e00384645b67d13b7bf45b17ff8b",
+    "00_元資料\\追加写真\\IMG_4395.JPG": "c3be4378cf755aec499eb8f4d83df2ed43a9089d3984432769639d86b963591c",
+    "00_元資料\\追加写真\\IMG_4397.JPG": "5df0b6023917380b532436ef64212d9ad0a73a15ce5fe46b76dc8b07ba26a4d9",
+    "00_元資料\\追加写真\\IMG_4398.JPG": "75e3600b5a7f185180a863bdb3a1e8238f7021c4cd8572acf4a51c4fd20e93a2",
+    "00_元資料\\追加写真\\IMG_4399.JPG": "e37456b62271e811eec4d57ddaa23f176316b61dd9a6573de212dd1bf4758633",
+    "00_元資料\\追加写真\\IMG_4400.JPG": "33781cf31de2533381881e78942dbbd76313c36028905e1319cc1a72f80afa0c",
+    "00_元資料\\追加写真\\IMG_4401.JPG": "58465d9a92e9f1ed552cdc2be7a36ad3efecf61bff896432b203251bbdcb1123",
+    "00_元資料\\追加写真\\IMG_4402.JPG": "f6b031d82e5333bb9835864dc69609db05250966d9aef471c42c7571907c39b2",
+    "00_元資料\\追加写真\\IMG_4403.JPG": "16e048a3aca842b89c97e4a577dc79a68784e534c22227ced3201913142a2597",
+    "00_元資料\\追加写真\\IMG_4404.JPG": "8f6ee28e7faa62f2208e337dc13b5fde13c345d351dd0660ab36ed31a467766a",
+    "00_元資料\\追加写真\\IMG_4405.JPG": "9e98d271f90cd2321cea4e7c43b765f2bfc44f0003ff452847a7ce171952b1fb",
+    "00_元資料\\追加写真\\IMG_4406.JPG": "e129b9f0cde7d4b665ae18c4e66845460ae799cadb9d2509a1dc94aff1e6c5d2"
+  },
+  "settings": {
+    ".obsidian\\graph.json": "4d4f05676719576caff9fe0aa6b7a9fa57232bad60c3d06125534da2c4401d6a",
+    ".obsidian\\bookmarks.json": "dbfa77c2a51e2f6c0c4956671ffb2c7f4cf2aa4808608a8477c7aaff357455a8",
+    ".obsidian\\plugins\\extended-graph\\data.json": "884192565a2aacbad7a3cc6a88db1cbb96c3a2de99c4c7666e8f79b32b26d5fd"
+  },
+  "notes": {
+    "D01": {
+      "meta": {
+        "id": "D01",
+        "title": "見なかったことは不在の証明か",
+        "kind": "反論",
+        "side": "弁護",
+        "status": "反論案",
+        "review": "未レビュー",
+        "reviewer": "",
+        "reviewed_on": "",
+        "source_group": [
+          "清掃供述",
+          "現場配置"
+        ],
+        "inputs": [
+          "[[検討/ノート/E07]]",
+          "[[検討/ノート/E10]]"
+        ],
+        "challenges": [
+          "[[検討/ノート/R01]]"
+        ],
+        "checks": [],
+        "answered_objections": [],
+        "court_record": "",
+        "display_priority": 3,
+        "tags": [
+          "論証/正本",
+          "立場/弁護",
+          "種類/反論"
+        ],
+        "aliases": [
+          "D01 見なかったことは不在の証明か"
+        ]
+      },
+      "human": "\nここに疑問・修正案・判断理由を書いてください。人の判断は上部のreviewプロパティで管理します。\n"
+    },
+    "D02": {
+      "meta": {
+        "id": "D02",
+        "title": "昼の紛失と別の機会の付着",
+        "kind": "反論",
+        "side": "弁護",
+        "status": "仮説",
+        "review": "未レビュー",
+        "reviewer": "",
+        "reviewed_on": "",
+        "source_group": [
+          "被告人供述"
+        ],
+        "inputs": [
+          "[[検討/ノート/E09]]"
+        ],
+        "challenges": [
+          "[[検討/ノート/R02]]"
+        ],
+        "checks": [],
+        "answered_objections": [],
+        "court_record": "",
+        "display_priority": 3,
+        "tags": [
+          "論証/正本",
+          "立場/弁護",
+          "種類/反論"
+        ],
+        "aliases": [
+          "D02 昼の紛失と別の機会の付着"
+        ]
+      },
+      "human": "\nここに疑問・修正案・判断理由を書いてください。人の判断は上部のreviewプロパティで管理します。\n"
+    },
+    "D03": {
+      "meta": {
+        "id": "D03",
+        "title": "所有物の存在と行為者は別",
+        "kind": "反論",
+        "side": "弁護",
+        "status": "反論案",
+        "review": "未レビュー",
+        "reviewer": "",
+        "reviewed_on": "",
+        "source_group": [
+          "眼鏡"
+        ],
+        "inputs": [
+          "[[検討/ノート/E02]]",
+          "[[検討/ノート/E03]]"
+        ],
+        "challenges": [
+          "[[検討/ノート/R02]]"
+        ],
+        "checks": [],
+        "answered_objections": [],
+        "court_record": "",
+        "display_priority": 3,
+        "tags": [
+          "論証/正本",
+          "立場/弁護",
+          "種類/反論"
+        ],
+        "aliases": [
+          "D03 所有物の存在と行為者は別"
+        ]
+      },
+      "human": "\nここに疑問・修正案・判断理由を書いてください。人の判断は上部のreviewプロパティで管理します。\n"
+    },
+    "D04": {
+      "meta": {
+        "id": "D04",
+        "title": "共用なら通常利用で指紋を説明できる",
+        "kind": "反論",
+        "side": "弁護",
+        "status": "反論案",
+        "review": "未レビュー",
+        "reviewer": "",
+        "reviewed_on": "",
+        "source_group": [
+          "自転車"
+        ],
+        "inputs": [
+          "[[検討/ノート/E04]]"
+        ],
+        "challenges": [
+          "[[検討/ノート/R03]]"
+        ],
+        "checks": [],
+        "answered_objections": [],
+        "court_record": "",
+        "display_priority": 3,
+        "tags": [
+          "論証/正本",
+          "立場/弁護",
+          "種類/反論"
+        ],
+        "aliases": [
+          "D04 共用なら通常利用で指紋を説明できる"
+        ]
+      },
+      "human": "\nここに疑問・修正案・判断理由を書いてください。人の判断は上部のreviewプロパティで管理します。\n"
+    },
+    "D05": {
+      "meta": {
+        "id": "D05",
+        "title": "映像の人物と自転車を特定できるか",
+        "kind": "反論",
+        "side": "弁護",
+        "status": "反論案",
+        "review": "未レビュー",
+        "reviewer": "",
+        "reviewed_on": "",
+        "source_group": [
+          "防犯映像"
+        ],
+        "inputs": [
+          "[[検討/ノート/E05]]"
+        ],
+        "challenges": [
+          "[[検討/ノート/R04]]"
+        ],
+        "checks": [],
+        "answered_objections": [],
+        "court_record": "",
+        "display_priority": 3,
+        "tags": [
+          "論証/正本",
+          "立場/弁護",
+          "種類/反論"
+        ],
+        "aliases": [
+          "D05 映像の人物と自転車を特定できるか"
+        ]
+      },
+      "human": "\nここに疑問・修正案・判断理由を書いてください。人の判断は上部のreviewプロパティで管理します。\n"
+    },
+    "D06": {
+      "meta": {
+        "id": "D06",
+        "title": "怒りは犯行実行を意味しない",
+        "kind": "反論",
+        "side": "弁護",
+        "status": "反論案",
+        "review": "未レビュー",
+        "reviewer": "",
+        "reviewed_on": "",
+        "source_group": [
+          "LINE"
+        ],
+        "inputs": [
+          "[[検討/ノート/E06]]"
+        ],
+        "challenges": [
+          "[[検討/ノート/R05]]"
+        ],
+        "checks": [],
+        "answered_objections": [],
+        "court_record": "",
+        "display_priority": 3,
+        "tags": [
+          "論証/正本",
+          "立場/弁護",
+          "種類/反論"
+        ],
+        "aliases": [
+          "D06 怒りは犯行実行を意味しない"
+        ]
+      },
+      "human": "\nここに疑問・修正案・判断理由を書いてください。人の判断は上部のreviewプロパティで管理します。\n"
+    },
+    "D07": {
+      "meta": {
+        "id": "D07",
+        "title": "殺意の推認には傷と行為状況の限界",
+        "kind": "反論",
+        "side": "弁護",
+        "status": "反論案",
+        "review": "未レビュー",
+        "reviewer": "",
+        "reviewed_on": "",
+        "source_group": [
+          "検案"
+        ],
+        "inputs": [
+          "[[検討/ノート/E01]]"
+        ],
+        "challenges": [
+          "[[検討/ノート/R06]]"
+        ],
+        "checks": [],
+        "answered_objections": [],
+        "court_record": "",
+        "display_priority": 3,
+        "tags": [
+          "論証/正本",
+          "立場/弁護",
+          "種類/反論"
+        ],
+        "aliases": [
+          "D07 殺意の推認には傷と行為状況の限界"
+        ]
+      },
+      "human": "\nここに疑問・修正案・判断理由を書いてください。人の判断は上部のreviewプロパティで管理します。\n"
+    },
+    "D08": {
+      "meta": {
+        "id": "D08",
+        "title": "同じ情報源と未確定の前提を重ねていないか",
+        "kind": "反論",
+        "side": "弁護",
+        "status": "反論案",
+        "review": "未レビュー",
+        "reviewer": "",
+        "reviewed_on": "",
+        "source_group": [
+          "総合評価"
+        ],
+        "inputs": [],
+        "challenges": [
+          "[[検討/ノート/T01]]"
+        ],
+        "checks": [],
+        "answered_objections": [],
+        "court_record": "",
+        "display_priority": 3,
+        "tags": [
+          "論証/正本",
+          "立場/弁護",
+          "種類/反論"
+        ],
+        "aliases": [
+          "D08 同じ情報源と未確定の前提を重ねていないか"
+        ]
+      },
+      "human": "\nここに疑問・修正案・判断理由を書いてください。人の判断は上部のreviewプロパティで管理します。\n"
+    },
+    "D09": {
+      "meta": {
+        "id": "D09",
+        "title": "有罪とする証明に合理的な疑いが残らないか",
+        "kind": "反論",
+        "side": "弁護",
+        "status": "最終結論への検討課題",
+        "review": "未レビュー",
+        "reviewer": "",
+        "reviewed_on": "",
+        "source_group": [
+          "総合評価"
+        ],
+        "inputs": [],
+        "challenges": [
+          "[[検討/ノート/T00]]"
+        ],
+        "checks": [],
+        "answered_objections": [],
+        "court_record": "",
+        "display_priority": 4,
+        "tags": [
+          "論証/正本",
+          "立場/弁護",
+          "種類/反論"
+        ],
+        "aliases": [
+          "D09 有罪とする証明に合理的な疑いが残らないか"
+        ]
+      },
+      "human": "\n各枝と全体のどこに疑問が残るか、具体的な証拠と対応させて記録する。\n"
+    },
+    "E01": {
+      "meta": {
+        "id": "E01",
+        "title": "刺創と死因の報告",
+        "kind": "証拠",
+        "side": "共通",
+        "status": "採用済み",
+        "review": "未レビュー",
+        "reviewer": "",
+        "reviewed_on": "",
+        "source_group": [
+          "検案"
+        ],
+        "inputs": [],
+        "challenges": [],
+        "checks": [],
+        "answered_objections": [],
+        "court_record": "",
+        "display_priority": 2,
+        "tags": [
+          "論証/正本",
+          "立場/共通",
+          "種類/証拠"
+        ],
+        "aliases": [
+          "E01 刺創と死因の報告"
+        ]
+      },
+      "human": "\nここに疑問・修正案・判断理由を書いてください。人の判断は上部のreviewプロパティで管理します。\n"
+    },
+    "E02": {
+      "meta": {
+        "id": "E02",
+        "title": "眼鏡の発見と所有の裏付け",
+        "kind": "証拠",
+        "side": "共通",
+        "status": "採用済み",
+        "review": "未レビュー",
+        "reviewer": "",
+        "reviewed_on": "",
+        "source_group": [
+          "眼鏡"
+        ],
+        "inputs": [],
+        "challenges": [],
+        "checks": [],
+        "answered_objections": [],
+        "court_record": "",
+        "display_priority": 2,
+        "tags": [
+          "論証/正本",
+          "立場/共通",
+          "種類/証拠"
+        ],
+        "aliases": [
+          "E02 眼鏡の発見と所有の裏付け"
+        ]
+      },
+      "human": "\nここに疑問・修正案・判断理由を書いてください。人の判断は上部のreviewプロパティで管理します。\n"
+    },
+    "E03": {
+      "meta": {
+        "id": "E03",
+        "title": "眼鏡の血痕DNA型の報告",
+        "kind": "証拠",
+        "side": "共通",
+        "status": "採用済み",
+        "review": "未レビュー",
+        "reviewer": "",
+        "reviewed_on": "",
+        "source_group": [
+          "眼鏡"
+        ],
+        "inputs": [],
+        "challenges": [],
+        "checks": [],
+        "answered_objections": [],
+        "court_record": "",
+        "display_priority": 2,
+        "tags": [
+          "論証/正本",
+          "立場/共通",
+          "種類/証拠"
+        ],
+        "aliases": [
+          "E03 眼鏡の血痕DNA型の報告"
+        ]
+      },
+      "human": "\nここに疑問・修正案・判断理由を書いてください。人の判断は上部のreviewプロパティで管理します。\n"
+    },
+    "E04": {
+      "meta": {
+        "id": "E04",
+        "title": "血痕付き共用自転車",
+        "kind": "証拠",
+        "side": "共通",
+        "status": "採用済み",
+        "review": "未レビュー",
+        "reviewer": "",
+        "reviewed_on": "",
+        "source_group": [
+          "自転車"
+        ],
+        "inputs": [],
+        "challenges": [],
+        "checks": [],
+        "answered_objections": [],
+        "court_record": "",
+        "display_priority": 2,
+        "tags": [
+          "論証/正本",
+          "立場/共通",
+          "種類/証拠"
+        ],
+        "aliases": [
+          "E04 血痕付き共用自転車"
+        ]
+      },
+      "human": "\nここに疑問・修正案・判断理由を書いてください。人の判断は上部のreviewプロパティで管理します。\n"
+    },
+    "E05": {
+      "meta": {
+        "id": "E05",
+        "title": "20時32分頃の防犯映像",
+        "kind": "証拠",
+        "side": "共通",
+        "status": "採用済み",
+        "review": "未レビュー",
+        "reviewer": "",
+        "reviewed_on": "",
+        "source_group": [
+          "防犯映像"
+        ],
+        "inputs": [],
+        "challenges": [],
+        "checks": [],
+        "answered_objections": [],
+        "court_record": "",
+        "display_priority": 2,
+        "tags": [
+          "論証/正本",
+          "立場/共通",
+          "種類/証拠"
+        ],
+        "aliases": [
+          "E05 20時32分頃の防犯映像"
+        ]
+      },
+      "human": "\nここに疑問・修正案・判断理由を書いてください。人の判断は上部のreviewプロパティで管理します。\n"
+    },
+    "E06": {
+      "meta": {
+        "id": "E06",
+        "title": "別れと岸井への怒りのLINE",
+        "kind": "証拠",
+        "side": "共通",
+        "status": "採用済み",
+        "review": "未レビュー",
+        "reviewer": "",
+        "reviewed_on": "",
+        "source_group": [
+          "LINE"
+        ],
+        "inputs": [],
+        "challenges": [],
+        "checks": [],
+        "answered_objections": [],
+        "court_record": "",
+        "display_priority": 2,
+        "tags": [
+          "論証/正本",
+          "立場/共通",
+          "種類/証拠"
+        ],
+        "aliases": [
+          "E06 別れと岸井への怒りのLINE"
+        ]
+      },
+      "human": "\nここに疑問・修正案・判断理由を書いてください。人の判断は上部のreviewプロパティで管理します。\n"
+    },
+    "E07": {
+      "meta": {
+        "id": "E07",
+        "title": "大滝の清掃調書",
+        "kind": "準備資料",
+        "side": "共通",
+        "status": "採否留保",
+        "review": "未レビュー",
+        "reviewer": "",
+        "reviewed_on": "",
+        "source_group": [
+          "清掃供述"
+        ],
+        "inputs": [],
+        "challenges": [],
+        "checks": [],
+        "answered_objections": [],
+        "court_record": "",
+        "display_priority": 2,
+        "tags": [
+          "論証/正本",
+          "立場/共通",
+          "種類/準備資料"
+        ],
+        "aliases": [
+          "E07 大滝の清掃調書"
+        ]
+      },
+      "human": "\nここに疑問・修正案・判断理由を書いてください。人の判断は上部のreviewプロパティで管理します。\n"
+    },
+    "E08": {
+      "meta": {
+        "id": "E08",
+        "title": "退勤時刻と昼の店舗利用",
+        "kind": "証拠",
+        "side": "共通",
+        "status": "採用済み",
+        "review": "未レビュー",
+        "reviewer": "",
+        "reviewed_on": "",
+        "source_group": [
+          "退勤記録",
+          "店舗利用"
+        ],
+        "inputs": [],
+        "challenges": [],
+        "checks": [],
+        "answered_objections": [],
+        "court_record": "",
+        "display_priority": 2,
+        "tags": [
+          "論証/正本",
+          "立場/共通",
+          "種類/証拠"
+        ],
+        "aliases": [
+          "E08 退勤時刻と昼の店舗利用"
+        ]
+      },
+      "human": "\nここに疑問・修正案・判断理由を書いてください。人の判断は上部のreviewプロパティで管理します。\n"
+    },
+    "E09": {
+      "meta": {
+        "id": "E09",
+        "title": "木村の紛失と当日行動の調書",
+        "kind": "準備資料",
+        "side": "共通",
+        "status": "採否留保",
+        "review": "未レビュー",
+        "reviewer": "",
+        "reviewed_on": "",
+        "source_group": [
+          "被告人供述"
+        ],
+        "inputs": [],
+        "challenges": [],
+        "checks": [],
+        "answered_objections": [],
+        "court_record": "",
+        "display_priority": 2,
+        "tags": [
+          "論証/正本",
+          "立場/共通",
+          "種類/準備資料"
+        ],
+        "aliases": [
+          "E09 木村の紛失と当日行動の調書"
+        ]
+      },
+      "human": "\nここに疑問・修正案・判断理由を書いてください。人の判断は上部のreviewプロパティで管理します。\n"
+    },
+    "E10": {
+      "meta": {
+        "id": "E10",
+        "title": "現場の写真と配置",
+        "kind": "証拠",
+        "side": "共通",
+        "status": "採用済み",
+        "review": "未レビュー",
+        "reviewer": "",
+        "reviewed_on": "",
+        "source_group": [
+          "現場配置"
+        ],
+        "inputs": [],
+        "challenges": [],
+        "checks": [],
+        "answered_objections": [],
+        "court_record": "",
+        "display_priority": 2,
+        "tags": [
+          "論証/正本",
+          "立場/共通",
+          "種類/証拠"
+        ],
+        "aliases": [
+          "E10 現場の写真と配置"
+        ]
+      },
+      "human": "\nここに疑問・修正案・判断理由を書いてください。人の判断は上部のreviewプロパティで管理します。\n"
+    },
+    "F01": {
+      "meta": {
+        "id": "F01",
+        "title": "現場の眼鏡は木村の物と結び付く",
+        "kind": "間接事実",
+        "side": "共通",
+        "status": "資料記載",
+        "review": "未レビュー",
+        "reviewer": "",
+        "reviewed_on": "",
+        "source_group": [
+          "眼鏡"
+        ],
+        "inputs": [
+          "[[検討/ノート/E02]]"
+        ],
+        "challenges": [],
+        "checks": [],
+        "answered_objections": [],
+        "court_record": "",
+        "display_priority": 2,
+        "tags": [
+          "論証/正本",
+          "立場/共通",
+          "種類/間接事実"
+        ],
+        "aliases": [
+          "F01 現場の眼鏡は木村の物と結び付く"
+        ]
+      },
+      "human": "\nここに疑問・修正案・判断理由を書いてください。人の判断は上部のreviewプロパティで管理します。\n"
+    },
+    "F02": {
+      "meta": {
+        "id": "F02",
+        "title": "その眼鏡に被害者由来の血液",
+        "kind": "間接事実",
+        "side": "共通",
+        "status": "資料記載",
+        "review": "未レビュー",
+        "reviewer": "",
+        "reviewed_on": "",
+        "source_group": [
+          "眼鏡"
+        ],
+        "inputs": [
+          "[[検討/ノート/E03]]"
+        ],
+        "challenges": [],
+        "checks": [],
+        "answered_objections": [],
+        "court_record": "",
+        "display_priority": 2,
+        "tags": [
+          "論証/正本",
+          "立場/共通",
+          "種類/間接事実"
+        ],
+        "aliases": [
+          "F02 その眼鏡に被害者由来の血液"
+        ]
+      },
+      "human": "\nここに疑問・修正案・判断理由を書いてください。人の判断は上部のreviewプロパティで管理します。\n"
+    },
+    "F03": {
+      "meta": {
+        "id": "F03",
+        "title": "清掃時に眼鏡を見なかったとの供述",
+        "kind": "間接事実",
+        "side": "共通",
+        "status": "法廷未確認",
+        "review": "未レビュー",
+        "reviewer": "",
+        "reviewed_on": "",
+        "source_group": [
+          "清掃供述"
+        ],
+        "inputs": [
+          "[[検討/ノート/E07]]"
+        ],
+        "challenges": [],
+        "checks": [],
+        "answered_objections": [],
+        "court_record": "",
+        "display_priority": 2,
+        "tags": [
+          "論証/正本",
+          "立場/共通",
+          "種類/間接事実"
+        ],
+        "aliases": [
+          "F03 清掃時に眼鏡を見なかったとの供述"
+        ]
+      },
+      "human": "\nここに疑問・修正案・判断理由を書いてください。人の判断は上部のreviewプロパティで管理します。\n"
+    },
+    "F04": {
+      "meta": {
+        "id": "F04",
+        "title": "木村も使える自転車に被害者血液",
+        "kind": "間接事実",
+        "side": "共通",
+        "status": "資料記載",
+        "review": "未レビュー",
+        "reviewer": "",
+        "reviewed_on": "",
+        "source_group": [
+          "自転車"
+        ],
+        "inputs": [
+          "[[検討/ノート/E04]]"
+        ],
+        "challenges": [],
+        "checks": [],
+        "answered_objections": [],
+        "court_record": "",
+        "display_priority": 2,
+        "tags": [
+          "論証/正本",
+          "立場/共通",
+          "種類/間接事実"
+        ],
+        "aliases": [
+          "F04 木村も使える自転車に被害者血液"
+        ]
+      },
+      "human": "\nここに疑問・修正案・判断理由を書いてください。人の判断は上部のreviewプロパティで管理します。\n"
+    },
+    "F05": {
+      "meta": {
+        "id": "F05",
+        "title": "現場南方で男性が自転車走行",
+        "kind": "間接事実",
+        "side": "共通",
+        "status": "資料記載",
+        "review": "未レビュー",
+        "reviewer": "",
+        "reviewed_on": "",
+        "source_group": [
+          "防犯映像"
+        ],
+        "inputs": [
+          "[[検討/ノート/E05]]"
+        ],
+        "challenges": [],
+        "checks": [],
+        "answered_objections": [],
+        "court_record": "",
+        "display_priority": 2,
+        "tags": [
+          "論証/正本",
+          "立場/共通",
+          "種類/間接事実"
+        ],
+        "aliases": [
+          "F05 現場南方で男性が自転車走行"
+        ]
+      },
+      "human": "\nここに疑問・修正案・判断理由を書いてください。人の判断は上部のreviewプロパティで管理します。\n"
+    },
+    "F06": {
+      "meta": {
+        "id": "F06",
+        "title": "岸井への怒りと駐車場の認識",
+        "kind": "間接事実",
+        "side": "共通",
+        "status": "資料記載",
+        "review": "未レビュー",
+        "reviewer": "",
+        "reviewed_on": "",
+        "source_group": [
+          "LINE"
+        ],
+        "inputs": [
+          "[[検討/ノート/E06]]"
+        ],
+        "challenges": [],
+        "checks": [],
+        "answered_objections": [],
+        "court_record": "",
+        "display_priority": 2,
+        "tags": [
+          "論証/正本",
+          "立場/共通",
+          "種類/間接事実"
+        ],
+        "aliases": [
+          "F06 岸井への怒りと駐車場の認識"
+        ]
+      },
+      "human": "\nここに疑問・修正案・判断理由を書いてください。人の判断は上部のreviewプロパティで管理します。\n"
+    },
+    "F07": {
+      "meta": {
+        "id": "F07",
+        "title": "胸腹部を含む刺創と出血死",
+        "kind": "間接事実",
+        "side": "共通",
+        "status": "資料記載",
+        "review": "未レビュー",
+        "reviewer": "",
+        "reviewed_on": "",
+        "source_group": [
+          "検案"
+        ],
+        "inputs": [
+          "[[検討/ノート/E01]]"
+        ],
+        "challenges": [],
+        "checks": [],
+        "answered_objections": [],
+        "court_record": "",
+        "display_priority": 2,
+        "tags": [
+          "論証/正本",
+          "立場/共通",
+          "種類/間接事実"
+        ],
+        "aliases": [
+          "F07 胸腹部を含む刺創と出血死"
+        ]
+      },
+      "human": "\nここに疑問・修正案・判断理由を書いてください。人の判断は上部のreviewプロパティで管理します。\n"
+    },
+    "Q01": {
+      "meta": {
+        "id": "Q01",
+        "title": "B地点の観察を具体化する",
+        "kind": "確認課題",
+        "side": "共通",
+        "status": "確認待ち",
+        "review": "未レビュー",
+        "reviewer": "",
+        "reviewed_on": "",
+        "source_group": [
+          "清掃供述"
+        ],
+        "inputs": [
+          "[[検討/ノート/E08]]"
+        ],
+        "challenges": [],
+        "checks": [
+          "[[検討/ノート/R01]]"
+        ],
+        "answered_objections": [],
+        "court_record": "",
+        "display_priority": 2,
+        "tags": [
+          "論証/正本",
+          "立場/共通",
+          "種類/確認課題"
+        ],
+        "aliases": [
+          "Q01 B地点の観察を具体化する"
+        ]
+      },
+      "human": "\nここに疑問・修正案・判断理由を書いてください。人の判断は上部のreviewプロパティで管理します。\n"
+    },
+    "Q02": {
+      "meta": {
+        "id": "Q02",
+        "title": "眼鏡落下の記憶と推測を分ける",
+        "kind": "確認課題",
+        "side": "共通",
+        "status": "確認待ち",
+        "review": "未レビュー",
+        "reviewer": "",
+        "reviewed_on": "",
+        "source_group": [
+          "被告人供述"
+        ],
+        "inputs": [],
+        "challenges": [],
+        "checks": [
+          "[[検討/ノート/R02]]",
+          "[[検討/ノート/D02]]"
+        ],
+        "answered_objections": [],
+        "court_record": "",
+        "display_priority": 2,
+        "tags": [
+          "論証/正本",
+          "立場/共通",
+          "種類/確認課題"
+        ],
+        "aliases": [
+          "Q02 眼鏡落下の記憶と推測を分ける"
+        ]
+      },
+      "human": "\nここに疑問・修正案・判断理由を書いてください。人の判断は上部のreviewプロパティで管理します。\n"
+    },
+    "Q03": {
+      "meta": {
+        "id": "Q03",
+        "title": "事件時の自転車使用と映像の同一性",
+        "kind": "確認課題",
+        "side": "共通",
+        "status": "確認待ち",
+        "review": "未レビュー",
+        "reviewer": "",
+        "reviewed_on": "",
+        "source_group": [
+          "自転車",
+          "防犯映像"
+        ],
+        "inputs": [],
+        "challenges": [],
+        "checks": [
+          "[[検討/ノート/R03]]",
+          "[[検討/ノート/R04]]"
+        ],
+        "answered_objections": [],
+        "court_record": "",
+        "display_priority": 2,
+        "tags": [
+          "論証/正本",
+          "立場/共通",
+          "種類/確認課題"
+        ],
+        "aliases": [
+          "Q03 事件時の自転車使用と映像の同一性"
+        ]
+      },
+      "human": "\nここに疑問・修正案・判断理由を書いてください。人の判断は上部のreviewプロパティで管理します。\n"
+    },
+    "Q04": {
+      "meta": {
+        "id": "Q04",
+        "title": "LINEの意味と殺意の推論を分ける",
+        "kind": "確認課題",
+        "side": "共通",
+        "status": "確認待ち",
+        "review": "未レビュー",
+        "reviewer": "",
+        "reviewed_on": "",
+        "source_group": [
+          "LINE",
+          "検案"
+        ],
+        "inputs": [],
+        "challenges": [],
+        "checks": [
+          "[[検討/ノート/R05]]",
+          "[[検討/ノート/R06]]"
+        ],
+        "answered_objections": [],
+        "court_record": "",
+        "display_priority": 2,
+        "tags": [
+          "論証/正本",
+          "立場/共通",
+          "種類/確認課題"
+        ],
+        "aliases": [
+          "Q04 LINEの意味と殺意の推論を分ける"
+        ]
+      },
+      "human": "\nここに疑問・修正案・判断理由を書いてください。人の判断は上部のreviewプロパティで管理します。\n"
+    },
+    "Q05": {
+      "meta": {
+        "id": "Q05",
+        "title": "双方の反論に応答してから原稿化",
+        "kind": "確認課題",
+        "side": "共通",
+        "status": "確認待ち",
+        "review": "未レビュー",
+        "reviewer": "",
+        "reviewed_on": "",
+        "source_group": [
+          "総合評価"
+        ],
+        "inputs": [],
+        "challenges": [],
+        "checks": [
+          "[[検討/ノート/T01]]",
+          "[[検討/ノート/T00]]"
+        ],
+        "answered_objections": [],
+        "court_record": "",
+        "display_priority": 2,
+        "tags": [
+          "論証/正本",
+          "立場/共通",
+          "種類/確認課題"
+        ],
+        "aliases": [
+          "Q05 双方の反論に応答してから原稿化"
+        ]
+      },
+      "human": "\nここに疑問・修正案・判断理由を書いてください。人の判断は上部のreviewプロパティで管理します。\n"
+    },
+    "R01": {
+      "meta": {
+        "id": "R01",
+        "title": "清掃後に眼鏡が来たという推認",
+        "kind": "推認",
+        "side": "検察",
+        "status": "推論案",
+        "review": "未レビュー",
+        "reviewer": "",
+        "reviewed_on": "",
+        "source_group": [
+          "眼鏡",
+          "清掃供述",
+          "現場配置"
+        ],
+        "inputs": [
+          "[[検討/ノート/F03]]",
+          "[[検討/ノート/E10]]"
+        ],
+        "challenges": [],
+        "checks": [],
+        "answered_objections": [],
+        "court_record": "",
+        "display_priority": 3,
+        "tags": [
+          "論証/正本",
+          "立場/検察",
+          "種類/推認"
+        ],
+        "aliases": [
+          "R01 清掃後に眼鏡が来たという推認"
+        ]
+      },
+      "human": "\nここに疑問・修正案・判断理由を書いてください。人の判断は上部のreviewプロパティで管理します。\n"
+    },
+    "R02": {
+      "meta": {
+        "id": "R02",
+        "title": "木村が事件時に現場にいたという推認",
+        "kind": "推認",
+        "side": "検察",
+        "status": "推論案",
+        "review": "未レビュー",
+        "reviewer": "",
+        "reviewed_on": "",
+        "source_group": [
+          "眼鏡",
+          "清掃供述"
+        ],
+        "inputs": [
+          "[[検討/ノート/F01]]",
+          "[[検討/ノート/F02]]",
+          "[[検討/ノート/R01]]"
+        ],
+        "challenges": [],
+        "checks": [],
+        "answered_objections": [],
+        "court_record": "",
+        "display_priority": 3,
+        "tags": [
+          "論証/正本",
+          "立場/検察",
+          "種類/推認"
+        ],
+        "aliases": [
+          "R02 木村が事件時に現場にいたという推認"
+        ]
+      },
+      "human": "\nここに疑問・修正案・判断理由を書いてください。人の判断は上部のreviewプロパティで管理します。\n"
+    },
+    "R03": {
+      "meta": {
+        "id": "R03",
+        "title": "共用自転車を犯行後に使ったという仮説",
+        "kind": "推認",
+        "side": "検察",
+        "status": "推論案",
+        "review": "未レビュー",
+        "reviewer": "",
+        "reviewed_on": "",
+        "source_group": [
+          "自転車"
+        ],
+        "inputs": [
+          "[[検討/ノート/F04]]"
+        ],
+        "challenges": [],
+        "checks": [],
+        "answered_objections": [],
+        "court_record": "",
+        "display_priority": 3,
+        "tags": [
+          "論証/正本",
+          "立場/検察",
+          "種類/推認"
+        ],
+        "aliases": [
+          "R03 共用自転車を犯行後に使ったという仮説"
+        ]
+      },
+      "human": "\nここに疑問・修正案・判断理由を書いてください。人の判断は上部のreviewプロパティで管理します。\n"
+    },
+    "R04": {
+      "meta": {
+        "id": "R04",
+        "title": "映像が犯行後の移動を補助するという案",
+        "kind": "推認",
+        "side": "検察",
+        "status": "推論案",
+        "review": "未レビュー",
+        "reviewer": "",
+        "reviewed_on": "",
+        "source_group": [
+          "防犯映像",
+          "自転車"
+        ],
+        "inputs": [
+          "[[検討/ノート/F05]]",
+          "[[検討/ノート/R03]]"
+        ],
+        "challenges": [],
+        "checks": [],
+        "answered_objections": [],
+        "court_record": "",
+        "display_priority": 3,
+        "tags": [
+          "論証/正本",
+          "立場/検察",
+          "種類/推認"
+        ],
+        "aliases": [
+          "R04 映像が犯行後の移動を補助するという案"
+        ]
+      },
+      "human": "\nここに疑問・修正案・判断理由を書いてください。人の判断は上部のreviewプロパティで管理します。\n"
+    },
+    "R05": {
+      "meta": {
+        "id": "R05",
+        "title": "怒りと所在認識を動機の補助にする",
+        "kind": "推認",
+        "side": "検察",
+        "status": "推論案",
+        "review": "未レビュー",
+        "reviewer": "",
+        "reviewed_on": "",
+        "source_group": [
+          "LINE"
+        ],
+        "inputs": [
+          "[[検討/ノート/F06]]"
+        ],
+        "challenges": [],
+        "checks": [],
+        "answered_objections": [],
+        "court_record": "",
+        "display_priority": 3,
+        "tags": [
+          "論証/正本",
+          "立場/検察",
+          "種類/推認"
+        ],
+        "aliases": [
+          "R05 怒りと所在認識を動機の補助にする"
+        ]
+      },
+      "human": "\nここに疑問・修正案・判断理由を書いてください。人の判断は上部のreviewプロパティで管理します。\n"
+    },
+    "R06": {
+      "meta": {
+        "id": "R06",
+        "title": "刺創の部位と複数性から殺意を考える",
+        "kind": "推認",
+        "side": "検察",
+        "status": "推論案",
+        "review": "未レビュー",
+        "reviewer": "",
+        "reviewed_on": "",
+        "source_group": [
+          "検案"
+        ],
+        "inputs": [
+          "[[検討/ノート/F07]]"
+        ],
+        "challenges": [],
+        "checks": [],
+        "answered_objections": [],
+        "court_record": "",
+        "display_priority": 3,
+        "tags": [
+          "論証/正本",
+          "立場/検察",
+          "種類/推認"
+        ],
+        "aliases": [
+          "R06 刺創の部位と複数性から殺意を考える"
+        ]
+      },
+      "human": "\nここに疑問・修正案・判断理由を書いてください。人の判断は上部のreviewプロパティで管理します。\n"
+    },
+    "T00": {
+      "meta": {
+        "id": "T00",
+        "title": "被告人は有罪である",
+        "kind": "最終結論",
+        "side": "検察",
+        "status": "最終的に証明したい命題・未認定",
+        "review": "未レビュー",
+        "reviewer": "",
+        "reviewed_on": "",
+        "source_group": [
+          "総合評価"
+        ],
+        "inputs": [
+          "[[検討/ノート/T01]]",
+          "[[検討/ノート/T02]]",
+          "[[検討/ノート/T03]]"
+        ],
+        "challenges": [],
+        "checks": [],
+        "answered_objections": [],
+        "court_record": "",
+        "cssclasses": [
+          "mock-trial-final-goal"
+        ],
+        "display_priority": 5,
+        "tags": [
+          "論証/正本",
+          "立場/検察",
+          "種類/最終結論"
+        ],
+        "aliases": [
+          "T00 被告人は有罪である"
+        ]
+      },
+      "human": "\n頂点の文言は2026-10-20にユーザーが指定。証拠評価や有罪という判断自体についての人のレビューは未実施。\n"
+    },
+    "T01": {
+      "meta": {
+        "id": "T01",
+        "title": "木村が岸井への刺突行為を行ったか",
+        "kind": "要証事実",
+        "side": "検察",
+        "status": "争点",
+        "review": "未レビュー",
+        "reviewer": "",
+        "reviewed_on": "",
+        "source_group": [
+          "眼鏡",
+          "清掃供述",
+          "自転車",
+          "防犯映像",
+          "LINE"
+        ],
+        "inputs": [
+          "[[検討/ノート/R02]]",
+          "[[検討/ノート/R03]]",
+          "[[検討/ノート/R04]]",
+          "[[検討/ノート/R05]]"
+        ],
+        "challenges": [],
+        "checks": [],
+        "answered_objections": [],
+        "court_record": "",
+        "display_priority": 4,
+        "tags": [
+          "論証/正本",
+          "立場/検察",
+          "種類/要証事実"
+        ],
+        "aliases": [
+          "T01 木村が岸井への刺突行為を行ったか"
+        ]
+      },
+      "human": "\nここに疑問・修正案・判断理由を書いてください。人の判断は上部のreviewプロパティで管理します。\n"
+    },
+    "T02": {
+      "meta": {
+        "id": "T02",
+        "title": "刺突と死亡が結び付くか",
+        "kind": "要証事実",
+        "side": "検察",
+        "status": "争点",
+        "review": "未レビュー",
+        "reviewer": "",
+        "reviewed_on": "",
+        "source_group": [
+          "検案"
+        ],
+        "inputs": [
+          "[[検討/ノート/F07]]"
+        ],
+        "challenges": [],
+        "checks": [],
+        "answered_objections": [],
+        "court_record": "",
+        "display_priority": 3,
+        "tags": [
+          "論証/正本",
+          "立場/検察",
+          "種類/要証事実"
+        ],
+        "aliases": [
+          "T02 刺突と死亡が結び付くか"
+        ]
+      },
+      "human": "\nここに疑問・修正案・判断理由を書いてください。人の判断は上部のreviewプロパティで管理します。\n"
+    },
+    "T03": {
+      "meta": {
+        "id": "T03",
+        "title": "刺突行為者に殺意があったか",
+        "kind": "要証事実",
+        "side": "検察",
+        "status": "争点",
+        "review": "未レビュー",
+        "reviewer": "",
+        "reviewed_on": "",
+        "source_group": [
+          "検案"
+        ],
+        "inputs": [
+          "[[検討/ノート/R06]]"
+        ],
+        "challenges": [],
+        "checks": [],
+        "answered_objections": [],
+        "court_record": "",
+        "display_priority": 3,
+        "tags": [
+          "論証/正本",
+          "立場/検察",
+          "種類/要証事実"
+        ],
+        "aliases": [
+          "T03 刺突行為者に殺意があったか"
+        ]
+      },
+      "human": "\nここに疑問・修正案・判断理由を書いてください。人の判断は上部のreviewプロパティで管理します。\n"
+    },
+    "W01": {
+      "meta": {
+        "id": "W01",
+        "title": "大滝の法廷証言で清掃と観察条件を確認する",
+        "kind": "供述獲得候補",
+        "side": "共通",
+        "status": "未獲得",
+        "review": "未レビュー",
+        "reviewer": "",
+        "reviewed_on": "",
+        "source_group": [
+          "清掃供述"
+        ],
+        "inputs": [],
+        "challenges": [],
+        "checks": [],
+        "answered_objections": [],
+        "court_record": "",
+        "preparation": [
+          "[[検討/ノート/E07]]"
+        ],
+        "potential_supports": [
+          "[[検討/ノート/F03]]"
+        ],
+        "display_priority": 2,
+        "tags": [
+          "論証/正本",
+          "立場/共通",
+          "種類/供述獲得候補"
+        ],
+        "aliases": [
+          "W01 大滝の法廷証言で清掃と観察条件を確認する"
+        ]
+      },
+      "human": "\nどの事実をどの質問で確認するか、実際の回答の限界を記録する。\n"
+    },
+    "W02": {
+      "meta": {
+        "id": "W02",
+        "title": "被告人質問で紛失と当日行動の説明を得る",
+        "kind": "供述獲得候補",
+        "side": "共通",
+        "status": "未獲得",
+        "review": "未レビュー",
+        "reviewer": "",
+        "reviewed_on": "",
+        "source_group": [
+          "被告人供述"
+        ],
+        "inputs": [],
+        "challenges": [],
+        "checks": [],
+        "answered_objections": [],
+        "court_record": "",
+        "preparation": [
+          "[[検討/ノート/E09]]"
+        ],
+        "potential_supports": [
+          "[[検討/ノート/D02]]"
+        ],
+        "display_priority": 2,
+        "tags": [
+          "論証/正本",
+          "立場/共通",
+          "種類/供述獲得候補"
+        ],
+        "aliases": [
+          "W02 被告人質問で紛失と当日行動の説明を得る"
+        ]
+      },
+      "human": "\n想定回答と実際の回答を混ぜず、矛盾・不明点も記録する。\n"
+    }
+  },
+  "canvas_nodes": {
+    "group-prosecution": {
+      "type": "group",
+      "x": -795,
+      "y": -2160,
+      "width": 2010,
+      "height": 1685
+    },
+    "group-defense": {
+      "type": "group",
+      "x": -3175,
+      "y": -1750,
+      "width": 1010,
+      "height": 2095
+    },
+    "group-shared": {
+      "type": "group",
+      "x": -1795,
+      "y": -520,
+      "width": 4010,
+      "height": 865
+    },
+    "group-pending": {
+      "type": "group",
+      "x": -295,
+      "y": 410,
+      "width": 1010,
+      "height": 455
+    },
+    "group-candidate": {
+      "type": "group",
+      "x": -295,
+      "y": 930,
+      "width": 1010,
+      "height": 455
+    },
+    "group-questions": {
+      "type": "group",
+      "x": 2205,
+      "y": -1750,
+      "width": 510,
+      "height": 2095
+    },
+    "view-guide": {
+      "type": "text",
+      "x": -620,
+      "y": -2460,
+      "width": 1240,
+      "height": 290,
+      "text": "## 一つの全体ピラミッド\n頂点：「被告人は有罪である」＝検察側の最終的立証目標・未認定。\n【立場】青＝検察／赤＝弁護／灰＝双方共通。\n【利用状態】緑の札＝採用済み資料／黄の札＝留保・未獲得・未確認の前提あり。\n黄の線は現時点で利用が確定していない前提。供述候補への灰線は準備関係で、支持する証拠の線ではありません。\n実際の回答を得たら、新しい供述記録ノートを作り、その範囲で前提を更新します。調書が自動的に採用されるわけではありません。"
+    },
+    "D01": {
+      "type": "file",
+      "x": -2630,
+      "y": 0,
+      "width": 420,
+      "height": 300,
+      "file": "検討/ノート/D01.md"
+    },
+    "badge-D01": {
+      "type": "text",
+      "x": -2630,
+      "y": -84,
+      "width": 420,
+      "height": 78,
+      "text": "**【弁護｜反論】**\n条件付き・未確認の前提あり：E07"
+    },
+    "D02": {
+      "type": "file",
+      "x": -2630,
+      "y": -410,
+      "width": 420,
+      "height": 300,
+      "file": "検討/ノート/D02.md"
+    },
+    "badge-D02": {
+      "type": "text",
+      "x": -2630,
+      "y": -494,
+      "width": 420,
+      "height": 78,
+      "text": "**【弁護｜反論】**\n条件付き・未確認の前提あり：E09"
+    },
+    "D03": {
+      "type": "file",
+      "x": -2630,
+      "y": -820,
+      "width": 420,
+      "height": 300,
+      "file": "検討/ノート/D03.md"
+    },
+    "badge-D03": {
+      "type": "text",
+      "x": -2630,
+      "y": -904,
+      "width": 420,
+      "height": 78,
+      "text": "**【弁護｜反論】**\n検討対象・証明済みを意味しない"
+    },
+    "D04": {
+      "type": "file",
+      "x": -2630,
+      "y": -1230,
+      "width": 420,
+      "height": 300,
+      "file": "検討/ノート/D04.md"
+    },
+    "badge-D04": {
+      "type": "text",
+      "x": -2630,
+      "y": -1314,
+      "width": 420,
+      "height": 78,
+      "text": "**【弁護｜反論】**\n検討対象・証明済みを意味しない"
+    },
+    "D05": {
+      "type": "file",
+      "x": -2630,
+      "y": -1640,
+      "width": 420,
+      "height": 300,
+      "file": "検討/ノート/D05.md"
+    },
+    "badge-D05": {
+      "type": "text",
+      "x": -2630,
+      "y": -1724,
+      "width": 420,
+      "height": 78,
+      "text": "**【弁護｜反論】**\n検討対象・証明済みを意味しない"
+    },
+    "D06": {
+      "type": "file",
+      "x": -3130,
+      "y": 0,
+      "width": 420,
+      "height": 300,
+      "file": "検討/ノート/D06.md"
+    },
+    "badge-D06": {
+      "type": "text",
+      "x": -3130,
+      "y": -84,
+      "width": 420,
+      "height": 78,
+      "text": "**【弁護｜反論】**\n検討対象・証明済みを意味しない"
+    },
+    "D07": {
+      "type": "file",
+      "x": -3130,
+      "y": -410,
+      "width": 420,
+      "height": 300,
+      "file": "検討/ノート/D07.md"
+    },
+    "badge-D07": {
+      "type": "text",
+      "x": -3130,
+      "y": -494,
+      "width": 420,
+      "height": 78,
+      "text": "**【弁護｜反論】**\n検討対象・証明済みを意味しない"
+    },
+    "D08": {
+      "type": "file",
+      "x": -3130,
+      "y": -820,
+      "width": 420,
+      "height": 300,
+      "file": "検討/ノート/D08.md"
+    },
+    "badge-D08": {
+      "type": "text",
+      "x": -3130,
+      "y": -904,
+      "width": 420,
+      "height": 78,
+      "text": "**【弁護｜反論】**\n検討対象・証明済みを意味しない"
+    },
+    "D09": {
+      "type": "file",
+      "x": -3130,
+      "y": -1230,
+      "width": 420,
+      "height": 300,
+      "file": "検討/ノート/D09.md"
+    },
+    "badge-D09": {
+      "type": "text",
+      "x": -3130,
+      "y": -1314,
+      "width": 420,
+      "height": 78,
+      "text": "**【弁護｜反論】**\n検討対象・証明済みを意味しない"
+    },
+    "E01": {
+      "type": "file",
+      "x": -1750,
+      "y": 0,
+      "width": 420,
+      "height": 300,
+      "file": "検討/ノート/E01.md"
+    },
+    "badge-E01": {
+      "type": "text",
+      "x": -1750,
+      "y": -84,
+      "width": 420,
+      "height": 78,
+      "text": "**【共通｜証拠】**\n採用済み資料・記載の範囲で利用"
+    },
+    "E02": {
+      "type": "file",
+      "x": -1250,
+      "y": 0,
+      "width": 420,
+      "height": 300,
+      "file": "検討/ノート/E02.md"
+    },
+    "badge-E02": {
+      "type": "text",
+      "x": -1250,
+      "y": -84,
+      "width": 420,
+      "height": 78,
+      "text": "**【共通｜証拠】**\n採用済み資料・記載の範囲で利用"
+    },
+    "E03": {
+      "type": "file",
+      "x": -750,
+      "y": 0,
+      "width": 420,
+      "height": 300,
+      "file": "検討/ノート/E03.md"
+    },
+    "badge-E03": {
+      "type": "text",
+      "x": -750,
+      "y": -84,
+      "width": 420,
+      "height": 78,
+      "text": "**【共通｜証拠】**\n採用済み資料・記載の範囲で利用"
+    },
+    "E04": {
+      "type": "file",
+      "x": -250,
+      "y": 0,
+      "width": 420,
+      "height": 300,
+      "file": "検討/ノート/E04.md"
+    },
+    "badge-E04": {
+      "type": "text",
+      "x": -250,
+      "y": -84,
+      "width": 420,
+      "height": 78,
+      "text": "**【共通｜証拠】**\n採用済み資料・記載の範囲で利用"
+    },
+    "E05": {
+      "type": "file",
+      "x": 250,
+      "y": 0,
+      "width": 420,
+      "height": 300,
+      "file": "検討/ノート/E05.md"
+    },
+    "badge-E05": {
+      "type": "text",
+      "x": 250,
+      "y": -84,
+      "width": 420,
+      "height": 78,
+      "text": "**【共通｜証拠】**\n採用済み資料・記載の範囲で利用"
+    },
+    "E06": {
+      "type": "file",
+      "x": 750,
+      "y": 0,
+      "width": 420,
+      "height": 300,
+      "file": "検討/ノート/E06.md"
+    },
+    "badge-E06": {
+      "type": "text",
+      "x": 750,
+      "y": -84,
+      "width": 420,
+      "height": 78,
+      "text": "**【共通｜証拠】**\n採用済み資料・記載の範囲で利用"
+    },
+    "E07": {
+      "type": "file",
+      "x": -250,
+      "y": 520,
+      "width": 420,
+      "height": 300,
+      "file": "検討/ノート/E07.md"
+    },
+    "badge-E07": {
+      "type": "text",
+      "x": -250,
+      "y": 436,
+      "width": 420,
+      "height": 78,
+      "text": "**【共通｜準備資料】**\n現時点は根拠に不可・採否留保調書"
+    },
+    "E08": {
+      "type": "file",
+      "x": 1250,
+      "y": 0,
+      "width": 420,
+      "height": 300,
+      "file": "検討/ノート/E08.md"
+    },
+    "badge-E08": {
+      "type": "text",
+      "x": 1250,
+      "y": -84,
+      "width": 420,
+      "height": 78,
+      "text": "**【共通｜証拠】**\n採用済み資料・記載の範囲で利用"
+    },
+    "E09": {
+      "type": "file",
+      "x": 250,
+      "y": 520,
+      "width": 420,
+      "height": 300,
+      "file": "検討/ノート/E09.md"
+    },
+    "badge-E09": {
+      "type": "text",
+      "x": 250,
+      "y": 436,
+      "width": 420,
+      "height": 78,
+      "text": "**【共通｜準備資料】**\n現時点は根拠に不可・採否留保調書"
+    },
+    "E10": {
+      "type": "file",
+      "x": 1750,
+      "y": 0,
+      "width": 420,
+      "height": 300,
+      "file": "検討/ノート/E10.md"
+    },
+    "badge-E10": {
+      "type": "text",
+      "x": 1750,
+      "y": -84,
+      "width": 420,
+      "height": 78,
+      "text": "**【共通｜証拠】**\n採用済み資料・記載の範囲で利用"
+    },
+    "F01": {
+      "type": "file",
+      "x": -1500,
+      "y": -410,
+      "width": 420,
+      "height": 300,
+      "file": "検討/ノート/F01.md"
+    },
+    "badge-F01": {
+      "type": "text",
+      "x": -1500,
+      "y": -494,
+      "width": 420,
+      "height": 78,
+      "text": "**【共通｜間接事実】**\n検討対象・証明済みを意味しない"
+    },
+    "F02": {
+      "type": "file",
+      "x": -1000,
+      "y": -410,
+      "width": 420,
+      "height": 300,
+      "file": "検討/ノート/F02.md"
+    },
+    "badge-F02": {
+      "type": "text",
+      "x": -1000,
+      "y": -494,
+      "width": 420,
+      "height": 78,
+      "text": "**【共通｜間接事実】**\n検討対象・証明済みを意味しない"
+    },
+    "F03": {
+      "type": "file",
+      "x": -500,
+      "y": -410,
+      "width": 420,
+      "height": 300,
+      "file": "検討/ノート/F03.md"
+    },
+    "badge-F03": {
+      "type": "text",
+      "x": -500,
+      "y": -494,
+      "width": 420,
+      "height": 78,
+      "text": "**【共通｜間接事実】**\n条件付き・未確認の前提あり：E07,F03"
+    },
+    "F04": {
+      "type": "file",
+      "x": 0,
+      "y": -410,
+      "width": 420,
+      "height": 300,
+      "file": "検討/ノート/F04.md"
+    },
+    "badge-F04": {
+      "type": "text",
+      "x": 0,
+      "y": -494,
+      "width": 420,
+      "height": 78,
+      "text": "**【共通｜間接事実】**\n検討対象・証明済みを意味しない"
+    },
+    "F05": {
+      "type": "file",
+      "x": 500,
+      "y": -410,
+      "width": 420,
+      "height": 300,
+      "file": "検討/ノート/F05.md"
+    },
+    "badge-F05": {
+      "type": "text",
+      "x": 500,
+      "y": -494,
+      "width": 420,
+      "height": 78,
+      "text": "**【共通｜間接事実】**\n検討対象・証明済みを意味しない"
+    },
+    "F06": {
+      "type": "file",
+      "x": 1000,
+      "y": -410,
+      "width": 420,
+      "height": 300,
+      "file": "検討/ノート/F06.md"
+    },
+    "badge-F06": {
+      "type": "text",
+      "x": 1000,
+      "y": -494,
+      "width": 420,
+      "height": 78,
+      "text": "**【共通｜間接事実】**\n検討対象・証明済みを意味しない"
+    },
+    "F07": {
+      "type": "file",
+      "x": 1500,
+      "y": -410,
+      "width": 420,
+      "height": 300,
+      "file": "検討/ノート/F07.md"
+    },
+    "badge-F07": {
+      "type": "text",
+      "x": 1500,
+      "y": -494,
+      "width": 420,
+      "height": 78,
+      "text": "**【共通｜間接事実】**\n検討対象・証明済みを意味しない"
+    },
+    "Q01": {
+      "type": "file",
+      "x": 2250,
+      "y": 0,
+      "width": 420,
+      "height": 300,
+      "file": "検討/ノート/Q01.md"
+    },
+    "badge-Q01": {
+      "type": "text",
+      "x": 2250,
+      "y": -84,
+      "width": 420,
+      "height": 78,
+      "text": "**【共通｜確認課題】**\n確認作業・回答は未記録"
+    },
+    "Q02": {
+      "type": "file",
+      "x": 2250,
+      "y": -410,
+      "width": 420,
+      "height": 300,
+      "file": "検討/ノート/Q02.md"
+    },
+    "badge-Q02": {
+      "type": "text",
+      "x": 2250,
+      "y": -494,
+      "width": 420,
+      "height": 78,
+      "text": "**【共通｜確認課題】**\n確認作業・回答は未記録"
+    },
+    "Q03": {
+      "type": "file",
+      "x": 2250,
+      "y": -820,
+      "width": 420,
+      "height": 300,
+      "file": "検討/ノート/Q03.md"
+    },
+    "badge-Q03": {
+      "type": "text",
+      "x": 2250,
+      "y": -904,
+      "width": 420,
+      "height": 78,
+      "text": "**【共通｜確認課題】**\n確認作業・回答は未記録"
+    },
+    "Q04": {
+      "type": "file",
+      "x": 2250,
+      "y": -1230,
+      "width": 420,
+      "height": 300,
+      "file": "検討/ノート/Q04.md"
+    },
+    "badge-Q04": {
+      "type": "text",
+      "x": 2250,
+      "y": -1314,
+      "width": 420,
+      "height": 78,
+      "text": "**【共通｜確認課題】**\n確認作業・回答は未記録"
+    },
+    "Q05": {
+      "type": "file",
+      "x": 2250,
+      "y": -1640,
+      "width": 420,
+      "height": 300,
+      "file": "検討/ノート/Q05.md"
+    },
+    "badge-Q05": {
+      "type": "text",
+      "x": 2250,
+      "y": -1724,
+      "width": 420,
+      "height": 78,
+      "text": "**【共通｜確認課題】**\n確認作業・回答は未記録"
+    },
+    "R01": {
+      "type": "file",
+      "x": -750,
+      "y": -820,
+      "width": 420,
+      "height": 300,
+      "file": "検討/ノート/R01.md"
+    },
+    "badge-R01": {
+      "type": "text",
+      "x": -750,
+      "y": -904,
+      "width": 420,
+      "height": 78,
+      "text": "**【検察｜推認】**\n条件付き・未確認の前提あり：E07,F03"
+    },
+    "R02": {
+      "type": "file",
+      "x": -250,
+      "y": -1230,
+      "width": 420,
+      "height": 300,
+      "file": "検討/ノート/R02.md"
+    },
+    "badge-R02": {
+      "type": "text",
+      "x": -250,
+      "y": -1314,
+      "width": 420,
+      "height": 78,
+      "text": "**【検察｜推認】**\n条件付き・未確認の前提あり：E07,F03"
+    },
+    "R03": {
+      "type": "file",
+      "x": -250,
+      "y": -820,
+      "width": 420,
+      "height": 300,
+      "file": "検討/ノート/R03.md"
+    },
+    "badge-R03": {
+      "type": "text",
+      "x": -250,
+      "y": -904,
+      "width": 420,
+      "height": 78,
+      "text": "**【検察｜推認】**\n検討対象・証明済みを意味しない"
+    },
+    "R04": {
+      "type": "file",
+      "x": 250,
+      "y": -1230,
+      "width": 420,
+      "height": 300,
+      "file": "検討/ノート/R04.md"
+    },
+    "badge-R04": {
+      "type": "text",
+      "x": 250,
+      "y": -1314,
+      "width": 420,
+      "height": 78,
+      "text": "**【検察｜推認】**\n検討対象・証明済みを意味しない"
+    },
+    "R05": {
+      "type": "file",
+      "x": 250,
+      "y": -820,
+      "width": 420,
+      "height": 300,
+      "file": "検討/ノート/R05.md"
+    },
+    "badge-R05": {
+      "type": "text",
+      "x": 250,
+      "y": -904,
+      "width": 420,
+      "height": 78,
+      "text": "**【検察｜推認】**\n検討対象・証明済みを意味しない"
+    },
+    "R06": {
+      "type": "file",
+      "x": 750,
+      "y": -820,
+      "width": 420,
+      "height": 300,
+      "file": "検討/ノート/R06.md"
+    },
+    "badge-R06": {
+      "type": "text",
+      "x": 750,
+      "y": -904,
+      "width": 420,
+      "height": 78,
+      "text": "**【検察｜推認】**\n検討対象・証明済みを意味しない"
+    },
+    "T00": {
+      "type": "file",
+      "x": 0,
+      "y": -2050,
+      "width": 420,
+      "height": 300,
+      "file": "検討/ノート/T00.md"
+    },
+    "badge-T00": {
+      "type": "text",
+      "x": 0,
+      "y": -2134,
+      "width": 420,
+      "height": 78,
+      "text": "**【検察｜最終結論】**\n条件付き・未確認の前提あり：E07,F03"
+    },
+    "T01": {
+      "type": "file",
+      "x": -500,
+      "y": -1640,
+      "width": 420,
+      "height": 300,
+      "file": "検討/ノート/T01.md"
+    },
+    "badge-T01": {
+      "type": "text",
+      "x": -500,
+      "y": -1724,
+      "width": 420,
+      "height": 78,
+      "text": "**【検察｜要証事実】**\n条件付き・未確認の前提あり：E07,F03"
+    },
+    "T02": {
+      "type": "file",
+      "x": 0,
+      "y": -1640,
+      "width": 420,
+      "height": 300,
+      "file": "検討/ノート/T02.md"
+    },
+    "badge-T02": {
+      "type": "text",
+      "x": 0,
+      "y": -1724,
+      "width": 420,
+      "height": 78,
+      "text": "**【検察｜要証事実】**\n検討対象・証明済みを意味しない"
+    },
+    "T03": {
+      "type": "file",
+      "x": 500,
+      "y": -1640,
+      "width": 420,
+      "height": 300,
+      "file": "検討/ノート/T03.md"
+    },
+    "badge-T03": {
+      "type": "text",
+      "x": 500,
+      "y": -1724,
+      "width": 420,
+      "height": 78,
+      "text": "**【検察｜要証事実】**\n検討対象・証明済みを意味しない"
+    },
+    "W01": {
+      "type": "file",
+      "x": -250,
+      "y": 1040,
+      "width": 420,
+      "height": 300,
+      "file": "検討/ノート/W01.md"
+    },
+    "badge-W01": {
+      "type": "text",
+      "x": -250,
+      "y": 956,
+      "width": 420,
+      "height": 78,
+      "text": "**【共通｜供述獲得候補】**\n供述の獲得候補・まだ証拠ではない"
+    },
+    "W02": {
+      "type": "file",
+      "x": 250,
+      "y": 1040,
+      "width": 420,
+      "height": 300,
+      "file": "検討/ノート/W02.md"
+    },
+    "badge-W02": {
+      "type": "text",
+      "x": 250,
+      "y": 956,
+      "width": 420,
+      "height": 78,
+      "text": "**【共通｜供述獲得候補】**\n供述の獲得候補・まだ証拠ではない"
+    }
+  },
+  "gate": [
+    "E01: 人の判断=未レビュー",
+    "E02: 人の判断=未レビュー",
+    "E03: 人の判断=未レビュー",
+    "E04: 人の判断=未レビュー",
+    "E05: 人の判断=未レビュー",
+    "E06: 人の判断=未レビュー",
+    "E07: 人の判断=未レビュー",
+    "E07: 前提の状態=採否留保",
+    "E07: 準備資料を現在の証拠として直接利用できない",
+    "E10: 人の判断=未レビュー",
+    "F01: 人の判断=未レビュー",
+    "F02: 人の判断=未レビュー",
+    "F03: 人の判断=未レビュー",
+    "F03: 前提の状態=法廷未確認",
+    "F04: 人の判断=未レビュー",
+    "F05: 人の判断=未レビュー",
+    "F06: 人の判断=未レビュー",
+    "F07: 人の判断=未レビュー",
+    "R01: D01への応答確認が未了",
+    "R01: 人の判断=未レビュー",
+    "R02: D02への応答確認が未了",
+    "R02: D03への応答確認が未了",
+    "R02: 人の判断=未レビュー",
+    "R03: D04への応答確認が未了",
+    "R03: 人の判断=未レビュー",
+    "R04: D05への応答確認が未了",
+    "R04: 人の判断=未レビュー",
+    "R05: D06への応答確認が未了",
+    "R05: 人の判断=未レビュー",
+    "R06: D07への応答確認が未了",
+    "R06: 人の判断=未レビュー",
+    "T00: D09への応答確認が未了",
+    "T00: 人の判断=未レビュー",
+    "T01: D08への応答確認が未了",
+    "T01: 人の判断=未レビュー",
+    "T02: 人の判断=未レビュー",
+    "T03: 人の判断=未レビュー"
+  ]
+}

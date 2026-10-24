@@ -1,0 +1,123 @@
+{
+  "items": [
+    {
+      "type": "group",
+      "title": "模擬裁判・構造グラフ",
+      "ctime": 1792512000000,
+      "items": [
+        {
+          "type": "graph",
+          "title": "01 論証の本筋",
+          "ctime": 1792512000000,
+          "options": {
+            "collapse-filter": false,
+            "search": "path:\"検討/グラフ表示/命題\" [graph_scope:本筋]",
+            "showTags": false,
+            "showAttachments": false,
+            "hideUnresolved": true,
+            "showOrphans": true,
+            "collapse-color-groups": false,
+            "colorGroups": [
+              {
+                "query": "[graph_id:T00]",
+                "color": {
+                  "a": 1,
+                  "rgb": 7387135
+                }
+              },
+              {
+                "query": "[side:検察]",
+                "color": {
+                  "a": 1,
+                  "rgb": 3766455
+                }
+              },
+              {
+                "query": "[side:弁護]",
+                "color": {
+                  "a": 1,
+                  "rgb": 12473188
+                }
+              },
+              {
+                "query": "[side:共通]",
+                "color": {
+                  "a": 1,
+                  "rgb": 7438731
+                }
+              }
+            ],
+            "collapse-display": true,
+            "showArrow": true,
+            "textFadeMultiplier": 0.3,
+            "nodeSizeMultiplier": 1.35,
+            "lineSizeMultiplier": 0.8,
+            "collapse-forces": true,
+            "centerStrength": 0.5,
+            "repelStrength": 10,
+            "linkStrength": 0.85,
+            "linkDistance": 140,
+            "scale": 0.6,
+            "close": true
+          }
+        },
+        {
+          "type": "graph",
+          "title": "02 詳細・準備と確認を含む",
+          "ctime": 1792512000000,
+          "options": {
+            "collapse-filter": false,
+            "search": "path:\"検討/グラフ表示/命題\"",
+            "showTags": false,
+            "showAttachments": false,
+            "hideUnresolved": true,
+            "showOrphans": false,
+            "collapse-color-groups": false,
+            "colorGroups": [
+              {
+                "query": "[graph_id:T00]",
+                "color": {
+                  "a": 1,
+                  "rgb": 7387135
+                }
+              },
+              {
+                "query": "[side:検察]",
+                "color": {
+                  "a": 1,
+                  "rgb": 3766455
+                }
+              },
+              {
+                "query": "[side:弁護]",
+                "color": {
+                  "a": 1,
+                  "rgb": 12473188
+                }
+              },
+              {
+                "query": "[side:共通]",
+                "color": {
+                  "a": 1,
+                  "rgb": 7438731
+                }
+              }
+            ],
+            "collapse-display": true,
+            "showArrow": true,
+            "textFadeMultiplier": 0.3,
+            "nodeSizeMultiplier": 1.35,
+            "lineSizeMultiplier": 0.8,
+            "collapse-forces": true,
+            "centerStrength": 0.5,
+            "repelStrength": 10,
+            "linkStrength": 0.85,
+            "linkDistance": 140,
+            "scale": 0.6,
+            "close": true
+          }
+        }
+      ]
+    }
+  ]
+}

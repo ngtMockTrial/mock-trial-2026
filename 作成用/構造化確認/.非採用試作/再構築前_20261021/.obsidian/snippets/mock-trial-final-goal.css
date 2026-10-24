@@ -1,0 +1,71 @@
+/* 最終立証目標の表示。点の大きさ・線・証拠力を変更しない。 */
+.workspace-leaf-content[data-type="graph"] .view-content,
+.workspace-leaf-content[data-type="localgraph"] .view-content {
+  position: relative;
+}
+.workspace-leaf-content[data-type="graph"] .view-content::before,
+.workspace-leaf-content[data-type="localgraph"] .view-content::before {
+  content: "T00　被告人は有罪である";
+  position: absolute;
+  top: 12px;
+  left: 16px;
+  right: 56px;
+  z-index: 4;
+  padding: 18px 22px 42px;
+  font-size: clamp(22px, 2.4vw, 38px);
+  line-height: 1.4;
+  font-weight: 800;
+  letter-spacing: .02em;
+  color: #eef7ff;
+  background: #163d62;
+  border: 2px solid #70b7ff;
+  border-radius: 8px;
+  box-shadow: 0 4px 18px #0003;
+  pointer-events: none;
+}
+.workspace-leaf-content[data-type="graph"] .view-content::after,
+.workspace-leaf-content[data-type="localgraph"] .view-content::after {
+  content: "検察側の最終立証目標・未認定 ｜ 強調は証拠力や有罪確率を示しません";
+  position: absolute;
+  top: calc(30px + clamp(22px, 2.4vw, 38px) * 1.4 + 8px);
+  left: 40px;
+  right: 78px;
+  z-index: 5;
+  color: #d1e6f9;
+  font-size: 12px;
+  line-height: 1.5;
+  pointer-events: none;
+}
+.mock-trial-final-goal .inline-title,
+.mock-trial-final-goal.markdown-preview-view h1,
+.mock-trial-final-goal .markdown-preview-view h1,
+.mock-trial-final-goal .cm-header-1 {
+  font-size: clamp(28px, 3vw, 44px);
+  line-height: 1.4;
+  font-weight: 800;
+  color: #3978b7;
+}
+.mock-trial-final-goal .callout[data-callout="abstract"] {
+  --callout-color: 57, 120, 183;
+  border: 2px solid #3978b7;
+}
+.mock-trial-final-goal .callout[data-callout="abstract"] .callout-title {
+  font-size: 20px;
+  font-weight: 800;
+}
+.mock-trial-final-goal .callout[data-callout="abstract"] .callout-content p:first-child {
+  font-size: clamp(26px, 3vw, 40px);
+  line-height: 1.5;
+  font-weight: 800;
+}
+@media (max-width: 600px) {
+  .workspace-leaf-content[data-type="graph"] .view-content::before,
+  .workspace-leaf-content[data-type="localgraph"] .view-content::before {
+    padding: 14px 14px 66px;
+  }
+  .workspace-leaf-content[data-type="graph"] .view-content::after,
+  .workspace-leaf-content[data-type="localgraph"] .view-content::after {
+    left: 32px;
+    right: 68px;
+  }
+}

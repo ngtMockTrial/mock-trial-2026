@@ -1,0 +1,9 @@
+{
+  "id": "mock-trial-graph",
+  "name": "模擬裁判・構造グラフ",
+  "version": "2.0.0",
+  "minAppVersion": "1.6.0",
+  "description": "立場・種類・利用状態・表示重要度を分けて、正本の論証関係を表示します。",
+  "author": "Local workspace",
+  "isDesktopOnly": true
+}

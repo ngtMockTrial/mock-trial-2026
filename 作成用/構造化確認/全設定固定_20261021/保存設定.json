@@ -1,0 +1,15 @@
+{
+  "settings": {
+    "showArrow": true,
+    "textFadeMultiplier": -2.4,
+    "nodeSizeMultiplier": 0.66,
+    "lineSizeMultiplier": 1.79,
+    "centerStrength": 0.54,
+    "repelStrength": 12.29,
+    "linkStrength": 1.0,
+    "linkDistance": 212
+  },
+  "pinned": 0,
+  "scale": 0.28622834128826036,
+  "positions_fixed": false
+}

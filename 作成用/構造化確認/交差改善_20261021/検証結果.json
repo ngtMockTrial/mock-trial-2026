@@ -1,0 +1,9 @@
+{
+  "before_crossings": 6,
+  "after_reload_crossings": 1,
+  "nodes": 34,
+  "links": 41,
+  "settings_reload_verified": true,
+  "notes_canvas_unchanged": true,
+  "pins_unchanged": true
+}

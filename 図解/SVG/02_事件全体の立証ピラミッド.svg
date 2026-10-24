@@ -1,0 +1,93 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1130" viewBox="0 0 1600 1130" role="img"><title>事件全体の立証ピラミッド</title><rect width="1600" height="1130" fill="white"/>
+<text x="35" y="54" font-family="Meiryo, sans-serif" font-size="31" fill="#17283b" font-weight="bold">02  事件全体の立証ピラミッド</text>
+<text x="35" y="94" font-family="Meiryo, sans-serif" font-size="19" fill="#17283b">要証事実を犯人性・殺意・死亡との因果関係に分ける。</text>
+<polyline points="260.0,385 260.0,312.5 548.4,312.5 548.4,240" fill="none" stroke="#4e805a" stroke-width="2" stroke-dasharray="8 6"/>
+<polygon points="548.4,240 553.4,252.0 543.4,252.0" stroke="#4e805a" fill="#4e805a" stroke-width="2"/>
+<polyline points="800.0,385 800.0,240" fill="none" stroke="#4e805a" stroke-width="2" stroke-dasharray="8 6"/>
+<polygon points="800.0,240 805.0,252.0 795.0,252.0" stroke="#4e805a" fill="#4e805a" stroke-width="2"/>
+<polyline points="1340.0,385 1340.0,312.5 1051.6,312.5 1051.6,240" fill="none" stroke="#4577a5" stroke-width="2"/>
+<polygon points="1051.6,240 1056.6,252.0 1046.6,252.0" stroke="#4577a5" fill="#4577a5" stroke-width="2"/>
+<polyline points="200.0,780 200.0,655.0 131.0,655.0 131.0,530" fill="none" stroke="#4e805a" stroke-width="2" stroke-dasharray="8 6"/>
+<polygon points="131.0,530 136.0,542.0 126.0,542.0" stroke="#4e805a" fill="#4e805a" stroke-width="2"/>
+<polyline points="600.0,780 600.0,655.0 389.0,655.0 389.0,530" fill="none" stroke="#4e805a" stroke-width="2" stroke-dasharray="8 6"/>
+<polygon points="389.0,530 394.0,542.0 384.0,542.0" stroke="#4e805a" fill="#4e805a" stroke-width="2"/>
+<polyline points="1000.0,780 1000,655 460,655 453.5,530" fill="none" stroke="#4e805a" stroke-width="2" stroke-dasharray="8 6"/>
+<polygon points="453.5,530 459.11641173753327,541.7241596370272 449.12990438061064,542.2434580195873" stroke="#4e805a" fill="#4e805a" stroke-width="2"/>
+<polyline points="1400.0,780 1400,615 950,615 950.5,530" fill="none" stroke="#4e805a" stroke-width="2" stroke-dasharray="8 6"/>
+<polygon points="950.5,530 955.4293264829785,542.029203648796 945.4294994888694,541.9703811370659" stroke="#4e805a" fill="#4e805a" stroke-width="2"/>
+<polyline points="1400.0,780 1400.0,655.0 1340.0,655.0 1340.0,530" fill="none" stroke="#4577a5" stroke-width="2"/>
+<polygon points="1340.0,530 1345.0,542.0 1335.0,542.0" stroke="#4577a5" fill="#4577a5" stroke-width="2"/>
+<rect x="430" y="120" width="740" height="120" fill="#203f59" stroke="#203f59" stroke-width="2"/>
+<text x="444" y="143" font-family="Meiryo, sans-serif" font-size="14" fill="#ffffff">Y　要証事実又は検討対象</text>
+<text x="444" y="169.88" font-family="Meiryo, sans-serif" font-size="21" fill="#ffffff" font-weight="bold">木村による殺人という検察側の主張</text>
+<text x="444" y="197.6" font-family="Meiryo, sans-serif" font-size="21" fill="#ffffff" font-weight="bold">犯人性・殺意・行為と死亡との関係を立証する</text>
+<text x="444" y="228" font-family="Meiryo, sans-serif" font-size="13.5" fill="#ffffff">起訴状 教材p.1　証明済みの意味ではない</text>
+<rect x="45" y="385" width="430" height="145" fill="#edf7ef" stroke="#4e805a" stroke-width="2"/>
+<text x="59" y="408" font-family="Meiryo, sans-serif" font-size="14" fill="#17283b">P　検察側の推認</text>
+<text x="59" y="433.6" font-family="Meiryo, sans-serif" font-size="20" fill="#17283b">犯人性</text>
+<text x="59" y="460.0" font-family="Meiryo, sans-serif" font-size="20" fill="#17283b">岸井を刺したのが木村である</text>
+<text x="59" y="518" font-family="Meiryo, sans-serif" font-size="13.5" fill="#17283b">主争点。詳細 図03</text>
+<rect x="585" y="385" width="430" height="145" fill="#edf7ef" stroke="#4e805a" stroke-width="2"/>
+<text x="599" y="408" font-family="Meiryo, sans-serif" font-size="14" fill="#17283b">M　検察側の推認</text>
+<text x="599" y="433.6" font-family="Meiryo, sans-serif" font-size="20" fill="#17283b">殺意</text>
+<text x="599" y="460.0" font-family="Meiryo, sans-serif" font-size="20" fill="#17283b">死亡の危険を認識して刺した</text>
+<text x="599" y="518" font-family="Meiryo, sans-serif" font-size="13.5" fill="#17283b">推認の根拠と限界は図11</text>
+<rect x="1125" y="385" width="430" height="145" fill="#eef5fc" stroke="#4577a5" stroke-width="2"/>
+<text x="1139" y="408" font-family="Meiryo, sans-serif" font-size="14" fill="#17283b">D　認定する事実</text>
+<text x="1139" y="433.6" font-family="Meiryo, sans-serif" font-size="20" fill="#17283b">因果関係</text>
+<text x="1139" y="460.0" font-family="Meiryo, sans-serif" font-size="20" fill="#17283b">刺創による出血性ショックで死亡</text>
+<text x="1139" y="518" font-family="Meiryo, sans-serif" font-size="13.5" fill="#17283b">傷と死因の関係は図10</text>
+<rect x="35" y="780" width="330" height="140" fill="#eef5fc" stroke="#4577a5" stroke-width="2"/>
+<text x="49" y="803" font-family="Meiryo, sans-serif" font-size="14" fill="#17283b">G　認定する事実</text>
+<text x="49" y="828.6" font-family="Meiryo, sans-serif" font-size="20" fill="#17283b">現場に木村の眼鏡</text>
+<text x="49" y="855.0" font-family="Meiryo, sans-serif" font-size="20" fill="#17283b">岸井の血液が付着</text>
+<text x="49" y="908" font-family="Meiryo, sans-serif" font-size="13.5" fill="#17283b">甲1 教材p.3-4・7／図04</text>
+<rect x="435" y="780" width="330" height="140" fill="#eef5fc" stroke="#4577a5" stroke-width="2"/>
+<text x="449" y="803" font-family="Meiryo, sans-serif" font-size="14" fill="#17283b">B　認定する事実</text>
+<text x="449" y="828.6" font-family="Meiryo, sans-serif" font-size="20" fill="#17283b">共用自転車の血液</text>
+<text x="449" y="855.0" font-family="Meiryo, sans-serif" font-size="20" fill="#17283b">映像・清掃の検討</text>
+<text x="449" y="908" font-family="Meiryo, sans-serif" font-size="13.5" fill="#17283b">甲1 p.4-6／図05-07</text>
+<rect x="835" y="780" width="330" height="140" fill="#eef5fc" stroke="#4577a5" stroke-width="2"/>
+<text x="849" y="803" font-family="Meiryo, sans-serif" font-size="14" fill="#17283b">L　認定する事実</text>
+<text x="849" y="828.6" font-family="Meiryo, sans-serif" font-size="20" fill="#17283b">岸井への怒り</text>
+<text x="849" y="855.0" font-family="Meiryo, sans-serif" font-size="20" fill="#17283b">駐車場の認識</text>
+<text x="849" y="908" font-family="Meiryo, sans-serif" font-size="13.5" fill="#17283b">甲2 p.16-19／図08</text>
+<rect x="1235" y="780" width="330" height="140" fill="#f4f5f7" stroke="#7f8a96" stroke-width="2"/>
+<text x="1249" y="803" font-family="Meiryo, sans-serif" font-size="14" fill="#17283b">W　証拠資料</text>
+<text x="1249" y="828.6" font-family="Meiryo, sans-serif" font-size="20" fill="#17283b">検案結果</text>
+<text x="1249" y="855.0" font-family="Meiryo, sans-serif" font-size="20" fill="#17283b">胸腹部等の複数の刺創</text>
+<text x="1249" y="908" font-family="Meiryo, sans-serif" font-size="13.5" fill="#17283b">甲1 p.3／図10-11</text>
+<rect x="326.2" y="280.5" width="156.0" height="28" fill="#ffffff" stroke="none" stroke-width="0"/>
+<text x="332.2" y="299.5" font-family="Meiryo, sans-serif" font-size="16" fill="#4e805a">推認　行為者の特定</text>
+<rect x="730.0" y="280.5" width="140.0" height="28" fill="#ffffff" stroke="none" stroke-width="0"/>
+<text x="736.0" y="299.5" font-family="Meiryo, sans-serif" font-size="16" fill="#4e805a">推認　故意の認定</text>
+<rect x="1117.8" y="280.5" width="156.0" height="28" fill="#ffffff" stroke="none" stroke-width="0"/>
+<text x="1123.8" y="299.5" font-family="Meiryo, sans-serif" font-size="16" fill="#4577a5">認定　死亡との関係</text>
+<rect x="87.5" y="623.0" width="156.0" height="28" fill="#ffffff" stroke="none" stroke-width="0"/>
+<text x="93.5" y="642.0" font-family="Meiryo, sans-serif" font-size="16" fill="#4e805a">推認　現場との接点</text>
+<rect x="524.0" y="640.0" width="252.0" height="28" fill="#ffffff" stroke="none" stroke-width="0"/>
+<text x="530.0" y="659.0" font-family="Meiryo, sans-serif" font-size="16" fill="#4e805a">推認　使用者等の限界を含め評価</text>
+<rect x="909.0" y="678.0" width="172.0" height="28" fill="#ffffff" stroke="none" stroke-width="0"/>
+<text x="915.0" y="697.0" font-family="Meiryo, sans-serif" font-size="16" fill="#4e805a">推認　動機の補助事情</text>
+<rect x="1065.0" y="582.0" width="220.0" height="28" fill="#ffffff" stroke="none" stroke-width="0"/>
+<text x="1071.0" y="601.0" font-family="Meiryo, sans-serif" font-size="16" fill="#4e805a">推認　胸腹部への複数の刺突</text>
+<rect x="1290.0" y="676.0" width="220.0" height="28" fill="#ffffff" stroke="none" stroke-width="0"/>
+<text x="1296.0" y="695.0" font-family="Meiryo, sans-serif" font-size="16" fill="#4577a5">認定　検案結果が死因を示す</text>
+<rect x="35" y="968" width="18" height="18" fill="#203f59" stroke="#203f59" stroke-width="1"/>
+<text x="61" y="985" font-family="Meiryo, sans-serif" font-size="15" fill="#17283b">検討対象</text>
+<rect x="245" y="968" width="18" height="18" fill="#eef5fc" stroke="#4577a5" stroke-width="1"/>
+<text x="271" y="985" font-family="Meiryo, sans-serif" font-size="15" fill="#17283b">認定する事実</text>
+<rect x="475" y="968" width="18" height="18" fill="#f4f5f7" stroke="#7f8a96" stroke-width="1"/>
+<text x="501" y="985" font-family="Meiryo, sans-serif" font-size="15" fill="#17283b">証拠資料</text>
+<rect x="690" y="968" width="18" height="18" fill="#edf7ef" stroke="#4e805a" stroke-width="1"/>
+<text x="716" y="985" font-family="Meiryo, sans-serif" font-size="15" fill="#17283b">推認</text>
+<rect x="900" y="968" width="18" height="18" fill="#fff6e3" stroke="#b17b1a" stroke-width="1"/>
+<text x="926" y="985" font-family="Meiryo, sans-serif" font-size="15" fill="#17283b">主張・要確認</text>
+<rect x="1120" y="968" width="18" height="18" fill="#fff0ef" stroke="#af554c" stroke-width="1"/>
+<text x="1146" y="985" font-family="Meiryo, sans-serif" font-size="15" fill="#17283b">反対事情・限界</text>
+<rect x="1380" y="968" width="18" height="18" fill="#f2eff8" stroke="#806b9c" stroke-width="1"/>
+<text x="1406" y="985" font-family="Meiryo, sans-serif" font-size="15" fill="#17283b">人物・場所</text>
+<text x="35" y="1033" font-family="Meiryo, sans-serif" font-size="15.5" fill="#17283b">犯人性の根拠と、傷から死亡したことの根拠を混同しない。</text>
+<text x="35" y="1058" font-family="Meiryo, sans-serif" font-size="15.5" fill="#17283b">起訴状の20時30分頃という時刻は主張。独立した時刻鑑定として扱わない。</text>
+<text x="35" y="1083" font-family="Meiryo, sans-serif" font-size="15.5" fill="#17283b">甲3・乙2は採否留保。実演の発言を確認した箇所だけ、供述を使った評価に進む。</text>
+</svg>

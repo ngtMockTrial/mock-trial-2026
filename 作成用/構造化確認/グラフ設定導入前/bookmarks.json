@@ -1,0 +1,256 @@
+{
+  "items": [
+    {
+      "type": "group",
+      "title": "模擬裁判・構造グラフ",
+      "ctime": 1792512000000,
+      "items": [
+        {
+          "type": "graph",
+          "title": "01 全体・立場で色分け",
+          "ctime": 1792512000000,
+          "options": {
+            "collapse-filter": false,
+            "search": "path:\"検討/グラフ表示\"",
+            "showTags": false,
+            "showAttachments": false,
+            "hideUnresolved": true,
+            "showOrphans": true,
+            "collapse-color-groups": false,
+            "colorGroups": [
+              {
+                "query": "[side:検察]",
+                "color": {
+                  "a": 1,
+                  "rgb": 3766455
+                }
+              },
+              {
+                "query": "[side:弁護]",
+                "color": {
+                  "a": 1,
+                  "rgb": 12473188
+                }
+              },
+              {
+                "query": "[side:共通]",
+                "color": {
+                  "a": 1,
+                  "rgb": 7438731
+                }
+              }
+            ],
+            "collapse-display": true,
+            "showArrow": true,
+            "textFadeMultiplier": 0,
+            "nodeSizeMultiplier": 1.2,
+            "lineSizeMultiplier": 1.3,
+            "collapse-forces": true,
+            "centerStrength": 0.2,
+            "repelStrength": 14,
+            "linkStrength": 0.7,
+            "linkDistance": 180,
+            "scale": 0.2588386562181616,
+            "close": false
+          }
+        },
+        {
+          "type": "graph",
+          "title": "02 支持・条件付き支持だけ",
+          "ctime": 1792512000000,
+          "options": {
+            "collapse-filter": false,
+            "search": "path:\"検討/グラフ表示\" -[graph_relation:challenges] -[graph_relation:checks] -[graph_relation:preparation] -[graph_relation:potential_supports]",
+            "showTags": false,
+            "showAttachments": false,
+            "hideUnresolved": true,
+            "showOrphans": true,
+            "collapse-color-groups": false,
+            "colorGroups": [
+              {
+                "query": "[side:検察]",
+                "color": {
+                  "a": 1,
+                  "rgb": 3766455
+                }
+              },
+              {
+                "query": "[side:弁護]",
+                "color": {
+                  "a": 1,
+                  "rgb": 12473188
+                }
+              },
+              {
+                "query": "[side:共通]",
+                "color": {
+                  "a": 1,
+                  "rgb": 7438731
+                }
+              }
+            ],
+            "collapse-display": true,
+            "showArrow": true,
+            "textFadeMultiplier": 0,
+            "nodeSizeMultiplier": 1.2,
+            "lineSizeMultiplier": 1.3,
+            "collapse-forces": true,
+            "centerStrength": 0.2,
+            "repelStrength": 14,
+            "linkStrength": 0.7,
+            "linkDistance": 180,
+            "scale": 0.2588386562181616,
+            "close": false
+          }
+        },
+        {
+          "type": "graph",
+          "title": "03 反論の接続",
+          "ctime": 1792512000000,
+          "options": {
+            "collapse-filter": false,
+            "search": "path:\"検討/グラフ表示\" ([graph_id] OR [graph_relation:challenges])",
+            "showTags": false,
+            "showAttachments": false,
+            "hideUnresolved": true,
+            "showOrphans": true,
+            "collapse-color-groups": false,
+            "colorGroups": [
+              {
+                "query": "[side:検察]",
+                "color": {
+                  "a": 1,
+                  "rgb": 3766455
+                }
+              },
+              {
+                "query": "[side:弁護]",
+                "color": {
+                  "a": 1,
+                  "rgb": 12473188
+                }
+              },
+              {
+                "query": "[side:共通]",
+                "color": {
+                  "a": 1,
+                  "rgb": 7438731
+                }
+              }
+            ],
+            "collapse-display": true,
+            "showArrow": true,
+            "textFadeMultiplier": 0,
+            "nodeSizeMultiplier": 1.2,
+            "lineSizeMultiplier": 1.3,
+            "collapse-forces": true,
+            "centerStrength": 0.2,
+            "repelStrength": 14,
+            "linkStrength": 0.7,
+            "linkDistance": 180,
+            "scale": 0.2588386562181616,
+            "close": false
+          }
+        },
+        {
+          "type": "graph",
+          "title": "04 確認課題の接続",
+          "ctime": 1792512000000,
+          "options": {
+            "collapse-filter": false,
+            "search": "path:\"検討/グラフ表示\" ([graph_id] OR [graph_relation:checks])",
+            "showTags": false,
+            "showAttachments": false,
+            "hideUnresolved": true,
+            "showOrphans": true,
+            "collapse-color-groups": false,
+            "colorGroups": [
+              {
+                "query": "[side:検察]",
+                "color": {
+                  "a": 1,
+                  "rgb": 3766455
+                }
+              },
+              {
+                "query": "[side:弁護]",
+                "color": {
+                  "a": 1,
+                  "rgb": 12473188
+                }
+              },
+              {
+                "query": "[side:共通]",
+                "color": {
+                  "a": 1,
+                  "rgb": 7438731
+                }
+              }
+            ],
+            "collapse-display": true,
+            "showArrow": true,
+            "textFadeMultiplier": 0,
+            "nodeSizeMultiplier": 1.2,
+            "lineSizeMultiplier": 1.3,
+            "collapse-forces": true,
+            "centerStrength": 0.2,
+            "repelStrength": 14,
+            "linkStrength": 0.7,
+            "linkDistance": 180,
+            "scale": 0.2588386562181616,
+            "close": false
+          }
+        },
+        {
+          "type": "graph",
+          "title": "05 準備・将来候補の接続",
+          "ctime": 1792512000000,
+          "options": {
+            "collapse-filter": false,
+            "search": "path:\"検討/グラフ表示\" ([graph_id] OR [graph_relation:preparation] OR [graph_relation:potential_supports])",
+            "showTags": false,
+            "showAttachments": false,
+            "hideUnresolved": true,
+            "showOrphans": true,
+            "collapse-color-groups": false,
+            "colorGroups": [
+              {
+                "query": "[side:検察]",
+                "color": {
+                  "a": 1,
+                  "rgb": 3766455
+                }
+              },
+              {
+                "query": "[side:弁護]",
+                "color": {
+                  "a": 1,
+                  "rgb": 12473188
+                }
+              },
+              {
+                "query": "[side:共通]",
+                "color": {
+                  "a": 1,
+                  "rgb": 7438731
+                }
+              }
+            ],
+            "collapse-display": true,
+            "showArrow": true,
+            "textFadeMultiplier": 0,
+            "nodeSizeMultiplier": 1.2,
+            "lineSizeMultiplier": 1.3,
+            "collapse-forces": true,
+            "centerStrength": 0.2,
+            "repelStrength": 14,
+            "linkStrength": 0.7,
+            "linkDistance": 180,
+            "scale": 0.2588386562181616,
+            "close": false
+          }
+        }
+      ]
+    }
+  ]
+}

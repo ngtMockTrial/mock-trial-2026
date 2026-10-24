@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1130" viewBox="0 0 1600 1130" role="img"><title>図の読み方と推論の段階</title><rect width="1600" height="1130" fill="white"/>
+<text x="35" y="54" font-family="Meiryo, sans-serif" font-size="31" fill="#17283b" font-weight="bold">01  図の読み方と推論の段階</text>
+<text x="35" y="94" font-family="Meiryo, sans-serif" font-size="19" fill="#17283b">下の証拠から上の要証事実へ読む。各矢印の説明を確認する。</text>
+<polyline points="200.0,780 200,715 600,715 600.0,780" fill="none" stroke="#4577a5" stroke-width="2"/>
+<polygon points="600.0,780 595.0,768.0 605.0,768.0" stroke="#4577a5" fill="#4577a5" stroke-width="2"/>
+<polyline points="600.0,780 600.0,657.5 324.5,657.5 324.5,535" fill="none" stroke="#4e805a" stroke-width="2" stroke-dasharray="8 6"/>
+<polygon points="324.5,535 329.5,547.0 319.5,547.0" stroke="#4e805a" fill="#4e805a" stroke-width="2"/>
+<polyline points="1000.0,780 1000.0,657.5 864.5,657.5 864.5,535" fill="none" stroke="#a87512" stroke-width="2" stroke-dasharray="8 6"/>
+<polygon points="864.5,535 869.5,547.0 859.5,547.0" stroke="#a87512" fill="#a87512" stroke-width="2"/>
+<polyline points="1400.0,780 1400.0,657.5 1340.0,657.5 1340.0,535" fill="none" stroke="#ad5148" stroke-width="2" stroke-dasharray="8 6"/>
+<polyline points="1347.0,535.0 1333.0,535.0" stroke="#ad5148" fill="none" stroke-width="2"/>
+<polyline points="260.0,405 260.0,335.0 576.0,335.0 576.0,265" fill="none" stroke="#4e805a" stroke-width="2" stroke-dasharray="8 6"/>
+<polygon points="576.0,265 581.0,277.0 571.0,277.0" stroke="#4e805a" fill="#4e805a" stroke-width="2"/>
+<polyline points="800.0,405 800.0,265" fill="none" stroke="#4e805a" stroke-width="2" stroke-dasharray="8 6"/>
+<polygon points="800.0,265 805.0,277.0 795.0,277.0" stroke="#4e805a" fill="#4e805a" stroke-width="2"/>
+<polyline points="1340.0,405 1340.0,335.0 1024.0,335.0 1024.0,265" fill="none" stroke="#4e805a" stroke-width="2" stroke-dasharray="8 6"/>
+<polygon points="1024.0,265 1029.0,277.0 1019.0,277.0" stroke="#4e805a" fill="#4e805a" stroke-width="2"/>
+<rect x="480" y="125" width="640" height="140" fill="#203f59" stroke="#203f59" stroke-width="2"/>
+<text x="494" y="148" font-family="Meiryo, sans-serif" font-size="14" fill="#ffffff">Y　要証事実又は検討対象</text>
+<text x="494" y="174.88" font-family="Meiryo, sans-serif" font-size="21" fill="#ffffff" font-weight="bold">要証事実の例</text>
+<text x="494" y="202.6" font-family="Meiryo, sans-serif" font-size="21" fill="#ffffff" font-weight="bold">木村が岸井を刺したという犯人性</text>
+<text x="494" y="253" font-family="Meiryo, sans-serif" font-size="13.5" fill="#ffffff">検察側が証明する主張の例：起訴状 教材p.1</text>
+<rect x="45" y="405" width="430" height="130" fill="#edf7ef" stroke="#4e805a" stroke-width="2"/>
+<text x="59" y="428" font-family="Meiryo, sans-serif" font-size="14" fill="#17283b">I1　検察側の推認</text>
+<text x="59" y="453.6" font-family="Meiryo, sans-serif" font-size="20" fill="#17283b">眼鏡の所有・血液・発見場所から</text>
+<text x="59" y="480.0" font-family="Meiryo, sans-serif" font-size="20" fill="#17283b">現場との接点を評価</text>
+<text x="59" y="523" font-family="Meiryo, sans-serif" font-size="13.5" fill="#17283b">詳細 図04</text>
+<rect x="585" y="405" width="430" height="130" fill="#edf7ef" stroke="#4e805a" stroke-width="2"/>
+<text x="599" y="428" font-family="Meiryo, sans-serif" font-size="14" fill="#17283b">I2　検察側の推認</text>
+<text x="599" y="453.6" font-family="Meiryo, sans-serif" font-size="20" fill="#17283b">清掃状況と落下時刻の説明から</text>
+<text x="599" y="480.0" font-family="Meiryo, sans-serif" font-size="20" fill="#17283b">昼の落下という説明を評価</text>
+<text x="599" y="523" font-family="Meiryo, sans-serif" font-size="13.5" fill="#17283b">詳細 図05</text>
+<rect x="1125" y="405" width="430" height="130" fill="#edf7ef" stroke="#4e805a" stroke-width="2"/>
+<text x="1139" y="428" font-family="Meiryo, sans-serif" font-size="14" fill="#17283b">I3　検察側の推認</text>
+<text x="1139" y="453.6" font-family="Meiryo, sans-serif" font-size="20" fill="#17283b">自転車・映像・動機を</text>
+<text x="1139" y="480.0" font-family="Meiryo, sans-serif" font-size="20" fill="#17283b">犯人性の補助事情として評価</text>
+<text x="1139" y="523" font-family="Meiryo, sans-serif" font-size="13.5" fill="#17283b">詳細 図06-08</text>
+<rect x="35" y="780" width="330" height="140" fill="#f4f5f7" stroke="#7f8a96" stroke-width="2"/>
+<text x="49" y="803" font-family="Meiryo, sans-serif" font-size="14" fill="#17283b">E　証拠資料</text>
+<text x="49" y="828.6" font-family="Meiryo, sans-serif" font-size="20" fill="#17283b">証拠資料</text>
+<text x="49" y="855.0" font-family="Meiryo, sans-serif" font-size="20" fill="#17283b">甲1・甲2・乙1など</text>
+<text x="49" y="908" font-family="Meiryo, sans-serif" font-size="13.5" fill="#17283b">採用の範囲：教材p.2</text>
+<rect x="435" y="780" width="330" height="140" fill="#eef5fc" stroke="#4577a5" stroke-width="2"/>
+<text x="449" y="803" font-family="Meiryo, sans-serif" font-size="14" fill="#17283b">F　認定する事実</text>
+<text x="449" y="828.6" font-family="Meiryo, sans-serif" font-size="20" fill="#17283b">間接事実</text>
+<text x="449" y="855.0" font-family="Meiryo, sans-serif" font-size="20" fill="#17283b">眼鏡の所在や血液の由来</text>
+<text x="449" y="908" font-family="Meiryo, sans-serif" font-size="13.5" fill="#17283b">証拠が支える範囲を区別</text>
+<rect x="835" y="780" width="330" height="140" fill="#fff6e3" stroke="#b17b1a" stroke-width="2"/>
+<text x="849" y="803" font-family="Meiryo, sans-serif" font-size="14" fill="#49350c">P　主張又は要確認</text>
+<text x="849" y="828.6" font-family="Meiryo, sans-serif" font-size="20" fill="#49350c">実演で要確認</text>
+<text x="849" y="855.0" font-family="Meiryo, sans-serif" font-size="20" fill="#49350c">甲3・乙2の準備内容</text>
+<text x="849" y="908" font-family="Meiryo, sans-serif" font-size="13.5" fill="#49350c">調書自体は採否留保</text>
+<rect x="1235" y="780" width="330" height="140" fill="#fff0ef" stroke="#af554c" stroke-width="2"/>
+<text x="1249" y="803" font-family="Meiryo, sans-serif" font-size="14" fill="#662e29">C　反対事情又は限界</text>
+<text x="1249" y="828.6" font-family="Meiryo, sans-serif" font-size="20" fill="#662e29">反対事情・別の説明</text>
+<text x="1249" y="855.0" font-family="Meiryo, sans-serif" font-size="20" fill="#662e29">見落としや第三者の使用</text>
+<text x="1249" y="908" font-family="Meiryo, sans-serif" font-size="13.5" fill="#662e29">採用済み事実と主張を区別</text>
+<rect x="274.0" y="686.0" width="252.0" height="28" fill="#ffffff" stroke="none" stroke-width="0"/>
+<text x="280.0" y="705.0" font-family="Meiryo, sans-serif" font-size="16" fill="#4577a5">認定　例示：証拠から事実を認定</text>
+<rect x="567.0" y="641.0" width="156.0" height="28" fill="#ffffff" stroke="none" stroke-width="0"/>
+<text x="573.0" y="660.0" font-family="Meiryo, sans-serif" font-size="16" fill="#4e805a">推認　事実から推認</text>
+<rect x="872.0" y="636.0" width="236.0" height="28" fill="#ffffff" stroke="none" stroke-width="0"/>
+<text x="878.0" y="655.0" font-family="Meiryo, sans-serif" font-size="16" fill="#a87512">条件　証言の実際の内容を確認</text>
+<rect x="1276.0" y="636.0" width="188.0" height="28" fill="#ffffff" stroke="none" stroke-width="0"/>
+<text x="1282.0" y="655.0" font-family="Meiryo, sans-serif" font-size="16" fill="#ad5148">反対　推論の強さを検討</text>
+<rect x="324.0" y="303.0" width="188.0" height="28" fill="#ffffff" stroke="none" stroke-width="0"/>
+<text x="330.0" y="322.0" font-family="Meiryo, sans-serif" font-size="16" fill="#4e805a">推認　組み合わせて判断</text>
+<rect x="706.0" y="303.0" width="188.0" height="28" fill="#ffffff" stroke="none" stroke-width="0"/>
+<text x="712.0" y="322.0" font-family="Meiryo, sans-serif" font-size="16" fill="#4e805a">推認　組み合わせて判断</text>
+<rect x="1088.0" y="303.0" width="188.0" height="28" fill="#ffffff" stroke="none" stroke-width="0"/>
+<text x="1094.0" y="322.0" font-family="Meiryo, sans-serif" font-size="16" fill="#4e805a">推認　組み合わせて判断</text>
+<rect x="35" y="968" width="18" height="18" fill="#203f59" stroke="#203f59" stroke-width="1"/>
+<text x="61" y="985" font-family="Meiryo, sans-serif" font-size="15" fill="#17283b">検討対象</text>
+<rect x="245" y="968" width="18" height="18" fill="#eef5fc" stroke="#4577a5" stroke-width="1"/>
+<text x="271" y="985" font-family="Meiryo, sans-serif" font-size="15" fill="#17283b">認定する事実</text>
+<rect x="475" y="968" width="18" height="18" fill="#f4f5f7" stroke="#7f8a96" stroke-width="1"/>
+<text x="501" y="985" font-family="Meiryo, sans-serif" font-size="15" fill="#17283b">証拠資料</text>
+<rect x="690" y="968" width="18" height="18" fill="#edf7ef" stroke="#4e805a" stroke-width="1"/>
+<text x="716" y="985" font-family="Meiryo, sans-serif" font-size="15" fill="#17283b">推認</text>
+<rect x="900" y="968" width="18" height="18" fill="#fff6e3" stroke="#b17b1a" stroke-width="1"/>
+<text x="926" y="985" font-family="Meiryo, sans-serif" font-size="15" fill="#17283b">主張・要確認</text>
+<rect x="1120" y="968" width="18" height="18" fill="#fff0ef" stroke="#af554c" stroke-width="1"/>
+<text x="1146" y="985" font-family="Meiryo, sans-serif" font-size="15" fill="#17283b">反対事情・限界</text>
+<rect x="1380" y="968" width="18" height="18" fill="#f2eff8" stroke="#806b9c" stroke-width="1"/>
+<text x="1406" y="985" font-family="Meiryo, sans-serif" font-size="15" fill="#17283b">人物・場所</text>
+<text x="35" y="1033" font-family="Meiryo, sans-serif" font-size="15.5" fill="#17283b">青の実線は証拠による認定、緑の破線は推認。色と線だけでなく、文字でも関係を示す。</text>
+<text x="35" y="1058" font-family="Meiryo, sans-serif" font-size="15.5" fill="#17283b">要証事実の箱は検察側が証明すべき主張を示す。箱があるだけで証明済みを意味しない。</text>
+<text x="35" y="1083" font-family="Meiryo, sans-serif" font-size="15.5" fill="#17283b">教材p.は紙面下部の通し番号。PDF表示ページは教材p.+2。図番号はdraw.ioのタブと一致。</text>
+</svg>

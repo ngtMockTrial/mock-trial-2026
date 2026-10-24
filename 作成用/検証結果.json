@@ -1,0 +1,39 @@
+{
+  "status": "PASS",
+  "total_pages": 30,
+  "pdfs": [
+    {
+      "file": "01_事件整理と立証戦略.pdf",
+      "pages": 12,
+      "expected": 12,
+      "sha256": "7775704d02797d992e6cf2ca1b6276f78dbfd2cc611a7a7a9c404433d0a20504"
+    },
+    {
+      "file": "02_論告原稿と提出用要旨.pdf",
+      "pages": 8,
+      "expected": 8,
+      "sha256": "cf684e53599f4050cb6c1f3d246a8ac580d4402e7711855acaa763254c7de699"
+    },
+    {
+      "file": "03_当日運用と記録シート.pdf",
+      "pages": 5,
+      "expected": 5,
+      "sha256": "b7165141167633ba41cfc44e2e2ee14d1b07756e929575779f3e6f96c6cd1a39"
+    },
+    {
+      "file": "04_追加尋問の準備.pdf",
+      "pages": 5,
+      "expected": 5,
+      "sha256": "eb8d7ae58bda38545f23f0d601263d5a315c429489058c2828c463acc2a99063"
+    }
+  ],
+  "visual_review": "全30ページをPNGで確認し、修正した2ページも再確認",
+  "index_links_checked": 10,
+  "source_page_mapping": "教材の通し番号+2＝PDF表示ページ",
+  "notes": [
+    "フォローアップの検討20分・論告12分を反映",
+    "甲3・乙2の採否留保を明記",
+    "身体的因果関係と犯人性の推認を区別",
+    "原稿の氏名と実演での証言要約は当日差替え"
+  ]
+}

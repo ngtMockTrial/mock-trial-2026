@@ -1,0 +1,40 @@
+filters:
+  and:
+    - 'file.inFolder("検討/ノート")'
+    - 'file.ext == "md"'
+properties:
+  title:
+    displayName: 命題・資料名
+  kind:
+    displayName: 種類
+  side:
+    displayName: 立場
+  status:
+    displayName: 資料・命題の状態
+  review:
+    displayName: 人のレビュー
+  display_priority:
+    displayName: 表示重要度
+views:
+  - type: table
+    name: 全件・種類別
+    groupBy:
+      property: kind
+      direction: ASC
+    order: [file.name, title, kind, side, status, review, display_priority, source_group]
+  - type: table
+    name: 検察側
+    filters: 'side == "検察"'
+    order: [file.name, title, kind, status, review, display_priority, inputs]
+  - type: table
+    name: 弁護側
+    filters: 'side == "弁護"'
+    order: [file.name, title, kind, status, review, display_priority, challenges]
+  - type: table
+    name: 共通の証拠・事実
+    filters: 'side == "共通" && (kind == "証拠" || kind == "間接事実")'
+    order: [file.name, title, kind, status, review, source_group]
+  - type: table
+    name: 準備と確認
+    filters: 'kind == "準備資料" || kind == "供述獲得候補" || kind == "確認課題"'
+    order: [file.name, title, kind, status, review, preparation, potential_supports, checks]
