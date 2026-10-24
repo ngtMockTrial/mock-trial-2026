@@ -274,7 +274,7 @@
   function saveSettings(){try{localStorage.setItem(settingsKey,JSON.stringify(settings));}catch(_){} }
   for(const input of document.querySelectorAll('[data-setting]'))input.addEventListener('input',()=>{settings[input.dataset.setting]=input.type==='checkbox'?input.checked:Number(input.value);showSettings();saveSettings();if(['centerStrength','repelStrength','linkStrength','linkDistance','nodeSizeMultiplier'].includes(input.dataset.setting)){applyForces();restartSimulation();}paint();});
   $('restore-settings').addEventListener('click',()=>{settings={...sharedSettings};saveSettings();showSettings();applyForces();restartSimulation();paint();});
-  $('settings-origin').textContent='Obsidianの保存設定を引継ぎ（'+new Intl.DateTimeFormat('ja-JP').format(new Date(data.graph_settings.source_saved_at))+'）';
+  $('settings-origin').textContent=data.graph_settings.source_label || 'Obsidianの保存設定を引継ぎ（'+new Intl.DateTimeFormat('ja-JP').format(new Date(data.graph_settings.source_saved_at))+'）';
   showSettings();
   document.addEventListener('visibilitychange',()=>{if(document.hidden)stopSimulation();});
   window.addEventListener('pagehide',stopSimulation);
