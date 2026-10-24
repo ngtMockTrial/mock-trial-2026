@@ -22,13 +22,12 @@
           (typeof saved[key] !== 'number' || Number.isFinite(saved[key]))) settings[key] = saved[key];
     }
   } catch (_) { /* Storage is optional, including file: previews. */ }
-  let graphMode = query.get('graph') === 'local' ? 'local' : 'global';
   let scope = query.get('scope') === 'detail' ? 'detail' : 'main';
   let selected = 'T01', search = query.get('q') || '', side = query.get('side') || '';
   let nodeElements = [], edgeElements = [], visible = [], edges = [], positions = {};
   let width = 600, height = 800, zoom = 1, panX = 0, panY = 0;
   let dragging = null, moved = false;
-  let simulation = null, simulationNodes = [], hovered = null, userPaused = false;
+  let simulation = null, simulationNodes = [], hovered = null, emphasized = null, userPaused = false;
   let fitScale = 1, worldCenter = {x:0,y:0}, plotCenterY=400, automaticFit = true, startedAt = 0;
   const pointCache = new Map();
   const reduceMotion = matchMedia('(prefers-reduced-motion:reduce)');
@@ -48,7 +47,6 @@
     if (scope === 'detail') params.set('scope', scope);
     if (search) params.set('q', search);
     if (side) params.set('side', side);
-    if (graphMode === 'local') params.set('graph', graphMode);
     history.replaceState(null, '', location.pathname + (params.size ? '?' + params : '') + location.hash);
   }
 
@@ -101,7 +99,7 @@
     $('detail').scrollTop = 0;
     document.title = `${id} ${note.title}｜模擬裁判`;
     for (const a of document.querySelectorAll('.note-link')) a.setAttribute('aria-current', a.dataset.note === id);
-    if (graphMode === 'local') renderGraph(); else highlightGraph();
+    highlightGraph();
   }
 
   function renderDocument(path, heading) {
@@ -192,15 +190,8 @@
     const rect = $('graph').getBoundingClientRect(); width=rect.width; height=rect.height;
     $('graph').setAttribute('viewBox',`0 0 ${width} ${height}`);
     let graphNotes=visible;
-    if(graphMode==='local'){
-      const neighbors=new Set([selected]);
-      for(const edge of data.edges)if(edge.source===selected||edge.target===selected){neighbors.add(edge.source);neighbors.add(edge.target);}
-      graphNotes=visible.filter(n=>neighbors.has(n.id));
-    }
     if(!settings.showOrphans){const candidates=new Set(graphNotes.map(n=>n.id));const connected=new Set();for(const edge of data.edges)if(candidates.has(edge.source)&&candidates.has(edge.target)){connected.add(edge.source);connected.add(edge.target);}graphNotes=graphNotes.filter(n=>connected.has(n.id));}
-    $('global-graph').setAttribute('aria-pressed',graphMode==='global');
-    $('local-graph').setAttribute('aria-pressed',graphMode==='local');
-    $('graph-title').textContent=(graphMode==='local' ? selected+'の周辺' : scope==='main'?'論証の本筋':'準備・確認を含む全体');
+    $('graph-title').textContent=scope==='main'?'論証の本筋':'準備・確認を含む全体';
     const ids=graphNotes.map(n=>n.id),set=new Set(ids);
     edges=data.edges.filter(e=>set.has(e.source)&&set.has(e.target));
     simulationNodes=ids.map((id,i)=>{
@@ -236,8 +227,8 @@
       node.addEventListener('pointerleave',()=>{hovered=null;highlightGraph();});
       node.addEventListener('focus',()=>{hovered=note.id;highlightGraph();});
       node.addEventListener('blur',()=>{hovered=null;highlightGraph();});
-      node.addEventListener('click',e=>{if(moved&&e.detail>0)e.preventDefault();moved=false;});
-      node.addEventListener('keydown',e=>{if(e.key===' '){e.preventDefault();location.hash=note.id;}});
+      node.addEventListener('click',e=>{if(moved&&e.detail>0)e.preventDefault();else emphasized=note.id;moved=false;highlightGraph();});
+      node.addEventListener('keydown',e=>{if(e.key===' '){e.preventDefault();emphasized=note.id;location.hash=note.id;highlightGraph();}});
       return {id:note.id,element:node};
     });
     paint();highlightGraph();restartSimulation(.2);
@@ -249,16 +240,17 @@
     for(const {id,element} of nodeElements){const p=positions[id],radius=nodeRadius(id),right=p.x>width*.68;element.setAttribute('transform',`translate(${p.x},${p.y})`);element.querySelector('circle').setAttribute('r',radius);for(const label of element.querySelectorAll('text')){label.setAttribute('x',right?-radius-5:radius+5);label.setAttribute('text-anchor',right?'end':'start');}}
     for(const {element} of edgeElements){element.style.strokeWidth=String(settings.lineSizeMultiplier*1.1);element.setAttribute('marker-end',settings.showArrow?'url(#arrow)':'');}
     $('camera').setAttribute('transform',`translate(${panX},${panY}) scale(${zoom})`);
-    const labelOpacity=Math.max(.12,Math.min(1,zoom*Math.pow(2,settings.textFadeMultiplier/4)));
-    for(const {id,element} of nodeElements)for(const label of element.querySelectorAll('text'))label.style.opacity=String(id===(hovered||selected)?1:labelOpacity);
+    const focus=hovered||emphasized;
+    const labelOpacity=focus?Math.max(.12,Math.min(1,zoom*Math.pow(2,settings.textFadeMultiplier/4))):1;
+    for(const {id,element} of nodeElements)for(const label of element.querySelectorAll('text'))label.style.opacity=String(id===focus?1:labelOpacity);
   }
 
   function highlightGraph() {
-    const focus=hovered||selected;
+    const focus=hovered||emphasized;
     const connected = new Set([focus]);
     for(const edge of edges)if(edge.source===focus||edge.target===focus){connected.add(edge.source);connected.add(edge.target);}
-    for(const {id,element} of nodeElements){element.classList.toggle('selected',id===selected);element.classList.toggle('dimmed',!connected.has(id));}
-    for(const {edge,element} of edgeElements){const active=edge.source===focus||edge.target===focus;element.classList.toggle('active',active);element.classList.toggle('dimmed',!active);}
+    for(const {id,element} of nodeElements){element.classList.toggle('selected',id===focus);element.classList.toggle('dimmed',!!focus&&!connected.has(id));}
+    for(const {edge,element} of edgeElements){const active=edge.source===focus||edge.target===focus;element.classList.toggle('active',active);element.classList.toggle('dimmed',!!focus&&!active);}
     paint();
   }
 
@@ -267,17 +259,17 @@
   function startDrag(e,id){if(e.button!==0)return;e.stopPropagation();moved=false;automaticFit=false;const point=id?pointCache.get(id):null;dragging={id,x:e.clientX,y:e.clientY,panX,panY,start:point?{x:point.x,y:point.y}:null};if(point){point.fx=point.x;point.fy=point.y;restartSimulation(.3);}$('graph').setPointerCapture(e.pointerId);}
   $('graph').addEventListener('pointerdown',e=>startDrag(e,null));
   $('graph').addEventListener('pointermove',e=>{if(!dragging)return;const dx=e.clientX-dragging.x,dy=e.clientY-dragging.y;if(Math.hypot(dx,dy)>5)moved=true;if(dragging.id){const p=pointCache.get(dragging.id);p.x=p.fx=dragging.start.x+dx/zoom/fitScale;p.y=p.fy=dragging.start.y+dy/zoom/fitScale;}else{panX=dragging.panX+dx;panY=dragging.panY+dy;}paint();});
-  function finishDrag(e){const current=dragging;dragging=null;if($('graph').hasPointerCapture(e.pointerId))$('graph').releasePointerCapture(e.pointerId);if(current?.id){const point=pointCache.get(current.id);point.fx=point.fy=null;restartSimulation(.3);if(!moved&&e.type!=='pointercancel')location.hash=current.id;}}
+  function finishDrag(e){const current=dragging;dragging=null;if($('graph').hasPointerCapture(e.pointerId))$('graph').releasePointerCapture(e.pointerId);if(current?.id){const point=pointCache.get(current.id);point.fx=point.fy=null;restartSimulation(.3);if(!moved&&e.type!=='pointercancel'){emphasized=current.id;location.hash=current.id;highlightGraph();}}else if(current&&!moved&&e.type!=='pointercancel'){emphasized=hovered=null;highlightGraph();}}
   $('graph').addEventListener('pointerup',finishDrag);
   $('graph').addEventListener('pointercancel',finishDrag);
   $('graph').addEventListener('wheel',e=>{if(e.ctrlKey)return;e.preventDefault();scaleBy(Math.exp(-e.deltaY*.002));},{passive:false});
   $('graph').setAttribute('tabindex','0');
   $('graph').addEventListener('keydown',e=>{if(['+','=','-','ArrowLeft','ArrowRight','ArrowUp','ArrowDown'].includes(e.key)){e.preventDefault();if(e.key==='+'||e.key==='=')scaleBy(1.25);else if(e.key==='-')scaleBy(.8);else{automaticFit=false;const amount=e.shiftKey?60:20;panX+=e.key==='ArrowLeft'?amount:e.key==='ArrowRight'?-amount:0;panY+=e.key==='ArrowUp'?amount:e.key==='ArrowDown'?-amount:0;paint();}}});
   $('zoom-in').addEventListener('click',()=>scaleBy(1.25));$('zoom-out').addEventListener('click',()=>scaleBy(.8));
-  $('reset-graph').addEventListener('click',()=>{fitWorld();resetView();for(const {element} of nodeElements)element.classList.remove('dimmed');for(const {element} of edgeElements)element.classList.remove('dimmed');});
+  $('reset-graph').addEventListener('click',()=>{fitWorld();resetView();emphasized=hovered=null;highlightGraph();});
   $('pause-layout').addEventListener('click',()=>{if($('graph').dataset.running==='true'){userPaused=true;stopSimulation();}else{userPaused=false;restartSimulation();}});
-  $('global-graph').addEventListener('click',()=>{graphMode='global';updateURL();renderGraph();});
-  $('local-graph').addEventListener('click',()=>{graphMode='local';updateURL();renderGraph();});
+  $('note-list').addEventListener('click',e=>{const link=e.target.closest('[data-note]');if(link){emphasized=link.dataset.note;highlightGraph();}});
+  document.addEventListener('keydown',e=>{if(e.key==='Escape'){emphasized=hovered=null;highlightGraph();}});
   function showSettings(){for(const input of document.querySelectorAll('[data-setting]')){if(input.type==='checkbox')input.checked=settings[input.dataset.setting];else{input.value=settings[input.dataset.setting];input.previousElementSibling.value=String(settings[input.dataset.setting]);}}}
   function saveSettings(){try{localStorage.setItem(settingsKey,JSON.stringify(settings));}catch(_){} }
   for(const input of document.querySelectorAll('[data-setting]'))input.addEventListener('input',()=>{settings[input.dataset.setting]=input.type==='checkbox'?input.checked:Number(input.value);showSettings();saveSettings();if(['centerStrength','repelStrength','linkStrength','linkDistance','nodeSizeMultiplier'].includes(input.dataset.setting)){applyForces();restartSimulation();}paint();});
@@ -291,7 +283,7 @@
   $('search').addEventListener('input',e=>{search=e.target.value;renderIndex();});
   $('side').addEventListener('change',e=>{side=e.target.value;renderIndex();});
   $('detail-content').addEventListener('click',e=>{const link=e.target.closest('a[href^="#heading="]');if(link){e.preventDefault();scrollHeading(decodeURIComponent(link.hash.slice(9)));}});
-  window.addEventListener('hashchange',()=>{route();if(matchMedia('(max-width:850px)').matches)$('detail').scrollIntoView({block:'start'});});
+  window.addEventListener('hashchange',()=>{const id=location.hash.slice(1);emphasized=notes[id]?id:null;hovered=null;route();highlightGraph();if(matchMedia('(max-width:850px)').matches)$('detail').scrollIntoView({block:'start'});});
   let resizeFrame;
   new ResizeObserver(()=>{cancelAnimationFrame(resizeFrame);resizeFrame=requestAnimationFrame(renderGraph);}).observe($('graph'));
   renderIndex();route();
