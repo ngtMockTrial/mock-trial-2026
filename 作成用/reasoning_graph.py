@@ -10,7 +10,7 @@ from pathlib import Path
 from urllib.parse import quote
 
 import yaml
-from obsidian_graph import write_native_graph, check_native_graph
+from obsidian_graph import write_native_graph, check_native_graph, SHARED_VAULT_NAME
 from setup_extended_graph import sync_pins
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -357,7 +357,7 @@ def connection_view(notes):
             side=meta['side'], status=meta['status'], review=meta['review'],
             state=state, availability=label, summary=summary, body=note['body'],
             file=quote('ノート/'+note['path'].name),
-            obsidian='obsidian://open?vault='+quote(ROOT.name, safe='')+'&file='+quote(relative, safe=''),
+            obsidian='obsidian://open?vault='+quote(SHARED_VAULT_NAME, safe='')+'&file='+quote(relative, safe=''),
             **{field: refs(note, field) for field in
                ['inputs', 'challenges', 'checks', 'preparation', 'potential_supports']})
     # HTMLのscript終端や本文中のHTMLをデータとして保持する。

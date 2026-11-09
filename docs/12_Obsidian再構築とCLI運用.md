@@ -35,6 +35,8 @@
 
 ## CLI
 
+2026-11-09：共有するObsidian URIの保管庫名は、READMEで案内する`模擬裁判_検察官準備_20261020`へ統一した。作業用チェックアウトのフォルダ名を埋め込まないため、異なるフォルダ名のローカルとCIでも同じ派生ファイルになる。Obsidian URIから開く場合は、従来の案内どおりこの名前の保管庫を使用する。任意の別名で開いた保管庫へのURI切替は今回追加していない。URIの保管庫名指定は[公式説明](https://obsidian.md/help/uri)を2026-11-09確認。事件の証拠ではない表示ツールの外部参考。
+
 初回に有効化した公式CLIを利用します。Windowsの実行ファイルは `C:/Users/ryupc/AppData/Local/Programs/Obsidian/Obsidian.com`。PATH登録済みなら以下の`obsidian`を使用できます。アプリ内の操作・プラグイン管理・画面取得もCLIで行います。
 
 ```powershell

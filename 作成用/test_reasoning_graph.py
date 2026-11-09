@@ -97,6 +97,22 @@ class ReasoningGraphTests(unittest.TestCase):
             notes['R01']['meta']['status']='推論案'
             self.assertEqual(graph.gate(notes,'T00'),[])
 
+    def test_shared_links_are_identical_in_differently_named_checkouts(self):
+        self.note('E01',kind='証拠',status='採用済み')
+        self.note('T01',kind='要証事実',inputs=['E01'])
+        other=self.root/'different-checkout-name'
+        import shutil
+        shutil.copytree(self.root/'検討',other/'検討')
+        first=graph.load_notes(self.root)
+        second=graph.load_notes(other)
+        self.assertEqual(native.native_graph_files(self.root,first,graph.refs,graph.availability),
+                         native.native_graph_files(other,second,graph.refs,graph.availability))
+        with patch.object(graph,'ROOT',self.root):
+            first_view=graph.connection_view(first)
+        with patch.object(graph,'ROOT',other):
+            second_view=graph.connection_view(second)
+        self.assertEqual(first_view,second_view)
+
     def test_potential_testimony_does_not_count_as_existing_support(self):
         notes=graph.load_notes(graph.ROOT)
         self.assertNotIn('W01',graph.closure(notes,'T00'))
