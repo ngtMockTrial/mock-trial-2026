@@ -59,15 +59,43 @@ class ReasoningGraphTests(unittest.TestCase):
             graph.load_notes(self.root)
 
     def test_pending_premise_propagates_to_final_and_has_distinct_badges(self):
-        notes=graph.load_notes(graph.ROOT)
+        # Test an unacquired statement independently of live case updates.
+        self.note('E02',kind='証拠',status='採用済み')
+        self.note('E07',kind='準備資料',status='採否留保')
+        self.note('W01',kind='供述獲得候補',status='未獲得')
+        self.note('F03',kind='間接事実',inputs=['E07'],status='法廷未確認')
+        self.note('R01',inputs=['F03'])
+        self.note('D01',kind='反論',challenges=['R01'],side='弁護')
+        self.note('T00',kind='最終結論',inputs=['R01'])
+        notes=graph.load_notes(self.root)
         self.assertEqual(graph.availability(notes,'E02')[0],'available')
         self.assertEqual(graph.availability(notes,'E07')[0],'pending')
         self.assertEqual(graph.availability(notes,'W01')[0],'candidate')
         self.assertEqual(graph.availability(notes,'T00')[0],'conditional')
-        data=graph.canvas_data(notes,list(notes));byid={n['id']:n for n in data['nodes']}
+        with patch.object(graph,'ROOT',self.root):
+            data=graph.canvas_data(notes,list(notes))
+        byid={n['id']:n for n in data['nodes']}
         self.assertNotEqual(byid['R01']['color'],byid['D01']['color'])
         self.assertNotEqual(byid['badge-E02']['color'],byid['badge-E07']['color'])
         self.assertTrue(any(e['fromNode']=='E07' and e['toNode']=='F03' and e['color']=='3' for e in data['edges']))
+
+    def test_recorded_answer_does_not_clear_an_unresolved_observation_premise(self):
+        record=self.root/'hearing.md'
+        record.write_text('回答の記録',encoding='utf-8')
+        self.note('E11',kind='証拠',status='法廷確認済み',court_record='hearing.md')
+        self.note('F03',kind='間接事実',inputs=['E11'],status='法廷確認済み',court_record='hearing.md')
+        self.note('R01',inputs=['F03'],status='確認待ち')
+        self.note('T00',kind='最終結論',inputs=['R01'])
+        notes=graph.load_notes(self.root)
+        self.approve(notes)
+        self.assertEqual(graph.availability(notes,'E11')[0],'available')
+        self.assertEqual(graph.availability(notes,'F03')[0],'analysis')
+        self.assertEqual(graph.availability(notes,'R01')[0],'conditional')
+        self.assertEqual(graph.availability(notes,'T00')[0],'conditional')
+        with patch.object(graph,'ROOT',self.root):
+            self.assertTrue(any('R01' in r and '確認待ち' in r for r in graph.gate(notes,'T00')))
+            notes['R01']['meta']['status']='推論案'
+            self.assertEqual(graph.gate(notes,'T00'),[])
 
     def test_potential_testimony_does_not_count_as_existing_support(self):
         notes=graph.load_notes(graph.ROOT)
@@ -229,7 +257,9 @@ class ReasoningGraphTests(unittest.TestCase):
             target=files[paths[e['target']]+'.md']
             self.assertIn(f'| {e["label"]} | [{e["source"]} ',target)
         self.assertTrue(any(e['source']=='D01' and e['target']=='R01' and e['label']=='反論' for e in edges))
-        self.assertTrue(any(e['source']=='E07' and e['target']=='F03' and e['label']=='条件付き支持' for e in edges))
+        # F03 now uses the recorded testimony, while the held statement stays separate.
+        self.assertTrue(any(e['source']=='E11' and e['target']=='F03' and e['label']=='支持' for e in edges))
+        self.assertFalse(any(e['source']=='E07' and e['target']=='F03' for e in edges))
         self.assertTrue(any(e['source']=='W01' and e['field']=='potential_supports' and e['label']=='将来候補' for e in edges))
 
     def test_obsolete_relation_files_are_removed_only_if_unedited(self):

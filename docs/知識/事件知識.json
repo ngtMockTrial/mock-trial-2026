@@ -1,0 +1,3101 @@
+{
+  "schema_version": 1,
+  "updated_on": "2026-11-09",
+  "case": "木村忠太被告事件",
+  "human_review": "未レビュー",
+  "authority": "原PDFの該当箇所を優先。供述の存在と内容の真実性を区別する。",
+  "editorial_sources": [
+    "docs/22_事件の詳細時系列.md",
+    "docs/23_尋問回答と知識索引.md"
+  ],
+  "usage_rules": [
+    "主張・供述・資料記載・推論・推測の区分を保持する",
+    "甲3・乙2の採否は変更しない",
+    "S04の括弧・未収録図示・不一致を補完しない",
+    "回答記録がない部分を想定回答から補わない",
+    "K番号・QA番号は検索IDであり証拠の独立性や証拠力を増やさない",
+    "モデルの追加学習・永続記憶を意味しない"
+  ],
+  "sources": [
+    {
+      "id": "S01",
+      "path": "00_元資料/教材集.pdf",
+      "sha256": "c99e1c33a304695cbf2f84ebde5f6ea404fd99bbf931c64ebd001651e5323a44",
+      "pages": 47,
+      "page_rule": "教材p.N=PDF表示N+2",
+      "admission": {
+        "甲1": "採用",
+        "甲2": "採用",
+        "甲3": "採否留保",
+        "乙1": "採用",
+        "乙2": "採否留保",
+        "大滝証人": "採用"
+      }
+    },
+    {
+      "id": "S04",
+      "path": "00_元資料/証人尋問及び被告人質問　尋問事項.pdf",
+      "sha256": "7bcc4d07dee5efe5ef98538e656eedf406b4d08307da9135d1fa1a0d94150001",
+      "pages": 20,
+      "page_rule": "PDF表示ページをそのまま使用",
+      "source_type": "ユーザー確認済みの実際の尋問・被告人質問の回答記録",
+      "confirmed_on": "2026-11-09",
+      "public_sharing": "原PDF・整理資料ともユーザー許可あり",
+      "hearing_date": null,
+      "verbatim_status": "未確認",
+      "recorder": null,
+      "admission_changes": "記録なし",
+      "canonical_notes": [
+        "E11",
+        "E12"
+      ]
+    },
+    {
+      "id": "USER_CONFIRMATION_20261109",
+      "source_type": "この作業チャットのユーザー明示確認",
+      "date": "2026-11-09",
+      "confirmed": [
+        "実際の尋問・質問の記録",
+        "PDF・整理資料とも公開可"
+      ]
+    }
+  ],
+  "entities": [
+    {
+      "name": "木村忠太",
+      "role": "被告人",
+      "locators": [
+        "S01 乙1 教材p.24〜26",
+        "S04 p.10〜20"
+      ]
+    },
+    {
+      "name": "岸井新之助",
+      "role": "被害者",
+      "locators": [
+        "S01 甲1 教材p.3・6",
+        "S04 木主37〜39"
+      ]
+    },
+    {
+      "name": "本所マサミ",
+      "role": "木村の元交際相手・LINE相手",
+      "locators": [
+        "S01 甲2 教材p.16〜19",
+        "S04 p.15・20"
+      ]
+    },
+    {
+      "name": "大滝悟郎",
+      "role": "駐車場管理担当・証人",
+      "locators": [
+        "S04 p.1〜9"
+      ]
+    },
+    {
+      "name": "大林銀弥",
+      "role": "発見・通報者",
+      "locators": [
+        "S01 甲1 教材p.3"
+      ]
+    },
+    {
+      "name": "澤田",
+      "role": "元204号室の住人という木村の説明",
+      "locators": [
+        "S04 p.14・19"
+      ]
+    },
+    {
+      "name": "矢野天彦",
+      "role": "自転車登録名義人",
+      "locators": [
+        "S01 甲1 教材p.5"
+      ]
+    },
+    {
+      "name": "眼鏡",
+      "role": "木村所有と認められる現場遺留品",
+      "locators": [
+        "S01 甲1 教材p.3〜4",
+        "S04 木主24〜29"
+      ]
+    },
+    {
+      "name": "共用自転車",
+      "role": "ハイツ京極の無施錠・共用車",
+      "locators": [
+        "S01 甲1 教材p.4〜5",
+        "S04 p.14・19"
+      ]
+    },
+    {
+      "name": "パークon it Hey！",
+      "role": "事件現場の月極駐車場",
+      "locators": [
+        "S01 甲1 教材p.6・11〜14",
+        "S04 p.1〜9"
+      ]
+    }
+  ],
+  "chronology": [
+    {
+      "id": "K001",
+      "time_text": "高校時代〜事件前（年月不明）",
+      "subject": "木村・岸井",
+      "statement": "木村は五万十工業高校の同級生と説明。高校時代に話したことはなく、同窓会で少し話した程度で、好印象を持っていなかったという",
+      "classification": "供述記録",
+      "source_refs": [
+        {
+          "source_id": "S04",
+          "locator": "S04 p.14〜15／木主37〜39"
+        }
+      ],
+      "limitations": "不仲・好悪から今回の行為を認定しない",
+      "timeline_section": "事件前の経緯"
+    },
+    {
+      "id": "K002",
+      "time_text": "約2年前（基準となる実演日不明）",
+      "subject": "木村・澤田",
+      "statement": "共用自転車について教えたのは元204号室の澤田で、約2年前に転居したという。ほかの住人とは話したことがないと説明",
+      "classification": "供述記録",
+      "source_refs": [
+        {
+          "source_id": "S04",
+          "locator": "S04 p.14・19／木主32・木反27"
+        }
+      ],
+      "limitations": "転居日や住人全員の利用実態を確定しない",
+      "timeline_section": "事件前の経緯"
+    },
+    {
+      "id": "K003",
+      "time_text": "2025-10-01〜12-26",
+      "subject": "眼鏡",
+      "statement": "同型の「777.7」はランドルト高知店で10月1日から販売され、12月26日までに2点販売。木村は購入者の一人",
+      "classification": "資料記載",
+      "source_refs": [
+        {
+          "source_id": "S01",
+          "locator": "甲1 教材p.4"
+        }
+      ],
+      "limitations": "同型品の少なさだけで所有者を特定したわけではない",
+      "timeline_section": "事件前の経緯"
+    },
+    {
+      "id": "K004",
+      "time_text": "2025-10-11",
+      "subject": "木村",
+      "statement": "ランドルト高知店で同型眼鏡を購入",
+      "classification": "資料記載",
+      "source_refs": [
+        {
+          "source_id": "S01",
+          "locator": "甲1 教材p.4"
+        }
+      ],
+      "limitations": "購入日は事件当夜の着用を示さない",
+      "timeline_section": "事件前の経緯"
+    },
+    {
+      "id": "K005",
+      "time_text": "2025-10-13 19:12〜20:30",
+      "subject": "木村・本所",
+      "statement": "本所が飲み過ぎ、紛失、迎えや周囲への迷惑についてLINEで注意。木村は気を付けると返答",
+      "classification": "資料記載",
+      "source_refs": [
+        {
+          "source_id": "S01",
+          "locator": "甲2 教材p.16"
+        }
+      ],
+      "limitations": "メッセージで述べられた過去の各出来事の独立確認ではない",
+      "timeline_section": "事件前の経緯"
+    },
+    {
+      "id": "K006",
+      "time_text": "2025-10-25 21:12〜22:48",
+      "subject": "木村・本所",
+      "statement": "本所が前日の飲酒を非難し、21:33以降別れを告げる。他の男性の示唆とブロックの告知の後も、木村は電話への応答を求める送信を続けた",
+      "classification": "資料記載",
+      "source_refs": [
+        {
+          "source_id": "S01",
+          "locator": "甲2 教材p.17"
+        }
+      ],
+      "limitations": "他の男性の実名や実際の交際開始日はこの時点の記録では確定しない",
+      "timeline_section": "事件前の経緯"
+    },
+    {
+      "id": "K007",
+      "time_text": "2025-10-26〜11-05",
+      "subject": "木村",
+      "statement": "10/26に復縁要求、10/27に他の男を許せず何をするか分からない旨、10/28・10/31・11/2・11/5にも連絡を求めるLINEを送信",
+      "classification": "資料記載",
+      "source_refs": [
+        {
+          "source_id": "S01",
+          "locator": "甲2 教材p.18〜19"
+        }
+      ],
+      "limitations": "感情の表現を具体的な犯行計画と同一視しない",
+      "timeline_section": "事件前の経緯"
+    },
+    {
+      "id": "K008",
+      "time_text": "別れの後（訪問日不明）",
+      "subject": "木村・本所",
+      "statement": "LINEをブロックされ電話にも出てもらえず、本所宅へ2回行ったが会えなかったと説明",
+      "classification": "供述記録",
+      "source_refs": [
+        {
+          "source_id": "S04",
+          "locator": "S04 p.20／木反28〜30"
+        }
+      ],
+      "limitations": "訪問日、滞在時間、第三者の確認は記録にない",
+      "timeline_section": "事件前の経緯"
+    },
+    {
+      "id": "K009",
+      "time_text": "事件約2週間前（正確な日付不明）",
+      "subject": "大滝・妻",
+      "statement": "妻の大切な青い鳥柄のマグカップを割り、機嫌を直してもらいたかったと説明",
+      "classification": "供述記録",
+      "source_refs": [
+        {
+          "source_id": "S04",
+          "locator": "S04 p.7〜8／大反13〜16"
+        }
+      ],
+      "limitations": "12/26夜の約束を重く受け止めた理由の供述。見落とし自体の証明ではない",
+      "timeline_section": "事件前の経緯"
+    },
+    {
+      "id": "K010",
+      "time_text": "2025-12-24（電話時刻不明）",
+      "subject": "木村",
+      "statement": "知人から電話で本所と岸井の交際の話を聞いたと説明。岸井が略奪したと思ったこと、別れの理由を心移りと考えたことを認める",
+      "classification": "供述記録",
+      "source_refs": [
+        {
+          "source_id": "S04",
+          "locator": "S04 p.20／木反31〜34"
+        }
+      ],
+      "limitations": "知人の情報の真偽・交際の実態は別。電話時刻を18:10と決めない",
+      "timeline_section": "事件前の経緯"
+    },
+    {
+      "id": "K011",
+      "time_text": "2025-12-24 18:10〜18:20",
+      "subject": "木村",
+      "statement": "本所へ、岸井との交際を聞いたこと、高校の同級生であること、自宅近くの駐車場で見かけること、岸井を許さない旨を送信",
+      "classification": "資料記載",
+      "source_refs": [
+        {
+          "source_id": "S01",
+          "locator": "甲2 教材p.19"
+        }
+      ],
+      "limitations": "駐車場利用の認識・怒りの材料。実行の証明とは分ける",
+      "timeline_section": "事件前の経緯"
+    },
+    {
+      "id": "K012",
+      "time_text": "2025-12-24（利用時刻不明）",
+      "subject": "木村・自転車",
+      "statement": "自転車を最後に使ったのは12月24日と反対質問で確認。乙2には買い物に使ったと記載",
+      "classification": "供述記録／調書記載・法廷未確認部分あり",
+      "source_refs": [
+        {
+          "source_id": "S04",
+          "locator": "S04 p.19／木反22〜24、乙2 教材p.30"
+        },
+        {
+          "source_id": "S01",
+          "locator": "S04 p.19／木反22〜24、乙2 教材p.30"
+        }
+      ],
+      "limitations": "正確な利用時間・指紋付着時期を確定しない。乙2だけの詳細は留保",
+      "timeline_section": "事件前の経緯"
+    },
+    {
+      "id": "K013",
+      "time_text": "2025-12-26 午前",
+      "subject": "木村",
+      "statement": "仕事納めで出勤。ニットのセーター・黒いズボンの私服で、午前中に仕事が終わったと説明",
+      "classification": "供述記録",
+      "source_refs": [
+        {
+          "source_id": "S04",
+          "locator": "S04 p.10／木主1〜3"
+        }
+      ],
+      "limitations": "夜の服装や防寒着の有無をこの回答だけで確定しない",
+      "timeline_section": "12月26日：木村の昼の行動と大滝の巡回"
+    },
+    {
+      "id": "K014",
+      "time_text": "2025-12-26 11:30頃",
+      "subject": "大滝",
+      "statement": "事務所を出発し、南国市のコインパーキング3か所を回り昼食、その後土佐市1か所、高知市へ向かったと説明",
+      "classification": "供述記録",
+      "source_refs": [
+        {
+          "source_id": "S04",
+          "locator": "S04 p.2／大主9〜10"
+        }
+      ],
+      "limitations": "出発時刻は供述。甲3だけの各市到着時刻を実際の回答として補わない",
+      "timeline_section": "12月26日：木村の昼の行動と大滝の巡回"
+    },
+    {
+      "id": "K015",
+      "time_text": "2025-12-26 12:00頃",
+      "subject": "木村",
+      "statement": "五哲駅西口の「なんちゃっ亭」で職場の忘年会開始。生ビール2杯と酔鯨6合と思うと述べ、かなり酔ったと説明",
+      "classification": "供述記録",
+      "source_refs": [
+        {
+          "source_id": "S04",
+          "locator": "S04 p.10〜11／木主4〜9"
+        }
+      ],
+      "limitations": "乙2 p.27は1合銚子6〜7本。数量差を統一せず、酩酊の程度の客観測定もない",
+      "timeline_section": "12月26日：木村の昼の行動と大滝の巡回"
+    },
+    {
+      "id": "K016",
+      "time_text": "2025-12-26 14:00頃",
+      "subject": "木村",
+      "statement": "お好み焼き店「なんちゃっ亭」を訪れていたとの捜査結果",
+      "classification": "資料記載",
+      "source_refs": [
+        {
+          "source_id": "S01",
+          "locator": "甲1 教材p.6"
+        }
+      ],
+      "limitations": "店舗訪問は飲酒量・その後の行動全体の裏付けではない",
+      "timeline_section": "12月26日：木村の昼の行動と大滝の巡回"
+    },
+    {
+      "id": "K017",
+      "time_text": "2025-12-26 14:00頃〜帰宅",
+      "subject": "木村",
+      "statement": "忘年会が14時頃に終わり、駐車場の横を通って徒歩で帰宅、店から自宅まで約15分と説明",
+      "classification": "供述記録",
+      "source_refs": [
+        {
+          "source_id": "S04",
+          "locator": "S04 p.11／木主10〜15"
+        }
+      ],
+      "limitations": "乙2 p.28は14:15頃通過・14:20頃帰宅。S04にその絶対時刻の回答はない。図示したとする経路の線はPDFに収録されていない",
+      "timeline_section": "12月26日：木村の昼の行動と大滝の巡回"
+    },
+    {
+      "id": "K018",
+      "time_text": "同日の帰宅途中（転倒時刻・位置未特定）",
+      "subject": "木村",
+      "statement": "翌朝、駐車場の横で転んだことを思い出し、そこで眼鏡を落としたのではないかと思ったと説明。帰宅途中に駐車場内へは入っていないと回答",
+      "classification": "供述記録（紛失原因は本人の推測）",
+      "source_refs": [
+        {
+          "source_id": "S04",
+          "locator": "S04 p.13・16／木主26・木反3"
+        }
+      ],
+      "limitations": "転倒と眼鏡落下の実見を分ける。14:15にBへ落下したとは言っていない",
+      "timeline_section": "12月26日：木村の昼の行動と大滝の巡回"
+    },
+    {
+      "id": "K019",
+      "time_text": "転倒後（気付いた時刻不明）",
+      "subject": "木村",
+      "statement": "後から右膝の軽い腫れに気付いたが、出血はなく病院にも行っていないと説明",
+      "classification": "供述記録",
+      "source_refs": [
+        {
+          "source_id": "S04",
+          "locator": "S04 p.17／木反6〜7"
+        }
+      ],
+      "limitations": "診断・写真・第三者確認はなく、転倒時刻の裏付けとはしない",
+      "timeline_section": "12月26日：木村の昼の行動と大滝の巡回"
+    },
+    {
+      "id": "K020",
+      "time_text": "帰宅後〜17:00頃",
+      "subject": "木村",
+      "statement": "酔っていたため帰宅後すぐに寝て、17時頃起きたと説明",
+      "classification": "供述記録",
+      "source_refs": [
+        {
+          "source_id": "S04",
+          "locator": "S04 p.12／木主16〜18"
+        }
+      ],
+      "limitations": "睡眠と在宅の独立した裏付けは記録にない",
+      "timeline_section": "12月26日：木村の昼の行動と大滝の巡回"
+    },
+    {
+      "id": "K021",
+      "time_text": "2025-12-26 15:40頃",
+      "subject": "大滝",
+      "statement": "土佐市から高知市内に入ったと説明",
+      "classification": "供述記録",
+      "source_refs": [
+        {
+          "source_id": "S04",
+          "locator": "S04 p.2／大主11"
+        }
+      ],
+      "limitations": "時刻は供述上の概数",
+      "timeline_section": "12月26日：木村の昼の行動と大滝の巡回"
+    },
+    {
+      "id": "K022",
+      "time_text": "2025-12-26 15:50頃〜約10分",
+      "subject": "大滝",
+      "statement": "高知市内1か所目の月極駐車場に到着し、約10分で清掃等を終えたと説明",
+      "classification": "供述記録",
+      "source_refs": [
+        {
+          "source_id": "S04",
+          "locator": "S04 p.2〜3／大主13〜15"
+        }
+      ],
+      "limitations": "2か所目の到着時刻を機械的に逆算しない",
+      "timeline_section": "12月26日：木村の昼の行動と大滝の巡回"
+    },
+    {
+      "id": "K023",
+      "time_text": "高知市内2か所目〜17:30頃",
+      "subject": "大滝",
+      "statement": "コインパーキングの精算機故障に対応。1時間以上かかり17時30分頃終了、予定より大幅に遅れたと認める",
+      "classification": "供述記録",
+      "source_refs": [
+        {
+          "source_id": "S04",
+          "locator": "S04 p.3・6／大主16〜17・大反2〜4"
+        }
+      ],
+      "limitations": "故障対応時間は清掃の滞在時間とは別",
+      "timeline_section": "12月26日：木村の昼の行動と大滝の巡回"
+    },
+    {
+      "id": "K024",
+      "time_text": "2025-12-26 17:04",
+      "subject": "現場",
+      "statement": "日没。当日の高知市の天候は晴れ",
+      "classification": "資料記載",
+      "source_refs": [
+        {
+          "source_id": "S01",
+          "locator": "甲1 教材p.6"
+        }
+      ],
+      "limitations": "日没だけでBの照度・車の影を定量化しない",
+      "timeline_section": "12月26日：木村の昼の行動と大滝の巡回"
+    },
+    {
+      "id": "K025",
+      "time_text": "17:00頃起床後〜18:00頃",
+      "subject": "木村",
+      "statement": "頭痛がありテレビを見て、18時頃にカツオ人間ラーメンを作って食べたと説明。見ていた番組として「ご長寿グランプリ」を挙げる",
+      "classification": "供述記録",
+      "source_refs": [
+        {
+          "source_id": "S04",
+          "locator": "S04 p.12／木主18〜21"
+        }
+      ],
+      "limitations": "番組表・視聴履歴等による時刻や在宅の裏付けはない",
+      "timeline_section": "12月26日：木村の昼の行動と大滝の巡回"
+    },
+    {
+      "id": "K026",
+      "time_text": "2025-12-26 17:50過ぎ",
+      "subject": "大滝",
+      "statement": "高知市内3か所目のコインパーキングを出て本件駐車場に向かったと説明",
+      "classification": "供述記録",
+      "source_refs": [
+        {
+          "source_id": "S04",
+          "locator": "S04 p.3／大主18〜19"
+        }
+      ],
+      "limitations": "当該作業の開始時刻・所要時間はこの回答から確定しない",
+      "timeline_section": "12月26日：木村の昼の行動と大滝の巡回"
+    },
+    {
+      "id": "K027",
+      "time_text": "2025-12-26 18:00過ぎ頃（概数）",
+      "subject": "大滝",
+      "statement": "高知市内4か所目として本件駐車場に到着。反対尋問では時計を見る余裕がなく正確な時刻は分からないと回答",
+      "classification": "供述記録",
+      "source_refs": [
+        {
+          "source_id": "S04",
+          "locator": "S04 p.3・7／大主20・大反9"
+        }
+      ],
+      "limitations": "18:00ちょうどを清掃前後の厳密な境界にしない",
+      "timeline_section": "12月26日：木村の昼の行動と大滝の巡回"
+    },
+    {
+      "id": "K028",
+      "time_text": "18:00過ぎ頃の清掃",
+      "subject": "大滝",
+      "statement": "南側入口から社用車で入り、北西角付近に駐車。約10台駐車していたと思うと説明",
+      "classification": "供述記録",
+      "source_refs": [
+        {
+          "source_id": "S04",
+          "locator": "S04 p.4／大主21〜23"
+        }
+      ],
+      "limitations": "B付近の車の位置や実際の遮蔽は未特定",
+      "timeline_section": "12月26日：清掃、夜の説明、発見と死亡"
+    },
+    {
+      "id": "K029",
+      "time_text": "同上",
+      "subject": "大滝",
+      "statement": "社用車→東出入口→引き返して社用車を通過→左折して南出入口付近→社用車、という清掃経路を説明",
+      "classification": "供述記録",
+      "source_refs": [
+        {
+          "source_id": "S04",
+          "locator": "S04 p.4／大主24"
+        }
+      ],
+      "limitations": "見取図上のBの立ち位置・視線・距離の指定はない",
+      "timeline_section": "12月26日：清掃、夜の説明、発見と死亡"
+    },
+    {
+      "id": "K030",
+      "time_text": "同上",
+      "subject": "大滝",
+      "statement": "吸殻1つと空き缶1缶を拾い、地面をしっかり見て歩いたと説明",
+      "classification": "供述記録",
+      "source_refs": [
+        {
+          "source_id": "S04",
+          "locator": "S04 p.4／大主25〜26"
+        }
+      ],
+      "limitations": "小物を拾ったことはB全域の観察をそのまま証明しない",
+      "timeline_section": "12月26日：清掃、夜の説明、発見と死亡"
+    },
+    {
+      "id": "K031",
+      "time_text": "同上",
+      "subject": "大滝",
+      "statement": "視力は両眼1.0、視界が悪いと感じるほどではなかったと回答。眼鏡を見ず、落ちていなかった、見落としもないと主尋問で断言",
+      "classification": "供述記録",
+      "source_refs": [
+        {
+          "source_id": "S04",
+          "locator": "S04 p.5／大主29〜32"
+        }
+      ],
+      "limitations": "反対尋問のK032・K033も合わせて読む",
+      "timeline_section": "12月26日：清掃、夜の説明、発見と死亡"
+    },
+    {
+      "id": "K032",
+      "time_text": "同上についての反対尋問",
+      "subject": "大滝",
+      "statement": "19時の妻の誕生日の食事に遅れられずかなり焦っていた、日は落ち暗かった、約10台あり、通過しながら全体を見た感じと回答",
+      "classification": "供述記録",
+      "source_refs": [
+        {
+          "source_id": "S04",
+          "locator": "S04 p.7〜8／大反8〜19"
+        }
+      ],
+      "limitations": "真っ暗という質問に対する答えは「日は落ちて暗かった」。照明がなかったとは答えていない",
+      "timeline_section": "12月26日：清掃、夜の説明、発見と死亡"
+    },
+    {
+      "id": "K033",
+      "time_text": "同上についての反対尋問",
+      "subject": "大滝",
+      "statement": "見落としの可能性を問われ「自分ではしっかり見たつもりですが（…絶対にないとは言い切れません。）」と記録。細部の記憶が混乱しているかもしれず、焦りは確かと回答",
+      "classification": "供述記録（括弧部分は要確認）",
+      "source_refs": [
+        {
+          "source_id": "S04",
+          "locator": "S04 p.9／大反20・24〜25"
+        }
+      ],
+      "limitations": "括弧が実発言を示すかは未確認。括弧の有無で評価を分け、実際に眼鏡があった・見落としたとは断定しない",
+      "timeline_section": "12月26日：清掃、夜の説明、発見と死亡"
+    },
+    {
+      "id": "K034",
+      "time_text": "清掃後〜退勤前（時刻不明）",
+      "subject": "大滝",
+      "statement": "高知市内5か所目を回り、事務所で回収金を金庫へ入れる等の業務。5か所目の時刻・作業時間や帰社時刻の正確な記憶は乏しいと回答",
+      "classification": "供述記録",
+      "source_refs": [
+        {
+          "source_id": "S04",
+          "locator": "S04 p.4・9／大主27・大反21〜23"
+        }
+      ],
+      "limitations": "残りの業務から本件清掃時間を算出しない",
+      "timeline_section": "12月26日：清掃、夜の説明、発見と死亡"
+    },
+    {
+      "id": "K035",
+      "time_text": "2025-12-26 18:50",
+      "subject": "大滝",
+      "statement": "会社のタイムカードで退勤時刻を確認",
+      "classification": "資料記載",
+      "source_refs": [
+        {
+          "source_id": "S01",
+          "locator": "甲1 教材p.5"
+        }
+      ],
+      "limitations": "帰社時刻やBの観察の確かさまで裏付けない",
+      "timeline_section": "12月26日：清掃、夜の説明、発見と死亡"
+    },
+    {
+      "id": "K036",
+      "time_text": "2025-12-26 19:00の約束／退勤後",
+      "subject": "大滝",
+      "statement": "家族との食事の約束があり、退勤後合流して食事をしたと説明",
+      "classification": "供述記録",
+      "source_refs": [
+        {
+          "source_id": "S04",
+          "locator": "S04 p.5・7〜8／大主28・大反10〜16"
+        }
+      ],
+      "limitations": "食事の実際の開始分刻み時刻は記録にない",
+      "timeline_section": "12月26日：清掃、夜の説明、発見と死亡"
+    },
+    {
+      "id": "K037",
+      "time_text": "2025-12-26 19:30頃",
+      "subject": "木村",
+      "statement": "シャワーを浴び、上下黒色のスウェットに着替えたと説明。黒いダウンジャケットも持っていると認める",
+      "classification": "供述記録",
+      "source_refs": [
+        {
+          "source_id": "S04",
+          "locator": "S04 p.12・17／木主22・木反8〜10"
+        }
+      ],
+      "limitations": "シャワーを血液除去とする根拠はない。ダウン所持は20:32映像の人物特定ではない",
+      "timeline_section": "12月26日：清掃、夜の説明、発見と死亡"
+    },
+    {
+      "id": "K038",
+      "time_text": "2025-12-26 20:30頃、ただし21:00かもしれない",
+      "subject": "木村",
+      "statement": "主質問ではテレビを見た後20:30頃就寝と回答。反対質問では捜査時の21時という説明を問われ、よく覚えておらず21時かもしれないと回答",
+      "classification": "供述記録（時刻不確か）",
+      "source_refs": [
+        {
+          "source_id": "S04",
+          "locator": "S04 p.12・17／木主22・木反11〜12"
+        }
+      ],
+      "limitations": "一つの確定就寝時刻に統合しない。乙2 p.28の21時頃、弁護冒頭p.34の犯行時刻に寝ていた主張とも区別",
+      "timeline_section": "12月26日：清掃、夜の説明、発見と死亡"
+    },
+    {
+      "id": "K039",
+      "time_text": "帰宅後〜同夜",
+      "subject": "木村",
+      "statement": "帰宅後外出しておらず、12月26日に共用自転車も使っていないと回答",
+      "classification": "供述記録",
+      "source_refs": [
+        {
+          "source_id": "S04",
+          "locator": "S04 p.12〜14／木主23・36"
+        }
+      ],
+      "limitations": "自己説明であり、独立した在宅・不使用の裏付けとは分ける",
+      "timeline_section": "12月26日：清掃、夜の説明、発見と死亡"
+    },
+    {
+      "id": "K040",
+      "time_text": "2025-12-26 20:30頃",
+      "subject": "起訴内容",
+      "statement": "木村が本件駐車場敷地内又は周辺で岸井を刃物で刺し殺害したと起訴状が主張",
+      "classification": "当事者主張",
+      "source_refs": [
+        {
+          "source_id": "S01",
+          "locator": "起訴状 教材p.1"
+        }
+      ],
+      "limitations": "犯行時刻・行為者を独立に認定した結果ではない",
+      "timeline_section": "12月26日：清掃、夜の説明、発見と死亡"
+    },
+    {
+      "id": "K041",
+      "time_text": "2025-12-26 20:32頃",
+      "subject": "防犯映像",
+      "statement": "駐車場入口から南約200mのコンビニで、中肉中背・黒いダウンの男性が自転車で北から南へ走行する映像",
+      "classification": "資料記載",
+      "source_refs": [
+        {
+          "source_id": "S01",
+          "locator": "甲1 教材p.5・10"
+        }
+      ],
+      "limitations": "マスクで顔判別不能。木村・押収自転車との同一性、出発地、帰宅完了は未特定",
+      "timeline_section": "12月26日：清掃、夜の説明、発見と死亡"
+    },
+    {
+      "id": "K042",
+      "time_text": "2025-12-26 20:45頃",
+      "subject": "大林・岸井",
+      "statement": "駐車に来た大林銀弥が倒れている岸井を発見し、直ちに110番",
+      "classification": "資料記載",
+      "source_refs": [
+        {
+          "source_id": "S01",
+          "locator": "甲1 教材p.3"
+        }
+      ],
+      "limitations": "大滝悟郎とは別人。発見時刻と刺突時刻は異なる",
+      "timeline_section": "12月26日：清掃、夜の説明、発見と死亡"
+    },
+    {
+      "id": "K043",
+      "time_text": "2025-12-26 20:50頃",
+      "subject": "警察・岸井",
+      "statement": "現場到着。被害者の呼吸を確認し、大林から通報時の状況を聴取",
+      "classification": "資料記載",
+      "source_refs": [
+        {
+          "source_id": "S01",
+          "locator": "甲1 教材p.3"
+        }
+      ],
+      "limitations": "この時点で死亡確認されたわけではない",
+      "timeline_section": "12月26日：清掃、夜の説明、発見と死亡"
+    },
+    {
+      "id": "K044",
+      "time_text": "2025-12-26 21:00頃",
+      "subject": "警察・眼鏡",
+      "statement": "被害者近辺のB地点で血痕の付いた眼鏡を発見・領置",
+      "classification": "資料記載",
+      "source_refs": [
+        {
+          "source_id": "S01",
+          "locator": "甲1 教材p.3〜4・6・11・14"
+        }
+      ],
+      "limitations": "発見時刻は落下時刻・血液付着時刻ではない",
+      "timeline_section": "12月26日：清掃、夜の説明、発見と死亡"
+    },
+    {
+      "id": "K045",
+      "time_text": "2025-12-26 21:55",
+      "subject": "岸井",
+      "statement": "救急搬送先の五哲大学病院で死亡を確認",
+      "classification": "資料記載",
+      "source_refs": [
+        {
+          "source_id": "S01",
+          "locator": "甲1 教材p.3"
+        }
+      ],
+      "limitations": "搬送途中や治療の詳細を追加しない",
+      "timeline_section": "12月26日：清掃、夜の説明、発見と死亡"
+    },
+    {
+      "id": "K046",
+      "time_text": "死亡後（検案日不明）",
+      "subject": "岸井",
+      "statement": "左胸2か所、右上腹部1か所、両腕複数、右大腿部1か所の刺創。刃物と考えられ、死因はこれらの傷による出血性ショック。凶器は未発見",
+      "classification": "資料記載",
+      "source_refs": [
+        {
+          "source_id": "S01",
+          "locator": "甲1 教材p.3"
+        }
+      ],
+      "limitations": "傷の深さ・順序・刃長は不明。両腕の傷を鑑定上の防御創と断定しない",
+      "timeline_section": "12月26日：清掃、夜の説明、発見と死亡"
+    },
+    {
+      "id": "K047",
+      "time_text": "2025-12-27 朝",
+      "subject": "木村",
+      "statement": "いつもの洗面所右横に眼鏡がなく紛失に気付く。最初は店への置き忘れを考え、転倒を思い出したと説明",
+      "classification": "供述記録",
+      "source_refs": [
+        {
+          "source_id": "S04",
+          "locator": "S04 p.13／木主25〜26"
+        }
+      ],
+      "limitations": "翌朝に気付いた説明と、26日の実際の紛失時刻は別",
+      "timeline_section": "翌日以降と捜査・資料作成"
+    },
+    {
+      "id": "K048",
+      "time_text": "2025-12-27（捜索時刻はS04に記載なし）",
+      "subject": "木村",
+      "statement": "探しに行ったが見つからず。反対質問では駐車場以外を探さず、転倒時に近くでなくしたと思ったためと説明",
+      "classification": "供述記録",
+      "source_refs": [
+        {
+          "source_id": "S04",
+          "locator": "S04 p.13・17〜18／木主26〜27・木反13〜16"
+        }
+      ],
+      "limitations": "乙2 p.28は9時過ぎに自宅から駅前までの道を捜索。範囲の違いを残す",
+      "timeline_section": "翌日以降と捜査・資料作成"
+    },
+    {
+      "id": "K049",
+      "time_text": "紛失後〜警察訪問（具体日不明）",
+      "subject": "木村",
+      "statement": "古い眼鏡を使い、見えやすさは劣るが不自由ではなく、遺失届は出さなかったと説明。なくした眼鏡は約15,000円という",
+      "classification": "供述記録",
+      "source_refs": [
+        {
+          "source_id": "S04",
+          "locator": "S04 p.13・18／木主29・木反17〜20"
+        }
+      ],
+      "limitations": "届けなかった理由の説明の信用性は別。隠匿を直接認めた回答ではない",
+      "timeline_section": "翌日以降と捜査・資料作成"
+    },
+    {
+      "id": "K050",
+      "time_text": "2025-12-28〜2026-01-04",
+      "subject": "木村",
+      "statement": "土佐市の実家に戻って過ごしたと説明",
+      "classification": "供述記録",
+      "source_refs": [
+        {
+          "source_id": "S04",
+          "locator": "S04 p.13／木主28"
+        }
+      ],
+      "limitations": "移動時刻、実家での行動、第三者の確認は記録にない",
+      "timeline_section": "翌日以降と捜査・資料作成"
+    },
+    {
+      "id": "K051",
+      "time_text": "2026-01-05",
+      "subject": "警察・木村",
+      "statement": "購入者照会を経て訪問。木村が眼鏡を自身の遺失物と認め、指紋・口腔内粘膜採取に任意に応じた",
+      "classification": "資料記載／供述記録",
+      "source_refs": [
+        {
+          "source_id": "S04",
+          "locator": "甲1 教材p.4、S04 p.13／木主24・30"
+        },
+        {
+          "source_id": "S01",
+          "locator": "甲1 教材p.4、S04 p.13／木主24・30"
+        }
+      ],
+      "limitations": "所有を認めたことを刺突の自認としない",
+      "timeline_section": "翌日以降と捜査・資料作成"
+    },
+    {
+      "id": "K052",
+      "time_text": "2026-01-05、押収はその後",
+      "subject": "警察・自転車",
+      "statement": "ハイツ京極の駐輪場で血痕付き無施錠自転車を発見。その後令状に基づき押収",
+      "classification": "資料記載",
+      "source_refs": [
+        {
+          "source_id": "S01",
+          "locator": "甲1 教材p.4〜5"
+        }
+      ],
+      "limitations": "押収日を1/5と断定しない。駐輪場には外部者も出入り可能",
+      "timeline_section": "翌日以降と捜査・資料作成"
+    },
+    {
+      "id": "K053",
+      "time_text": "鑑定日不明（眼鏡領置・本人試料採取後）",
+      "subject": "眼鏡",
+      "statement": "血痕DNA型は岸井、指紋と皮膚片DNA型は木村と一致との報告",
+      "classification": "資料記載",
+      "source_refs": [
+        {
+          "source_id": "S01",
+          "locator": "甲1 教材p.4"
+        }
+      ],
+      "limitations": "付着日時・機序・当時の着用者・刺突者の鑑定ではない",
+      "timeline_section": "翌日以降と捜査・資料作成"
+    },
+    {
+      "id": "K054",
+      "time_text": "自転車押収後（鑑定日不明）",
+      "subject": "自転車",
+      "statement": "血痕DNA型は岸井。複数の指紋の一部が木村と一致し、他の指紋の人物は特定できず",
+      "classification": "資料記載",
+      "source_refs": [
+        {
+          "source_id": "S01",
+          "locator": "甲1 教材p.5・8"
+        }
+      ],
+      "limitations": "写真②は右ハンドルの血痕位置を示す。同一鑑定を別の独立証拠として数えない",
+      "timeline_section": "翌日以降と捜査・資料作成"
+    },
+    {
+      "id": "K055",
+      "time_text": "捜査時（照会日不明）",
+      "subject": "自転車",
+      "statement": "登録名義人は矢野天彦で、2012-03-31以降県外転出と判明。住人による共同利用・鍵なしと聴取",
+      "classification": "資料記載",
+      "source_refs": [
+        {
+          "source_id": "S01",
+          "locator": "甲1 教材p.5"
+        }
+      ],
+      "limitations": "登録名義と事件当日の利用者は別",
+      "timeline_section": "翌日以降と捜査・資料作成"
+    },
+    {
+      "id": "K056",
+      "time_text": "2026-01-06 18:00頃",
+      "subject": "警察・現場写真",
+      "statement": "写真⑤2枚目の夜間写真を撮影",
+      "classification": "資料記載",
+      "source_refs": [
+        {
+          "source_id": "S01",
+          "locator": "甲1 教材p.6・12"
+        }
+      ],
+      "limitations": "事件当夜や大滝の観察条件そのものを再現した写真ではない",
+      "timeline_section": "翌日以降と捜査・資料作成"
+    },
+    {
+      "id": "K057",
+      "time_text": "2026-01-09 14:00頃",
+      "subject": "警察・木村",
+      "statement": "通常逮捕。写真③は逮捕直後に撮影",
+      "classification": "資料記載",
+      "source_refs": [
+        {
+          "source_id": "S01",
+          "locator": "甲1 教材p.5・9"
+        }
+      ],
+      "limitations": "逮捕時の服装を事件当日の服装へ置き換えない。逮捕自体は犯人性の証明ではない",
+      "timeline_section": "翌日以降と捜査・資料作成"
+    },
+    {
+      "id": "K058",
+      "time_text": "2026-01-10",
+      "subject": "木村",
+      "statement": "乙1供述調書作成。視力、生活、自転車の普段の利用等の記載",
+      "classification": "資料記載",
+      "source_refs": [
+        {
+          "source_id": "S01",
+          "locator": "乙1 教材p.24〜26"
+        }
+      ],
+      "limitations": "採用済みだが、少年時の行動を今回の犯人性への性格推論に使わない",
+      "timeline_section": "翌日以降と捜査・資料作成"
+    },
+    {
+      "id": "K059",
+      "time_text": "2026-01-15",
+      "subject": "捜査機関",
+      "statement": "木村の携帯電話から得たLINEを整理した甲2捜査報告書作成",
+      "classification": "資料記載",
+      "source_refs": [
+        {
+          "source_id": "S01",
+          "locator": "甲2 教材p.15"
+        }
+      ],
+      "limitations": "同じLINEを報告書と添付表で二重計上しない",
+      "timeline_section": "翌日以降と捜査・資料作成"
+    },
+    {
+      "id": "K060",
+      "time_text": "2026-01-26",
+      "subject": "大滝",
+      "statement": "甲3供述調書作成",
+      "classification": "資料記載",
+      "source_refs": [
+        {
+          "source_id": "S01",
+          "locator": "甲3 教材p.20〜23"
+        }
+      ],
+      "limitations": "採否留保。後の尋問記録E11とは別資料",
+      "timeline_section": "翌日以降と捜査・資料作成"
+    },
+    {
+      "id": "K061",
+      "time_text": "2026-01-27",
+      "subject": "木村",
+      "statement": "乙2供述調書作成",
+      "classification": "資料記載",
+      "source_refs": [
+        {
+          "source_id": "S01",
+          "locator": "乙2 教材p.27〜31"
+        }
+      ],
+      "limitations": "採否留保。p.29の二つの12月27日表記を維持",
+      "timeline_section": "翌日以降と捜査・資料作成"
+    },
+    {
+      "id": "K062",
+      "time_text": "2026-01-30",
+      "subject": "検察官",
+      "statement": "殺人として公訴提起",
+      "classification": "当事者主張／手続記載",
+      "source_refs": [
+        {
+          "source_id": "S01",
+          "locator": "起訴状 教材p.1"
+        }
+      ],
+      "limitations": "起訴されたことと犯人性の認定は別",
+      "timeline_section": "翌日以降と捜査・資料作成"
+    },
+    {
+      "id": "K063",
+      "time_text": "2026-04-15",
+      "subject": "検察官",
+      "statement": "甲1統合捜査報告書作成",
+      "classification": "資料記載",
+      "source_refs": [
+        {
+          "source_id": "S01",
+          "locator": "甲1 教材p.3"
+        }
+      ],
+      "limitations": "記載の各捜査・鑑定がすべて同日に行われたのではない",
+      "timeline_section": "翌日以降と捜査・資料作成"
+    },
+    {
+      "id": "K064",
+      "time_text": "実演日不明、受領・確認2026-11-09",
+      "subject": "大滝・木村",
+      "statement": "大滝の主33問・反25問、木村の主45問・反34問の回答記録を受領。ユーザーが実際の記録・公開可と確認",
+      "classification": "受領記録",
+      "source_refs": [
+        {
+          "source_id": "S04",
+          "locator": "S04 p.1〜20、2026-11-09ユーザー確認"
+        },
+        {
+          "source_id": "USER_CONFIRMATION_20261109",
+          "locator": "S04 p.1〜20、2026-11-09ユーザー確認"
+        }
+      ],
+      "limitations": "S04は管理IDであり新しい正式号証ではない。実演日・括弧表記・記録の完全性は要確認",
+      "timeline_section": "翌日以降と捜査・資料作成"
+    }
+  ],
+  "questions_and_answers": [
+    {
+      "id": "S04_O_MAIN_001",
+      "source_id": "S04",
+      "speaker": "大滝悟郎",
+      "phase": "主尋問",
+      "question_number": 1,
+      "pdf_pages": [
+        1
+      ],
+      "question": "証人のお名前と生年月日を教えてください。",
+      "answer": "大滝悟郎です。昭和 53 年 2 月 11 日生まれです。",
+      "classification": "実際の回答記録（内容の真実性・信用性は別）",
+      "caution": ""
+    },
+    {
+      "id": "S04_O_MAIN_002",
+      "source_id": "S04",
+      "speaker": "大滝悟郎",
+      "phase": "主尋問",
+      "question_number": 2,
+      "pdf_pages": [
+        1
+      ],
+      "question": "証人のご職業は何ですか？",
+      "answer": "株式会社よたんぼの社員で、不動産管理業務を行っています。",
+      "classification": "実際の回答記録（内容の真実性・信用性は別）",
+      "caution": ""
+    },
+    {
+      "id": "S04_O_MAIN_003",
+      "source_id": "S04",
+      "speaker": "大滝悟郎",
+      "phase": "主尋問",
+      "question_number": 3,
+      "pdf_pages": [
+        1
+      ],
+      "question": "主にどのような業務を担当されていますか？",
+      "answer": "高知市、南国市、土佐市にある月極駐車場やコインパーキングの管\n理・清掃業務です。",
+      "classification": "実際の回答記録（内容の真実性・信用性は別）",
+      "caution": ""
+    },
+    {
+      "id": "S04_O_MAIN_004",
+      "source_id": "S04",
+      "speaker": "大滝悟郎",
+      "phase": "主尋問",
+      "question_number": 4,
+      "pdf_pages": [
+        1
+      ],
+      "question": "本件事件の現場となった「パーク on it Hey!」 （以下、 「本件駐車場」\nといいます。 ）は、あなたが担当していた駐車場ですか？",
+      "answer": "はい、私の担当です。",
+      "classification": "実際の回答記録（内容の真実性・信用性は別）",
+      "caution": ""
+    },
+    {
+      "id": "S04_O_MAIN_005",
+      "source_id": "S04",
+      "speaker": "大滝悟郎",
+      "phase": "主尋問",
+      "question_number": 5,
+      "pdf_pages": [
+        1
+      ],
+      "question": "本件駐車場は、月極駐車場ですね。",
+      "answer": "はい、契約台数は 30 台ほどの月極駐車場です。",
+      "classification": "実際の回答記録（内容の真実性・信用性は別）",
+      "caution": ""
+    },
+    {
+      "id": "S04_O_MAIN_006",
+      "source_id": "S04",
+      "speaker": "大滝悟郎",
+      "phase": "主尋問",
+      "question_number": 6,
+      "pdf_pages": [
+        1
+      ],
+      "question": "月極駐車場ではどのような管理業務を行うのですか？",
+      "answer": "月に 4〜5 回ほど巡回し、駐車場のゴミ拾いや無断駐車がないかの確認\nを行います。",
+      "classification": "実際の回答記録（内容の真実性・信用性は別）",
+      "caution": ""
+    },
+    {
+      "id": "S04_O_MAIN_007",
+      "source_id": "S04",
+      "speaker": "大滝悟郎",
+      "phase": "主尋問",
+      "question_number": 7,
+      "pdf_pages": [
+        2
+      ],
+      "question": "コインパーキングではどのような管理業務を行うのですか。",
+      "answer": "３日に１度、各駐車場を回って、設備機器の保守・点検作業や料金の回\n収、お釣りの有無の確認、清掃などを行います。",
+      "classification": "実際の回答記録（内容の真実性・信用性は別）",
+      "caution": ""
+    },
+    {
+      "id": "S04_O_MAIN_008",
+      "source_id": "S04",
+      "speaker": "大滝悟郎",
+      "phase": "主尋問",
+      "question_number": 8,
+      "pdf_pages": [
+        2
+      ],
+      "question": "被害者の岸井新之助さんや、被告人の木村忠太と面識はありました\nか？",
+      "answer": "岸井さんは契約者名簿でお名前を知っていた程度で面識はなく、被告\n人は全く知らない人です。",
+      "classification": "実際の回答記録（内容の真実性・信用性は別）",
+      "caution": ""
+    },
+    {
+      "id": "S04_O_MAIN_009",
+      "source_id": "S04",
+      "speaker": "大滝悟郎",
+      "phase": "主尋問",
+      "question_number": 9,
+      "pdf_pages": [
+        2
+      ],
+      "question": "令和 7 年 12 月 26 日当日、事務所を出発したのは何時頃ですか？",
+      "answer": "午前 11 時半頃です。",
+      "classification": "実際の回答記録（内容の真実性・信用性は別）",
+      "caution": ""
+    },
+    {
+      "id": "S04_O_MAIN_010",
+      "source_id": "S04",
+      "speaker": "大滝悟郎",
+      "phase": "主尋問",
+      "question_number": 10,
+      "pdf_pages": [
+        2
+      ],
+      "question": "その後、どのように各駐車場を回りましたか？",
+      "answer": "まず南国市のコインパーキング 3 箇所を回り、昼食をとりました。そ\nの後、土佐市のコインパーキング 1 箇所を回った後、高知市内に向かいまし\nた。",
+      "classification": "実際の回答記録（内容の真実性・信用性は別）",
+      "caution": ""
+    },
+    {
+      "id": "S04_O_MAIN_011",
+      "source_id": "S04",
+      "speaker": "大滝悟郎",
+      "phase": "主尋問",
+      "question_number": 11,
+      "pdf_pages": [
+        2
+      ],
+      "question": "土佐市を出発して高知市内に入ったのは何時頃ですか？",
+      "answer": "午後 3 時 40 分頃です。",
+      "classification": "実際の回答記録（内容の真実性・信用性は別）",
+      "caution": ""
+    },
+    {
+      "id": "S04_O_MAIN_012",
+      "source_id": "S04",
+      "speaker": "大滝悟郎",
+      "phase": "主尋問",
+      "question_number": 12,
+      "pdf_pages": [
+        2
+      ],
+      "question": "高知市内の駐車場はいくつ回ったのですか。",
+      "answer": "５つです。本件駐車場は、私が、４つめに回った駐車場です。",
+      "classification": "実際の回答記録（内容の真実性・信用性は別）",
+      "caution": ""
+    },
+    {
+      "id": "S04_O_MAIN_013",
+      "source_id": "S04",
+      "speaker": "大滝悟郎",
+      "phase": "主尋問",
+      "question_number": 13,
+      "pdf_pages": [
+        2
+      ],
+      "question": "高知市内の 1 つ目の駐車場に着いたのは何時頃ですか？",
+      "answer": "午後 3 時 50 分頃です。",
+      "classification": "実際の回答記録（内容の真実性・信用性は別）",
+      "caution": ""
+    },
+    {
+      "id": "S04_O_MAIN_014",
+      "source_id": "S04",
+      "speaker": "大滝悟郎",
+      "phase": "主尋問",
+      "question_number": 14,
+      "pdf_pages": [
+        3
+      ],
+      "question": "１つめの駐車場は、月極駐車場ですか。",
+      "answer": "はい。",
+      "classification": "実際の回答記録（内容の真実性・信用性は別）",
+      "caution": ""
+    },
+    {
+      "id": "S04_O_MAIN_015",
+      "source_id": "S04",
+      "speaker": "大滝悟郎",
+      "phase": "主尋問",
+      "question_number": 15,
+      "pdf_pages": [
+        3
+      ],
+      "question": "作業時間はどれほどかかりましたか？",
+      "answer": "10 分ほどで清掃等を終えました。",
+      "classification": "実際の回答記録（内容の真実性・信用性は別）",
+      "caution": ""
+    },
+    {
+      "id": "S04_O_MAIN_016",
+      "source_id": "S04",
+      "speaker": "大滝悟郎",
+      "phase": "主尋問",
+      "question_number": 16,
+      "pdf_pages": [
+        3
+      ],
+      "question": "次に向かった高知市内の 2 つ目の駐車場では、どのような作業をしま\nしたか。",
+      "answer": "２つ目の駐車場はコインパーキングなのですが、到着した際に料金精算機\nの故障が発生しており、困っている利用客の対応と機器の調整を行いました。",
+      "classification": "実際の回答記録（内容の真実性・信用性は別）",
+      "caution": ""
+    },
+    {
+      "id": "S04_O_MAIN_017",
+      "source_id": "S04",
+      "speaker": "大滝悟郎",
+      "phase": "主尋問",
+      "question_number": 17,
+      "pdf_pages": [
+        3
+      ],
+      "question": "そのトラブル対応にはどれくらいの時間がかかりましたか？",
+      "answer": "1 時間以上かかり、終わったのは午後 5 時半頃でした。",
+      "classification": "実際の回答記録（内容の真実性・信用性は別）",
+      "caution": ""
+    },
+    {
+      "id": "S04_O_MAIN_018",
+      "source_id": "S04",
+      "speaker": "大滝悟郎",
+      "phase": "主尋問",
+      "question_number": 18,
+      "pdf_pages": [
+        3
+      ],
+      "question": "その後、3 つ目の駐車場を経て本件駐車場に向かったのですね？",
+      "answer": "はい。3 つ目の駐車場を午後 5 時 50 分過ぎに出て、本件駐車場へ向か\nいました。",
+      "classification": "実際の回答記録（内容の真実性・信用性は別）",
+      "caution": ""
+    },
+    {
+      "id": "S04_O_MAIN_019",
+      "source_id": "S04",
+      "speaker": "大滝悟郎",
+      "phase": "主尋問",
+      "question_number": 19,
+      "pdf_pages": [
+        3
+      ],
+      "question": "３つめの駐車場は、コインパーキングですか。",
+      "answer": "はい。",
+      "classification": "実際の回答記録（内容の真実性・信用性は別）",
+      "caution": ""
+    },
+    {
+      "id": "S04_O_MAIN_020",
+      "source_id": "S04",
+      "speaker": "大滝悟郎",
+      "phase": "主尋問",
+      "question_number": 20,
+      "pdf_pages": [
+        3
+      ],
+      "question": "本件駐車場に到着したのは何時頃ですか？",
+      "answer": "午後 6 時を回った頃です。",
+      "classification": "実際の回答記録（内容の真実性・信用性は別）",
+      "caution": ""
+    },
+    {
+      "id": "S04_O_MAIN_021",
+      "source_id": "S04",
+      "speaker": "大滝悟郎",
+      "phase": "主尋問",
+      "question_number": 21,
+      "pdf_pages": [
+        4
+      ],
+      "question": "本件駐車場にはどちらの入り口から入りましたか？",
+      "answer": "南側の入り口から社用車で入りました。",
+      "classification": "実際の回答記録（内容の真実性・信用性は別）",
+      "caution": ""
+    },
+    {
+      "id": "S04_O_MAIN_022",
+      "source_id": "S04",
+      "speaker": "大滝悟郎",
+      "phase": "主尋問",
+      "question_number": 22,
+      "pdf_pages": [
+        4
+      ],
+      "question": "社用車はどの位置に止めましたか？",
+      "answer": "北西の角あたりのスペースに停車しました。",
+      "classification": "実際の回答記録（内容の真実性・信用性は別）",
+      "caution": ""
+    },
+    {
+      "id": "S04_O_MAIN_023",
+      "source_id": "S04",
+      "speaker": "大滝悟郎",
+      "phase": "主尋問",
+      "question_number": 23,
+      "pdf_pages": [
+        4
+      ],
+      "question": "当時、何台くらいの車が止まっていましたか？",
+      "answer": "10 台くらいだったと思います。",
+      "classification": "実際の回答記録（内容の真実性・信用性は別）",
+      "caution": ""
+    },
+    {
+      "id": "S04_O_MAIN_024",
+      "source_id": "S04",
+      "speaker": "大滝悟郎",
+      "phase": "主尋問",
+      "question_number": 24,
+      "pdf_pages": [
+        4
+      ],
+      "question": "車を降りた後、どのようなルートで作業を行いましたか？",
+      "answer": "社用車を降りて東側の出入り口へ向かい、そこで引き返して社用車を\n通り過ぎ、左に曲がって南側出入り口付近まで行き、再び社用車へ戻りまし\nた。",
+      "classification": "実際の回答記録（内容の真実性・信用性は別）",
+      "caution": ""
+    },
+    {
+      "id": "S04_O_MAIN_025",
+      "source_id": "S04",
+      "speaker": "大滝悟郎",
+      "phase": "主尋問",
+      "question_number": 25,
+      "pdf_pages": [
+        4
+      ],
+      "question": "作業をしているとき、ゴミはどの程度落ちていましたか？",
+      "answer": "タバコの吸殻 1 つと空き缶 1 缶を拾いました。",
+      "classification": "実際の回答記録（内容の真実性・信用性は別）",
+      "caution": ""
+    },
+    {
+      "id": "S04_O_MAIN_026",
+      "source_id": "S04",
+      "speaker": "大滝悟郎",
+      "phase": "主尋問",
+      "question_number": 26,
+      "pdf_pages": [
+        4
+      ],
+      "question": "地面の小さなタバコの吸殻に気づいて拾えるほど、足元をしっかり見\nていたのですか？",
+      "answer": "はい、地面をしっかり見て確認しながら歩いていました。",
+      "classification": "実際の回答記録（内容の真実性・信用性は別）",
+      "caution": ""
+    },
+    {
+      "id": "S04_O_MAIN_027",
+      "source_id": "S04",
+      "speaker": "大滝悟郎",
+      "phase": "主尋問",
+      "question_number": 27,
+      "pdf_pages": [
+        4
+      ],
+      "question": "その後は、どうしたのですか。",
+      "answer": "高知市内の五つ目の駐車場へ向かいました。管理業務を終えた後は、事務\n所に戻りました。回収した料金を会社の金庫に入れる等の業務を行い、退勤し\nました。",
+      "classification": "実際の回答記録（内容の真実性・信用性は別）",
+      "caution": ""
+    },
+    {
+      "id": "S04_O_MAIN_028",
+      "source_id": "S04",
+      "speaker": "大滝悟郎",
+      "phase": "主尋問",
+      "question_number": 28,
+      "pdf_pages": [
+        5
+      ],
+      "question": "退勤した後は、どうしましたか。",
+      "answer": "家族と午後 7 時から食事の約束をしていたので、家族と合流し、食事をし\nました。",
+      "classification": "実際の回答記録（内容の真実性・信用性は別）",
+      "caution": ""
+    },
+    {
+      "id": "S04_O_MAIN_029",
+      "source_id": "S04",
+      "speaker": "大滝悟郎",
+      "phase": "主尋問",
+      "question_number": 29,
+      "pdf_pages": [
+        5
+      ],
+      "question": "証人の視力はいくつですか？",
+      "answer": "両目とも 1.0 です。",
+      "classification": "実際の回答記録（内容の真実性・信用性は別）",
+      "caution": ""
+    },
+    {
+      "id": "S04_O_MAIN_030",
+      "source_id": "S04",
+      "speaker": "大滝悟郎",
+      "phase": "主尋問",
+      "question_number": 30,
+      "pdf_pages": [
+        5
+      ],
+      "question": "本件駐車場の作業をしているとき、手元や足元を見るのに十分な明る\nさ・視界でしたか？",
+      "answer": "はい、視界が悪いと感じるほどではありませんでした。",
+      "classification": "実際の回答記録（内容の真実性・信用性は別）",
+      "caution": ""
+    },
+    {
+      "id": "S04_O_MAIN_031",
+      "source_id": "S04",
+      "speaker": "大滝悟郎",
+      "phase": "主尋問",
+      "question_number": 31,
+      "pdf_pages": [
+        5
+      ],
+      "question": "あなたが清掃した際、本件駐車場の地面に眼鏡は落ちていましたか？",
+      "answer": "いいえ、眼鏡は見ませんでした。落ちていませんでした。",
+      "classification": "実際の回答記録（内容の真実性・信用性は別）",
+      "caution": ""
+    },
+    {
+      "id": "S04_O_MAIN_032",
+      "source_id": "S04",
+      "speaker": "大滝悟郎",
+      "phase": "主尋問",
+      "question_number": 32,
+      "pdf_pages": [
+        5
+      ],
+      "question": "見落とした可能性はありませんか？",
+      "answer": "ありません。地面を隅々まで確認したからです。",
+      "classification": "実際の回答記録（内容の真実性・信用性は別）",
+      "caution": ""
+    },
+    {
+      "id": "S04_O_MAIN_033",
+      "source_id": "S04",
+      "speaker": "大滝悟郎",
+      "phase": "主尋問",
+      "question_number": 33,
+      "pdf_pages": [
+        5
+      ],
+      "question": "もし清掃中に眼鏡などの貴重品や落とし物を見つけた場合、通常はど\nう対応しますか？",
+      "answer": "必ず拾って会社に報告し、契約者に確認します。現れない場合は警察に届\nけるルールになっています。ですから、もしあれば絶対に拾っています。",
+      "classification": "実際の回答記録（内容の真実性・信用性は別）",
+      "caution": ""
+    },
+    {
+      "id": "S04_O_CROSS_001",
+      "source_id": "S04",
+      "speaker": "大滝悟郎",
+      "phase": "反対尋問",
+      "question_number": 1,
+      "pdf_pages": [
+        6
+      ],
+      "question": "証人、あなたが担当している駐車場は高知市・南国市・土佐市にまた\nがっており、移動だけでも大変ですね？",
+      "answer": "はい、移動時間はかなりかかります。",
+      "classification": "実際の回答記録（内容の真実性・信用性は別）",
+      "caution": ""
+    },
+    {
+      "id": "S04_O_CROSS_002",
+      "source_id": "S04",
+      "speaker": "大滝悟郎",
+      "phase": "反対尋問",
+      "question_number": 2,
+      "pdf_pages": [
+        6
+      ],
+      "question": "事件当日の 12 月 26 日、高知市内の 2 つ目の駐車場で料金精算機の故\n障対応を余儀なくされましたね？",
+      "answer": "はい。",
+      "classification": "実際の回答記録（内容の真実性・信用性は別）",
+      "caution": ""
+    },
+    {
+      "id": "S04_O_CROSS_003",
+      "source_id": "S04",
+      "speaker": "大滝悟郎",
+      "phase": "反対尋問",
+      "question_number": 3,
+      "pdf_pages": [
+        6
+      ],
+      "question": "その対応に 1 時間以上をとられ、終わったのは午後 5 時半頃でした\nね？",
+      "answer": "はい、そうです。",
+      "classification": "実際の回答記録（内容の真実性・信用性は別）",
+      "caution": ""
+    },
+    {
+      "id": "S04_O_CROSS_004",
+      "source_id": "S04",
+      "speaker": "大滝悟郎",
+      "phase": "反対尋問",
+      "question_number": 4,
+      "pdf_pages": [
+        6
+      ],
+      "question": "この時点で、当初の作業スケジュールから 1 時間以上大幅に遅れてい\nましたね？",
+      "answer": "はい、かなり遅れていました。",
+      "classification": "実際の回答記録（内容の真実性・信用性は別）",
+      "caution": ""
+    },
+    {
+      "id": "S04_O_CROSS_005",
+      "source_id": "S04",
+      "speaker": "大滝悟郎",
+      "phase": "反対尋問",
+      "question_number": 5,
+      "pdf_pages": [
+        6
+      ],
+      "question": "高知市内の駐車場は、いずれも高知市内の中心部にありますね。",
+      "answer": "はい。",
+      "classification": "実際の回答記録（内容の真実性・信用性は別）",
+      "caution": ""
+    },
+    {
+      "id": "S04_O_CROSS_006",
+      "source_id": "S04",
+      "speaker": "大滝悟郎",
+      "phase": "反対尋問",
+      "question_number": 6,
+      "pdf_pages": [
+        6
+      ],
+      "question": "高知市内のコインパーキングは、他の市内のコインパーキングと比べ\nて、利用者は多いのですか。",
+      "answer": "はい。",
+      "classification": "実際の回答記録（内容の真実性・信用性は別）",
+      "caution": ""
+    },
+    {
+      "id": "S04_O_CROSS_007",
+      "source_id": "S04",
+      "speaker": "大滝悟郎",
+      "phase": "反対尋問",
+      "question_number": 7,
+      "pdf_pages": [
+        6,
+        7
+      ],
+      "question": "高知市内の駐車場の管理業務は、他の市の駐車場の管理業務と比べて、\nとても時間がかかることが多いのではないですか。",
+      "answer": "はい。",
+      "classification": "実際の回答記録（内容の真実性・信用性は別）",
+      "caution": ""
+    },
+    {
+      "id": "S04_O_CROSS_008",
+      "source_id": "S04",
+      "speaker": "大滝悟郎",
+      "phase": "反対尋問",
+      "question_number": 8,
+      "pdf_pages": [
+        7
+      ],
+      "question": "その後、3 つ目のコインパーキング、本件駐車場、さらに 5 つ目のコイ\nンパーキングと、大急ぎで回らざるを得ない状況でしたね？",
+      "answer": "はい、急いで作業をしていました。",
+      "classification": "実際の回答記録（内容の真実性・信用性は別）",
+      "caution": ""
+    },
+    {
+      "id": "S04_O_CROSS_009",
+      "source_id": "S04",
+      "speaker": "大滝悟郎",
+      "phase": "反対尋問",
+      "question_number": 9,
+      "pdf_pages": [
+        7
+      ],
+      "question": "実際、焦っていたため、本件駐車場に着いた正確な時刻は時計で確認\nしていませんね？",
+      "answer": "はい、時計を見る余裕がなかったので確かな時間はわかりません。",
+      "classification": "実際の回答記録（内容の真実性・信用性は別）",
+      "caution": ""
+    },
+    {
+      "id": "S04_O_CROSS_010",
+      "source_id": "S04",
+      "speaker": "大滝悟郎",
+      "phase": "反対尋問",
+      "question_number": 10,
+      "pdf_pages": [
+        7
+      ],
+      "question": "証人は、その日の夜にプライベートの約束がありましたね？",
+      "answer": "はい、家族と外食をする約束がありました。",
+      "classification": "実際の回答記録（内容の真実性・信用性は別）",
+      "caution": ""
+    },
+    {
+      "id": "S04_O_CROSS_011",
+      "source_id": "S04",
+      "speaker": "大滝悟郎",
+      "phase": "反対尋問",
+      "question_number": 11,
+      "pdf_pages": [
+        7
+      ],
+      "question": "午後 7 時に約束されていたのですね？",
+      "answer": "はい、午後 7 時です。",
+      "classification": "実際の回答記録（内容の真実性・信用性は別）",
+      "caution": ""
+    },
+    {
+      "id": "S04_O_CROSS_012",
+      "source_id": "S04",
+      "speaker": "大滝悟郎",
+      "phase": "反対尋問",
+      "question_number": 12,
+      "pdf_pages": [
+        7
+      ],
+      "question": "午後 7 時の約束は、あなたにとって大切な予定だったのではないです\nか。",
+      "answer": "はい、妻の誕生日をお祝いするための特別な食事でした。",
+      "classification": "実際の回答記録（内容の真実性・信用性は別）",
+      "caution": ""
+    },
+    {
+      "id": "S04_O_CROSS_013",
+      "source_id": "S04",
+      "speaker": "大滝悟郎",
+      "phase": "反対尋問",
+      "question_number": 13,
+      "pdf_pages": [
+        7
+      ],
+      "question": "あなたには、その誕生日の約束に「絶対に遅れてはならない」強い理\n由があったのではないですか？",
+      "answer": "はい…。実は事件の 2 週間ほど前、私が妻の大切にしていた青い鳥の\n絵柄のマグカップを割ってしまいまして…それ以来ずっと妻の機嫌が悪かった\nんです。",
+      "classification": "実際の回答記録（内容の真実性・信用性は別）",
+      "caution": ""
+    },
+    {
+      "id": "S04_O_CROSS_014",
+      "source_id": "S04",
+      "speaker": "大滝悟郎",
+      "phase": "反対尋問",
+      "question_number": 14,
+      "pdf_pages": [
+        8
+      ],
+      "question": "だからこそ、当日のディナーで何としても機嫌を直してもらい、仲直\nりしたかったのですね？",
+      "answer": "はい。ここで遅刻したら大変なことになると思い、絶対に遅れられな\nいと思っていました。",
+      "classification": "実際の回答記録（内容の真実性・信用性は別）",
+      "caution": ""
+    },
+    {
+      "id": "S04_O_CROSS_015",
+      "source_id": "S04",
+      "speaker": "大滝悟郎",
+      "phase": "反対尋問",
+      "question_number": 15,
+      "pdf_pages": [
+        8
+      ],
+      "question": "つまり、午後 7 時からの約束には、絶対に遅れることができなかったわ\nけですね。",
+      "answer": "はい。",
+      "classification": "実際の回答記録（内容の真実性・信用性は別）",
+      "caution": ""
+    },
+    {
+      "id": "S04_O_CROSS_016",
+      "source_id": "S04",
+      "speaker": "大滝悟郎",
+      "phase": "反対尋問",
+      "question_number": 16,
+      "pdf_pages": [
+        8
+      ],
+      "question": "つまり、17 時半のトラブル以降、あなたの頭の中は「早く作業を終わ\nらせて 19 時に間に合わせたい」という焦りでいっぱいだったのではないです\nか？",
+      "answer": "正直に言うと、かなり焦っていました。",
+      "classification": "実際の回答記録（内容の真実性・信用性は別）",
+      "caution": ""
+    },
+    {
+      "id": "S04_O_CROSS_017",
+      "source_id": "S04",
+      "speaker": "大滝悟郎",
+      "phase": "反対尋問",
+      "question_number": 17,
+      "pdf_pages": [
+        8
+      ],
+      "question": "本件駐車場に着いたのは午後 6 時過ぎ、冬ですから外は完全に真っ暗\nでしたね？",
+      "answer": "日は落ちて暗かったです。",
+      "classification": "実際の回答記録（内容の真実性・信用性は別）",
+      "caution": ""
+    },
+    {
+      "id": "S04_O_CROSS_018",
+      "source_id": "S04",
+      "speaker": "大滝悟郎",
+      "phase": "反対尋問",
+      "question_number": 18,
+      "pdf_pages": [
+        8
+      ],
+      "question": "当時、現場には約 10 台の車が止まっていましたね？",
+      "answer": "はい、それくらいありました。",
+      "classification": "実際の回答記録（内容の真実性・信用性は別）",
+      "caution": ""
+    },
+    {
+      "id": "S04_O_CROSS_019",
+      "source_id": "S04",
+      "speaker": "大滝悟郎",
+      "phase": "反対尋問",
+      "question_number": 19,
+      "pdf_pages": [
+        8
+      ],
+      "question": "あなたが歩いたのは東出入り口と南出入り口を結ぶ目立つ通路だけ\nで、車と車の間や端の方まで一歩一歩歩いて確認したわけではありませんね？",
+      "answer": "通過しながら全体を見たという感じです。",
+      "classification": "実際の回答記録（内容の真実性・信用性は別）",
+      "caution": ""
+    },
+    {
+      "id": "S04_O_CROSS_020",
+      "source_id": "S04",
+      "speaker": "大滝悟郎",
+      "phase": "反対尋問",
+      "question_number": 20,
+      "pdf_pages": [
+        9
+      ],
+      "question": "急いで歩き回りながらの清掃であったため、暗がりや車の陰に落ちてい\nる小さな眼鏡を見落としてしまった可能性は否定できませんね？",
+      "answer": "自分ではしっかり見たつもりですが（…絶対にないとは言い切れませ\nん。 ）",
+      "classification": "実際の回答記録（内容の真実性・信用性は別）",
+      "caution": "括弧内が実発言か注記か未確認"
+    },
+    {
+      "id": "S04_O_CROSS_021",
+      "source_id": "S04",
+      "speaker": "大滝悟郎",
+      "phase": "反対尋問",
+      "question_number": 21,
+      "pdf_pages": [
+        9
+      ],
+      "question": "本件駐車場を出た後、5 つ目の駐車場にも行きましたね？",
+      "answer": "はい。",
+      "classification": "実際の回答記録（内容の真実性・信用性は別）",
+      "caution": ""
+    },
+    {
+      "id": "S04_O_CROSS_022",
+      "source_id": "S04",
+      "speaker": "大滝悟郎",
+      "phase": "反対尋問",
+      "question_number": 22,
+      "pdf_pages": [
+        9
+      ],
+      "question": "5 つ目の駐車場に着いた時間や作業時間も、焦っていたためによく覚え\nていませんね？",
+      "answer": "はい、あまり覚えていません。",
+      "classification": "実際の回答記録（内容の真実性・信用性は別）",
+      "caution": ""
+    },
+    {
+      "id": "S04_O_CROSS_023",
+      "source_id": "S04",
+      "speaker": "大滝悟郎",
+      "phase": "反対尋問",
+      "question_number": 23,
+      "pdf_pages": [
+        9
+      ],
+      "question": "事務所に帰社した時間も、正確な時刻の記憶はありませんね？",
+      "answer": "はい、大体それくらいだったという感覚です。",
+      "classification": "実際の回答記録（内容の真実性・信用性は別）",
+      "caution": ""
+    },
+    {
+      "id": "S04_O_CROSS_024",
+      "source_id": "S04",
+      "speaker": "大滝悟郎",
+      "phase": "反対尋問",
+      "question_number": 24,
+      "pdf_pages": [
+        9
+      ],
+      "question": "当日の出来事について、記憶が混乱したり不確かになっている部分が\nあるのではないですか？",
+      "answer": "とにかく当日は時間に追われて焦っていたので、細かい部分の記憶は\n混乱しているかもしれません。",
+      "classification": "実際の回答記録（内容の真実性・信用性は別）",
+      "caution": ""
+    },
+    {
+      "id": "S04_O_CROSS_025",
+      "source_id": "S04",
+      "speaker": "大滝悟郎",
+      "phase": "反対尋問",
+      "question_number": 25,
+      "pdf_pages": [
+        9
+      ],
+      "question": "焦りのあまり、本件駐車場での清掃状況についてのあなたの記憶も、\n実際より「ちゃんとやった」と思い込んでいるだけではありませんか？",
+      "answer": "…自分としてはやったつもりですが、焦っていたのは確かです。",
+      "classification": "実際の回答記録（内容の真実性・信用性は別）",
+      "caution": ""
+    },
+    {
+      "id": "S04_K_MAIN_001",
+      "source_id": "S04",
+      "speaker": "木村忠太",
+      "phase": "主質問",
+      "question_number": 1,
+      "pdf_pages": [
+        10
+      ],
+      "question": "事件当日ですが、朝は何をしていましたか。",
+      "answer": "会社の仕事納めの日で出勤していました。",
+      "classification": "実際の回答記録（内容の真実性・信用性は別）",
+      "caution": ""
+    },
+    {
+      "id": "S04_K_MAIN_002",
+      "source_id": "S04",
+      "speaker": "木村忠太",
+      "phase": "主質問",
+      "question_number": 2,
+      "pdf_pages": [
+        10
+      ],
+      "question": "当日はどんな服を着て会社へ行きましたか。",
+      "answer": "ニットのセーターに、黒いズボンの私服で行きました。",
+      "classification": "実際の回答記録（内容の真実性・信用性は別）",
+      "caution": ""
+    },
+    {
+      "id": "S04_K_MAIN_003",
+      "source_id": "S04",
+      "speaker": "木村忠太",
+      "phase": "主質問",
+      "question_number": 3,
+      "pdf_pages": [
+        10
+      ],
+      "question": "仕事の後は何をしましたか。",
+      "answer": "午前中で仕事が終わり、職場の忘年会に行きました。",
+      "classification": "実際の回答記録（内容の真実性・信用性は別）",
+      "caution": ""
+    },
+    {
+      "id": "S04_K_MAIN_004",
+      "source_id": "S04",
+      "speaker": "木村忠太",
+      "phase": "主質問",
+      "question_number": 4,
+      "pdf_pages": [
+        10
+      ],
+      "question": "忘年会はどこで行われましたか。",
+      "answer": "五哲駅西口の「なんちゃっ亭」というお店です。",
+      "classification": "実際の回答記録（内容の真実性・信用性は別）",
+      "caution": ""
+    },
+    {
+      "id": "S04_K_MAIN_005",
+      "source_id": "S04",
+      "speaker": "木村忠太",
+      "phase": "主質問",
+      "question_number": 5,
+      "pdf_pages": [
+        10
+      ],
+      "question": "忘年会は何時から始まりましたか。",
+      "answer": "午後０時からです。",
+      "classification": "実際の回答記録（内容の真実性・信用性は別）",
+      "caution": ""
+    },
+    {
+      "id": "S04_K_MAIN_006",
+      "source_id": "S04",
+      "speaker": "木村忠太",
+      "phase": "主質問",
+      "question_number": 6,
+      "pdf_pages": [
+        10
+      ],
+      "question": "お酒は飲みましたか。",
+      "answer": "はい。",
+      "classification": "実際の回答記録（内容の真実性・信用性は別）",
+      "caution": ""
+    },
+    {
+      "id": "S04_K_MAIN_007",
+      "source_id": "S04",
+      "speaker": "木村忠太",
+      "phase": "主質問",
+      "question_number": 7,
+      "pdf_pages": [
+        10
+      ],
+      "question": "どんなお酒を飲みましたか。",
+      "answer": "生ビール２杯と、日本酒の酔鯨を６合だったと思います。",
+      "classification": "実際の回答記録（内容の真実性・信用性は別）",
+      "caution": ""
+    },
+    {
+      "id": "S04_K_MAIN_008",
+      "source_id": "S04",
+      "speaker": "木村忠太",
+      "phase": "主質問",
+      "question_number": 8,
+      "pdf_pages": [
+        11
+      ],
+      "question": "酔いましたか。",
+      "answer": "酔いました。",
+      "classification": "実際の回答記録（内容の真実性・信用性は別）",
+      "caution": ""
+    },
+    {
+      "id": "S04_K_MAIN_009",
+      "source_id": "S04",
+      "speaker": "木村忠太",
+      "phase": "主質問",
+      "question_number": 9,
+      "pdf_pages": [
+        11
+      ],
+      "question": "どの程度酔いましたか。",
+      "answer": "かなり酔っぱらっていました。",
+      "classification": "実際の回答記録（内容の真実性・信用性は別）",
+      "caution": ""
+    },
+    {
+      "id": "S04_K_MAIN_010",
+      "source_id": "S04",
+      "speaker": "木村忠太",
+      "phase": "主質問",
+      "question_number": 10,
+      "pdf_pages": [
+        11
+      ],
+      "question": "忘年会は何時に終わりましたか。",
+      "answer": "午後２時ぐらいです。",
+      "classification": "実際の回答記録（内容の真実性・信用性は別）",
+      "caution": ""
+    },
+    {
+      "id": "S04_K_MAIN_011",
+      "source_id": "S04",
+      "speaker": "木村忠太",
+      "phase": "主質問",
+      "question_number": 11,
+      "pdf_pages": [
+        11
+      ],
+      "question": "その後はどうしましたか。",
+      "answer": "自宅へ帰りました。",
+      "classification": "実際の回答記録（内容の真実性・信用性は別）",
+      "caution": ""
+    },
+    {
+      "id": "S04_K_MAIN_012",
+      "source_id": "S04",
+      "speaker": "木村忠太",
+      "phase": "主質問",
+      "question_number": 12,
+      "pdf_pages": [
+        11
+      ],
+      "question": "どこを通って帰りましたか。",
+      "answer": "（甲１号証現場見取図に図示）この図面の通りです。",
+      "classification": "実際の回答記録（内容の真実性・信用性は別）",
+      "caution": "図示した経路は原PDFに未収録"
+    },
+    {
+      "id": "S04_K_MAIN_013",
+      "source_id": "S04",
+      "speaker": "木村忠太",
+      "phase": "主質問",
+      "question_number": 13,
+      "pdf_pages": [
+        11
+      ],
+      "question": "駐車場の横を通って帰ったんですね。",
+      "answer": "はい。",
+      "classification": "実際の回答記録（内容の真実性・信用性は別）",
+      "caution": ""
+    },
+    {
+      "id": "S04_K_MAIN_014",
+      "source_id": "S04",
+      "speaker": "木村忠太",
+      "phase": "主質問",
+      "question_number": 14,
+      "pdf_pages": [
+        11
+      ],
+      "question": "どうやって帰りましたか。",
+      "answer": "歩いて帰りました。",
+      "classification": "実際の回答記録（内容の真実性・信用性は別）",
+      "caution": ""
+    },
+    {
+      "id": "S04_K_MAIN_015",
+      "source_id": "S04",
+      "speaker": "木村忠太",
+      "phase": "主質問",
+      "question_number": 15,
+      "pdf_pages": [
+        11
+      ],
+      "question": "なんちゃっ亭から自宅まで、何分くらい歩きましたか。",
+      "answer": "１５分くらいです。",
+      "classification": "実際の回答記録（内容の真実性・信用性は別）",
+      "caution": ""
+    },
+    {
+      "id": "S04_K_MAIN_016",
+      "source_id": "S04",
+      "speaker": "木村忠太",
+      "phase": "主質問",
+      "question_number": 16,
+      "pdf_pages": [
+        12
+      ],
+      "question": "自宅についた後はどうしましたか。",
+      "answer": "すぐに寝てしまいました。",
+      "classification": "実際の回答記録（内容の真実性・信用性は別）",
+      "caution": ""
+    },
+    {
+      "id": "S04_K_MAIN_017",
+      "source_id": "S04",
+      "speaker": "木村忠太",
+      "phase": "主質問",
+      "question_number": 17,
+      "pdf_pages": [
+        12
+      ],
+      "question": "それは、どうしてですか。",
+      "answer": "自宅についた時点でも、かなり酔っぱらっていましたので。",
+      "classification": "実際の回答記録（内容の真実性・信用性は別）",
+      "caution": ""
+    },
+    {
+      "id": "S04_K_MAIN_018",
+      "source_id": "S04",
+      "speaker": "木村忠太",
+      "phase": "主質問",
+      "question_number": 18,
+      "pdf_pages": [
+        12
+      ],
+      "question": "起きたのは何時くらいですか。",
+      "answer": "午後５時ぐらいです。",
+      "classification": "実際の回答記録（内容の真実性・信用性は別）",
+      "caution": ""
+    },
+    {
+      "id": "S04_K_MAIN_019",
+      "source_id": "S04",
+      "speaker": "木村忠太",
+      "phase": "主質問",
+      "question_number": 19,
+      "pdf_pages": [
+        12
+      ],
+      "question": "起きた後はどうしましたか。",
+      "answer": "頭が痛かったので、ぼんやりとテレビを見て、その後午後 6 時ぐらいにラ\nーメンを作って食べました。",
+      "classification": "実際の回答記録（内容の真実性・信用性は別）",
+      "caution": ""
+    },
+    {
+      "id": "S04_K_MAIN_020",
+      "source_id": "S04",
+      "speaker": "木村忠太",
+      "phase": "主質問",
+      "question_number": 20,
+      "pdf_pages": [
+        12
+      ],
+      "question": "どんなラーメンを食べましたか。",
+      "answer": "南国高知のカツオ人間ラーメンです。",
+      "classification": "実際の回答記録（内容の真実性・信用性は別）",
+      "caution": ""
+    },
+    {
+      "id": "S04_K_MAIN_021",
+      "source_id": "S04",
+      "speaker": "木村忠太",
+      "phase": "主質問",
+      "question_number": 21,
+      "pdf_pages": [
+        12
+      ],
+      "question": "テレビは何を見ていましたか。",
+      "answer": "明石家さんまさんの、ご長寿グランプリです。",
+      "classification": "実際の回答記録（内容の真実性・信用性は別）",
+      "caution": ""
+    },
+    {
+      "id": "S04_K_MAIN_022",
+      "source_id": "S04",
+      "speaker": "木村忠太",
+      "phase": "主質問",
+      "question_number": 22,
+      "pdf_pages": [
+        12
+      ],
+      "question": "その後はどうしましたか。",
+      "answer": "午後７時３０分頃にシャワーを浴びて、その後もテレビを見た後、午後８\n時３０分頃に寝ました。",
+      "classification": "実際の回答記録（内容の真実性・信用性は別）",
+      "caution": ""
+    },
+    {
+      "id": "S04_K_MAIN_023",
+      "source_id": "S04",
+      "speaker": "木村忠太",
+      "phase": "主質問",
+      "question_number": 23,
+      "pdf_pages": [
+        12,
+        13
+      ],
+      "question": "自宅に帰った後、あなたは外出をしましたか。",
+      "answer": "していません。",
+      "classification": "実際の回答記録（内容の真実性・信用性は別）",
+      "caution": ""
+    },
+    {
+      "id": "S04_K_MAIN_024",
+      "source_id": "S04",
+      "speaker": "木村忠太",
+      "phase": "主質問",
+      "question_number": 24,
+      "pdf_pages": [
+        13
+      ],
+      "question": "事件現場に眼鏡が残っていたのですが、この眼鏡はあなたのものですか。",
+      "answer": "それは間違いありません。",
+      "classification": "実際の回答記録（内容の真実性・信用性は別）",
+      "caution": ""
+    },
+    {
+      "id": "S04_K_MAIN_025",
+      "source_id": "S04",
+      "speaker": "木村忠太",
+      "phase": "主質問",
+      "question_number": 25,
+      "pdf_pages": [
+        13
+      ],
+      "question": "眼鏡がないことにいつ気付きましたか。",
+      "answer": "次の日の朝です。いつもおいている洗面所の右横スペースになかったの\nで、無くしたのではないかと思いました。",
+      "classification": "実際の回答記録（内容の真実性・信用性は別）",
+      "caution": ""
+    },
+    {
+      "id": "S04_K_MAIN_026",
+      "source_id": "S04",
+      "speaker": "木村忠太",
+      "phase": "主質問",
+      "question_number": 26,
+      "pdf_pages": [
+        13
+      ],
+      "question": "眼鏡がないことに気付いて、あなたはどうしましたか。",
+      "answer": "最初は、なんちゃっ亭に忘れたのだと思いました。しかし、落ち着いて思\nい出すと、帰り際に駐車場の横でこけたことを思い出し、そこで落したので\nはないかと思って探しに行きました。",
+      "classification": "実際の回答記録（内容の真実性・信用性は別）",
+      "caution": ""
+    },
+    {
+      "id": "S04_K_MAIN_027",
+      "source_id": "S04",
+      "speaker": "木村忠太",
+      "phase": "主質問",
+      "question_number": 27,
+      "pdf_pages": [
+        13
+      ],
+      "question": "眼鏡は見つかりましたか。",
+      "answer": "見つかりませんでした。",
+      "classification": "実際の回答記録（内容の真実性・信用性は別）",
+      "caution": ""
+    },
+    {
+      "id": "S04_K_MAIN_028",
+      "source_id": "S04",
+      "speaker": "木村忠太",
+      "phase": "主質問",
+      "question_number": 28,
+      "pdf_pages": [
+        13
+      ],
+      "question": "１２月２８日以降はどうしていましたか。",
+      "answer": "土佐市の実家に戻り、１月４日までゆっくりしていました。",
+      "classification": "実際の回答記録（内容の真実性・信用性は別）",
+      "caution": ""
+    },
+    {
+      "id": "S04_K_MAIN_029",
+      "source_id": "S04",
+      "speaker": "木村忠太",
+      "phase": "主質問",
+      "question_number": 29,
+      "pdf_pages": [
+        13
+      ],
+      "question": "眼鏡はどうしていましたか。",
+      "answer": "以前使っていた古い眼鏡を使っていました。",
+      "classification": "実際の回答記録（内容の真実性・信用性は別）",
+      "caution": ""
+    },
+    {
+      "id": "S04_K_MAIN_030",
+      "source_id": "S04",
+      "speaker": "木村忠太",
+      "phase": "主質問",
+      "question_number": 30,
+      "pdf_pages": [
+        13
+      ],
+      "question": "その後、１月５日に警察が自宅へ来たのですね。",
+      "answer": "はい。",
+      "classification": "実際の回答記録（内容の真実性・信用性は別）",
+      "caution": ""
+    },
+    {
+      "id": "S04_K_MAIN_031",
+      "source_id": "S04",
+      "speaker": "木村忠太",
+      "phase": "主質問",
+      "question_number": 31,
+      "pdf_pages": [
+        14
+      ],
+      "question": "ハイツ京極の駐輪場にあった自転車ですが、だれでも使えるものですか。",
+      "answer": "はい。",
+      "classification": "実際の回答記録（内容の真実性・信用性は別）",
+      "caution": ""
+    },
+    {
+      "id": "S04_K_MAIN_032",
+      "source_id": "S04",
+      "speaker": "木村忠太",
+      "phase": "主質問",
+      "question_number": 32,
+      "pdf_pages": [
+        14
+      ],
+      "question": "それは誰から聞いたことですか。",
+      "answer": "以前に２０４号室に住んでいた澤田さんからです。",
+      "classification": "実際の回答記録（内容の真実性・信用性は別）",
+      "caution": ""
+    },
+    {
+      "id": "S04_K_MAIN_033",
+      "source_id": "S04",
+      "speaker": "木村忠太",
+      "phase": "主質問",
+      "question_number": 33,
+      "pdf_pages": [
+        14
+      ],
+      "question": "ハイツ京極の人は、みんな自転車を使っていたのですか。",
+      "answer": "今、７人がハイツ京極に住んでいて、うち２人は自分の自転車を持ってい\nます。そのため、共用の自転車を使うのは、私も含めて５人だと思います。",
+      "classification": "実際の回答記録（内容の真実性・信用性は別）",
+      "caution": ""
+    },
+    {
+      "id": "S04_K_MAIN_034",
+      "source_id": "S04",
+      "speaker": "木村忠太",
+      "phase": "主質問",
+      "question_number": 34,
+      "pdf_pages": [
+        14
+      ],
+      "question": "あなたは自転車を何の用事で使いますか。",
+      "answer": "休みの日に買い物に使うことがあります。週１～２回ぐらいですが、使わ\nない週もあります。",
+      "classification": "実際の回答記録（内容の真実性・信用性は別）",
+      "caution": ""
+    },
+    {
+      "id": "S04_K_MAIN_035",
+      "source_id": "S04",
+      "speaker": "木村忠太",
+      "phase": "主質問",
+      "question_number": 35,
+      "pdf_pages": [
+        14
+      ],
+      "question": "他の人が自転車を使っているのを見たことはありますか。",
+      "answer": "あります。",
+      "classification": "実際の回答記録（内容の真実性・信用性は別）",
+      "caution": ""
+    },
+    {
+      "id": "S04_K_MAIN_036",
+      "source_id": "S04",
+      "speaker": "木村忠太",
+      "phase": "主質問",
+      "question_number": 36,
+      "pdf_pages": [
+        14
+      ],
+      "question": "１２月２６日に自転車は使いましたか。",
+      "answer": "使っていません。",
+      "classification": "実際の回答記録（内容の真実性・信用性は別）",
+      "caution": ""
+    },
+    {
+      "id": "S04_K_MAIN_037",
+      "source_id": "S04",
+      "speaker": "木村忠太",
+      "phase": "主質問",
+      "question_number": 37,
+      "pdf_pages": [
+        14
+      ],
+      "question": "被害者の岸井さんとはどんな関係でしたか。",
+      "answer": "通っていた高知県立五万十工業高校の同級生でした。",
+      "classification": "実際の回答記録（内容の真実性・信用性は別）",
+      "caution": ""
+    },
+    {
+      "id": "S04_K_MAIN_038",
+      "source_id": "S04",
+      "speaker": "木村忠太",
+      "phase": "主質問",
+      "question_number": 38,
+      "pdf_pages": [
+        15
+      ],
+      "question": "岸井さんにはどんな印象を持っていましたか。",
+      "answer": "軽いというか、チャラい感じの人で、正直に言うとあまり好きではありま\nせんでした。",
+      "classification": "実際の回答記録（内容の真実性・信用性は別）",
+      "caution": ""
+    },
+    {
+      "id": "S04_K_MAIN_039",
+      "source_id": "S04",
+      "speaker": "木村忠太",
+      "phase": "主質問",
+      "question_number": 39,
+      "pdf_pages": [
+        15
+      ],
+      "question": "仲は良かったのですか。",
+      "answer": "高校の時に話したことはありません。同窓会で少し話したことがある程度\nです。",
+      "classification": "実際の回答記録（内容の真実性・信用性は別）",
+      "caution": ""
+    },
+    {
+      "id": "S04_K_MAIN_040",
+      "source_id": "S04",
+      "speaker": "木村忠太",
+      "phase": "主質問",
+      "question_number": 40,
+      "pdf_pages": [
+        15
+      ],
+      "question": "本所マサミさんとの関係はどのようなものでしたか。",
+      "answer": "元交際相手です。令和７年１０月２５日に一方的に別れを告げられまし\nた。",
+      "classification": "実際の回答記録（内容の真実性・信用性は別）",
+      "caution": ""
+    },
+    {
+      "id": "S04_K_MAIN_041",
+      "source_id": "S04",
+      "speaker": "木村忠太",
+      "phase": "主質問",
+      "question_number": 41,
+      "pdf_pages": [
+        15
+      ],
+      "question": "別れた後、マサミさんにはどのような思いを持っているのですか。",
+      "answer": "マサミとは結婚を考えていたので、別れたくなかかったのはそのとおりで\nす。しかし、今は未練はなく、どうでもいいと思っていました。",
+      "classification": "実際の回答記録（内容の真実性・信用性は別）",
+      "caution": ""
+    },
+    {
+      "id": "S04_K_MAIN_042",
+      "source_id": "S04",
+      "speaker": "木村忠太",
+      "phase": "主質問",
+      "question_number": 42,
+      "pdf_pages": [
+        15
+      ],
+      "question": "甲２号証の LINE では、 「マジで許せん。岸井」等のメッセージをマサミさ\nんへ送っていますが、岸井さんに対してはどのように思っていたのですか。",
+      "answer": "マサミと岸井さんが付き合っているのを知って、頭にきていたのは本当で\nす。しかし、恨むとか、殺したいとかまでの気持ちはありません。",
+      "classification": "実際の回答記録（内容の真実性・信用性は別）",
+      "caution": ""
+    },
+    {
+      "id": "S04_K_MAIN_043",
+      "source_id": "S04",
+      "speaker": "木村忠太",
+      "phase": "主質問",
+      "question_number": 43,
+      "pdf_pages": [
+        15
+      ],
+      "question": "岸井さんの連絡先や自宅、職場は知っていますか。",
+      "answer": "何も知りません。",
+      "classification": "実際の回答記録（内容の真実性・信用性は別）",
+      "caution": ""
+    },
+    {
+      "id": "S04_K_MAIN_044",
+      "source_id": "S04",
+      "speaker": "木村忠太",
+      "phase": "主質問",
+      "question_number": 44,
+      "pdf_pages": [
+        15,
+        16
+      ],
+      "question": "岸井さんが、事件現場となった駐車場を使っていたことは知っていました\nか。",
+      "answer": "それは知っていました。駐車場で見かけたことがあったからです。",
+      "classification": "実際の回答記録（内容の真実性・信用性は別）",
+      "caution": ""
+    },
+    {
+      "id": "S04_K_MAIN_045",
+      "source_id": "S04",
+      "speaker": "木村忠太",
+      "phase": "主質問",
+      "question_number": 45,
+      "pdf_pages": [
+        16
+      ],
+      "question": "岸井さんが何時くらいに使っていたのか、知っていましたか。",
+      "answer": "何度か見かけたことがあるのですが、昼だったり、夜だったり、バラバラ\nです。したがって、岸井さんが駐車場を使っていたのかまでは分かりませ\nん。",
+      "classification": "実際の回答記録（内容の真実性・信用性は別）",
+      "caution": ""
+    },
+    {
+      "id": "S04_K_CROSS_001",
+      "source_id": "S04",
+      "speaker": "木村忠太",
+      "phase": "反対質問",
+      "question_number": 1,
+      "pdf_pages": [
+        16
+      ],
+      "question": "眼鏡を無くしたとのことですが、あなたの視力はどれぐらいですか。",
+      "answer": "０．７ぐらいです。",
+      "classification": "実際の回答記録（内容の真実性・信用性は別）",
+      "caution": ""
+    },
+    {
+      "id": "S04_K_CROSS_002",
+      "source_id": "S04",
+      "speaker": "木村忠太",
+      "phase": "反対質問",
+      "question_number": 2,
+      "pdf_pages": [
+        16
+      ],
+      "question": "眼鏡がなければ見えないのではないですか。",
+      "answer": "見えないことはないです。家の中では眼鏡をはずすことも結構あります。\nだから気づかなかったのだと思います。",
+      "classification": "実際の回答記録（内容の真実性・信用性は別）",
+      "caution": ""
+    },
+    {
+      "id": "S04_K_CROSS_003",
+      "source_id": "S04",
+      "speaker": "木村忠太",
+      "phase": "反対質問",
+      "question_number": 3,
+      "pdf_pages": [
+        16
+      ],
+      "question": "なんちゃっ亭から自宅へ帰る途中、駐車場の中に入りましたか。",
+      "answer": "入ってはいません。",
+      "classification": "実際の回答記録（内容の真実性・信用性は別）",
+      "caution": ""
+    },
+    {
+      "id": "S04_K_CROSS_004",
+      "source_id": "S04",
+      "speaker": "木村忠太",
+      "phase": "反対質問",
+      "question_number": 4,
+      "pdf_pages": [
+        16
+      ],
+      "question": "いままで転んで眼鏡を無くしたことはありますか。",
+      "answer": "ありません。",
+      "classification": "実際の回答記録（内容の真実性・信用性は別）",
+      "caution": ""
+    },
+    {
+      "id": "S04_K_CROSS_005",
+      "source_id": "S04",
+      "speaker": "木村忠太",
+      "phase": "反対質問",
+      "question_number": 5,
+      "pdf_pages": [
+        16
+      ],
+      "question": "いままでお酒に酔って転んだことはありますか。",
+      "answer": "それはあります。",
+      "classification": "実際の回答記録（内容の真実性・信用性は別）",
+      "caution": ""
+    },
+    {
+      "id": "S04_K_CROSS_006",
+      "source_id": "S04",
+      "speaker": "木村忠太",
+      "phase": "反対質問",
+      "question_number": 6,
+      "pdf_pages": [
+        17
+      ],
+      "question": "こけて怪我はしましたか。",
+      "answer": "後から見ると、右膝が少し腫れていました。血は出ていません。",
+      "classification": "実際の回答記録（内容の真実性・信用性は別）",
+      "caution": ""
+    },
+    {
+      "id": "S04_K_CROSS_007",
+      "source_id": "S04",
+      "speaker": "木村忠太",
+      "phase": "反対質問",
+      "question_number": 7,
+      "pdf_pages": [
+        17
+      ],
+      "question": "病院には行ったのですか。",
+      "answer": "行っていません。",
+      "classification": "実際の回答記録（内容の真実性・信用性は別）",
+      "caution": ""
+    },
+    {
+      "id": "S04_K_CROSS_008",
+      "source_id": "S04",
+      "speaker": "木村忠太",
+      "phase": "反対質問",
+      "question_number": 8,
+      "pdf_pages": [
+        17
+      ],
+      "question": "先ほど７時３０分頃にシャワーを浴びたとおっしゃっておられましたが、\n着替えましたか。",
+      "answer": "はい。",
+      "classification": "実際の回答記録（内容の真実性・信用性は別）",
+      "caution": ""
+    },
+    {
+      "id": "S04_K_CROSS_009",
+      "source_id": "S04",
+      "speaker": "木村忠太",
+      "phase": "反対質問",
+      "question_number": 9,
+      "pdf_pages": [
+        17
+      ],
+      "question": "どんな服に着替えましたか。",
+      "answer": "シャワーを浴びた後なので、ラフな格好にしました。上下黒色のスウェッ\nトです。",
+      "classification": "実際の回答記録（内容の真実性・信用性は別）",
+      "caution": ""
+    },
+    {
+      "id": "S04_K_CROSS_010",
+      "source_id": "S04",
+      "speaker": "木村忠太",
+      "phase": "反対質問",
+      "question_number": 10,
+      "pdf_pages": [
+        17
+      ],
+      "question": "黒色のダウンジャケットは持っているのですか。",
+      "answer": "持っています。",
+      "classification": "実際の回答記録（内容の真実性・信用性は別）",
+      "caution": ""
+    },
+    {
+      "id": "S04_K_CROSS_011",
+      "source_id": "S04",
+      "speaker": "木村忠太",
+      "phase": "反対質問",
+      "question_number": 11,
+      "pdf_pages": [
+        17
+      ],
+      "question": "先程主尋問で、あなたが寝た時間は、午後８時３０分ごろとおっしゃいま\nしたね。",
+      "answer": "はい。",
+      "classification": "実際の回答記録（内容の真実性・信用性は別）",
+      "caution": ""
+    },
+    {
+      "id": "S04_K_CROSS_012",
+      "source_id": "S04",
+      "speaker": "木村忠太",
+      "phase": "反対質問",
+      "question_number": 12,
+      "pdf_pages": [
+        17
+      ],
+      "question": "捜査段階では午後９時ごろと言っていませんでしたか。",
+      "answer": "よく覚えていません。もしかしたら午後９時かもしれません。",
+      "classification": "実際の回答記録（内容の真実性・信用性は別）",
+      "caution": ""
+    },
+    {
+      "id": "S04_K_CROSS_013",
+      "source_id": "S04",
+      "speaker": "木村忠太",
+      "phase": "反対質問",
+      "question_number": 13,
+      "pdf_pages": [
+        17,
+        18
+      ],
+      "question": "次の日眼鏡を探しに行って見つからなかったんですよね。",
+      "answer": "はい。",
+      "classification": "実際の回答記録（内容の真実性・信用性は別）",
+      "caution": ""
+    },
+    {
+      "id": "S04_K_CROSS_014",
+      "source_id": "S04",
+      "speaker": "木村忠太",
+      "phase": "反対質問",
+      "question_number": 14,
+      "pdf_pages": [
+        18
+      ],
+      "question": "駐車場以外を探しましたか。",
+      "answer": "探していません。",
+      "classification": "実際の回答記録（内容の真実性・信用性は別）",
+      "caution": ""
+    },
+    {
+      "id": "S04_K_CROSS_015",
+      "source_id": "S04",
+      "speaker": "木村忠太",
+      "phase": "反対質問",
+      "question_number": 15,
+      "pdf_pages": [
+        18
+      ],
+      "question": "それはなぜですか。",
+      "answer": "こけたのは駐車場の横だからです。",
+      "classification": "実際の回答記録（内容の真実性・信用性は別）",
+      "caution": ""
+    },
+    {
+      "id": "S04_K_CROSS_016",
+      "source_id": "S04",
+      "speaker": "木村忠太",
+      "phase": "反対質問",
+      "question_number": 16,
+      "pdf_pages": [
+        18
+      ],
+      "question": "駐車場になかったのであれば、なんちゃっ亭とか、他の場所かもしれない\nのに、探さなかったのですか。",
+      "answer": "駐車場の近くでこけたときに無くしたと思ったので、他を探しませんでし\nた。",
+      "classification": "実際の回答記録（内容の真実性・信用性は別）",
+      "caution": ""
+    },
+    {
+      "id": "S04_K_CROSS_017",
+      "source_id": "S04",
+      "speaker": "木村忠太",
+      "phase": "反対質問",
+      "question_number": 17,
+      "pdf_pages": [
+        18
+      ],
+      "question": "無くした眼鏡はいくらぐらいで買ったものですか。",
+      "answer": "１５，０００円ぐらいです。",
+      "classification": "実際の回答記録（内容の真実性・信用性は別）",
+      "caution": ""
+    },
+    {
+      "id": "S04_K_CROSS_018",
+      "source_id": "S04",
+      "speaker": "木村忠太",
+      "phase": "反対質問",
+      "question_number": 18,
+      "pdf_pages": [
+        18
+      ],
+      "question": "古い眼鏡を使っていたとのことですが、不便ではなかったのですか。",
+      "answer": "見えやすさは劣りますが、古い眼鏡でも不自由は感じませんでした。",
+      "classification": "実際の回答記録（内容の真実性・信用性は別）",
+      "caution": ""
+    },
+    {
+      "id": "S04_K_CROSS_019",
+      "source_id": "S04",
+      "speaker": "木村忠太",
+      "phase": "反対質問",
+      "question_number": 19,
+      "pdf_pages": [
+        18
+      ],
+      "question": "眼鏡を無くして、交番に落し物の届けをしましたか。",
+      "answer": "していません。",
+      "classification": "実際の回答記録（内容の真実性・信用性は別）",
+      "caution": ""
+    },
+    {
+      "id": "S04_K_CROSS_020",
+      "source_id": "S04",
+      "speaker": "木村忠太",
+      "phase": "反対質問",
+      "question_number": 20,
+      "pdf_pages": [
+        18
+      ],
+      "question": "それはなぜですか。",
+      "answer": "古い眼鏡で大丈夫だったので。",
+      "classification": "実際の回答記録（内容の真実性・信用性は別）",
+      "caution": ""
+    },
+    {
+      "id": "S04_K_CROSS_021",
+      "source_id": "S04",
+      "speaker": "木村忠太",
+      "phase": "反対質問",
+      "question_number": 21,
+      "pdf_pages": [
+        19
+      ],
+      "question": "自転車ですが、鍵はかかっていたのですか。",
+      "answer": "かかっておりません。なので、だれでも使うことができました。",
+      "classification": "実際の回答記録（内容の真実性・信用性は別）",
+      "caution": ""
+    },
+    {
+      "id": "S04_K_CROSS_022",
+      "source_id": "S04",
+      "speaker": "木村忠太",
+      "phase": "反対質問",
+      "question_number": 22,
+      "pdf_pages": [
+        19
+      ],
+      "question": "自転車を最後に使ったのは本当に１２月２４日ですか。",
+      "answer": "はい。",
+      "classification": "実際の回答記録（内容の真実性・信用性は別）",
+      "caution": ""
+    },
+    {
+      "id": "S04_K_CROSS_023",
+      "source_id": "S04",
+      "speaker": "木村忠太",
+      "phase": "反対質問",
+      "question_number": 23,
+      "pdf_pages": [
+        19
+      ],
+      "question": "１２月２４日以降に、買い物等でも使わなかったのですか。",
+      "answer": "歩いていける距離にコンビニやスーパーもあるので、買い物でも使わない\nときはあります。",
+      "classification": "実際の回答記録（内容の真実性・信用性は別）",
+      "caution": ""
+    },
+    {
+      "id": "S04_K_CROSS_024",
+      "source_id": "S04",
+      "speaker": "木村忠太",
+      "phase": "反対質問",
+      "question_number": 24,
+      "pdf_pages": [
+        19
+      ],
+      "question": "自転車には前カゴがついていませんが、買い物に使うことができたのです\nか。",
+      "answer": "重いリュックを持って歩くよりは、自転車の方が楽です。ちょっと離れた\n店に行くのには自転車の方がいいです。",
+      "classification": "実際の回答記録（内容の真実性・信用性は別）",
+      "caution": ""
+    },
+    {
+      "id": "S04_K_CROSS_025",
+      "source_id": "S04",
+      "speaker": "木村忠太",
+      "phase": "反対質問",
+      "question_number": 25,
+      "pdf_pages": [
+        19
+      ],
+      "question": "１２月２６日以降に自転車は駐輪場にあったのですか。",
+      "answer": "あったと思います。",
+      "classification": "実際の回答記録（内容の真実性・信用性は別）",
+      "caution": ""
+    },
+    {
+      "id": "S04_K_CROSS_026",
+      "source_id": "S04",
+      "speaker": "木村忠太",
+      "phase": "反対質問",
+      "question_number": 26,
+      "pdf_pages": [
+        19
+      ],
+      "question": "自転車に血痕が付いていたのは見ましたか。",
+      "answer": "使っていないので、分かりません。",
+      "classification": "実際の回答記録（内容の真実性・信用性は別）",
+      "caution": ""
+    },
+    {
+      "id": "S04_K_CROSS_027",
+      "source_id": "S04",
+      "speaker": "木村忠太",
+      "phase": "反対質問",
+      "question_number": 27,
+      "pdf_pages": [
+        19
+      ],
+      "question": "ハイツ京極の他の住民と交流はありますか。",
+      "answer": "先ほどの澤田さんは部屋が隣で時々廊下で会ったので、話すことはありま\nした。それ以外の人とは話したことはありません。澤田さんも２年くらい前\nに引っ越しています。",
+      "classification": "実際の回答記録（内容の真実性・信用性は別）",
+      "caution": ""
+    },
+    {
+      "id": "S04_K_CROSS_028",
+      "source_id": "S04",
+      "speaker": "木村忠太",
+      "phase": "反対質問",
+      "question_number": 28,
+      "pdf_pages": [
+        20
+      ],
+      "question": "マサミさんとの関係ですが、別れを告げられた後、マサミさんの自宅へ行\nきましたか。",
+      "answer": "２回行きました。",
+      "classification": "実際の回答記録（内容の真実性・信用性は別）",
+      "caution": ""
+    },
+    {
+      "id": "S04_K_CROSS_029",
+      "source_id": "S04",
+      "speaker": "木村忠太",
+      "phase": "反対質問",
+      "question_number": 29,
+      "pdf_pages": [
+        20
+      ],
+      "question": "それはなぜですか。",
+      "answer": "LINE もブロックされ、電話も出てくれなかったので、直接会って話したか\nったからです。",
+      "classification": "実際の回答記録（内容の真実性・信用性は別）",
+      "caution": ""
+    },
+    {
+      "id": "S04_K_CROSS_030",
+      "source_id": "S04",
+      "speaker": "木村忠太",
+      "phase": "反対質問",
+      "question_number": 30,
+      "pdf_pages": [
+        20
+      ],
+      "question": "話ができましたか。",
+      "answer": "結局会えず、話はできませんでした。",
+      "classification": "実際の回答記録（内容の真実性・信用性は別）",
+      "caution": ""
+    },
+    {
+      "id": "S04_K_CROSS_031",
+      "source_id": "S04",
+      "speaker": "木村忠太",
+      "phase": "反対質問",
+      "question_number": 31,
+      "pdf_pages": [
+        20
+      ],
+      "question": "マサミさんと岸井さんが付き合っていることを聞いて、どのように思いま\nしたか。",
+      "answer": "無神経な奴だと思いました。岸井はチャラい奴なので、よりによって岸井\nと付き合うなんてと思いました。",
+      "classification": "実際の回答記録（内容の真実性・信用性は別）",
+      "caution": ""
+    },
+    {
+      "id": "S04_K_CROSS_032",
+      "source_id": "S04",
+      "speaker": "木村忠太",
+      "phase": "反対質問",
+      "question_number": 32,
+      "pdf_pages": [
+        20
+      ],
+      "question": "あなたがマサミさんと岸井さんが付き合っていること聞いたのは、１２月\n２４日ですね。",
+      "answer": "はい。知り合いから、電話で聞きました。",
+      "classification": "実際の回答記録（内容の真実性・信用性は別）",
+      "caution": ""
+    },
+    {
+      "id": "S04_K_CROSS_033",
+      "source_id": "S04",
+      "speaker": "木村忠太",
+      "phase": "反対質問",
+      "question_number": 33,
+      "pdf_pages": [
+        20
+      ],
+      "question": "岸井さんがマサミさんを奪ったと思いましたか。",
+      "answer": "岸井が略奪したとは思ったことはあります。",
+      "classification": "実際の回答記録（内容の真実性・信用性は別）",
+      "caution": ""
+    },
+    {
+      "id": "S04_K_CROSS_034",
+      "source_id": "S04",
+      "speaker": "木村忠太",
+      "phase": "反対質問",
+      "question_number": 34,
+      "pdf_pages": [
+        20
+      ],
+      "question": "別れを告げられた理由について、マサミさんが岸井さんへ心移りしたから\nではないかと思ったのではないですか。",
+      "answer": "はい。",
+      "classification": "実際の回答記録（内容の真実性・信用性は別）",
+      "caution": ""
+    }
+  ],
+  "uncertainties": [
+    {
+      "id": "U01",
+      "issue": "大反20（p.9）の末尾が括弧付きの「…絶対にないとは言い切れません。」",
+      "handling": "括弧内も原文のまま保存。実発言か注記か未確認。括弧を除いても通過観察・急ぎ・記憶の限界という回答はあるが、見落としの明示的承認として使う際は確認が要る",
+      "status": "要確認・不一致を保持"
+    },
+    {
+      "id": "U02",
+      "issue": "木主22（p.12）は20:30頃就寝、木反12（p.17）は21時かもしれない。乙2 p.28は21時頃",
+      "handling": "双方の回答を併記。20:30の睡眠確定・外出確定・虚偽確定のどれにも一足で進まない",
+      "status": "要確認・不一致を保持"
+    },
+    {
+      "id": "U03",
+      "issue": "木主26〜27・木反14〜16は駐車場付近の捜索。乙2 p.28は自宅から駅前までの経路の捜索",
+      "handling": "範囲の差を残し、同じ範囲に整えない",
+      "status": "要確認・不一致を保持"
+    },
+    {
+      "id": "U04",
+      "issue": "木主7（p.10）は酔鯨6合と思う。乙2 p.27は1合銚子6〜7本",
+      "handling": "約6合という実回答と調書の幅を別記。客観的測定・医学的な酔いの推定を追加しない",
+      "status": "要確認・不一致を保持"
+    },
+    {
+      "id": "U05",
+      "issue": "木主12（p.11）に「甲1号証現場見取図に図示」とあるが、その図示・経路線はS04に収録されていない",
+      "handling": "分かるのは駐車場横を徒歩帰宅という回答まで。線・転倒位置を作図しない",
+      "status": "要確認・不一致を保持"
+    },
+    {
+      "id": "U06",
+      "issue": "木主44（p.15〜16）は駐車場利用を知っていた。主45（p.16）は時間帯が昼夜ばらばらと述べた後、「岸井さんが駐車場を使っていたのかまでは分かりません」と記載",
+      "handling": "末尾を「何時使っていたか不明」へ黙って訂正しない。問の趣旨と前後にずれがあり、利用認識の全面撤回とも決めない",
+      "status": "要確認・不一致を保持"
+    },
+    {
+      "id": "U07",
+      "issue": "乙2 p.29の敷地立入り質問と映像否定理由に12月27日。S04木反3は帰宅途中の立入り否定",
+      "handling": "別の記録として併記。S04に元調書の日付を訂正する明示の回答はない",
+      "status": "要確認・不一致を保持"
+    },
+    {
+      "id": "U08",
+      "issue": "約40区画（甲1 p.6）と契約約30台（大主5、p.1）、当日駐車約10台（大主23、p.4）",
+      "handling": "区画数・契約数・駐車数は別項目であり、それ自体は矛盾ではない。Bの遮蔽の有無もこの数だけでは分からない",
+      "status": "要確認・不一致を保持"
+    },
+    {
+      "id": "U09",
+      "issue": "本所について「今は未練はなく、どうでもいいと思っていました」（木主41、p.15）",
+      "handling": "「今」と過去形の混在を保持。12/24の怒りや当時の感情を消した回答と確定しない",
+      "status": "要確認・不一致を保持"
+    },
+    {
+      "id": "U10",
+      "issue": "実演日、記録者、逐語／要旨、採否変更の指示、録音照合が不明",
+      "handling": "ユーザーの実際の記録との確認は記載するが、不明項目をPDF作成日・AI判断で補わない",
+      "status": "要確認・不一致を保持"
+    }
+  ]
+}

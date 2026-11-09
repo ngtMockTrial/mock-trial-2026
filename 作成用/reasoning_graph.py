@@ -185,8 +185,8 @@ def availability(notes, ident):
     if m['kind']=='供述獲得候補':
         return 'candidate','供述の獲得候補・まだ証拠ではない'
     if m['kind']=='確認課題':
-        return 'question','確認作業・回答は未記録'
-    waiting=[n for n in closure(notes,ident) if notes[n]['meta']['status'] in {'採否留保','法廷未確認','未獲得'} or notes[n]['meta']['kind'] in {'準備資料','供述獲得候補'}]
+        return 'question','確認作業・未解決事項あり'
+    waiting=[n for n in closure(notes,ident) if notes[n]['meta']['status'] in {'採否留保','法廷未確認','確認待ち','未獲得'} or notes[n]['meta']['kind'] in {'準備資料','供述獲得候補'}]
     if waiting:
         return 'conditional','条件付き・未確認の前提あり：'+','.join(sorted(waiting))
     if m['kind']=='証拠':
