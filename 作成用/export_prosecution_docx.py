@@ -1,5 +1,6 @@
 """Export the prosecution draft and review material to editable Word files."""
 from pathlib import Path
+import argparse
 import re
 from docx import Document
 from docx.shared import Mm, Pt, RGBColor
@@ -136,6 +137,9 @@ def convert_review(doc, source):
 
 
 def main():
+    parser = argparse.ArgumentParser()
+    parser.add_argument('--suffix', default='', help='Save a separate revision without overwriting open Word files')
+    suffix = parser.parse_args().suffix
     OUT.mkdir(parents=True, exist_ok=True)
     source = ROOT / 'docs/25_論告案_実回答反映.md'
     text = source.read_text(encoding='utf-8')
@@ -169,7 +173,7 @@ def main():
             r.font.size = Pt(8)
             r.font.color.rgb = RGBColor(90, 90, 90)
             p.add_run(m.group(2))
-    draft_path = OUT / '木村忠太被告事件_論告案.docx'
+    draft_path = OUT / ('木村忠太被告事件_論告案' + suffix + '.docx')
     draft.save(draft_path)
     reread = Document(draft_path)
     actual = [re.sub(r'^P\d+[a-z]?　', '', p.text) for p in reread.paragraphs if re.match(r'^P\d+[a-z]?　', p.text)]
@@ -181,7 +185,7 @@ def main():
     convert_review(review, ROOT / 'docs/26_論告案の根拠と使用条件.md')
     prose(review, '追加論告教材の確認と利用', source.parent, 'Heading 1')
     convert_review(review, ROOT / 'docs/27_追加論告教材の確認と利用.md')
-    review_path = OUT / '木村忠太被告事件_根拠と使用条件.docx'
+    review_path = OUT / ('木村忠太被告事件_根拠と使用条件' + suffix + '.docx')
     review.save(review_path)
     print('Created:', draft_path)
     print('Created:', review_path)
