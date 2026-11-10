@@ -142,6 +142,8 @@ def main():
     parts = text.split('\n---\n')
     body = parts[1]
     draft = base('論告', body_size=12)
+    draft.styles['Normal'].paragraph_format.space_after = Pt(4)
+    draft.styles['Normal'].paragraph_format.line_spacing = Pt(19)
     draft.add_paragraph('学校名：　　　　　　　　　発表者名：　　　　　　　　　')
     p = draft.add_paragraph('木村忠太被告事件　12分用　人の確認前の案')
     p.style = draft.styles['Subtitle']
