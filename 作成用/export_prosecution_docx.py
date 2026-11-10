@@ -141,8 +141,9 @@ def main():
     text = source.read_text(encoding='utf-8')
     parts = text.split('\n---\n')
     body = parts[1]
-    draft = base('木村忠太被告事件 論告案', body_size=12)
-    p = draft.add_paragraph('12分用　人の確認前の案　Word版作成 2026年11月10日')
+    draft = base('論告', body_size=12)
+    draft.add_paragraph('学校名：　　　　　　　　　発表者名：　　　　　　　　　')
+    p = draft.add_paragraph('木村忠太被告事件　12分用　人の確認前の案')
     p.style = draft.styles['Subtitle']
     p.runs[0].font.size = Pt(10)
     p = draft.add_paragraph('甲3・乙2の使用は共有された大会運用が認められることが条件です。使用前に別冊の根拠と使用条件を確認してください。見出しとP番号は読み上げず、冒頭で発表者名を名乗ってください。')
@@ -154,9 +155,9 @@ def main():
         line = line.strip()
         if not line:
             continue
-        if line.startswith('## '):
-            title = line[3:].replace('、', ' ')
-            prose(draft, title, source.parent, 'Heading 1')
+        if line.startswith('##'):
+            title = line.lstrip('#').strip()
+            prose(draft, title, source.parent, 'Heading 2' if line.startswith('###') else 'Heading 1')
         else:
             m = re.match(r'〔(P\d+[a-z]?)〕(.*)', line)
             assert m, line
@@ -171,7 +172,7 @@ def main():
     reread = Document(draft_path)
     actual = [re.sub(r'^P\d+[a-z]?　', '', p.text) for p in reread.paragraphs if re.match(r'^P\d+[a-z]?　', p.text)]
     assert actual == expected, 'Draft content differs from the source'
-    assert len(actual) == 26
+    assert len(actual) == 29
 
     review = base('木村忠太被告事件 論告の根拠と使用条件')
     review.add_paragraph('論告案のP番号に対応する確認資料　Word版作成 2026年11月10日')
@@ -182,7 +183,7 @@ def main():
     review.save(review_path)
     print('Created:', draft_path)
     print('Created:', review_path)
-    print('Verified: 26 draft paragraphs match the source exactly')
+    print('Verified: 29 draft paragraphs match the source exactly')
 
 
 if __name__ == '__main__':
