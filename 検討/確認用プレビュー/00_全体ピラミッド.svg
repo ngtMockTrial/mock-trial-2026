@@ -2,10 +2,10 @@
 <defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#64748b"/></marker></defs>
 <rect x="-3210" y="-2200" width="5960" height="3620" fill="#f7f7f4"/>
 <text x="-3180" y="-2145" font-size="30" font-family="Meiryo,sans-serif">00_全体ピラミッド — 下から上へ読む／色・カード数は証拠の強さを表さない</text>
-<path d="M170,670.0 L-2630,150.0" stroke="#8a690c" stroke-width="2" fill="none" marker-end="url(#arrow)"/>
+<path d="M1960.0,0 L-2420.0,300" stroke="#377459" stroke-width="2" fill="none" marker-end="url(#arrow)"/>
 <path d="M1960.0,0 L-2420.0,300" stroke="#377459" stroke-width="2" fill="none" marker-end="url(#arrow)"/>
 <path d="M-2210,150.0 L-750,-670.0" stroke="#af4250" stroke-width="2" fill="none" marker-end="url(#arrow)"/>
-<path d="M670,670.0 L-2630,-260.0" stroke="#8a690c" stroke-width="2" fill="none" marker-end="url(#arrow)"/>
+<path d="M2460.0,0 L-2420.0,-110" stroke="#377459" stroke-width="2" fill="none" marker-end="url(#arrow)"/>
 <path d="M-2210,-260.0 L-250,-1080.0" stroke="#af4250" stroke-width="2" fill="none" marker-end="url(#arrow)"/>
 <path d="M-1040.0,0 L-2420.0,-520" stroke="#377459" stroke-width="2" fill="none" marker-end="url(#arrow)"/>
 <path d="M-540.0,0 L-2420.0,-520" stroke="#377459" stroke-width="2" fill="none" marker-end="url(#arrow)"/>
@@ -22,22 +22,26 @@
 <path d="M-2710,-1080.0 L0,-1900.0" stroke="#af4250" stroke-width="2" fill="none" marker-end="url(#arrow)"/>
 <path d="M-1040.0,0 L-1290.0,-110" stroke="#377459" stroke-width="2" fill="none" marker-end="url(#arrow)"/>
 <path d="M-540.0,0 L-790.0,-110" stroke="#377459" stroke-width="2" fill="none" marker-end="url(#arrow)"/>
-<path d="M170,670.0 L-500,-260.0" stroke="#8a690c" stroke-width="2" fill="none" marker-end="url(#arrow)"/>
+<path d="M1960.0,0 L-290.0,-110" stroke="#377459" stroke-width="2" fill="none" marker-end="url(#arrow)"/>
 <path d="M-40.0,0 L210.0,-110" stroke="#377459" stroke-width="2" fill="none" marker-end="url(#arrow)"/>
 <path d="M460.0,0 L710.0,-110" stroke="#377459" stroke-width="2" fill="none" marker-end="url(#arrow)"/>
 <path d="M960.0,0 L1210.0,-110" stroke="#377459" stroke-width="2" fill="none" marker-end="url(#arrow)"/>
 <path d="M-1540.0,0 L1710.0,-110" stroke="#377459" stroke-width="2" fill="none" marker-end="url(#arrow)"/>
 <path d="M1460.0,0 L2460.0,300" stroke="#377459" stroke-width="2" fill="none" marker-end="url(#arrow)"/>
+<path d="M1960.0,0 L2460.0,300" stroke="#377459" stroke-width="2" fill="none" marker-end="url(#arrow)"/>
 <path d="M2670,150.0 L-750,-670.0" stroke="#8a690c" stroke-width="2" fill="none" marker-end="url(#arrow)"/>
+<path d="M2460.0,0 L2460.0,-110" stroke="#377459" stroke-width="2" fill="none" marker-end="url(#arrow)"/>
 <path d="M2670,-260.0 L-250,-1080.0" stroke="#8a690c" stroke-width="2" fill="none" marker-end="url(#arrow)"/>
 <path d="M2670,-260.0 L-2630,-260.0" stroke="#8a690c" stroke-width="2" fill="none" marker-end="url(#arrow)"/>
+<path d="M2460.0,0 L2460.0,-520" stroke="#377459" stroke-width="2" fill="none" marker-end="url(#arrow)"/>
 <path d="M2670,-670.0 L-250,-670.0" stroke="#8a690c" stroke-width="2" fill="none" marker-end="url(#arrow)"/>
 <path d="M2670,-670.0 L250,-1080.0" stroke="#8a690c" stroke-width="2" fill="none" marker-end="url(#arrow)"/>
+<path d="M2460.0,0 L2460.0,-930" stroke="#377459" stroke-width="2" fill="none" marker-end="url(#arrow)"/>
 <path d="M2670,-1080.0 L250,-670.0" stroke="#8a690c" stroke-width="2" fill="none" marker-end="url(#arrow)"/>
 <path d="M2670,-1080.0 L750,-670.0" stroke="#8a690c" stroke-width="2" fill="none" marker-end="url(#arrow)"/>
 <path d="M2670,-1490.0 L-500,-1490.0" stroke="#8a690c" stroke-width="2" fill="none" marker-end="url(#arrow)"/>
 <path d="M2670,-1490.0 L0,-1900.0" stroke="#8a690c" stroke-width="2" fill="none" marker-end="url(#arrow)"/>
-<path d="M-80,-260.0 L-750,-670.0" stroke="#8a690c" stroke-width="2" fill="none" marker-end="url(#arrow)"/>
+<path d="M-290.0,-410 L-540.0,-520" stroke="#377459" stroke-width="2" fill="none" marker-end="url(#arrow)"/>
 <path d="M1960.0,0 L-540.0,-520" stroke="#377459" stroke-width="2" fill="none" marker-end="url(#arrow)"/>
 <path d="M-1290.0,-410 L-40.0,-930" stroke="#377459" stroke-width="2" fill="none" marker-end="url(#arrow)"/>
 <path d="M-790.0,-410 L-40.0,-930" stroke="#377459" stroke-width="2" fill="none" marker-end="url(#arrow)"/>
@@ -65,17 +69,15 @@
 <text x="-2612" y="60" font-size="17" font-family="Meiryo,sans-serif">見なかったことは不在の証明か</text>
 <text x="-2612" y="88" font-size="17" font-family="Meiryo,sans-serif">資料状態：反論案</text>
 <text x="-2612" y="116" font-size="17" font-family="Meiryo,sans-serif">人の判断：未レビュー</text>
-<text x="-2612" y="144" font-size="17" font-family="Meiryo,sans-serif">【現時点利用不可／条件付き】</text>
-<text x="-2612" y="172" font-size="17" font-family="Meiryo,sans-serif">観察条件・確認範囲が不明なら、見落としの余地</text>
-<text x="-2612" y="200" font-size="17" font-family="Meiryo,sans-serif">が残る。</text>
+<text x="-2612" y="144" font-size="17" font-family="Meiryo,sans-serif">観察条件・確認範囲が不明なら、見落としの余地</text>
+<text x="-2612" y="172" font-size="17" font-family="Meiryo,sans-serif">が残る。</text>
 <rect x="-2630" y="-410" width="420" height="300" rx="12" fill="#f4dedf" stroke="#7b858b"/>
 <text x="-2612" y="-378" font-size="17" font-family="Meiryo,sans-serif">D02  反論・弁護</text>
 <text x="-2612" y="-350" font-size="17" font-family="Meiryo,sans-serif">昼の紛失と別の機会の付着</text>
 <text x="-2612" y="-322" font-size="17" font-family="Meiryo,sans-serif">資料状態：仮説</text>
 <text x="-2612" y="-294" font-size="17" font-family="Meiryo,sans-serif">人の判断：未レビュー</text>
-<text x="-2612" y="-266" font-size="17" font-family="Meiryo,sans-serif">【現時点利用不可／条件付き】</text>
-<text x="-2612" y="-238" font-size="17" font-family="Meiryo,sans-serif">昼に落とした後に血液が付いたという別の説明を</text>
-<text x="-2612" y="-210" font-size="17" font-family="Meiryo,sans-serif">、証拠と照合する。</text>
+<text x="-2612" y="-266" font-size="17" font-family="Meiryo,sans-serif">昼に落とした後に血液が付いたという別の説明を</text>
+<text x="-2612" y="-238" font-size="17" font-family="Meiryo,sans-serif">、証拠と照合する。</text>
 <rect x="-2630" y="-820" width="420" height="300" rx="12" fill="#f4dedf" stroke="#7b858b"/>
 <text x="-2612" y="-788" font-size="17" font-family="Meiryo,sans-serif">D03  反論・弁護</text>
 <text x="-2612" y="-760" font-size="17" font-family="Meiryo,sans-serif">所有物の存在と行為者は別</text>
@@ -197,6 +199,22 @@
 <text x="1768" y="116" font-size="17" font-family="Meiryo,sans-serif">人の判断：未レビュー</text>
 <text x="1768" y="144" font-size="17" font-family="Meiryo,sans-serif">A・B地点、出入口、照明、駐車場・コンビニ・</text>
 <text x="1768" y="172" font-size="17" font-family="Meiryo,sans-serif">自宅の位置関係。夜の写真は1月6日撮影。</text>
+<rect x="1750" y="0" width="420" height="300" rx="12" fill="#e4e9ec" stroke="#7b858b"/>
+<text x="1768" y="32" font-size="17" font-family="Meiryo,sans-serif">E11  証拠・共通</text>
+<text x="1768" y="60" font-size="17" font-family="Meiryo,sans-serif">大滝の実際の尋問回答記録</text>
+<text x="1768" y="88" font-size="17" font-family="Meiryo,sans-serif">資料状態：法廷確認済み</text>
+<text x="1768" y="116" font-size="17" font-family="Meiryo,sans-serif">人の判断：未レビュー</text>
+<text x="1768" y="144" font-size="17" font-family="Meiryo,sans-serif">2026-11-09にユーザーが実際の尋問記</text>
+<text x="1768" y="172" font-size="17" font-family="Meiryo,sans-serif">録と確認したS04のp.1〜9。`法廷確認済</text>
+<text x="1768" y="200" font-size="17" font-family="Meiryo,sans-serif">み`は実際の回答記録を得た範囲を示す。供述内</text>
+<rect x="2250" y="0" width="420" height="300" rx="12" fill="#e4e9ec" stroke="#7b858b"/>
+<text x="2268" y="32" font-size="17" font-family="Meiryo,sans-serif">E12  証拠・共通</text>
+<text x="2268" y="60" font-size="17" font-family="Meiryo,sans-serif">木村の実際の被告人質問回答記録</text>
+<text x="2268" y="88" font-size="17" font-family="Meiryo,sans-serif">資料状態：法廷確認済み</text>
+<text x="2268" y="116" font-size="17" font-family="Meiryo,sans-serif">人の判断：未レビュー</text>
+<text x="2268" y="144" font-size="17" font-family="Meiryo,sans-serif">2026-11-09にユーザーが実際の質問記</text>
+<text x="2268" y="172" font-size="17" font-family="Meiryo,sans-serif">録と確認したS04のp.10〜20。`法廷確</text>
+<text x="2268" y="200" font-size="17" font-family="Meiryo,sans-serif">認済み`は記録された実回答の取得を示し、内容</text>
 <rect x="-1500" y="-410" width="420" height="300" rx="12" fill="#e4e9ec" stroke="#7b858b"/>
 <text x="-1482" y="-378" font-size="17" font-family="Meiryo,sans-serif">F01  間接事実・共通</text>
 <text x="-1482" y="-350" font-size="17" font-family="Meiryo,sans-serif">現場の眼鏡は木村の物と結び付く</text>
@@ -214,12 +232,11 @@
 <rect x="-500" y="-410" width="420" height="300" rx="12" fill="#e4e9ec" stroke="#7b858b"/>
 <text x="-482" y="-378" font-size="17" font-family="Meiryo,sans-serif">F03  間接事実・共通</text>
 <text x="-482" y="-350" font-size="17" font-family="Meiryo,sans-serif">清掃時に眼鏡を見なかったとの供述</text>
-<text x="-482" y="-322" font-size="17" font-family="Meiryo,sans-serif">資料状態：法廷未確認</text>
+<text x="-482" y="-322" font-size="17" font-family="Meiryo,sans-serif">資料状態：法廷確認済み</text>
 <text x="-482" y="-294" font-size="17" font-family="Meiryo,sans-serif">人の判断：未レビュー</text>
-<text x="-482" y="-266" font-size="17" font-family="Meiryo,sans-serif">【現時点利用不可／条件付き】</text>
-<text x="-482" y="-238" font-size="17" font-family="Meiryo,sans-serif">【法廷未確認・現時点で認定根拠に不可】大滝は</text>
-<text x="-482" y="-210" font-size="17" font-family="Meiryo,sans-serif">18時頃の清掃で眼鏡を見なかったと調書で説明</text>
-<text x="-482" y="-182" font-size="17" font-family="Meiryo,sans-serif">している。</text>
+<text x="-482" y="-266" font-size="17" font-family="Meiryo,sans-serif">【実回答記録あり・内容の評価は未了】大滝は1</text>
+<text x="-482" y="-238" font-size="17" font-family="Meiryo,sans-serif">8時過ぎ頃の清掃で眼鏡を見なかったと回答した</text>
+<text x="-482" y="-210" font-size="17" font-family="Meiryo,sans-serif">。主尋問で不在・見落としなしと断言した一方、</text>
 <rect x="0" y="-410" width="420" height="300" rx="12" fill="#e4e9ec" stroke="#7b858b"/>
 <text x="18" y="-378" font-size="17" font-family="Meiryo,sans-serif">F04  間接事実・共通</text>
 <text x="18" y="-350" font-size="17" font-family="Meiryo,sans-serif">木村も使える自転車に被害者血液</text>
@@ -286,7 +303,7 @@
 <rect x="-750" y="-820" width="420" height="300" rx="12" fill="#dce9f6" stroke="#7b858b"/>
 <text x="-732" y="-788" font-size="17" font-family="Meiryo,sans-serif">R01  推認・検察</text>
 <text x="-732" y="-760" font-size="17" font-family="Meiryo,sans-serif">清掃後に眼鏡が来たという推認</text>
-<text x="-732" y="-732" font-size="17" font-family="Meiryo,sans-serif">資料状態：推論案</text>
+<text x="-732" y="-732" font-size="17" font-family="Meiryo,sans-serif">資料状態：確認待ち</text>
 <text x="-732" y="-704" font-size="17" font-family="Meiryo,sans-serif">人の判断：未レビュー</text>
 <text x="-732" y="-676" font-size="17" font-family="Meiryo,sans-serif">【現時点利用不可／条件付き】</text>
 <text x="-732" y="-648" font-size="17" font-family="Meiryo,sans-serif">当日のB地点を十分観察し見落としがないなら、</text>

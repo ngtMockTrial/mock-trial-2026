@@ -87,8 +87,8 @@
       "y": -84,
       "width": 420,
       "height": 78,
-      "text": "**【弁護｜反論】**\n条件付き・未確認の前提あり：E07",
-      "color": "#b98a20"
+      "text": "**【弁護｜反論】**\n検討対象・証明済みを意味しない",
+      "color": "#be5364"
     },
     {
       "id": "D02",
@@ -108,8 +108,8 @@
       "y": -494,
       "width": 420,
       "height": 78,
-      "text": "**【弁護｜反論】**\n条件付き・未確認の前提あり：E09",
-      "color": "#b98a20"
+      "text": "**【弁護｜反論】**\n検討対象・証明済みを意味しない",
+      "color": "#be5364"
     },
     {
       "id": "D03",
@@ -469,6 +469,48 @@
       "color": "#39825c"
     },
     {
+      "id": "E11",
+      "type": "file",
+      "file": "検討/ノート/E11.md",
+      "subpath": "#図の要点",
+      "x": 1750,
+      "y": 0,
+      "width": 420,
+      "height": 300,
+      "color": "#71818b"
+    },
+    {
+      "id": "badge-E11",
+      "type": "text",
+      "x": 1750,
+      "y": -84,
+      "width": 420,
+      "height": 78,
+      "text": "**【共通｜証拠】**\n法廷確認済み・記録の内容を確認",
+      "color": "#39825c"
+    },
+    {
+      "id": "E12",
+      "type": "file",
+      "file": "検討/ノート/E12.md",
+      "subpath": "#図の要点",
+      "x": 2250,
+      "y": 0,
+      "width": 420,
+      "height": 300,
+      "color": "#71818b"
+    },
+    {
+      "id": "badge-E12",
+      "type": "text",
+      "x": 2250,
+      "y": -84,
+      "width": 420,
+      "height": 78,
+      "text": "**【共通｜証拠】**\n法廷確認済み・記録の内容を確認",
+      "color": "#39825c"
+    },
+    {
       "id": "F01",
       "type": "file",
       "file": "検討/ノート/F01.md",
@@ -528,8 +570,8 @@
       "y": -494,
       "width": 420,
       "height": 78,
-      "text": "**【共通｜間接事実】**\n条件付き・未確認の前提あり：E07,F03",
-      "color": "#b98a20"
+      "text": "**【共通｜間接事実】**\n検討対象・証明済みを意味しない",
+      "color": "#71818b"
     },
     {
       "id": "F04",
@@ -633,7 +675,7 @@
       "y": -84,
       "width": 420,
       "height": 78,
-      "text": "**【共通｜確認課題】**\n確認作業・回答は未記録",
+      "text": "**【共通｜確認課題】**\n確認作業・未解決事項あり",
       "color": "#71818b"
     },
     {
@@ -654,7 +696,7 @@
       "y": -494,
       "width": 420,
       "height": 78,
-      "text": "**【共通｜確認課題】**\n確認作業・回答は未記録",
+      "text": "**【共通｜確認課題】**\n確認作業・未解決事項あり",
       "color": "#71818b"
     },
     {
@@ -675,7 +717,7 @@
       "y": -904,
       "width": 420,
       "height": 78,
-      "text": "**【共通｜確認課題】**\n確認作業・回答は未記録",
+      "text": "**【共通｜確認課題】**\n確認作業・未解決事項あり",
       "color": "#71818b"
     },
     {
@@ -696,7 +738,7 @@
       "y": -1314,
       "width": 420,
       "height": 78,
-      "text": "**【共通｜確認課題】**\n確認作業・回答は未記録",
+      "text": "**【共通｜確認課題】**\n確認作業・未解決事項あり",
       "color": "#71818b"
     },
     {
@@ -717,7 +759,7 @@
       "y": -1724,
       "width": 420,
       "height": 78,
-      "text": "**【共通｜確認課題】**\n確認作業・回答は未記録",
+      "text": "**【共通｜確認課題】**\n確認作業・未解決事項あり",
       "color": "#71818b"
     },
     {
@@ -738,7 +780,7 @@
       "y": -904,
       "width": 420,
       "height": 78,
-      "text": "**【検察｜推認】**\n条件付き・未確認の前提あり：E07,F03",
+      "text": "**【検察｜推認】**\n条件付き・未確認の前提あり：R01",
       "color": "#b98a20"
     },
     {
@@ -759,7 +801,7 @@
       "y": -1314,
       "width": 420,
       "height": 78,
-      "text": "**【検察｜推認】**\n条件付き・未確認の前提あり：E07,F03",
+      "text": "**【検察｜推認】**\n条件付き・未確認の前提あり：R01",
       "color": "#b98a20"
     },
     {
@@ -864,7 +906,7 @@
       "y": -2134,
       "width": 420,
       "height": 78,
-      "text": "**【検察｜最終結論】**\n条件付き・未確認の前提あり：E07,F03",
+      "text": "**【検察｜最終結論】**\n条件付き・未確認の前提あり：R01",
       "color": "#b98a20"
     },
     {
@@ -885,7 +927,7 @@
       "y": -1724,
       "width": 420,
       "height": 78,
-      "text": "**【検察｜要証事実】**\n条件付き・未確認の前提あり：E07,F03",
+      "text": "**【検察｜要証事実】**\n条件付き・未確認の前提あり：R01",
       "color": "#b98a20"
     },
     {
@@ -975,14 +1017,14 @@
   ],
   "edges": [
     {
-      "id": "inputs-E07-D01",
-      "fromNode": "E07",
+      "id": "inputs-E11-D01",
+      "fromNode": "E11",
       "toNode": "D01",
       "fromSide": "top",
       "toSide": "bottom",
       "toEnd": "arrow",
-      "color": "3",
-      "label": "条件付き前提・現時点では未確認"
+      "color": "4",
+      "label": "支える・前提"
     },
     {
       "id": "inputs-E10-D01",
@@ -1005,14 +1047,14 @@
       "label": "弁護側の反論"
     },
     {
-      "id": "inputs-E09-D02",
-      "fromNode": "E09",
+      "id": "inputs-E12-D02",
+      "fromNode": "E12",
       "toNode": "D02",
       "fromSide": "top",
       "toSide": "bottom",
       "toEnd": "arrow",
-      "color": "3",
-      "label": "条件付き前提・現時点では未確認"
+      "color": "4",
+      "label": "支える・前提"
     },
     {
       "id": "challenges-D02-R02",
@@ -1175,14 +1217,14 @@
       "label": "支える・前提"
     },
     {
-      "id": "inputs-E07-F03",
-      "fromNode": "E07",
+      "id": "inputs-E11-F03",
+      "fromNode": "E11",
       "toNode": "F03",
       "fromSide": "top",
       "toSide": "bottom",
       "toEnd": "arrow",
-      "color": "3",
-      "label": "条件付き前提・現時点では未確認"
+      "color": "4",
+      "label": "支える・前提"
     },
     {
       "id": "inputs-E04-F04",
@@ -1235,6 +1277,16 @@
       "label": "支える・前提"
     },
     {
+      "id": "inputs-E11-Q01",
+      "fromNode": "E11",
+      "toNode": "Q01",
+      "fromSide": "top",
+      "toSide": "bottom",
+      "toEnd": "arrow",
+      "color": "4",
+      "label": "支える・前提"
+    },
+    {
       "id": "checks-Q01-R01",
       "fromNode": "Q01",
       "toNode": "R01",
@@ -1243,6 +1295,16 @@
       "toEnd": "arrow",
       "color": "3",
       "label": "確認する"
+    },
+    {
+      "id": "inputs-E12-Q02",
+      "fromNode": "E12",
+      "toNode": "Q02",
+      "fromSide": "top",
+      "toSide": "bottom",
+      "toEnd": "arrow",
+      "color": "4",
+      "label": "支える・前提"
     },
     {
       "id": "checks-Q02-R02",
@@ -1265,6 +1327,16 @@
       "label": "確認する"
     },
     {
+      "id": "inputs-E12-Q03",
+      "fromNode": "E12",
+      "toNode": "Q03",
+      "fromSide": "top",
+      "toSide": "bottom",
+      "toEnd": "arrow",
+      "color": "4",
+      "label": "支える・前提"
+    },
+    {
       "id": "checks-Q03-R03",
       "fromNode": "Q03",
       "toNode": "R03",
@@ -1283,6 +1355,16 @@
       "toEnd": "arrow",
       "color": "3",
       "label": "確認する"
+    },
+    {
+      "id": "inputs-E12-Q04",
+      "fromNode": "E12",
+      "toNode": "Q04",
+      "fromSide": "top",
+      "toSide": "bottom",
+      "toEnd": "arrow",
+      "color": "4",
+      "label": "支える・前提"
     },
     {
       "id": "checks-Q04-R05",
@@ -1331,8 +1413,8 @@
       "fromSide": "top",
       "toSide": "bottom",
       "toEnd": "arrow",
-      "color": "3",
-      "label": "条件付き前提・現時点では未確認"
+      "color": "4",
+      "label": "支える・前提"
     },
     {
       "id": "inputs-E10-R01",
