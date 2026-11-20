@@ -178,7 +178,7 @@ def main():
     reread = Document(draft_path)
     actual = [re.sub(r'^P\d+[a-z]?　', '', p.text) for p in reread.paragraphs if re.match(r'^P\d+[a-z]?　', p.text)]
     assert actual == expected, 'Draft content differs from the source'
-    assert len(actual) == 29
+    assert len(actual) == 31
 
     review = base('木村忠太被告事件 論告の根拠と使用条件')
     review.add_paragraph('論告案のP番号に対応する確認資料　Word版作成 2026年11月10日')
@@ -189,7 +189,7 @@ def main():
     review.save(review_path)
     print('Created:', draft_path)
     print('Created:', review_path)
-    print('Verified: 29 draft paragraphs match the source exactly')
+    print('Verified: 31 draft paragraphs match the source exactly')
 
 
 if __name__ == '__main__':
