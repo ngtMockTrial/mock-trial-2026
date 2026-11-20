@@ -10,7 +10,7 @@ from pathlib import Path
 from urllib.parse import quote
 
 import yaml
-from obsidian_graph import write_native_graph, check_native_graph
+from obsidian_graph import write_native_graph, check_native_graph, SHARED_VAULT_NAME
 from setup_extended_graph import sync_pins
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -185,8 +185,8 @@ def availability(notes, ident):
     if m['kind']=='供述獲得候補':
         return 'candidate','供述の獲得候補・まだ証拠ではない'
     if m['kind']=='確認課題':
-        return 'question','確認作業・回答は未記録'
-    waiting=[n for n in closure(notes,ident) if notes[n]['meta']['status'] in {'採否留保','法廷未確認','未獲得'} or notes[n]['meta']['kind'] in {'準備資料','供述獲得候補'}]
+        return 'question','確認作業・未解決事項あり'
+    waiting=[n for n in closure(notes,ident) if notes[n]['meta']['status'] in {'採否留保','法廷未確認','確認待ち','未獲得'} or notes[n]['meta']['kind'] in {'準備資料','供述獲得候補'}]
     if waiting:
         return 'conditional','条件付き・未確認の前提あり：'+','.join(sorted(waiting))
     if m['kind']=='証拠':
@@ -357,7 +357,7 @@ def connection_view(notes):
             side=meta['side'], status=meta['status'], review=meta['review'],
             state=state, availability=label, summary=summary, body=note['body'],
             file=quote('ノート/'+note['path'].name),
-            obsidian='obsidian://open?vault='+quote(ROOT.name, safe='')+'&file='+quote(relative, safe=''),
+            obsidian='obsidian://open?vault='+quote(SHARED_VAULT_NAME, safe='')+'&file='+quote(relative, safe=''),
             **{field: refs(note, field) for field in
                ['inputs', 'challenges', 'checks', 'preparation', 'potential_supports']})
     # HTMLのscript終端や本文中のHTMLをデータとして保持する。

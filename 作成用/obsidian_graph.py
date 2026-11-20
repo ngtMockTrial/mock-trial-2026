@@ -10,6 +10,9 @@ from urllib.parse import quote
 import yaml
 
 FOLDER = '検討/グラフ表示'
+# Shared URIs use the vault name documented in README, not a checkout directory.
+# Otherwise identical source notes produce different tracked files locally and in CI.
+SHARED_VAULT_NAME = '模擬裁判_検察官準備_20261020'
 OWNER = 'mock-trial-native-graph-v1'
 FIELDS = ('inputs', 'challenges', 'checks', 'preparation', 'potential_supports')
 NODE_SIZES = {5: 460, 4: 280, 3: 180, 2: 100, 1: 65}
@@ -97,7 +100,7 @@ def native_graph_files(root, notes, refs, availability):
         if incoming:
             lines += ['| 関係 | 接続元 |', '|---|---|']
         for e in incoming:
-            url = 'obsidian://open?vault='+quote(root.name, safe='')+'&file='+quote(names[e['source']]+'.md', safe='')
+            url = 'obsidian://open?vault='+quote(SHARED_VAULT_NAME, safe='')+'&file='+quote(names[e['source']]+'.md', safe='')
             lines.append(f'| {e["label"]} | [{e["source"]} {notes[e["source"]]["meta"]["title"]}]({url}) |')
         if not incoming:
             lines.append('このカードを終点にする接続はありません。')
